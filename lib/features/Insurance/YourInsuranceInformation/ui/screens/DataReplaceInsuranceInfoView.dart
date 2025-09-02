@@ -1,16 +1,17 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../../../../../core/theming/colors.dart';
+import '../../../../../core/theming/fonts.dart';
+import '../../../../../core/theming/text_styles.dart';
+import '../../../../../core/language/language_constant.dart';
+
+import '../../../../../features/Insurance/YourInsuranceInformation/logic/InsuranceInfoCubit.dart';
+import '../../../../../features/Insurance/YourInsuranceInformation/logic/InsuranceInfoState.dart';
+import '../../../../../features/Insurance/YourInsuranceInformation/ui/screens/DataYourInsuranceInformation.dart';
+
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/Insurance/IdentityVerification/IdentityVerification.dart';
-import 'package:sun_system_app/features/Insurance/YourInsuranceInformation/logic/InsuranceInfoCubit.dart';
-import 'package:sun_system_app/features/Insurance/YourInsuranceInformation/logic/InsuranceInfoState.dart';
-import 'package:sun_system_app/features/Insurance/YourInsuranceInformation/ui/screens/DataYourInsuranceInformation.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
+import '../../../../../features/Insurance/IdentityVerification/IdentityVerification.dart';
 
 
 class DataReplaceInsuranceInfoView extends StatelessWidget {

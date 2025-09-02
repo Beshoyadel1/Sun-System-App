@@ -1,18 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/pages_widgets/button_widget.dart';
-import 'package:sun_system_app/core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/Insurance/CustomWidget/AppBarInsuranceOffers.dart';
-import 'package:sun_system_app/features/Insurance/DetailsAnnualPayments/DetailsAnnualPayments.dart';
-import 'package:sun_system_app/features/Insurance/IdentityVerification/IdentityVerification.dart';
-import 'package:sun_system_app/features/Insurance/YourInsuranceInformation/logic/InsuranceInfoCubit.dart';
-import 'package:sun_system_app/features/Insurance/YourInsuranceInformation/logic/InsuranceInfoState.dart';
-import 'package:sun_system_app/features/Insurance/YourInsuranceInformation/ui/screens/DataYourInsuranceInformation.dart';
-import 'package:sun_system_app/features/Insurance/YourInsuranceInformation/ui/screens/FirstRowRowYourInsuranceInformation.dart';
+
+import '../../../../../core/theming/colors.dart';
+import '../../../../../core/theming/assets.dart';
+import '../../../../../core/theming/fonts.dart';
+import '../../../../../core/theming/text_styles.dart';
+import '../../../../../core/language/language_constant.dart';
+
+import '../../../../../core/pages_widgets/button_widget.dart';
+import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
+
+import '../../../../../features/Insurance/CustomWidget/AppBarInsuranceOffers.dart';
+import '../../../../../features/Insurance/DetailsAnnualPayments/DetailsAnnualPayments.dart';
+import '../../../../../features/Insurance/YourInsuranceInformation/logic/InsuranceInfoCubit.dart';
+import '../../../../../features/Insurance/YourInsuranceInformation/logic/InsuranceInfoState.dart';
+import '../../../../../features/Insurance/YourInsuranceInformation/ui/screens/DataYourInsuranceInformation.dart';
+import '../../../../../features/Insurance/YourInsuranceInformation/ui/screens/FirstRowRowYourInsuranceInformation.dart';
 
 class InsuranceInfoView extends StatelessWidget {
   const InsuranceInfoView();

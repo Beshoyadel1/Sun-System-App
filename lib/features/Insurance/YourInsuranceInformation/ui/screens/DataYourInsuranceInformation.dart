@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/features/Insurance/CustomWidget/RowFileDataYourInsuranceInformation.dart';
+import '../../../../../core/language/language_constant.dart';
+import '../../../../../features/Insurance/CustomWidget/RowFileDataYourInsuranceInformation.dart';
 
 class DataYourInsuranceInformation extends StatelessWidget {
   const DataYourInsuranceInformation({super.key});

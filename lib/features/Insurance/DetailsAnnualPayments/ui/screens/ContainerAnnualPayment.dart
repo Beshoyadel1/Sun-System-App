@@ -1,11 +1,12 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/Insurance/CustomWidget/ContainerInstallment.dart';
-import 'package:sun_system_app/features/Insurance/DetailsAnnualPayments/ui/screens/RowFirstContainerAnnualPayment.dart';
+import '../../../../../core/language/language_constant.dart';
+import '../../../../../features/Insurance/CustomWidget/ContainerInstallment.dart';
+
+import '../../../../../core/theming/colors.dart';
+import '../../../../../features/Insurance/DetailsAnnualPayments/ui/screens/ColumnNotPaid.dart';
+import '../../../../../features/Insurance/DetailsAnnualPayments/ui/screens/ColumnPaid.dart';
+import '../../../../../features/Insurance/DetailsAnnualPayments/ui/screens/ColumnPaidNextInstallment.dart';
+import '../../../../../features/Insurance/DetailsAnnualPayments/ui/screens/RowFirstContainerAnnualPayment.dart';
 
 class ContainerAnnualPayment extends StatelessWidget {
   const ContainerAnnualPayment({super.key});
@@ -26,42 +27,9 @@ class ContainerAnnualPayment extends StatelessWidget {
       child: Column(
         children: [
           RowFirstContainerAnnualPayment(),
-          SizedBox(height: 30,),
-          ContainerInstallment(
-              textButton: AppLanguageKeys.details,
-              textInstallment: AppLanguageKeys.firstInstallment,
-              textIsPaid: AppLanguageKeys.paid,
-              textMoney: '1000',
-          ),
-          SizedBox(height: 30,),
-          ContainerInstallment(
-            textButton: AppLanguageKeys.details,
-            textInstallment: AppLanguageKeys.secondInstallment,
-            textIsPaid: AppLanguageKeys.paid,
-            textMoney: '1000',
-          ),
-          SizedBox(height: 30,),
-          ContainerInstallment(
-            isNotPaid: true,
-            textButton: AppLanguageKeys.payInstallment,
-            textInstallment: AppLanguageKeys.thirdInstallment,
-            textIsPaid: AppLanguageKeys.notPaid,
-            textMoney: '1000',
-          ),
-          SizedBox(height: 30,),
-          ContainerInstallment(
-            isNextInstallment: true,
-            textInstallment: AppLanguageKeys.fourthInstallment,
-            textIsPaid: AppLanguageKeys.nextInstallmentJuly,
-            textMoney: '1000',
-          ),
-          SizedBox(height: 30,),
-          ContainerInstallment(
-            isNextInstallment: true,
-            textInstallment: AppLanguageKeys.fourthInstallment,
-            textIsPaid: AppLanguageKeys.nextInstallmentAugust,
-            textMoney: '1000',
-          ),
+          ColumnPaid(),
+          ColumnNotPaid(),
+          ColumnPaidNextInstallment()
         ],
       ),
     );

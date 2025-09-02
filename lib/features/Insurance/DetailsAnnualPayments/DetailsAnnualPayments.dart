@@ -1,14 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/Insurance/CustomWidget/AppBarInsuranceOffers.dart';
-import 'package:sun_system_app/features/Insurance/DetailsAnnualPayments/ui/screens/ContainerAnnualPayment.dart';
-import 'package:sun_system_app/features/Insurance/DetailsAnnualPayments/ui/screens/FirstRowInsuranceOffers.dart';
-import 'package:sun_system_app/features/Insurance/DetailsAnnualPayments/ui/screens/RowImageLabelButtonMoneyDetailsAnnualPayments.dart';
+import '../../../../core/theming/colors.dart';
+import '../../../../features/Insurance/CustomWidget/AppBarInsuranceOffers.dart';
+import '../../../../features/Insurance/DetailsAnnualPayments/ui/screens/ContainerAnnualPayment.dart';
+import '../../../../features/Insurance/DetailsAnnualPayments/ui/screens/FirstRowInsuranceOffers.dart';
+import '../../../../features/Insurance/DetailsAnnualPayments/ui/screens/RowImageLabelButtonMoneyDetailsAnnualPayments.dart';
 
 class DetailsAnnualPayments extends StatelessWidget {
   const DetailsAnnualPayments({super.key});
