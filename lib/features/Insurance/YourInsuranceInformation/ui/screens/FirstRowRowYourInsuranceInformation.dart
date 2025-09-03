@@ -14,26 +14,26 @@ class FirstRowRowYourInsuranceInformation extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Expanded(
+        Flexible( // instead of Expanded
           child: Row(
             children: [
-              Image.asset(AppImageKeys.company3),
-              SizedBox(
-                width: 10,
-              ),
+              Image.asset(AppImageKeys.company3, width: 22),
+              const SizedBox(width: 10),
               Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   TextInAppWidget(
-                    text:AppLanguageKeys.scienceInsurance,
+                    text: AppLanguageKeys.scienceInsurance,
                     textSize: 14,
                     fontWeightIndex: FontSelectionData.regularFontFamily,
-                    textColor:AppColors.darkColor,
+                    textColor: AppColors.darkColor,
                   ),
                   TextInAppWidget(
-                    text:AppLanguageKeys.comprehensiveInsurance,
+                    text: AppLanguageKeys.comprehensiveInsurance,
                     textSize: 14,
                     fontWeightIndex: FontSelectionData.regularFontFamily,
-                    textColor:AppColors.orangeColor,
+                    textColor: AppColors.orangeColor,
+                   // overflow: TextOverflow.ellipsis,
                   ),
                 ],
               ),

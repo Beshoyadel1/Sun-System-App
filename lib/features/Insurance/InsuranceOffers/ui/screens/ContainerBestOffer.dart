@@ -27,11 +27,13 @@ class ContainerBestOffer extends StatelessWidget {
         children: [
           Image.asset(AppImageKeys.divide, width: 15),
           const SizedBox(width: 5),
-          TextInAppWidget(
-            text: AppLanguageKeys.bestOffer,
-            textSize: 12,
-            fontWeightIndex: FontSelectionData.regularFontFamily,
-            textColor: AppColors.redColor,
+          Flexible(
+            child: TextInAppWidget(
+              text: AppLanguageKeys.bestOffer,
+              textSize: 12,
+              fontWeightIndex: FontSelectionData.regularFontFamily,
+              textColor: AppColors.redColor,
+            ),
           ),
         ],
       ),

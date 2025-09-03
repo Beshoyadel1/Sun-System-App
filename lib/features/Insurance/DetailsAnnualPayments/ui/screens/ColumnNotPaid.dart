@@ -1,4 +1,6 @@
 import 'package:flutter/cupertino.dart';
+import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
+import '../../../../../features/Insurance/PageChoosePaymentDetails/ui/PageChoosePaymentDetails.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../features/Insurance/CustomWidget/ContainerInstallment.dart';
 class ColumnNotPaid extends StatelessWidget {
@@ -15,6 +17,11 @@ class ColumnNotPaid extends StatelessWidget {
           textInstallment: AppLanguageKeys.thirdInstallment,
           textIsPaid: AppLanguageKeys.notPaid,
           textMoney: '1000',
+          onTap: (){
+            Navigator.of(context).push(
+             NavigateToPageWidget(PageChoosePaymentDetails()),
+            );
+          },
         ),
         SizedBox(height: 30,),
       ],

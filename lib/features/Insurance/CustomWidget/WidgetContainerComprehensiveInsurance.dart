@@ -12,7 +12,7 @@ import '../../../../core/theming/text_styles.dart';
 class WidgetContainerComprehensiveInsurance extends StatelessWidget {
   final String imageSrc;
   final String nameCompany;
-  final bool isSelected; // new
+  final bool isSelected;
 
   const WidgetContainerComprehensiveInsurance({
     super.key,
@@ -64,47 +64,51 @@ class WidgetContainerComprehensiveInsurance extends StatelessWidget {
               ],
             ),
           ),
-          const SizedBox(width: 10),
           Expanded(
             flex: 1,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                if (isSelected)
-                  Column(
+            child: Padding(
+              padding: const EdgeInsets.only(left: 10), // replaces SizedBox
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  if (isSelected)
+                    Column(
+                      children: [
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.of(context).push(
+                              NavigateToPageWidget(IdentityVerification()),
+                            );
+                          },
+                          child: ContainerBestOffer(),
+                        ),
+                        const SizedBox(height: 10),
+                      ],
+                    ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      GestureDetector(
-                        onTap: () {
-                          Navigator.of(context).push(
-                            NavigateToPageWidget(IdentityVerification()),
-                          );
-                        },
-                        child: ContainerBestOffer()
+                      Flexible(
+                        child: TextInAppWidget(
+                          text: '900',
+                          textSize: 15,
+                          fontWeightIndex: FontSelectionData.mediumFontFamily,
+                          textColor: AppColors.orangeColor,
+                        ),
                       ),
-                      const SizedBox(height: 10),
+                      const SizedBox(width: 5),
+                      Image.asset(AppImageKeys.coin, width: 15),
                     ],
                   ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    TextInAppWidget(
-                      text: '900',
-                      textSize: 15,
-                      fontWeightIndex: FontSelectionData.mediumFontFamily,
-                      textColor: AppColors.orangeColor,
-                    ),
-                    const SizedBox(width: 5),
-                    Image.asset(AppImageKeys.coin, width: 15),
-                  ],
-                ),
-                const SizedBox(height: 10),
-                TextInAppWidget(
-                  text: AppLanguageKeys.annualPayment,
-                  textSize: 12,
-                  fontWeightIndex: FontSelectionData.regularFontFamily,
-                  textColor: AppColors.greyColor,
-                ),
-              ],
+                  const SizedBox(height: 10),
+                  TextInAppWidget(
+                    text: AppLanguageKeys.annualPayment,
+                    textSize: 12,
+                    fontWeightIndex: FontSelectionData.regularFontFamily,
+                    textColor: AppColors.greyColor,
+                  ),
+                ],
+              ),
             ),
           ),
         ],

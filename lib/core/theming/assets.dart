@@ -13,6 +13,11 @@ class AppImageKeys{
   static const String  divide='assets/images/divide.png';
   static const String  coin='assets/images/coin.png';
   static const String  file='assets/images/file.png';
+  static const String  visa1='assets/images/visa1.png';
+  static const String  visa2='assets/images/visa2.png';
+  static const String  visa3='assets/images/visa3.png';
+  static const String  visa4='assets/images/visa4.png';
+  static const String  visa5='assets/images/visa5.png';
 
   ////End////
 

@@ -39,6 +39,16 @@ class AppLanguageKeys{
   static const String fourthInstallment = 'fourthInstallment';
   static const String nextInstallmentJuly = 'nextInstallmentJuly';
   static const String nextInstallmentAugust = 'nextInstallmentAugust';
+  static const String invoice = 'invoice';
+  static const String insuranceInstallment = 'insuranceInstallment';
+  static const String taxes = 'taxes';
+  static const String total = 'total';
+  static const String paymentMethod = 'paymentMethod';
+  static const String payment = 'payment';
+  static const String selectPaymentOptionFirst = 'selectPaymentOptionFirst';
+  static const String thirdInstallmentDetails = 'thirdInstallmentDetails';
+  static const String paidBy = 'paidBy';
+
   ////End////
 
 

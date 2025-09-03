@@ -2,6 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:sun_system_app/features/Insurance/PageChoosePaymentDetails/logic/RadioPaymentCubit.dart';
 import '../../../features/Insurance/InsuranceOffers/ui/InsuranceOffers.dart';
 import '../core/language/language.dart';
 import '../core/language/language_cubit/language_cubit.dart';
@@ -17,13 +18,20 @@ final GlobalKey<ScaffoldMessengerState> scaffoldKey = GlobalKey<ScaffoldMessenge
 void main() {
   setupGetIt();
   runApp(
-    BlocProvider<LanguageCubit>(
-      create: (BuildContext context) =>
-      getIt<LanguageCubit>()..getLanguageFromSharedPreference(),
+    MultiBlocProvider(
+      providers: [
+        BlocProvider<LanguageCubit>(
+          create: (_) => getIt<LanguageCubit>()..getLanguageFromSharedPreference(),
+        ),
+        BlocProvider<RadioPaymentCubit>(
+          create: (_) => RadioPaymentCubit(),
+        ),
+      ],
       child: const SunApp(),
     ),
   );
 }
+
 
 
 class SunApp extends StatelessWidget {

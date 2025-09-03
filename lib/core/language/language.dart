@@ -15,6 +15,7 @@ class AppLocalizations {
   static final Map<String, Map<String, String>> _localizedValues = {
     'ar': {
       ////Insurance////
+      AppLanguageKeys.payment: 'الدفع',
       AppLanguageKeys.insuranceOffers: 'عروض التأمينات (نيسان CVR)',
       AppLanguageKeys.insuranceOffersOnly: 'عروض التأمينات',
       AppLanguageKeys.comprehensiveInsurance: 'تأمين شامل',
@@ -53,6 +54,15 @@ class AppLocalizations {
       AppLanguageKeys.fourthInstallment: 'الدفعة الرابعة - 20/5',
       AppLanguageKeys.nextInstallmentJuly: 'القسط القادم 7/20',
       AppLanguageKeys.nextInstallmentAugust: 'القسط القادم 8/20',
+      AppLanguageKeys.invoice: 'الفاتورة',
+      AppLanguageKeys.insuranceInstallment: 'قسط التأمين',
+      AppLanguageKeys.taxes: 'الضرائب',
+      AppLanguageKeys.total: 'الإجمالي',
+      AppLanguageKeys.paymentMethod: 'طريقة الدفع',
+      AppLanguageKeys.selectPaymentOptionFirst: 'يرجى اختيار طريقة الدفع أولاً',
+      AppLanguageKeys.thirdInstallmentDetails: 'تفاصيل الدفعة الثالثة 20/3',
+      AppLanguageKeys.paidBy: 'تم الدفع بواسطة',
+
       ////END////
 
       AppLanguageKeys.startNow:'أبدء الأن',
@@ -152,6 +162,7 @@ class AppLocalizations {
     },
     'en': {
       ////Insurance////
+      AppLanguageKeys.payment: 'Payment',
       AppLanguageKeys.insuranceOffers: 'Insurance Offers (Nissan CVR)',
       AppLanguageKeys.insuranceOffersOnly: 'Insurance Offers',
       AppLanguageKeys.comprehensiveInsurance: 'Comprehensive Insurance',
@@ -190,6 +201,15 @@ class AppLocalizations {
       AppLanguageKeys.fourthInstallment: 'Fourth Installment - 20/5',
       AppLanguageKeys.nextInstallmentJuly: 'Next Installment 7/20',
       AppLanguageKeys.nextInstallmentAugust: 'Next Installment 8/20',
+      AppLanguageKeys.invoice: 'Invoice',
+      AppLanguageKeys.insuranceInstallment: 'Insurance Installment',
+      AppLanguageKeys.taxes: 'Taxes',
+      AppLanguageKeys.total: 'Total',
+      AppLanguageKeys.paymentMethod: 'Payment Method',
+      AppLanguageKeys.selectPaymentOptionFirst: 'Please select a payment option first',
+      AppLanguageKeys.thirdInstallmentDetails: 'Third Installment Details 20/3',
+      AppLanguageKeys.paidBy: 'Paid by',
+
       ////End////
 
       AppLanguageKeys.startNow:'Start now',
