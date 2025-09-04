@@ -2,13 +2,12 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:sun_system_app/features/Insurance/PageChoosePaymentDetails/logic/RadioPaymentCubit.dart';
-import '../../../features/Insurance/InsuranceOffers/ui/InsuranceOffers.dart';
+import 'package:sun_system_app/features/Insurance/page_choose_payment_details/logic/radio_payment_cubit.dart';
+import '../../../features/Insurance/insurance_offers/ui/insurance_offers.dart';
 import '../core/language/language.dart';
 import '../core/language/language_cubit/language_cubit.dart';
 import '../core/theming/colors.dart';
 import 'core/app_cubit/app_cubit.dart';
-
 import 'core/language/language_cubit/language_states.dart';
 import 'core/setup_git_it.dart';
 
