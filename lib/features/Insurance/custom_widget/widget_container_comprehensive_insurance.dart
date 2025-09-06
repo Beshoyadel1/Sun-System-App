@@ -47,13 +47,13 @@ class WidgetContainerComprehensiveInsurance extends StatelessWidget {
                     children: [
                       TextInAppWidget(
                         text: nameCompany,
-                        textSize: 10,
+                        textSize: 12,
                         fontWeightIndex: FontSelectionData.regularFontFamily,
                         textColor: AppColors.darkColor,
                       ),
                       TextInAppWidget(
                         text: AppLanguageKeys.comprehensiveInsurance,
-                        textSize: 10,
+                        textSize: 11,
                         fontWeightIndex: FontSelectionData.regularFontFamily,
                         textColor: AppColors.orangeColor,
                       ),
@@ -66,7 +66,7 @@ class WidgetContainerComprehensiveInsurance extends StatelessWidget {
           Expanded(
             flex: 1,
             child: Padding(
-              padding: const EdgeInsets.only(left: 10), // replaces SizedBox
+              padding: const EdgeInsets.only(left: 10),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [

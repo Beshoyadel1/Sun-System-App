@@ -14,7 +14,7 @@ class FirstRowRowYourInsuranceInformation extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Flexible( // instead of Expanded
+        Flexible(
           child: Row(
             children: [
               Image.asset(AppImageKeys.company3, width: 22),

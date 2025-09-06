@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../../../features/Insurance/insurance_offers/logic/comprehensive_insurance_cubit.dart';
+import '../../logic/select_company_cubit/comprehensive_insurance_cubit.dart';
 import '../../../../../features/Insurance/insurance_offers/ui/screens/comprehensive_insurance_view.dart';
 
 class ComprehensiveInsurance extends StatelessWidget {

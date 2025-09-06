@@ -12,9 +12,22 @@ import '../../../../../core/theming/fonts.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../features/Insurance/page_choose_payment_details/logic/radio_payment_cubit.dart';
 
-class LastButtonContainerPageChoosePaymentDetails extends StatelessWidget {
+class LastButtonContainerPageChoosePaymentDetails extends StatefulWidget {
   final void Function()? onTap;
   const LastButtonContainerPageChoosePaymentDetails({this.onTap, super.key});
+
+  @override
+  State<LastButtonContainerPageChoosePaymentDetails> createState() => _LastButtonContainerPageChoosePaymentDetailsState();
+}
+
+class _LastButtonContainerPageChoosePaymentDetailsState extends State<LastButtonContainerPageChoosePaymentDetails> {
+  late RadioPaymentCubit cubit;
+
+  @override
+  void initState() {
+    super.initState();
+    cubit = context.read<RadioPaymentCubit>();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -30,10 +43,7 @@ class LastButtonContainerPageChoosePaymentDetails extends StatelessWidget {
       ),
       child: BlocBuilder<RadioPaymentCubit, RadioPaymentState>(
         buildWhen: (previous, current) {
-          final cubit = context.read<RadioPaymentCubit>();
-          if (current.selectedIndex == null && current.selectedImage == null) {
-            cubit.selectOption(0, AppImageKeys.visa1);
-          }
+          cubit.initializeDefault();
           return true;
         },
         builder: (context, state) {

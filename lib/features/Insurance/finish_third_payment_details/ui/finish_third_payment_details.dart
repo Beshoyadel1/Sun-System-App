@@ -9,7 +9,6 @@ import '../../../../../../features/Insurance/custom_widget/appbar_insurance_offe
 class FinishThirdPaymentDetails extends StatelessWidget {
   final String selectedImage;
   const FinishThirdPaymentDetails({super.key, required this.selectedImage});
-//
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,21 +19,27 @@ class FinishThirdPaymentDetails extends StatelessWidget {
           padding: const EdgeInsets.all(20),
           child: Padding(
             padding: const EdgeInsets.all(10.0),
-            child: Column(
-              children: [
-                FirstRowTextFinishThirdPaymentDetails(),
-                SizedBox(height: 20,),
-                ContainerInstallmentFinishThirdPaymentDetails(),
-                SizedBox(height: 20,),
-                 ContainerInvoiceWidget(
-                   textTimeFinishPay: '2 يناير ',
-                   isFinished: true,
-                  priceInsuranceInstallment: '1000',
-                  priceTaxes: '00.00',
-                  priceTotal: '1000.00',
-                  selectedImage: selectedImage,
-                 ),
-              ],
+            child: Align(
+              alignment: AlignmentGeometry.center,
+              child: SizedBox(
+                width: 500,
+                child: Column(
+                  children: [
+                    FirstRowTextFinishThirdPaymentDetails(),
+                    SizedBox(height: 20,),
+                    ContainerInstallmentFinishThirdPaymentDetails(),
+                    SizedBox(height: 20,),
+                     ContainerInvoiceWidget(
+                      textTimeFinishPay: '2 يناير ',
+                      isFinished: true,
+                      priceInsuranceInstallment: '1000',
+                      priceTaxes: '00.00',
+                      priceTotal: '1000.00',
+                      selectedImage: selectedImage,
+                     ),
+                  ],
+                ),
+              ),
             ),
           ),
         ),

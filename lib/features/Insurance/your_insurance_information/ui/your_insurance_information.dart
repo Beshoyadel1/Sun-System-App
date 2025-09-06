@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../../../features/Insurance/your_insurance_information/logic/insurance_info_cubit.dart';
+import '../../../../../features/Insurance/your_insurance_information/logic/your_insurance_info_cubit.dart';
 import '../../../../../features/Insurance/your_insurance_information/ui/screens/insurance_info_view.dart';
 
 class YourInsuranceInformation extends StatelessWidget {
@@ -9,7 +9,7 @@ class YourInsuranceInformation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (_) => InsuranceInfoCubit(),
+      create: (_) => YourInsuranceInfoCubit(),
       child: const InsuranceInfoView(),
     );
   }

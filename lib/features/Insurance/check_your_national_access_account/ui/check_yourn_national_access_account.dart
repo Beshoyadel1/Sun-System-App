@@ -4,7 +4,7 @@ import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../core/theming/fonts.dart';
 import '../../../../../core/theming/text_styles.dart';
-import '../../../../../features/Insurance/check_yourn_national_access_account/ui/screens/container_check_your_national_access_account.dart';
+import '../../../../../features/Insurance/check_your_national_access_account/ui/screens/container_check_your_national_access_account.dart';
 import '../../../../../features/Insurance/custom_widget/appbar_insurance_offers.dart';
 
 

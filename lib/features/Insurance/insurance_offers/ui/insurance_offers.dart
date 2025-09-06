@@ -19,20 +19,14 @@ class _InsuranceOffersState extends State<InsuranceOffers> {
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(20),
-          child: Align(
-            alignment: AlignmentGeometry.center,
-            child: SizedBox(
-              width: 500,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: const [
-                  FiestRowTitleInsuranceOffers(),
-                  Expanded(
-                    child: DefaultTabControllerInsuranceOffers(),
-                  ),
-                ],
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: const [
+              FiestRowTitleInsuranceOffers(),
+              Expanded(
+                child: DefaultTabControllerInsuranceOffers(),
               ),
-            ),
+            ],
           ),
         ),
       ),

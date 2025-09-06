@@ -22,9 +22,9 @@ void main() {
         BlocProvider<LanguageCubit>(
           create: (_) => getIt<LanguageCubit>()..getLanguageFromSharedPreference(),
         ),
-        BlocProvider<RadioPaymentCubit>(
+        /*BlocProvider<RadioPaymentCubit>(
           create: (_) => RadioPaymentCubit(),
-        ),
+        ),*/
       ],
       child: const SunApp(),
     ),
