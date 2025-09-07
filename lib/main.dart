@@ -2,7 +2,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:sun_system_app/features/Insurance/page_choose_payment_details/logic/radio_payment_cubit.dart';
+import '../../../features/Insurance/page_choose_payment_details/logic/radio_payment_cubit.dart';
+import '../../../features/insurance_new/insurance_offers_new/ui/insurance_new_offers.dart';
 import '../../../features/Insurance/insurance_offers/ui/insurance_offers.dart';
 import '../core/language/language.dart';
 import '../core/language/language_cubit/language_cubit.dart';
@@ -22,9 +23,7 @@ void main() {
         BlocProvider<LanguageCubit>(
           create: (_) => getIt<LanguageCubit>()..getLanguageFromSharedPreference(),
         ),
-        /*BlocProvider<RadioPaymentCubit>(
-          create: (_) => RadioPaymentCubit(),
-        ),*/
+
       ],
       child: const SunApp(),
     ),
@@ -68,7 +67,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const InsuranceOffers(),
+          home: const InsuranceNewOffers(),
         );
       },
     ),

@@ -21,16 +21,19 @@ class EndButtonScreen extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
-          ButtonWidget(
-            text: text,
-            textColor:textColor,
-            buttonColor:buttonColor,
-            textSize: 12,
-            fontWeightIndex: FontSelectionData.regularFontFamily,
-            heightContainer: 50,
-            widthContainer: 300,
-            borderRadius: 20,
-            onTap:onTap,
+          SizedBox(
+            width: 500,
+            child: ButtonWidget(
+              text: text,
+              textColor:textColor,
+              buttonColor:buttonColor,
+              textSize: 12,
+              fontWeightIndex: FontSelectionData.regularFontFamily,
+              heightContainer: 50,
+              widthContainer: 300,
+              borderRadius: 20,
+              onTap:onTap,
+            ),
           ),
         ],
       ),

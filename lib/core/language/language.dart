@@ -14,6 +14,19 @@ class AppLocalizations {
 
   static final Map<String, Map<String, String>> _localizedValues = {
     'ar': {
+      ////InsuranceNew////
+      AppLanguageKeys.selectInsuranceType: 'برجاء تحديد نوع التأمين الخاص بك',
+      AppLanguageKeys.integrativeInsurance: 'تأمين تكاملي',
+      AppLanguageKeys.carModel: 'موديل السيارة',
+      AppLanguageKeys.edit: 'تعديل',
+      AppLanguageKeys.sixMonthlyPayments: '6 دفعات شهرية',
+      AppLanguageKeys.twelveMonthlyPayments: '12 دفعة شهرية',
+      AppLanguageKeys.semiAnnual: 'نصف سنوي',
+      AppLanguageKeys.annual: 'سنوي',
+      AppLanguageKeys.insuranceAccountRegistration: 'تسجيل حساب التأمين',
+      ////End////
+
+
       ////Insurance////
       AppLanguageKeys.payment: 'الدفع',
       AppLanguageKeys.insuranceOffers: 'عروض التأمينات (نيسان CVR)',
@@ -161,6 +174,18 @@ class AppLocalizations {
 
     },
     'en': {
+      ////InsuranceNew////
+      AppLanguageKeys.selectInsuranceType: 'Please select your insurance type',
+      AppLanguageKeys.integrativeInsurance: 'Integrative Insurance',
+      AppLanguageKeys.carModel: 'Car Model',
+      AppLanguageKeys.edit: 'Edit',
+      AppLanguageKeys.sixMonthlyPayments: '6 Monthly Payments',
+      AppLanguageKeys.twelveMonthlyPayments: '12 Monthly Payments',
+      AppLanguageKeys.semiAnnual: 'Semi-Annual',
+      AppLanguageKeys.annual: 'Annual',
+      AppLanguageKeys.insuranceAccountRegistration: 'Insurance Account Registration',
+      ////End////
+
       ////Insurance////
       AppLanguageKeys.payment: 'Payment',
       AppLanguageKeys.insuranceOffers: 'Insurance Offers (Nissan CVR)',

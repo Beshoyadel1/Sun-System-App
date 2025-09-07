@@ -1,5 +1,18 @@
 
 class AppLanguageKeys{
+
+  ////InsuranceNew////
+  static const String selectInsuranceType = 'selectInsuranceType';
+  static const String integrativeInsurance = 'integrativeInsurance';
+  static const String carModel = 'carModel';
+  static const String edit = 'edit';
+  static const String sixMonthlyPayments = 'sixMonthlyPayments';
+  static const String twelveMonthlyPayments = 'twelveMonthlyPayments';
+  static const String semiAnnual = 'semiAnnual';
+  static const String annual = 'annual';
+  static const String insuranceAccountRegistration = 'insuranceAccountRegistration';
+  ////End////
+
   ////Insurance////
   static const String insuranceOffers = 'insuranceOffers';
   static const String insuranceOffersOnly = 'insuranceOffers';
@@ -146,10 +159,6 @@ class AppLanguageKeys{
   static const String batteries = 'Batteries';
   static const String roadAssistance = 'Road assistance';
   static const String from="from";
-
-
-
-
 
 
 

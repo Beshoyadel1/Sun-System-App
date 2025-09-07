@@ -1,5 +1,10 @@
 class AppImageKeys{
 
+  ////InsuranceNew////
+  static const String  company5='assets/images/company5.png';
+  static const String  car1='assets/images/car1.png';
+  ////End////
+
   ////Insurance////
   static const String  search='assets/images/search.png';
   static const String  filter='assets/images/filter.png';
