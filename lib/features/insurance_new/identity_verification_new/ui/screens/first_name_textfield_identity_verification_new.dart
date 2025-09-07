@@ -18,7 +18,7 @@ class FirstNameTextfieldIdentityVerificationNew extends StatelessWidget {
     final TextEditingController textFormController = TextEditingController();
     return FirstNameTextfieldIdentityVerificationNewWidget(
         name: AppLanguageKeys.beneficiaryName,
-        hint: AppLanguageKeys.nationalIdOrIqama,
+        hint: 'عمرو محي الدين',
     );
   }
 }

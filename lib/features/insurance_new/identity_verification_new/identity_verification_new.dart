@@ -32,7 +32,6 @@ class IdentityVerificationNew extends StatelessWidget {
                 spacing: 20,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-
                   FirstTextIdentityVerificationNew(),
                   SecondRowIdentityVerificationNew(),
                   FirstNameTextfieldIdentityVerificationNew(),

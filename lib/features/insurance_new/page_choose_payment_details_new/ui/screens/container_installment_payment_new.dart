@@ -10,10 +10,10 @@ class ContainerInstallmentPaymentNew extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ContainerInstallmentPaymentWidget(
-      title: AppLanguageKeys.payInstallment,
+      title: AppLanguageKeys.firstPayment,
         nameCompany:AppLanguageKeys.insuranceOffersOnly,
         date:'20/3/2025',
-        logoCompany:AppImageKeys.company1,
+        logoCompany:AppImageKeys.company5,
         price:'1000',
     );
   }

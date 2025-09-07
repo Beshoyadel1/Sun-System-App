@@ -11,6 +11,7 @@ class AppLanguageKeys{
   static const String semiAnnual = 'semiAnnual';
   static const String annual = 'annual';
   static const String insuranceAccountRegistration = 'insuranceAccountRegistration';
+  static const String firstPayment = 'firstPayment';
   ////End////
 
   ////Insurance////

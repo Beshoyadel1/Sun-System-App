@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import '../../../../../features/insurance_new/page_choose_payment_details_new/ui/screens/first_label_page_choose_payment_details_view_new.dart';
 import '../../../../../features/insurance_new/page_choose_payment_details_new/ui/screens/container_installment_payment_new.dart';
 import '../../../../../features/insurance_new/page_choose_payment_details_new/ui/screens/container_invoice_new.dart';
 import '../../../../../features/insurance_new/page_choose_payment_details_new/ui/screens/container_list_visa_new.dart';
@@ -24,13 +25,12 @@ class PageChoosePaymentDetailsViewNew extends StatelessWidget {
                 child: SingleChildScrollView(
                   padding: const EdgeInsets.all(20),
                   child: Column(
+                    spacing: 40,
                     children: const [
+                      FirstLabelPageChoosePaymentDetailsViewNew(),
                       ContainerInstallmentPaymentNew(),
-                      SizedBox(height: 40),
                       ContainerInvoiceNew(),
-                      SizedBox(height: 40),
                       ContainerListVisaNew(),
-                      SizedBox(height: 20),
                     ],
                   ),
                 ),

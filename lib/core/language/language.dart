@@ -24,6 +24,7 @@ class AppLocalizations {
       AppLanguageKeys.semiAnnual: 'نصف سنوي',
       AppLanguageKeys.annual: 'سنوي',
       AppLanguageKeys.insuranceAccountRegistration: 'تسجيل حساب التأمين',
+      AppLanguageKeys.firstPayment: 'سداد أول دفعة',
       ////End////
 
 
@@ -184,6 +185,7 @@ class AppLocalizations {
       AppLanguageKeys.semiAnnual: 'Semi-Annual',
       AppLanguageKeys.annual: 'Annual',
       AppLanguageKeys.insuranceAccountRegistration: 'Insurance Account Registration',
+      AppLanguageKeys.firstPayment: 'First Payment',
       ////End////
 
       ////Insurance////

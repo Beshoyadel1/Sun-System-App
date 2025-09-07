@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/Insurance/custom_widget/appbar_insurance_offers.dart';
-import 'package:sun_system_app/features/insurance_new/insurance_offers_new/ui/screens/default_tab_controller_insurance_new_offers.dart';
-import 'package:sun_system_app/features/insurance_new/insurance_offers_new/ui/screens/first_row_title_insurance_new_offers.dart';
-import 'package:sun_system_app/features/insurance_new/insurance_offers_new/ui/screens/second_row_insurance_new_offers.dart';
+import '../../../../../features/Insurance/custom_widget/appbar_insurance_offers.dart';
+import '../../../../../features/insurance_new/insurance_offers_new/ui/screens/default_tab_controller_insurance_new_offers.dart';
+import '../../../../../features/insurance_new/insurance_offers_new/ui/screens/first_row_title_insurance_new_offers.dart';
+import '../../../../../features/insurance_new/insurance_offers_new/ui/screens/second_row_insurance_new_offers.dart';
 import '../../../../../core/theming/colors.dart';
 
 class InsuranceNewOffers extends StatefulWidget {

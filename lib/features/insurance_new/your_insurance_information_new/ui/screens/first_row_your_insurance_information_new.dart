@@ -33,7 +33,6 @@ class FirstRowYourInsuranceInformationNew extends StatelessWidget {
                     textSize: 14,
                     fontWeightIndex: FontSelectionData.regularFontFamily,
                     textColor: AppColors.orangeColor,
-                   // overflow: TextOverflow.ellipsis,
                   ),
                 ],
               ),
