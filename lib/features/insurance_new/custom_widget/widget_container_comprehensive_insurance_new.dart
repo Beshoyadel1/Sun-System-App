@@ -29,18 +29,22 @@ class WidgetContainerComprehensiveInsuranceNew extends StatelessWidget {
       onTap: onTap,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,
+        spacing: 10,
         children: [
           Container(
-            padding: EdgeInsetsGeometry.symmetric(vertical: 20,horizontal: 25),
+            width: 50,
+            height: 60,
             decoration: const BoxDecoration(
               color: AppColors.pinkColor,
               shape: BoxShape.circle,
             ),
-            child: TextInAppWidget(
-              text: nameAnnual,
-              textSize: 8,
-              fontWeightIndex: FontSelectionData.regularFontFamily,
-              textColor: AppColors.darkColor,
+            child: Center(
+              child: TextInAppWidget(
+                text: nameAnnual,
+                textSize: 8,
+                fontWeightIndex: FontSelectionData.regularFontFamily,
+                textColor: AppColors.darkColor,
+              ),
             ),
           ),
           Column(
