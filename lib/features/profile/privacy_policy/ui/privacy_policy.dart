@@ -1,0 +1,35 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:sun_system_app/core/theming/fonts.dart';
+import 'package:sun_system_app/core/theming/text_styles.dart';
+import 'package:sun_system_app/features/profile/custom_widget/appbar_profile_widget.dart';
+import '../../../../../core/theming/colors.dart';
+import '../../../../core/language/language_constant.dart';
+
+class PrivacyPolicy extends StatelessWidget {
+  const PrivacyPolicy({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold(
+      backgroundColor: AppColors.scaffoldColor,
+       appBar: AppbarProfileWidget(title: AppLanguageKeys.privacyTitle,),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(20),
+          child: SingleChildScrollView(
+            child: Align(
+              alignment: AlignmentGeometry.centerRight,
+              child: TextInAppWidget(
+                text: AppLanguageKeys.privacyIntro,
+                textSize: 12,
+                fontWeightIndex: FontSelectionData.regularFontFamily,
+                textColor: AppColors.blackColor44,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}

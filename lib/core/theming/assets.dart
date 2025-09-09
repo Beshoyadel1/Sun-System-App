@@ -1,4 +1,14 @@
 class AppImageKeys{
+//
+  ////Profile////
+  static const String  spare_parts='assets/images/spare_parts.png';
+  static const String  mobile_maintenance='assets/images/mobile_maintenance.png';
+  static const String  new_message='assets/images/new_message.png';
+  static const String  map1='assets/images/map1.png';
+  static const String  visa='assets/images/visa.png';
+  static const String  person2='assets/images/person2.png';
+  static const String  qr_scan='assets/images/qr_scan.png';
+  ////End////
 
   ////InsuranceNew////
   static const String  company5='assets/images/company5.png';

@@ -2,6 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import '../../../features/profile/notifications/ui/notifications.dart';
 import '../../../features/Insurance/page_choose_payment_details/logic/radio_payment_cubit.dart';
 import '../../../features/insurance_new/insurance_offers_new/ui/insurance_new_offers.dart';
 import '../../../features/Insurance/insurance_offers/ui/insurance_offers.dart';
@@ -67,7 +68,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const InsuranceNewOffers(),
+          home: const Notifications(),
         );
       },
     ),

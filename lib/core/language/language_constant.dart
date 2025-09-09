@@ -1,6 +1,35 @@
 
 class AppLanguageKeys{
 
+  ////Profile////
+  static const String notifications = 'notifications';
+  static const String newMessage = 'newMessage';
+  static const String order255Expired = 'order255Expired';
+  static const String onTheWay = 'onTheWay';
+  static const String privacyTitle = 'privacyTitle';
+  static const String privacyIntro = 'privacyIntro';
+  static const String personalData = 'personalData';
+  static const String username = 'username';
+  static const String nationality = 'nationality';
+  static const String language = 'language';
+  static const String arabic = 'arabic';
+  static const String english = 'english';
+  static const String myAddress = 'myAddress';
+  static const String yourCarAddress = 'yourCarAddress';
+  static const String addAddress = 'addAddress';
+  static const String creditCards = 'creditCards';
+  static const String cardName = 'cardName';
+  static const String cardNumber = 'cardNumber';
+  static const String cvv = 'cvv';
+  static const String expiryDate = 'expiryDate';
+  static const String addPaymentCard = 'addPaymentCard';
+  static const String financialTransactions = 'financialTransactions';
+  static const String tires = 'tires';
+  static const String qrCode = 'qrCode';
+  static const String scanQrCode = 'scanQrCode';
+
+  ////End////
+
   ////InsuranceNew////
   static const String selectInsuranceType = 'selectInsuranceType';
   static const String integrativeInsurance = 'integrativeInsurance';

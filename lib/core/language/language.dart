@@ -14,6 +14,75 @@ class AppLocalizations {
 
   static final Map<String, Map<String, String>> _localizedValues = {
     'ar': {
+      ////Profile////
+      AppLanguageKeys.notifications: 'الاشعارات',
+      AppLanguageKeys.newMessage: 'رسالة جديدة',
+      AppLanguageKeys.order255Expired: 'انتهاء طلب 255',
+      AppLanguageKeys.onTheWay: 'في الطريق اليك',
+      AppLanguageKeys.privacyTitle: 'سياسة الخصوصية',
+      AppLanguageKeys.privacyIntro: '''
+      في تطبيق "صن"، نولي أهمية قصوى لخصوصية مستخدمينا ونسعى دائمًا لحماية بياناتهم الشخصية. 
+      توضح هذه السياسة كيفية جمع واستخدام ومشاركة المعلومات عند استخدامك لخدماتنا.
+      
+      المعلومات التي نقوم بجمعها
+      عند استخدامك لتطبيق صن، قد نقوم بجمع بعض المعلومات اللازمة لتقديم الخدمة، مثل:
+      - الاسم الكامل
+      - رقم الجوال
+      - عنوان البريد الإلكتروني
+      - الموقع الجغرافي لتحديد مكان السيارة (بموافقتك)
+      - تفاصيل الطلبات السابقة وسجلات الدفع
+      
+      كيفية استخدام المعلومات
+      نستخدم المعلومات التي يتم جمعها من أجل:
+      - تقديم خدمات الصيانة بشكل دقيق وفعال
+      - التواصل معك بشأن حالة الطلب أو العروض الخاصة
+      - تحسين أداء التطبيق وتجربة المستخدم
+      - ضمان الأمان ومنع الاستخدام غير المشروع
+      
+      مشاركة المعلومات
+      نحن لا نشارك بياناتك مع أي طرف ثالث خارج نطاق تطبيق "صن" إلا في الحالات التالية:
+      - مع مراكز الصيانة المعتمدة لتنفيذ طلباتك
+      - مع بوابات الدفع الإلكتروني لإتمام عمليات الدفع
+      - إذا تطلب الأمر ذلك قانونيًا أو بطلب من الجهات المختصة
+      
+      حماية البيانات
+      نلتزم بتطبيق أعلى معايير الأمان في حفظ بياناتك، ونستخدم تقنيات حماية متقدمة لضمان عدم الوصول غير المصرح به إلى معلوماتك.
+      
+      حقوق المستخدم
+      يحق لك في أي وقت:
+      - طلب نسخة من بياناتك الشخصية
+      - تعديل أو تحديث بياناتك
+      - طلب حذف حسابك من التطبيق
+      
+      التعديلات على السياسة
+      قد نقوم بتحديث سياسة الخصوصية من وقت لآخر. وسيتم إشعارك بأي تغييرات هامة من خلال التطبيق أو عبر البريد الإلكتروني.
+      
+      التواصل معنا
+      لأي استفسارات تتعلق بسياسة الخصوصية، يمكنك التواصل معنا عبر:
+      📧 البريد الإلكتروني: privacy@sun-app.com
+      📞 الدعم الفني: 9200XXXXXX
+      ''',
+      AppLanguageKeys.personalData: 'البيانات الشخصية',
+      AppLanguageKeys.username: 'اسم المستخدم',
+      AppLanguageKeys.nationality: 'الجنسية',
+      AppLanguageKeys.language: 'اللغة',
+      AppLanguageKeys.arabic: 'العربية',
+      AppLanguageKeys.english: 'الانجليزية',
+      AppLanguageKeys.myAddress: 'عنواني',
+      AppLanguageKeys.yourCarAddress: 'عنوان سيارتك',
+      AppLanguageKeys.addAddress: 'أضافة عنوان',
+      AppLanguageKeys.creditCards: 'كروت الأئتمان البنكي',
+      AppLanguageKeys.cardName: 'أسم الكارت',
+      AppLanguageKeys.cardNumber: 'رقم الكارت',
+      AppLanguageKeys.cvv: '3 ارقام CVV',
+      AppLanguageKeys.expiryDate: 'تاريخ الانتهاء',
+      AppLanguageKeys.addPaymentCard: 'أضافة بطاقه دفع',
+      AppLanguageKeys.financialTransactions: 'المعاملات المالية',
+      AppLanguageKeys.tires: 'إطارات',
+      AppLanguageKeys.qrCode: 'QR code',
+      AppLanguageKeys.scanQrCode: 'مسح QR code',
+      ////End////
+
       ////InsuranceNew////
       AppLanguageKeys.selectInsuranceType: 'برجاء تحديد نوع التأمين الخاص بك',
       AppLanguageKeys.integrativeInsurance: 'تأمين تكاملي',
@@ -175,6 +244,75 @@ class AppLocalizations {
 
     },
     'en': {
+      ////Profile////
+      AppLanguageKeys.notifications: 'Notifications',
+      AppLanguageKeys.newMessage: 'New Message',
+      AppLanguageKeys.order255Expired: 'Order 255 Expired',
+      AppLanguageKeys.onTheWay: 'On the Way to You',
+      AppLanguageKeys.privacyTitle: 'Privacy Policy',
+      AppLanguageKeys.privacyIntro: '''
+      At "Sun" app, we place the utmost importance on the privacy of our users and always strive to protect their personal data. 
+      This policy explains how information is collected, used, and shared when you use our services.
+      
+      Information We Collect
+      When using Sun App, we may collect some necessary information to provide the service, such as:
+      - Full Name
+      - Mobile Number
+      - Email Address
+      - Location (with your permission, to identify the car location)
+      - Order history and payment records
+      
+      How We Use the Information
+      We use the collected information to:
+      - Provide maintenance services accurately and efficiently
+      - Communicate with you regarding order status or special offers
+      - Improve app performance and user experience
+      - Ensure security and prevent unauthorized use
+      
+      Information Sharing
+      We do not share your data with any third party outside the "Sun" app except in the following cases:
+      - With authorized maintenance centers to fulfill your requests
+      - With online payment gateways to complete transactions
+      - When legally required or requested by authorities
+      
+      Data Protection
+      We are committed to applying the highest security standards to protect your data and use advanced protection technologies to prevent unauthorized access.
+      
+      User Rights
+      You have the right at any time to:
+      - Request a copy of your personal data
+      - Modify or update your data
+      - Request to delete your account from the app
+      
+      Policy Changes
+      We may update the privacy policy from time to time. You will be notified of any major changes via the app or email.
+      
+      Contact Us
+      For any inquiries regarding the privacy policy, you can contact us via:
+      📧 Email: privacy@sun-app.com
+      📞 Support: 9200XXXXXX
+      ''',
+      AppLanguageKeys.personalData: 'Personal Data',
+      AppLanguageKeys.username: 'Username',
+      AppLanguageKeys.nationality: 'Nationality',
+      AppLanguageKeys.language: 'Language',
+      AppLanguageKeys.arabic: 'Arabic',
+      AppLanguageKeys.english: 'English',
+      AppLanguageKeys.myAddress: 'My Address',
+      AppLanguageKeys.yourCarAddress: 'Your Car Address',
+      AppLanguageKeys.addAddress: 'Add Address',
+      AppLanguageKeys.creditCards: 'Bank Credit Cards',
+      AppLanguageKeys.cardName: 'Card Name',
+      AppLanguageKeys.cardNumber: 'Card Number',
+      AppLanguageKeys.cvv: '3-digit CVV',
+      AppLanguageKeys.expiryDate: 'Expiry Date',
+      AppLanguageKeys.addPaymentCard: 'Add Payment Card',
+      AppLanguageKeys.financialTransactions: 'Financial Transactions',
+      AppLanguageKeys.tires: 'Tires',
+      AppLanguageKeys.qrCode: 'QR Code',
+      AppLanguageKeys.scanQrCode: 'Scan QR Code',
+      ////End////
+
       ////InsuranceNew////
       AppLanguageKeys.selectInsuranceType: 'Please select your insurance type',
       AppLanguageKeys.integrativeInsurance: 'Integrative Insurance',
@@ -186,6 +324,7 @@ class AppLocalizations {
       AppLanguageKeys.annual: 'Annual',
       AppLanguageKeys.insuranceAccountRegistration: 'Insurance Account Registration',
       AppLanguageKeys.firstPayment: 'First Payment',
+
       ////End////
 
       ////Insurance////
