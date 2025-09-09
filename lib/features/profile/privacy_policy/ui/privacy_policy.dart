@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/profile/custom_widget/appbar_profile_widget.dart';
+import '../../../../../core/theming/fonts.dart';
+import '../../../../../core/theming/text_styles.dart';
+import '../../../../../features/profile/custom_widget/appbar_profile_widget.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../core/language/language_constant.dart';
 

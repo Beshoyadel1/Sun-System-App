@@ -1,13 +1,9 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
-import 'package:sun_system_app/features/profile/custom_widget/column_list_container_text_notifications_widget.dart';
-import 'package:sun_system_app/features/profile/custom_widget/container_list_container_text_notifications_widget.dart';
+import '../../../../../core/theming/assets.dart';
+import '../../../../../features/profile/custom_widget/column_list_container_text_notifications_widget.dart';
+import '../../../../../features/profile/custom_widget/container_list_container_text_notifications_widget.dart';
 import '../../../../../core/theming/fonts.dart';
 import '../../../../../core/theming/text_styles.dart';
-import '../../../../../features/profile/custom_widget/appbar_profile_widget.dart';
-import '../../../../../core/theming/colors.dart';
-import '../../../../../features/profile/notifications/ui/screens/list_container_text_notifications.dart';
-import '../../../../../features/profile/custom_widget/appbar_profile_widget.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../core/language/language_constant.dart';
 

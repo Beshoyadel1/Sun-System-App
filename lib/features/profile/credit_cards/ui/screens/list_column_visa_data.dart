@@ -2,10 +2,6 @@ import 'package:flutter/cupertino.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../features/profile/custom_widget/first_name_textfield_personal_data_widget.dart';
 import 'package:flutter/material.dart';
-import '../../../../../features/profile/credit_cards/ui/screens/list_column_visa_data.dart';
-import '../../../../../features/profile/custom_widget/first_name_textfield_personal_data_widget.dart';
-import '../../../../../features/profile/custom_widget/appbar_profile_widget.dart';
-import '../../../../../core/theming/colors.dart';
 class ListColumnVisaData extends StatelessWidget {
   const ListColumnVisaData({super.key});
 

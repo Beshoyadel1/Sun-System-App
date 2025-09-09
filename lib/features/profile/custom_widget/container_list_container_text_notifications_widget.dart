@@ -1,9 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/profile/custom_widget/container_list_container_text_notifications_widget.dart';
-import '../../../../../core/theming/fonts.dart';
-import '../../../../../core/theming/text_styles.dart';
-import '../../../../../core/theming/assets.dart';
 import '../../../../../core/theming/colors.dart';
 
 class ContainerListContainerTextNotificationsWidget extends StatelessWidget {

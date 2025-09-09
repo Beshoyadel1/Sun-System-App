@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
+import '../../../../../core/theming/assets.dart';
 
 class SelectVisa extends StatelessWidget {
   const SelectVisa({super.key});

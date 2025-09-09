@@ -1,10 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/language/language_cubit/language_cubit.dart';
-import 'package:sun_system_app/features/profile/custom_widget/appbar_profile_widget.dart';
-import 'package:sun_system_app/features/profile/custom_widget/first_name_textfield_personal_data_widget.dart';
+import '../../../../../features/profile/personal_data/ui/screens/list_first_name_text_field_personal_data_widget.dart';
+import '../../../../../core/language/language_constant.dart';
+import '../../../../../features/profile/custom_widget/appbar_profile_widget.dart';
 import '../../../../../core/theming/colors.dart';
 
 class PersonalData extends StatelessWidget {
@@ -23,32 +21,7 @@ class PersonalData extends StatelessWidget {
               alignment: AlignmentGeometry.center,
               child: SizedBox(
                 width: 500,
-                child: Column(
-                  spacing: 25,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const FirstNameTextfieldPersonalDataWidget(
-                      name: AppLanguageKeys.username,
-                      hint:'عمرو محي الدين',
-                    ),
-                    const FirstNameTextfieldPersonalDataWidget(
-                      name: AppLanguageKeys.email,
-                      hint:'amr@gmail,com',
-                    ),
-                    const FirstNameTextfieldPersonalDataWidget(
-                      name: AppLanguageKeys.password,
-                      hint:'***',
-                    ),
-                    const FirstNameTextfieldPersonalDataWidget(
-                      name: AppLanguageKeys.nationality,
-                      hint:'مصري',
-                    ),
-                   const FirstNameTextfieldPersonalDataWidget(
-                      isLanguage: true,
-                       name:AppLanguageKeys.language,
-                    ),
-                  ],
-                ),
+                child: ListFirstNameTextFieldPersonalDataWidget(),
               ),
             ),
           ),

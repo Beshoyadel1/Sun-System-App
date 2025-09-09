@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/pages_widgets/button_widget.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/features/profile/custom_widget/appbar_profile_widget.dart';
+import '../../../../../core/language/language_constant.dart';
+import '../../../../../core/pages_widgets/button_widget.dart';
+import '../../../../../core/theming/assets.dart';
+import '../../../../../core/theming/fonts.dart';
+import '../../../../../features/profile/custom_widget/appbar_profile_widget.dart';
 import '../../../../../core/theming/colors.dart';
 
 class QrCode extends StatelessWidget {

@@ -1,14 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/pages_widgets/button_widget.dart';
-import 'package:sun_system_app/features/profile/custom_widget/end_button_profile_widget.dart';
-import '../../../../features/profile/my_address/ui/screens/part_two_column_my_address.dart';
-import '../../../../features/profile/my_address/ui/screens/part_one_column_my_address.dart';
+import '../../../../../core/pages_widgets/button_widget.dart';
 import '../../../../core/theming/fonts.dart';
-import '../../../../../core/theming/text_styles.dart';
-import '../../../../../features/profile/custom_widget/appbar_profile_widget.dart';
 import '../../../../../core/theming/colors.dart';
-import '../../../../core/language/language_constant.dart';
+
 class EndButtonProfileWidget extends StatelessWidget {
   final String textButton;
   void Function()? onTap;

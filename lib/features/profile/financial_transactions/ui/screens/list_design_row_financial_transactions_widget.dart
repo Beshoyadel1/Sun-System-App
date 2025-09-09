@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
+import '../../../../../core/theming/assets.dart';
 import '../../../../../features/profile/custom_widget/design_row_financial_transactions_widget.dart';
 import '../../../../../core/language/language_constant.dart';
 class ListDesignRowFinancialTransactionsWidget extends StatelessWidget {

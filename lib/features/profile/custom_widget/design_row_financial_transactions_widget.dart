@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/features/profile/financial_transactions/ui/screens/first_Column_of_design_row_financial_transactions.dart';
-import 'package:sun_system_app/features/profile/financial_transactions/ui/screens/second_Column_of_design_row_financial_transactions.dart';
+import '../../../../../features/profile/financial_transactions/ui/screens/first_Column_of_design_row_financial_transactions.dart';
+import '../../../../../features/profile/financial_transactions/ui/screens/second_Column_of_design_row_financial_transactions.dart';
 
 class DesignRowFinancialTransactionsWidget extends StatelessWidget {
   final String imagePath,firstText,secondText;

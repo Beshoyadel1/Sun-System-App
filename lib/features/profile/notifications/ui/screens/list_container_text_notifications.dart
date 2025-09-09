@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/profile/qr_code/ui/qr_code.dart';
+import '../../../../../features/profile/qr_code/ui/qr_code.dart';
 import '../../../../../features/profile/my_address/ui/my_address.dart';
 import '../../../../../features/profile/privacy_policy/ui/privacy_policy.dart';
 import '../../../../../core/language/language_constant.dart';

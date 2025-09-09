@@ -1,11 +1,9 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/profile/custom_widget/column_list_container_text_notifications_widget.dart';
-import 'package:sun_system_app/features/profile/custom_widget/container_list_container_text_notifications_widget.dart';
+import '../../../../../core/language/language_constant.dart';
+import '../../../../../core/theming/assets.dart';
+import '../../../../../core/theming/colors.dart';
+import '../../../../../core/theming/fonts.dart';
+import '../../../../../core/theming/text_styles.dart';
 
 class SecondColumnOfDesignRowFinancialTransactions extends StatelessWidget {
   const SecondColumnOfDesignRowFinancialTransactions({super.key});
