@@ -7,6 +7,7 @@ class AppLanguageKeys{
   static const String warrantyFreeMaintenance = 'warrantyFreeMaintenance';
   static const String warrantySubscription = 'warrantySubscription';
   static const String balanceChargedSuccessfully = 'balanceChargedSuccessfully';
+  static const String showServicesAtApprovedCenters = 'showServicesAtApprovedCenters';
 
   ////End////
 

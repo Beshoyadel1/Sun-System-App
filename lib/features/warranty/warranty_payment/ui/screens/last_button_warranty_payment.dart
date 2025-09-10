@@ -56,7 +56,7 @@ class _LastButtonWarrantyPaymentState extends State<LastButtonWarrantyPayment> {
             borderRadius: 30,
             onTap: () {
               if (state.selectedIndex != null && state.selectedImage != null) {
-                cubit2.changeHeight(200);
+                cubit2.changeHeight(300);
                 Navigator.of(context).push(
                   NavigateToPageWidget(
                     WarrantyDoneState(),

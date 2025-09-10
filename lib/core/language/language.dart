@@ -21,6 +21,7 @@ class AppLocalizations {
       AppLanguageKeys.warrantyFreeMaintenance: 'تقديم خدمات صيانة مجانية طوال فترة الضمان',
       AppLanguageKeys.warrantySubscription: 'اشتراك في الضمان',
       AppLanguageKeys.balanceChargedSuccessfully: 'تم شحن الرصيد بنجاح',
+      AppLanguageKeys.showServicesAtApprovedCenters: 'عرض الخدمات في المراكز المعتمدة',
 
       ////End////
       ////Profile////
@@ -261,6 +262,7 @@ class AppLocalizations {
       AppLanguageKeys.warrantyFreeMaintenance: 'Free maintenance services throughout the warranty period',
       AppLanguageKeys.warrantySubscription: 'Warranty Subscription',
       AppLanguageKeys.balanceChargedSuccessfully: 'Balance charged successfully',
+      AppLanguageKeys.showServicesAtApprovedCenters: 'Show services at approved centers',
 
       ////End////
 

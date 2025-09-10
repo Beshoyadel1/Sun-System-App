@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sun_system_app/features/warranty/warranty_subscription/ui/screens/second_part_warranty_subscription.dart';
 import '../../../../../features/warranty/warranty_subscription/ui/screens/first_part_warranty_subscription.dart';
@@ -13,25 +12,28 @@ class WarrantySubscription extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.scaffoldColor,
-      appBar: AppbarProfileWidget(title: AppLanguageKeys.sunWarranty,),
+      appBar: AppbarProfileWidget(title: AppLanguageKeys.sunWarranty),
       body: SafeArea(
         child: Padding(
-          padding: EdgeInsets.all(20),
+          padding: const EdgeInsets.all(20),
           child: Align(
             alignment: AlignmentGeometry.center,
             child: SizedBox(
               width: 500,
               child: Column(
                 children: [
-                  FirstPartWarrantySubscription(),
-                  SecondPartWarrantySubscription()
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: FirstPartWarrantySubscription(),
+                    ),
+                  ),
+                  SecondPartWarrantySubscription(),
                 ],
               ),
             ),
           ),
         ),
       ),
-
     );
   }
 }

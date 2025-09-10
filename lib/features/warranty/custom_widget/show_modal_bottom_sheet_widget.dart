@@ -21,16 +21,16 @@ Future<T?> showCustomBottomSheet<T>({
         create: (_) => HeightCubit(height ?? 200),
         child: BlocBuilder<HeightCubit, double>(
           builder: (context, height) {
-            return ClipRRect(
-              borderRadius: const BorderRadius.vertical(
-                top: Radius.circular(30),
-              ),
-              child: Navigator(
-                onGenerateRoute: (settings) {
-                  return NavigateToPageWidget(
-                     child,
-                  );
-                },
+            return AnimatedContainer(
+              duration: const Duration(milliseconds: 300),
+              height: height,
+              child: ClipRRect(
+                borderRadius: const BorderRadius.vertical(top: Radius.circular(30)),
+                child: Navigator(
+                  onGenerateRoute: (settings) {
+                    return NavigateToPageWidget(child);
+                  },
+                ),
               ),
             );
           },

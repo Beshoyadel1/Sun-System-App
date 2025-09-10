@@ -33,7 +33,6 @@ class WarrantyPaymentView extends StatelessWidget {
                     children: const [
                       FirstPartWarrantyPayment(),
                       ContainerListVisa(),
-                      LastButtonWarrantyPayment()
                     ],
                   ),
                 ),
@@ -42,6 +41,7 @@ class WarrantyPaymentView extends StatelessWidget {
           ),
         ),
       ),
+      bottomNavigationBar: LastButtonWarrantyPayment(),
     );
   }
 }
