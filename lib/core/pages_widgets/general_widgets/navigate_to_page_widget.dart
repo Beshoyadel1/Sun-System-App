@@ -58,3 +58,14 @@ class NavigateToPageWidget<T> extends PageRouteBuilder<T> {
     }
   }
 }
+void closeSheetAndNavigate(BuildContext context, Widget page, {NavigateType type = NavigateType.push}) {
+  if (Navigator.of(context).canPop()) {
+    Navigator.of(context).pop();
+  }
+
+  NavigateToPageWidget.navigate(
+    Navigator.of(context, rootNavigator: true).context,
+    page,
+    type: type,
+  );
+}

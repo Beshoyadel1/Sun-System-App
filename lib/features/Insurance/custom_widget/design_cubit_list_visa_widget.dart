@@ -6,22 +6,26 @@ import '../../../../../features/Insurance/page_choose_payment_details/logic/radi
 import '../../../../../core/theming/assets.dart';
 import '../../../../../core/theming/colors.dart';
 
-class DesignCubitListVisa extends StatelessWidget {
-  const DesignCubitListVisa({super.key});
+class DesignCubitListVisaWidget extends StatefulWidget {
+  const DesignCubitListVisaWidget({super.key});
 
   @override
+  State<DesignCubitListVisaWidget> createState() => _DesignCubitListVisaWidgetState();
+}
+
+class _DesignCubitListVisaWidgetState extends State<DesignCubitListVisaWidget> {
+  late RadioPaymentCubit cubit;
+
+  @override
+  void initState() {
+    super.initState();
+    cubit = context.read<RadioPaymentCubit>();
+  }
+  @override
   Widget build(BuildContext context) {
-    final cards = [
-      AppImageKeys.visa1,
-      AppImageKeys.visa2,
-      AppImageKeys.visa3,
-      AppImageKeys.visa4,
-      AppImageKeys.visa5,
-    ];
 
     return BlocBuilder<RadioPaymentCubit, RadioPaymentState>(
       buildWhen: (previous, current) {
-        final cubit = context.read<RadioPaymentCubit>();
 
         if (current.selectedIndex == null && current.selectedImage == null) {
           cubit.selectOption(0, cards[0]);
@@ -30,12 +34,9 @@ class DesignCubitListVisa extends StatelessWidget {
         return true;
       },
       builder: (context, state) {
-        final cubit = context.read<RadioPaymentCubit>();
-
         return Column(
           children: List.generate(cards.length, (index) {
             final isSelected = state.selectedIndex == index;
-
             return GestureDetector(
               onTap: () => cubit.selectOption(index, cards[index]),
               child: Container(
@@ -74,3 +75,10 @@ class DesignCubitListVisa extends StatelessWidget {
     );
   }
 }
+final cards = [
+  AppImageKeys.visa1,
+  AppImageKeys.visa2,
+  AppImageKeys.visa3,
+  AppImageKeys.visa4,
+  AppImageKeys.visa5,
+];

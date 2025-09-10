@@ -14,6 +14,15 @@ class AppLocalizations {
 
   static final Map<String, Map<String, String>> _localizedValues = {
     'ar': {
+      ////Warranty////
+      AppLanguageKeys.warrantyPeriod: 'لمدة 5 سنوات',
+      AppLanguageKeys.warrantyServiceCenters: 'الاستفادة من ضمان الخدمات عبر مراكزنا المعتمدة',
+      AppLanguageKeys.warrantyCarsMarket: 'ضمان السيارات من بيع وشراء في حراج السيارات',
+      AppLanguageKeys.warrantyFreeMaintenance: 'تقديم خدمات صيانة مجانية طوال فترة الضمان',
+      AppLanguageKeys.warrantySubscription: 'اشتراك في الضمان',
+      AppLanguageKeys.balanceChargedSuccessfully: 'تم شحن الرصيد بنجاح',
+
+      ////End////
       ////Profile////
       AppLanguageKeys.notifications: 'الاشعارات',
       AppLanguageKeys.newMessage: 'رسالة جديدة',
@@ -244,6 +253,17 @@ class AppLocalizations {
 
     },
     'en': {
+
+      ////Warranty////
+      AppLanguageKeys.warrantyPeriod: 'For 5 years',
+      AppLanguageKeys.warrantyServiceCenters: 'Benefit from warranty services through our authorized centers',
+      AppLanguageKeys.warrantyCarsMarket: 'Car warranty for buying and selling in the car market',
+      AppLanguageKeys.warrantyFreeMaintenance: 'Free maintenance services throughout the warranty period',
+      AppLanguageKeys.warrantySubscription: 'Warranty Subscription',
+      AppLanguageKeys.balanceChargedSuccessfully: 'Balance charged successfully',
+
+      ////End////
+
       ////Profile////
       AppLanguageKeys.notifications: 'Notifications',
       AppLanguageKeys.newMessage: 'New Message',

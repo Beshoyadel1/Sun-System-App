@@ -5,7 +5,7 @@ import '../../../../../features/profile/financial_transactions/ui/screens/second
 class DesignRowFinancialTransactionsWidget extends StatelessWidget {
   final String imagePath,firstText,secondText;
 
-   DesignRowFinancialTransactionsWidget({
+  const DesignRowFinancialTransactionsWidget({
      super.key,
      required this.imagePath,
      required this.firstText,

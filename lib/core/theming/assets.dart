@@ -1,5 +1,14 @@
 class AppImageKeys{
-//
+
+  ////Warranty////
+  static const String  shield='assets/images/shield.png';
+  static const String  correct='assets/images/correct.png';
+  static const String  coin2='assets/images/coin2.png';
+  static const String  coin3='assets/images/coin3.png';
+  static const String  tax='assets/images/tax.png';
+  static const String  done_star='assets/images/done_star.png';
+  ////End////
+
   ////Profile////
   static const String  spare_parts='assets/images/spare_parts.png';
   static const String  mobile_maintenance='assets/images/mobile_maintenance.png';

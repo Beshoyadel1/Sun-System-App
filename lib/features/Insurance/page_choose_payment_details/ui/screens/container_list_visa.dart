@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../../../../features/Insurance/page_choose_payment_details/ui/screens/design_cubit_list_visa.dart';
+import 'package:sun_system_app/features/Insurance/custom_widget/design_cubit_list_visa_widget.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/theming/fonts.dart';
 import '../../../../../core/theming/text_styles.dart';
@@ -27,7 +27,7 @@ class ContainerListVisa extends StatelessWidget {
             textColor: AppColors.darkColor,
           ),
           SizedBox(height: 15,),
-          DesignCubitListVisa(),
+          DesignCubitListVisaWidget(),
         ],
       ),
     );

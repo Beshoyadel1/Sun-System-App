@@ -1,5 +1,14 @@
 
 class AppLanguageKeys{
+  ////Warranty////
+  static const String warrantyPeriod = 'warrantyPeriod';
+  static const String warrantyServiceCenters = 'warrantyServiceCenters';
+  static const String warrantyCarsMarket = 'warrantyCarsMarket';
+  static const String warrantyFreeMaintenance = 'warrantyFreeMaintenance';
+  static const String warrantySubscription = 'warrantySubscription';
+  static const String balanceChargedSuccessfully = 'balanceChargedSuccessfully';
+
+  ////End////
 
   ////Profile////
   static const String notifications = 'notifications';

@@ -51,6 +51,7 @@ class AppbarProfileWidget extends StatelessWidget implements PreferredSizeWidget
       ),
       actions: [
         Image.asset(AppImageKeys.person, width: 30),
+        SizedBox(width: 10,),
       ],
     );
   }
