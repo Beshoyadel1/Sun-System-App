@@ -1,5 +1,30 @@
 
 class AppLanguageKeys{
+
+  ////Wallet- Bonus - Send code to friend////
+  static const String wallet = 'wallet';
+  static const String currentBalance = 'currentBalance';
+  static const String rechargeWallet = 'rechargeWallet';
+  static const String walletTransactionDetails = 'walletTransactionDetails';
+  static const String viewAll = 'viewAll';
+  static const String bonusBalance = 'bonusBalance';
+  static const String payMaintenanceService = 'payMaintenanceService';
+  static const String rechargeFromVisa = 'rechargeFromVisa';
+  static const String points = 'points';
+  static const String myPoints = 'myPoints';
+  static const String pointsDetails = 'pointsDetails';
+  static const String bonusPoints = 'bonusPoints';
+  static const String redeemPointsService = 'redeemPointsService';
+  static const String rechargeFromVisaPoints = 'rechargeFromVisaPoints';
+  static const String inviteFriendText = 'inviteFriendText';
+  static const String referralCode = 'referralCode';
+  static const String copyCode = 'copyCode';
+  static const String shareLink = 'shareLink';
+  static const String sendToFriend = 'sendToFriend';
+  static const String codeCopiedSuccessfully = 'codeCopiedSuccessfully';
+
+  ////End////
+
   ////Warranty////
   static const String warrantyPeriod = 'warrantyPeriod';
   static const String warrantyServiceCenters = 'warrantyServiceCenters';

@@ -2,7 +2,10 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:sun_system_app/features/warranty/warranty_subscription/ui/warranty_subscription.dart';
+import '../../../features/wallet_bonus_send_code_to_friend/points_for_wallet_bonus_send_code_to_friend/ui/points_for_wallet_bonus_send_code_to_friend.dart';
+import '../../../features/wallet_bonus_send_code_to_friend/send_code_for_wallet_bonus_send_code_to_friend/ui/send_code_for_wallet_bonus_send_code_to_friend.dart';
+import '../../../features/wallet_bonus_send_code_to_friend/wallet_for_wallet_bonus_send_code_to_friend/ui/wallet_for_wallet_bonus_send_code_to_friend.dart';
+import '../../../features/warranty/warranty_subscription/ui/warranty_subscription.dart';
 import '../../../features/warranty/warranty_first/ui/warranty_first.dart';
 import '../../../features/profile/notifications/ui/notifications.dart';
 import '../../../features/Insurance/page_choose_payment_details/logic/radio_payment_cubit.dart';
@@ -70,7 +73,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const WarrantyFirst(),
+          home: const WalletForWalletBonusSendCodeToFriend(),
         );
       },
     ),

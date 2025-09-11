@@ -1,5 +1,13 @@
 class AppImageKeys{
 
+  ////Wallet- Bonus - Send code to friend////
+  static const String  app1='assets/images/app1.png';
+  static const String  app2='assets/images/app2.png';
+  static const String  app3='assets/images/app3.png';
+  static const String  app4='assets/images/app4.png';
+
+  ////End////
+
   ////Warranty////
   static const String  shield='assets/images/shield.png';
   static const String  correct='assets/images/correct.png';

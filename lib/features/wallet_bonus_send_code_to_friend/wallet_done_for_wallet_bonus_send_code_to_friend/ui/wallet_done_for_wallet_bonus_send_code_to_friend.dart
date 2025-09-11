@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sun_system_app/features/wallet_bonus_send_code_to_friend/wallet_for_wallet_bonus_send_code_to_friend/ui/wallet_for_wallet_bonus_send_code_to_friend.dart';
 import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
 import '../../../../../features/warranty/warranty_subscription/ui/warranty_subscription.dart';
 import '../../../../../core/theming/text_styles.dart';
@@ -7,14 +8,14 @@ import '../../../../../core/theming/assets.dart';
 import '../../../../../core/theming/fonts.dart';
 import '../../../../../core/theming/colors.dart';
 
-class WarrantyDoneState extends StatefulWidget {
-  const WarrantyDoneState({super.key});
+class WalletDoneForWalletBonusSendCodeToFriend extends StatefulWidget {
+  const WalletDoneForWalletBonusSendCodeToFriend({super.key});
 
   @override
-  State<WarrantyDoneState> createState() => _WarrantyDoneState();
+  State<WalletDoneForWalletBonusSendCodeToFriend> createState() => _WalletDoneForWalletBonusSendCodeToFriendState();
 }
 
-class _WarrantyDoneState extends State<WarrantyDoneState> {
+class _WalletDoneForWalletBonusSendCodeToFriendState extends State<WalletDoneForWalletBonusSendCodeToFriend> {
   @override
   void initState() {
     super.initState();
@@ -22,8 +23,9 @@ class _WarrantyDoneState extends State<WarrantyDoneState> {
       if (!mounted) return;
       useNavigateToPageWidget(
         context,
-        const WarrantySubscription(),
+        const WalletForWalletBonusSendCodeToFriend(),
         closeSheet: true,
+        type:NavigateType.removePrevious,
       );
     });
   }

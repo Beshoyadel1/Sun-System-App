@@ -14,6 +14,30 @@ class AppLocalizations {
 
   static final Map<String, Map<String, String>> _localizedValues = {
     'ar': {
+      ////Wallet- Bonus - Send code to friend////
+      AppLanguageKeys.wallet: 'المحفظة',
+      AppLanguageKeys.currentBalance: 'رصيد الحالي',
+      AppLanguageKeys.rechargeWallet: 'شحن المحفظة',
+      AppLanguageKeys.walletTransactionDetails: 'تفاصيل عمليات المحفظة',
+      AppLanguageKeys.viewAll: 'عرض الكل',
+      AppLanguageKeys.bonusBalance: 'هدية رصيد اضافي',
+      AppLanguageKeys.payMaintenanceService: 'دفع خدمة لصيانة اصلاح',
+      AppLanguageKeys.rechargeFromVisa: 'شحن رصيد من رقم فيز 555',
+      AppLanguageKeys.points: 'النقاط',
+      AppLanguageKeys.myPoints: 'جميع نقاطي',
+      AppLanguageKeys.pointsDetails: 'تفاصيل النقاط',
+      AppLanguageKeys.bonusPoints: 'هدية نقاط',
+      AppLanguageKeys.redeemPointsService: 'خصم نقاط لاستخدمها في خدمة',
+      AppLanguageKeys.rechargeFromVisaPoints: 'شحن رصيد من رقم فيز 555',
+      AppLanguageKeys.inviteFriendText: 'ارسل الكود لصديقك واحصل علي 50 ريال عند الاشتراك لأول مره',
+      AppLanguageKeys.referralCode: 'الكود',
+      AppLanguageKeys.copyCode: 'نسخ الكود',
+      AppLanguageKeys.shareLink: 'مشاركة الرابط',
+      AppLanguageKeys.sendToFriend: 'ارسل لصديقك',
+      AppLanguageKeys.codeCopiedSuccessfully: 'تم نسخ الكود بنجاح!',
+
+      ////End////
+
       ////Warranty////
       AppLanguageKeys.warrantyPeriod: 'لمدة 5 سنوات',
       AppLanguageKeys.warrantyServiceCenters: 'الاستفادة من ضمان الخدمات عبر مراكزنا المعتمدة',
@@ -254,6 +278,30 @@ class AppLocalizations {
 
     },
     'en': {
+
+      ////Wallet- Bonus - Send code to friend////
+      AppLanguageKeys.wallet: 'Wallet',
+      AppLanguageKeys.currentBalance: 'Current Balance',
+      AppLanguageKeys.rechargeWallet: 'Recharge Wallet',
+      AppLanguageKeys.walletTransactionDetails: 'Wallet Transaction Details',
+      AppLanguageKeys.viewAll: 'View All',
+      AppLanguageKeys.bonusBalance: 'Bonus Balance',
+      AppLanguageKeys.payMaintenanceService: 'Pay Maintenance Service',
+      AppLanguageKeys.rechargeFromVisa: 'Recharge from Visa No. 555',
+      AppLanguageKeys.points: 'Points',
+      AppLanguageKeys.myPoints: 'My Points',
+      AppLanguageKeys.pointsDetails: 'Points Details',
+      AppLanguageKeys.bonusPoints: 'Bonus Points',
+      AppLanguageKeys.redeemPointsService: 'Redeem Points for Service',
+      AppLanguageKeys.rechargeFromVisaPoints: 'Recharge from Visa No. 555',
+      AppLanguageKeys.inviteFriendText: 'Send the code to your friend and get 50 SAR on their first subscription',
+      AppLanguageKeys.referralCode: 'Code',
+      AppLanguageKeys.copyCode: 'Copy Code',
+      AppLanguageKeys.shareLink: 'Share Link',
+      AppLanguageKeys.sendToFriend: 'Send to Friend',
+      AppLanguageKeys.codeCopiedSuccessfully: 'Code copied successfully!',
+
+      ////End////
 
       ////Warranty////
       AppLanguageKeys.warrantyPeriod: 'For 5 years',

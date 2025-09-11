@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/features/warranty/custom_widget/row_number_coin_widget.dart';
+import '../../../../../features/warranty/custom_widget/row_number_coin_widget.dart';
 import '../../../../../core/theming/text_styles.dart';
 import '../../../../../features/profile/custom_widget/container_list_container_text_notifications_widget.dart';
 import '../../../../../core/language/language_constant.dart';
