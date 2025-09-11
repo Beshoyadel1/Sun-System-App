@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sun_system_app/features/wallet_bonus_send_code_to_friend/wallet_done_for_wallet_bonus_send_code_to_friend/ui/wallet_done_for_wallet_bonus_send_code_to_friend.dart';
+import 'package:sun_system_app/features/wallet_bonus_send_code_to_friend/wallet_payment_for_wallet_bonus_send_code_to_friend/logic/wallet_cubit.dart';
+import 'package:sun_system_app/features/wallet_bonus_send_code_to_friend/wallet_payment_for_wallet_bonus_send_code_to_friend/logic/wallet_state.dart';
 import 'package:sun_system_app/features/warranty/custom_widget/height_cubit.dart';
 import 'package:sun_system_app/features/warranty/warranty_subscription/ui/warranty_subscription.dart';
 import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
@@ -16,15 +18,15 @@ import '../../../../../core/theming/colors.dart';
 
 
 class LastButtonWalletPaymentForWalletBonusSendCodeToFriend extends StatefulWidget {
-
-
-  const LastButtonWalletPaymentForWalletBonusSendCodeToFriend ({super.key});
+  const LastButtonWalletPaymentForWalletBonusSendCodeToFriend({super.key});
 
   @override
-  State<LastButtonWalletPaymentForWalletBonusSendCodeToFriend> createState() => _LastButtonWalletPaymentForWalletBonusSendCodeToFriendState();
+  State<LastButtonWalletPaymentForWalletBonusSendCodeToFriend> createState() =>
+      _LastButtonWalletPaymentForWalletBonusSendCodeToFriendState();
 }
 
-class _LastButtonWalletPaymentForWalletBonusSendCodeToFriendState extends State<LastButtonWalletPaymentForWalletBonusSendCodeToFriend> {
+class _LastButtonWalletPaymentForWalletBonusSendCodeToFriendState
+    extends State<LastButtonWalletPaymentForWalletBonusSendCodeToFriend> {
   late RadioPaymentCubit cubit;
   late HeightCubit cubit2;
 
@@ -34,49 +36,53 @@ class _LastButtonWalletPaymentForWalletBonusSendCodeToFriendState extends State<
     cubit = context.read<RadioPaymentCubit>();
     cubit2 = context.read<HeightCubit>();
   }
+
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<RadioPaymentCubit, RadioPaymentState>(
-        buildWhen: (previous, current) {
-          cubit.initializeDefault();
-          return true;
-        },
-        builder:  (context, state) {
-          return  Container(
-            width: 500,
-            decoration: BoxDecoration(
-              color: AppColors.orangeColor,
-              borderRadius: const BorderRadius.vertical(top: Radius.circular(30)),
-            ),
-            padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 30),
-            child: ButtonWidget(
-              text: AppLanguageKeys.payment,
-              textColor: AppColors.darkColor,
-              buttonColor: AppColors.whiteColor,
-              textSize: 12,
-              fontWeightIndex: FontSelectionData.regularFontFamily,
-              heightContainer: 40,
-              borderRadius: 30,
-              onTap: () {
-                if (state.selectedIndex != null && state.selectedImage != null) {
-                  cubit2.changeHeight(300);
-                  Navigator.of(context).push(
-                    NavigateToPageWidget(
-                      WalletDoneForWalletBonusSendCodeToFriend(),
-                    ),
-                  );
-                  // closeSheetAndNavigate(context, WarrantyDoneState());
-                } else {
-                  AppSnackBarWidget.show(
-                    context,
-                    AppLanguageKeys.selectPaymentOptionFirst,
-                  );
-                }
-              },
+      builder: (context, state) {
+        return Container(
+          width: 500,
+          decoration: BoxDecoration(
+            color: AppColors.orangeColor,
+            borderRadius: const BorderRadius.vertical(top: Radius.circular(30)),
+          ),
+          padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 30),
+          child: BlocBuilder<WalletCubit, WalletState>(
+            bloc: walletCubit,
+            buildWhen: (previous, current) => previous.balance != current.balance,
+            builder: (context, walletState) {
+              return ButtonWidget(
+                text: AppLanguageKeys.payment,
+                textColor: AppColors.darkColor,
+                buttonColor: AppColors.whiteColor,
+                textSize: 12,
+                fontWeightIndex: FontSelectionData.regularFontFamily,
+                heightContainer: 40,
+                borderRadius: 30,
+                  onTap: () {
+                    if (state.selectedIndex != null && state.selectedImage != null) {
+                      walletCubit.addRechargeToBalance();
+                      cubit2.changeHeight(300);
 
-            ),
-          );
-        }
+                      Navigator.of(context).push(
+                        NavigateToPageWidget(
+                          const WalletDoneForWalletBonusSendCodeToFriend(),
+                        ),
+                      );
+                    } else {
+                      AppSnackBarWidget.show(
+                        context,
+                        AppLanguageKeys.selectPaymentOptionFirst,
+                      );
+                    }
+                  }
+
+              );
+            },
+          ),
+        );
+      },
     );
   }
 }

@@ -1,5 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:sun_system_app/features/wallet_bonus_send_code_to_friend/wallet_payment_for_wallet_bonus_send_code_to_friend/logic/wallet_cubit.dart';
+import 'package:sun_system_app/features/wallet_bonus_send_code_to_friend/wallet_payment_for_wallet_bonus_send_code_to_friend/logic/wallet_state.dart';
 import 'package:sun_system_app/features/wallet_bonus_send_code_to_friend/wallet_payment_for_wallet_bonus_send_code_to_friend/ui/wallet_payment_for_wallet_bonus_send_code_to_friend.dart';
 import 'package:sun_system_app/features/warranty/custom_widget/show_modal_bottom_sheet_widget.dart';
 import '../../../../../core/pages_widgets/button_widget.dart';
@@ -48,11 +51,16 @@ class FirstPartForWalletForWalletBonusSendCodeToFriend extends StatelessWidget {
             ],
           ),
 
-        RowNumberCoinWidget(
-            numberText: '10.00',
-            sizeText: 30,
-            imageSrc: AppImageKeys.coin3
-        )
+        BlocBuilder<WalletCubit, WalletState>(
+          bloc: walletCubit,
+          builder: (context, state) {
+            return RowNumberCoinWidget(
+              numberText: state.balance,
+              sizeText: 30,
+              imageSrc: AppImageKeys.coin3,
+            );
+          },
+        ),
       ],
     );
   }
