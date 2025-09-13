@@ -1,6 +1,22 @@
 
 class AppLanguageKeys{
 
+  ////Change Car////
+  static const String myCarData = 'myCarData';
+  static const String myCar = 'myCar';
+  static const String setAsPrimaryCar = 'setAsPrimaryCar';
+  static const String wifeCar = 'wifeCar';
+  static const String replaceCarAsAccount = 'replaceCarAsAccount';
+  static const String mySecondCar = 'mySecondCar';
+  static const String carBills = 'carBills';
+  static const String carOwner = 'carOwner';
+  static const String carChassisNumber = 'carChassisNumber';
+  static const String carLicense = 'carLicense';
+  static const String carFiles = 'carFiles';
+  static const String transferCar = 'transferCar';
+  static const String deleteCar = 'deleteCar';
+  ////END////
+
   ////Wallet- Bonus - Send code to friend////
   static const String wallet = 'wallet';
   static const String currentBalance = 'currentBalance';

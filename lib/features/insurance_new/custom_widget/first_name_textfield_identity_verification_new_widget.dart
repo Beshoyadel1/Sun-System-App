@@ -19,7 +19,7 @@ class FirstNameTextfieldIdentityVerificationNewWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     final TextEditingController textFormController = TextEditingController();
     return Column(
-      spacing: 10,
+      spacing: 7,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
           TextInAppWidget(
@@ -33,6 +33,7 @@ class FirstNameTextfieldIdentityVerificationNewWidget extends StatelessWidget {
           fillColor: AppColors.transparent,
           borderColor: AppColors.darkColor.withOpacity(0.2),
           hintText:hint,
+          contentPadding: EdgeInsetsGeometry.all(10),
           hintTextSize: 10,
           hintTextColor: AppColors.darkColor.withOpacity(0.4),
           textSize: 15,

@@ -1,5 +1,14 @@
 class AppImageKeys{
 
+  ////Change Car////
+  static const String  car2='assets/images/car2.png';
+  static const String  car3='assets/images/car3.png';
+  static const String  car4='assets/images/car4.png';
+  static const String  test_car='assets/images/test_car.png';
+  static const String  file2='assets/images/file2.png';
+
+  ////END////
+
   ////Wallet- Bonus - Send code to friend////
   static const String  app1='assets/images/app1.png';
   static const String  app2='assets/images/app2.png';

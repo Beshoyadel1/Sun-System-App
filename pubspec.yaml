@@ -47,7 +47,7 @@ dependencies:
   latlong2:
   location:
   geolocator: ^14.0.2
-
+  file_picker: ^10.3.3
 
 
 

@@ -14,6 +14,22 @@ class AppLocalizations {
 
   static final Map<String, Map<String, String>> _localizedValues = {
     'ar': {
+      ////Change Car////
+      AppLanguageKeys.myCarData: 'بيانات سيارتي',
+      AppLanguageKeys.myCar: 'سيارتي',
+      AppLanguageKeys.setAsPrimaryCar: 'استخدام سيارة كحساب رئيسي',
+      AppLanguageKeys.wifeCar: 'سيارة زوجتي',
+      AppLanguageKeys.replaceCarAsAccount: 'استبدال السيارة كحساب',
+      AppLanguageKeys.mySecondCar: 'سيارتي الثانية',
+      AppLanguageKeys.carBills: 'فواتير السيارة',
+      AppLanguageKeys.carOwner: 'صاحب السيارة',
+      AppLanguageKeys.carChassisNumber: 'رقم الشاصيه',
+      AppLanguageKeys.carLicense: 'رخصة السيارة',
+      AppLanguageKeys.carFiles: 'ملفات السيارة',
+      AppLanguageKeys.transferCar: 'نقل لمستخدم أخر',
+      AppLanguageKeys.deleteCar: 'حذف السيارة',
+      ////END////
+
       ////Wallet- Bonus - Send code to friend////
       AppLanguageKeys.wallet: 'المحفظة',
       AppLanguageKeys.currentBalance: 'رصيد الحالي',
@@ -278,6 +294,22 @@ class AppLocalizations {
 
     },
     'en': {
+
+      ////Change Car////
+      AppLanguageKeys.myCarData: 'My Car Data',
+      AppLanguageKeys.myCar: 'My Car',
+      AppLanguageKeys.setAsPrimaryCar: 'Use Car as Primary Account',
+      AppLanguageKeys.wifeCar: 'My Wife\'s Car',
+      AppLanguageKeys.replaceCarAsAccount: 'Replace Car as Account',
+      AppLanguageKeys.mySecondCar: 'My Second Car',
+      AppLanguageKeys.carBills: 'Car Bills',
+      AppLanguageKeys.carOwner: 'Car Owner',
+      AppLanguageKeys.carChassisNumber: 'Chassis Number',
+      AppLanguageKeys.carLicense: 'Car License',
+      AppLanguageKeys.carFiles: 'Car Files',
+      AppLanguageKeys.transferCar: 'Transfer to another user',
+      AppLanguageKeys.deleteCar: 'Delete Car',
+      ////END////
 
       ////Wallet- Bonus - Send code to friend////
       AppLanguageKeys.wallet: 'Wallet',
