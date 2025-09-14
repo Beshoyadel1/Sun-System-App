@@ -1,6 +1,23 @@
 
 class AppLanguageKeys{
 
+  ////Request - Service////
+  static const String selectServiceType = 'selectServiceType';
+  static const String roadService = 'roadService';
+  static const String serviceDetails = 'serviceDetails';
+  static const String desiredServicePrice = 'desiredServicePrice';
+  static const String serviceCompletionTime = 'serviceCompletionTime';
+  static const String selectCurrentLocation = 'selectCurrentLocation';
+  static const String createServiceRequest = 'createServiceRequest';
+  static const String saturday = 'saturday';
+  static const String sunday = 'sunday';
+  static const String monday = 'monday';
+  static const String tuesday = 'tuesday';
+  static const String wednesday = 'wednesday';
+  static const String thursday = 'thursday';
+  static const String friday = 'friday';
+  ////End////
+
   ////Change Car////
   static const String myCarData = 'myCarData';
   static const String myCar = 'myCar';
@@ -142,6 +159,8 @@ class AppLanguageKeys{
   static const String selectPaymentOptionFirst = 'selectPaymentOptionFirst';
   static const String thirdInstallmentDetails = 'thirdInstallmentDetails';
   static const String paidBy = 'paidBy';
+  static const String enterYourData = 'enterYourData';
+  static const String waitingForOffers = 'waitingForOffers';
 
   ////End////
 

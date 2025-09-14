@@ -1,5 +1,20 @@
 class AppImageKeys{
 
+  ////Request - Service////
+  static const String  service1='assets/images/service1.png';
+  static const String  service2='assets/images/service2.png';
+  static const String  service3='assets/images/service3.png';
+  static const String  service4='assets/images/service4.png';
+
+  static const String  service11='assets/images/service11.png';
+  static const String  service22='assets/images/service22.png';
+  static const String  service33='assets/images/service33.png';
+  static const String  service44='assets/images/service44.png';
+  static const String  map11='assets/images/map11.png';
+
+  ////End////
+
+
   ////Change Car////
   static const String  car2='assets/images/car2.png';
   static const String  car3='assets/images/car3.png';

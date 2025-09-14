@@ -14,6 +14,26 @@ class AppLocalizations {
 
   static final Map<String, Map<String, String>> _localizedValues = {
     'ar': {
+
+      ////Request - Service////
+      AppLanguageKeys.selectServiceType: 'أختر نوع الخدمة',
+      AppLanguageKeys.roadService: 'خدمة الطريق',
+      AppLanguageKeys.serviceDetails: 'تفاصيل الخدمة التي تحتاجها',
+      AppLanguageKeys.desiredServicePrice: 'سعر الخدمة المرغوب دفعها',
+      AppLanguageKeys.serviceCompletionTime: 'متي تريد انهاء الخدمة',
+      AppLanguageKeys.selectCurrentLocation: 'تحديد موقعك الحالي',
+      AppLanguageKeys.createServiceRequest: 'إنشاء طلب خدمة',
+      AppLanguageKeys.saturday: 'السبت',
+      AppLanguageKeys.sunday: 'الأحد',
+      AppLanguageKeys.monday: 'الاثنين',
+      AppLanguageKeys.tuesday: 'الثلاثاء',
+      AppLanguageKeys.wednesday: 'الأربعاء',
+      AppLanguageKeys.thursday: 'الخميس',
+      AppLanguageKeys.friday: 'الجمعة',
+      AppLanguageKeys.enterYourData: 'أدخل بياناتك',
+      AppLanguageKeys.waitingForOffers: 'في انتظار استقبال العروض',
+      ////End////
+
       ////Change Car////
       AppLanguageKeys.myCarData: 'بيانات سيارتي',
       AppLanguageKeys.myCar: 'سيارتي',
@@ -247,7 +267,7 @@ class AppLocalizations {
       AppLanguageKeys.locationNotFound: "المكان غير موجود",
       AppLanguageKeys.yourLocation: 'موقعك الجغرافي',
       AppLanguageKeys.nearbyServices: 'لاستعراض خدمات قريبة منك',
-      AppLanguageKeys.maintenanceAndRepair: 'خدمات الصيانة والاصلاح',
+      AppLanguageKeys.maintenanceAndRepair: 'الصيانة والاصلاح',
       AppLanguageKeys.oilChange: 'تغيير الزيوت',
       AppLanguageKeys.highways: 'الطرق السريعة',
       AppLanguageKeys.carElectricity: 'كهرباء سيارات',
@@ -294,6 +314,26 @@ class AppLocalizations {
 
     },
     'en': {
+
+      ////Request - Service////
+      AppLanguageKeys.selectServiceType: 'Select Service Type',
+      AppLanguageKeys.roadService: 'Roadside Service',
+      AppLanguageKeys.serviceDetails: 'Service Details Needed',
+      AppLanguageKeys.desiredServicePrice: 'Desired Service Price',
+      AppLanguageKeys.serviceCompletionTime: 'When do you want the service completed?',
+      AppLanguageKeys.selectCurrentLocation: 'Select Your Current Location',
+      AppLanguageKeys.createServiceRequest: 'Create Service Request',
+      AppLanguageKeys.saturday: 'Saturday',
+      AppLanguageKeys.sunday: 'Sunday',
+      AppLanguageKeys.monday: 'Monday',
+      AppLanguageKeys.tuesday: 'Tuesday',
+      AppLanguageKeys.wednesday: 'Wednesday',
+      AppLanguageKeys.thursday: 'Thursday',
+      AppLanguageKeys.friday: 'Friday',
+      AppLanguageKeys.enterYourData: 'Enter your data',
+      AppLanguageKeys.waitingForOffers: 'Waiting to receive offers',
+
+      ////End////
 
       ////Change Car////
       AppLanguageKeys.myCarData: 'My Car Data',

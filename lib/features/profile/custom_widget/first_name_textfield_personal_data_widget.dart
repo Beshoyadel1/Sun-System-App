@@ -14,13 +14,18 @@ class FirstNameTextfieldPersonalDataWidget extends StatefulWidget {
   final String? hint;
   final bool isLanguage;
   final bool isCard;
-
+  final bool? isRegular;
+  final int? maxLines;
+  final TextEditingController? textFormController;
   const FirstNameTextfieldPersonalDataWidget({
     super.key,
     required this.name,
     this.hint,
     this.isLanguage = false,
-    this.isCard=false
+    this.isCard=false,
+    this.isRegular=false,
+    this.maxLines,
+    this.textFormController,
   });
 
   @override
@@ -30,15 +35,16 @@ class FirstNameTextfieldPersonalDataWidget extends StatefulWidget {
 class _FirstNameTextfieldPersonalDataWidgetState extends State<FirstNameTextfieldPersonalDataWidget> {
 
   late LanguageCubit cubit;
+  late TextEditingController textFormController2;
 
   @override
   void initState() {
     super.initState();
     cubit = LanguageCubit.get(context);
+    textFormController2 = TextEditingController();
   }
   @override
   Widget build(BuildContext context) {
-    final TextEditingController textFormController = TextEditingController();
 
     return Column(
       spacing: 10,
@@ -47,10 +53,9 @@ class _FirstNameTextfieldPersonalDataWidgetState extends State<FirstNameTextfiel
         TextInAppWidget(
           text: widget.name,
           textSize: 12,
-          fontWeightIndex: FontSelectionData.mediumFontFamily,
-          textColor: AppColors.greyColor,
+          fontWeightIndex: widget.isRegular!? FontSelectionData.regularFontFamily:FontSelectionData.mediumFontFamily,
+          textColor: widget.isRegular!?AppColors.blackColor44:AppColors.greyColor,
         ),
-
         if (widget.isLanguage)
           BlocBuilder<LanguageCubit, LanguageStates>(
             builder: (context, state) {
@@ -100,16 +105,17 @@ class _FirstNameTextfieldPersonalDataWidgetState extends State<FirstNameTextfiel
               ],
             ):null,
             child: TextFormFieldWidget(
-              textFormController: textFormController,
+              textFormController: widget.textFormController ?? textFormController2,
               fillColor: AppColors.transparent,
               borderColor: AppColors.darkColor.withOpacity(0.2),
               hintText: widget.hint,
-              hintTextSize: 15,
+              hintTextSize: 12,
               hintTextColor: AppColors.darkColor.withOpacity(0.4),
               textSize: 15,
               textFormWidth: 500,
               enabledBorderRadius: widget.isCard?BorderRadius.all(CupertinoScrollbar.defaultRadius):null,
-              contentPadding: const EdgeInsets.symmetric(horizontal: 10),
+              contentPadding: const EdgeInsets.symmetric(horizontal: 10,vertical: 10),
+              maxLines: widget.maxLines,
             ),
           ),
       ],
