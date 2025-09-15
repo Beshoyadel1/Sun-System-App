@@ -15,7 +15,7 @@ class ContainerBestOffer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height:30,
-      width: 200,
+      width: 120,
       decoration: BoxDecoration(
         color: AppColors.redColor.withOpacity(0.1),
         borderRadius: BorderRadius.circular(20),

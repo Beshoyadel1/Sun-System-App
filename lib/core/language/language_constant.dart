@@ -16,6 +16,20 @@ class AppLanguageKeys{
   static const String wednesday = 'wednesday';
   static const String thursday = 'thursday';
   static const String friday = 'friday';
+  static const String serviceCenterOffers = 'serviceCenterOffers';
+  static const String mobileMaintenanceOffer = 'mobileMaintenanceOffer';
+  static const String repairCenterName = 'repairCenterName';
+  static const String acceptOffer = 'acceptOffer';
+  static const String rejectRequest = 'rejectRequest';
+  static const String withinOneDay = 'withinOneDay';
+  static const String requestNumber = 'requestNumber';
+  static const String daysAgo = 'daysAgo';
+  static const String expectedArrival = 'expectedArrival';
+  static const String notes = 'notes';
+  static const String contactMaintenanceRep = 'contactMaintenanceRep';
+  static const String maintenanceRep = 'maintenanceRep';
+  static const String trackTechnician = 'trackTechnician';
+  static const String openMap = 'openMap';
   ////End////
 
   ////Change Car////

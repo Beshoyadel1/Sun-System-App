@@ -11,6 +11,9 @@ class AppImageKeys{
   static const String  service33='assets/images/service33.png';
   static const String  service44='assets/images/service44.png';
   static const String  map11='assets/images/map11.png';
+  static const String  best1='assets/images/best1.png';
+  static const String  test100='assets/images/test100.png';
+  static const String  person10='assets/images/person10.png';
 
   ////End////
 

@@ -13,7 +13,9 @@ import '../../../../../core/theming/text_styles.dart';
 import '../../../../../core/theming/assets.dart';
 
 class SelectTheTypeOfService extends StatefulWidget {
-  const SelectTheTypeOfService({super.key});
+  final ServiceSelectionCubit cubit;
+
+  const SelectTheTypeOfService({super.key, required this.cubit});
 
   @override
   State<SelectTheTypeOfService> createState() => _SelectTheTypeOfServiceState();
@@ -26,23 +28,23 @@ class _SelectTheTypeOfServiceState extends State<SelectTheTypeOfService> {
   void initState() {
     super.initState();
     selectedIndex = 0;
-    context.read<ServiceSelectionCubit>().selectService(selectedIndex!);
+    final item = service[selectedIndex!];
+    widget.cubit.selectService(selectedIndex!, item['imgPathSelect']!, item['text']!);
   }
 
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<ServiceSelectionCubit, ServiceSelectionState>(
-      buildWhen: (previous, current) =>
-      current is ServiceSelected,
+      bloc: widget.cubit,
+      buildWhen: (previous, current) => current is ServiceSelected,
       builder: (context, state) {
         if (state is ServiceSelected) {
           selectedIndex = state.index;
         }
         return Column(
-          spacing: 10,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            TextInSelectTheTypeOfService(text:AppLanguageKeys.selectServiceType),
+            TextInSelectTheTypeOfService(text: AppLanguageKeys.selectServiceType),
             Row(
               children: List.generate(service.length, (index) {
                 final item = service[index];
@@ -50,7 +52,7 @@ class _SelectTheTypeOfServiceState extends State<SelectTheTypeOfService> {
                 return Expanded(
                   child: GestureDetector(
                     onTap: () {
-                      context.read<ServiceSelectionCubit>().selectService(index);
+                      widget.cubit.selectService(index, item['imgPathSelect']!, item['text']!);
                     },
                     child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 2.0),
@@ -71,6 +73,9 @@ class _SelectTheTypeOfServiceState extends State<SelectTheTypeOfService> {
     );
   }
 }
+
+
+
 
 final service = [
   {

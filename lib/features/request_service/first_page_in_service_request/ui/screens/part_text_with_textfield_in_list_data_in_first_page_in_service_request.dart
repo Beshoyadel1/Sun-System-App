@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import '../../../../../core/theming/text_styles.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../features/profile/custom_widget/first_name_textfield_personal_data_widget.dart';
-import '../../../../../features/request_service/first_page_in_service_request/ui/screens/select_the_type_of_service_screen.dart';
 import '../../../../../features/request_service/first_page_in_service_request/ui/screens/select_the_type_of_service.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../core/theming/fonts.dart';

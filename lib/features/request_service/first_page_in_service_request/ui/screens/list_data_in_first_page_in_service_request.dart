@@ -6,13 +6,14 @@ import 'package:sun_system_app/features/Insurance/custom_widget/app_snack_bar.da
 import 'package:sun_system_app/features/request_service/custom_widget/circular_progress_indicator_with_text_widget.dart';
 import 'package:sun_system_app/features/request_service/first_page_in_service_request/logic/request_service_cubit/request_service_cubit.dart';
 import 'package:sun_system_app/features/request_service/first_page_in_service_request/logic/request_service_cubit/request_service_state.dart';
+import 'package:sun_system_app/features/request_service/first_page_in_service_request/logic/select_service_cubit/service_selection_cubit.dart';
+import 'package:sun_system_app/features/request_service/first_page_in_service_request/ui/screens/row_circle_image_text_loading.dart';
 import 'package:sun_system_app/features/request_service/offers_presented_in_service_request/ui/offers_presented_in_service_request.dart';
 import '../../../../../features/request_service/first_page_in_service_request/ui/screens/last_button_in_list_data_in_first_page_in_service_request.dart';
 import '../../../../../features/request_service/first_page_in_service_request/ui/screens/map_in_list_data_in_first_page_in_service_request.dart';
 import '../../../../../features/request_service/first_page_in_service_request/ui/screens/select_time_of_service_screen.dart';
-import '../../../../../features/request_service/first_page_in_service_request/ui/screens/part_finish_service_in_list_data_in_first_page_in_service_request.dart';
+import '../../../../../features/request_service/first_page_in_service_request/ui/screens/part_finish_service_in_list_data_in_first_page_in_service_request.dart' hide service;
 import '../../../../../features/request_service/first_page_in_service_request/ui/screens/part_text_with_textfield_in_list_data_in_first_page_in_service_request.dart';
-import '../../../../../features/request_service/first_page_in_service_request/ui/screens/select_the_type_of_service_screen.dart';
 import '../../../../../features/request_service/first_page_in_service_request/ui/screens/select_the_type_of_service.dart';
 
 import 'package:flutter/material.dart';
@@ -23,14 +24,13 @@ class ListDataInFirstPageInServiceRequest extends StatefulWidget {
   const ListDataInFirstPageInServiceRequest({super.key});
 
   @override
-  State<ListDataInFirstPageInServiceRequest> createState() =>
-      _ListDataInFirstPageInServiceRequestState();
+  State<ListDataInFirstPageInServiceRequest> createState() => _ListDataInFirstPageInServiceRequestState();
 }
 
-class _ListDataInFirstPageInServiceRequestState
-    extends State<ListDataInFirstPageInServiceRequest> {
+class _ListDataInFirstPageInServiceRequestState extends State<ListDataInFirstPageInServiceRequest> {
   late TextEditingController textFormController1, textFormController2;
   late RequestServiceCubit cubit;
+  late ServiceSelectionCubit serviceCubit;
 
   @override
   void initState() {
@@ -38,7 +38,21 @@ class _ListDataInFirstPageInServiceRequestState
     textFormController1 = TextEditingController();
     textFormController2 = TextEditingController();
     cubit = RequestServiceCubit();
+    serviceCubit = ServiceSelectionCubit();
+
+    final defaultItem = service[0];
+    serviceCubit.selectService(0, defaultItem['imgPathSelect']!, defaultItem['text']!);
   }
+
+  @override
+  void dispose() {
+    textFormController1.dispose();
+    textFormController2.dispose();
+    cubit.close();
+    serviceCubit.close();
+    super.dispose();
+  }
+
 
   @override
   Widget build(BuildContext context) {
@@ -55,16 +69,17 @@ class _ListDataInFirstPageInServiceRequestState
           builder: (context, state) {
             if (state is RequestServiceError) {
               WidgetsBinding.instance.addPostFrameCallback((_) {
-                AppSnackBarWidget.show(context,
-                    AppLanguageKeys.enterYourData
-                );
+                AppSnackBarWidget.show(context, AppLanguageKeys.enterYourData);
               });
             }
 
             if (state is RequestServiceSuccess) {
               WidgetsBinding.instance.addPostFrameCallback((_) {
                 Navigator.of(context).push(
-                  NavigateToPageWidget(OffersPresentedInServiceRequest()),
+                  NavigateToPageWidget(
+                      OffersPresentedInServiceRequest(
+                        serviceCubit: serviceCubit,
+                  )),
                 );
               });
             }
@@ -75,6 +90,7 @@ class _ListDataInFirstPageInServiceRequestState
                 mainAxisAlignment: MainAxisAlignment.center,
                 spacing: 5,
                 children: [
+                  RowCircleImageTextLoading(cubit: serviceCubit),
                   SizedBox(height: 50,),
                   CircularProgressIndicatorWithTextWidget(text: AppLanguageKeys.waitingForOffers),
                 ],
@@ -84,7 +100,7 @@ class _ListDataInFirstPageInServiceRequestState
             return Column(
               spacing: 30,
               children: [
-                SelectTheTypeOfServiceScreen(),
+                SelectTheTypeOfService(cubit: serviceCubit),
                 PartTextWithTextFieldInListDataInFirstPageInServiceRequest(
                   textFormController1: textFormController1,
                   textFormController2: textFormController2,

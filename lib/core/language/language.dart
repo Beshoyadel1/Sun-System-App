@@ -32,6 +32,21 @@ class AppLocalizations {
       AppLanguageKeys.friday: 'الجمعة',
       AppLanguageKeys.enterYourData: 'أدخل بياناتك',
       AppLanguageKeys.waitingForOffers: 'في انتظار استقبال العروض',
+      AppLanguageKeys.serviceCenterOffers: 'العروض المقدمة من مراكز الخدمة',
+      AppLanguageKeys.mobileMaintenanceOffer: 'صيانة متنقلة',
+      AppLanguageKeys.repairCenterName: 'أسم مركز الاصلاح',
+      AppLanguageKeys.acceptOffer: 'قبول العرض',
+      AppLanguageKeys.rejectRequest: 'رفض الطلب',
+      AppLanguageKeys.withinOneDay: 'خلال يوم واحد',
+
+      AppLanguageKeys.requestNumber: 'طلب 44121',
+      AppLanguageKeys.daysAgo: 'منذ يومين',
+      AppLanguageKeys.expectedArrival: 'توقع الوصول',
+      AppLanguageKeys.notes: 'الملاحظات',
+      AppLanguageKeys.contactMaintenanceRep: 'التواصل مع مندوب الصيانة',
+      AppLanguageKeys.maintenanceRep: 'مندوب الصيانة',
+      AppLanguageKeys.trackTechnician: 'تتبع الفني',
+      AppLanguageKeys.openMap: 'فتح الخريطة',
       ////End////
 
       ////Change Car////
@@ -332,7 +347,20 @@ class AppLocalizations {
       AppLanguageKeys.friday: 'Friday',
       AppLanguageKeys.enterYourData: 'Enter your data',
       AppLanguageKeys.waitingForOffers: 'Waiting to receive offers',
-
+      AppLanguageKeys.serviceCenterOffers: 'Offers from Service Centers',
+      AppLanguageKeys.mobileMaintenanceOffer: 'Mobile Maintenance',
+      AppLanguageKeys.repairCenterName: 'Repair Center Name',
+      AppLanguageKeys.acceptOffer: 'Accept Offer',
+      AppLanguageKeys.rejectRequest: 'Reject Request',
+      AppLanguageKeys.withinOneDay: 'Within One Day',
+      AppLanguageKeys.requestNumber: 'Request 44121',
+      AppLanguageKeys.daysAgo: '2 days ago',
+      AppLanguageKeys.expectedArrival: 'Expected Arrival',
+      AppLanguageKeys.notes: 'Notes',
+      AppLanguageKeys.contactMaintenanceRep: 'Contact Maintenance Rep',
+      AppLanguageKeys.maintenanceRep: 'Maintenance Rep',
+      AppLanguageKeys.trackTechnician: 'Track Technician',
+      AppLanguageKeys.openMap: 'Open Map',
       ////End////
 
       ////Change Car////
