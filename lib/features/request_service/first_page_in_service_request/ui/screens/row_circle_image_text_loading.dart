@@ -25,6 +25,7 @@ class RowCircleImageTextLoading extends StatelessWidget {
     }
 
     return Row(
+      spacing: 10,
       children: [
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 15),

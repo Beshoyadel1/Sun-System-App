@@ -30,6 +30,16 @@ class AppLanguageKeys{
   static const String maintenanceRep = 'maintenanceRep';
   static const String trackTechnician = 'trackTechnician';
   static const String openMap = 'openMap';
+  static const String payBill = 'payBill';
+  static const String brakeRepair = 'brakeRepair';
+  static const String electricalRepair = 'electricalRepair';
+  static const String totalServices = 'totalServices';
+  static const String mobileService = 'mobileService';
+  static const String serviceRequest = 'serviceRequest';
+  static const String serviceProvidersArrival = 'serviceProvidersArrival';
+  static const String serviceCompleted = 'serviceCompleted';
+  static const String serviceRating = 'serviceRating';
+  static const String notRatedYet = 'notRatedYet';
   ////End////
 
   ////Change Car////

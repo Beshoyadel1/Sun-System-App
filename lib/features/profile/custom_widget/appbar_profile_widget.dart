@@ -7,15 +7,16 @@ import '../../../../core/theming/colors.dart';
 class AppbarProfileWidget extends StatelessWidget implements PreferredSizeWidget {
   final String title;
   final VoidCallback? onTap;
+  final Color? color;
 
-  const AppbarProfileWidget({super.key, this.onTap,required this.title});
+  const AppbarProfileWidget({super.key, this.onTap,required this.title, this.color});
 
   @override
   Widget build(BuildContext context) {
     return AppBar(
       elevation: 0,
-      backgroundColor: Colors.transparent,
-      flexibleSpace: Container(color: AppColors.scaffoldColor),
+      backgroundColor: AppColors.transparent,
+      flexibleSpace: Container( color: color ?? AppColors.scaffoldColor,),
       title: TextInAppWidget(
         text: title,
         textSize: 18,

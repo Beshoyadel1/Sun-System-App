@@ -15,36 +15,34 @@ import 'package:sun_system_app/features/warranty/custom_widget/row_number_coin_w
 
 class ContainerIconWidget extends StatelessWidget {
   final void Function()? onPressed;
-  final IconData icon;
-  const ContainerIconWidget({super.key ,this.onPressed, required this.icon});
+  final String imagPath;
+  final void Function()? onTap;
+  const ContainerIconWidget({super.key ,this.onPressed, required this.imagPath,this.onTap});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: 40,
-      height: 40,
-      decoration: BoxDecoration(
-        color: AppColors.orangeColor,
-        shape: BoxShape.circle,
-        border: Border.all(
-            color: AppColors.transparent
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: AppColors.darkColor.withOpacity(0.1),
-            blurRadius: 4,
-            offset: const Offset(0, 2),
+    return InkWell(
+      onTap: onTap,
+      child: Container(
+        width: 40,
+        height: 40,
+        decoration: BoxDecoration(
+          color: AppColors.orangeColor,
+          shape: BoxShape.circle,
+          border: Border.all(
+              color: AppColors.transparent
           ),
-        ],
-      ),
-      child: IconButton(
-        icon: Icon(
-          icon,
-          color: AppColors.whiteColor,
+          boxShadow: [
+            BoxShadow(
+              color: AppColors.darkColor.withOpacity(0.1),
+              blurRadius: 4,
+              offset: const Offset(0, 2),
+            ),
+          ],
         ),
-        onPressed: onPressed
-      )
-      ,
+        child: Image.asset(imagPath)
+        ,
+      ),
     );
   }
 }

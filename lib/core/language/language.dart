@@ -47,6 +47,16 @@ class AppLocalizations {
       AppLanguageKeys.maintenanceRep: 'مندوب الصيانة',
       AppLanguageKeys.trackTechnician: 'تتبع الفني',
       AppLanguageKeys.openMap: 'فتح الخريطة',
+      AppLanguageKeys.payBill: 'دفع فاتورة',
+      AppLanguageKeys.brakeRepair: 'إصلاح نظام الفرامل (تغيير الفحمات - تيل الفرامل)',
+      AppLanguageKeys.electricalRepair: 'إصلاح عطل كهربائي في الأنوار أو العدادات',
+      AppLanguageKeys.totalServices: 'إجمالي الخدمات',
+      AppLanguageKeys.mobileService: 'خدمة متنقلة',
+      AppLanguageKeys.serviceRequest: 'طلب الخدمة',
+      AppLanguageKeys.serviceProvidersArrival: 'وصول مزودي الخدمة',
+      AppLanguageKeys.serviceCompleted: 'انتهاء الخدمة',
+      AppLanguageKeys.serviceRating: 'تقييم الخدمة',
+      AppLanguageKeys.notRatedYet: 'لم يتم تقييم بعد',
       ////End////
 
       ////Change Car////
@@ -361,6 +371,16 @@ class AppLocalizations {
       AppLanguageKeys.maintenanceRep: 'Maintenance Rep',
       AppLanguageKeys.trackTechnician: 'Track Technician',
       AppLanguageKeys.openMap: 'Open Map',
+      AppLanguageKeys.payBill: 'Pay Bill',
+      AppLanguageKeys.brakeRepair: 'Brake System Repair (Brake Pads Replacement)',
+      AppLanguageKeys.electricalRepair: 'Electrical Repair (Lights or Dashboard)',
+      AppLanguageKeys.totalServices: 'Total Services',
+      AppLanguageKeys.mobileService: 'Mobile Service',
+      AppLanguageKeys.serviceRequest: 'Service Request',
+      AppLanguageKeys.serviceProvidersArrival: 'Service Providers Arrival',
+      AppLanguageKeys.serviceCompleted: 'Service Completed',
+      AppLanguageKeys.serviceRating: 'Service Rating',
+      AppLanguageKeys.notRatedYet: 'Not Rated Yet',
       ////End////
 
       ////Change Car////

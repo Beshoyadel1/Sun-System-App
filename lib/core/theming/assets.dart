@@ -14,6 +14,16 @@ class AppImageKeys{
   static const String  best1='assets/images/best1.png';
   static const String  test100='assets/images/test100.png';
   static const String  person10='assets/images/person10.png';
+  static const String  emp='assets/images/emp.png';
+  static const String  call='assets/images/call.png';
+  static const String  message='assets/images/message.png';
+  static const String  mute='assets/images/mute.png';
+  static const String  sound='assets/images/sound.png';
+  static const String  person101='assets/images/person101.png';
+  static const String  call2='assets/images/call2.png';
+  static const String  send='assets/images/send.png';
+  static const String  smile='assets/images/smile.png';
+  static const String  edit5='assets/images/edit5.png';
 
   ////End////
 
