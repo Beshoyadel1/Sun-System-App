@@ -12,13 +12,12 @@ import '../../../../../core/theming/fonts.dart';
 import '../../../../../core/theming/text_styles.dart';
 
 class RowCircleImageTextLoading extends StatelessWidget {
-  final ServiceSelectionCubit cubit;
 
-  const RowCircleImageTextLoading({super.key, required this.cubit});
+  const RowCircleImageTextLoading({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final selectedService = cubit.getSelectedService();
+    final selectedService = ServiceSelectionCubit().getSelectedService();
 
     if (selectedService == null) {
       return const SizedBox();

@@ -8,9 +8,8 @@ import '../../../../core/language/language_constant.dart';
 
 
 class OffersPresentedInServiceRequest extends StatelessWidget {
-  final ServiceSelectionCubit serviceCubit;
 
-  const OffersPresentedInServiceRequest({super.key,required this.serviceCubit});
+  const OffersPresentedInServiceRequest({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +24,6 @@ class OffersPresentedInServiceRequest extends StatelessWidget {
               Expanded(
                 child: SingleChildScrollView(
                    child: ListDataOffersPresentedInServiceRequest(
-                     serviceCubit: serviceCubit,
                    )
                 ),
               ),

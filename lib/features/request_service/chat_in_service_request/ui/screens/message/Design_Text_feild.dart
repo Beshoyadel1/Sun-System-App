@@ -26,7 +26,6 @@ class _DesignTextFieldState extends State<DesignTextField> {
   }
   @override
   Widget build(BuildContext context) {
-
     return Container(
       margin: EdgeInsetsGeometry.all(20),
       width: 500,

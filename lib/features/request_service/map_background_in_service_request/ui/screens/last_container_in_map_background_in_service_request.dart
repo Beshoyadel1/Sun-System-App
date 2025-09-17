@@ -18,12 +18,12 @@ class LastContainerInMapBackgroundInServiceRequest extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Positioned(
-      bottom: 20,
-      left: 20,
-      right: 20,
+    return Align(
+      alignment: AlignmentGeometry.bottomCenter,
       child: Container(
+        width: 500,
         padding: const EdgeInsets.all(16),
+        margin: EdgeInsetsGeometry.all(10),
         decoration: BoxDecoration(
           color: AppColors.whiteColor.withOpacity(0.9),
           borderRadius: BorderRadius.circular(16),

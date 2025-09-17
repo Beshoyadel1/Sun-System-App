@@ -77,7 +77,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const BillPaymentInServiceRequest(),
+          home: const FirstPageInServiceRequest(),
         );
       },
     ),

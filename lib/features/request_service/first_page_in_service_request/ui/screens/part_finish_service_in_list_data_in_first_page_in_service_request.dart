@@ -39,7 +39,6 @@ class _PartFinishServiceInListDataInFirstPageInServiceRequestState extends State
         ),
         const SizedBox(height: 10),
         BlocBuilder<SelectTimeServiceSelectionCubit, SelectTimeServiceSelectionState>(
-        //  bloc: ,
           buildWhen: (previous, current) => current is SelectTimeServiceSelected,
           builder: (context, state) {
             if (state is SelectTimeServiceSelected) {

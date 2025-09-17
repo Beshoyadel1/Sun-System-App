@@ -30,29 +30,13 @@ class ListDataInFirstPageInServiceRequest extends StatefulWidget {
 class _ListDataInFirstPageInServiceRequestState extends State<ListDataInFirstPageInServiceRequest> {
   late TextEditingController textFormController1, textFormController2;
   late RequestServiceCubit cubit;
-  late ServiceSelectionCubit serviceCubit;
-
   @override
   void initState() {
     super.initState();
     textFormController1 = TextEditingController();
     textFormController2 = TextEditingController();
     cubit = RequestServiceCubit();
-    serviceCubit = ServiceSelectionCubit();
-
-    final defaultItem = service[0];
-    serviceCubit.selectService(0, defaultItem['imgPathSelect']!, defaultItem['text']!);
   }
-
-  @override
-  void dispose() {
-    textFormController1.dispose();
-    textFormController2.dispose();
-    cubit.close();
-    serviceCubit.close();
-    super.dispose();
-  }
-
 
   @override
   Widget build(BuildContext context) {
@@ -70,16 +54,15 @@ class _ListDataInFirstPageInServiceRequestState extends State<ListDataInFirstPag
             if (state is RequestServiceError) {
               WidgetsBinding.instance.addPostFrameCallback((_) {
                 AppSnackBarWidget.show(context, AppLanguageKeys.enterYourData);
-              });
+              }
+              );
             }
 
             if (state is RequestServiceSuccess) {
               WidgetsBinding.instance.addPostFrameCallback((_) {
                 Navigator.of(context).push(
                   NavigateToPageWidget(
-                      OffersPresentedInServiceRequest(
-                        serviceCubit: serviceCubit,
-                  )),
+                      OffersPresentedInServiceRequest()),
                 );
               });
             }
@@ -90,7 +73,7 @@ class _ListDataInFirstPageInServiceRequestState extends State<ListDataInFirstPag
                 mainAxisAlignment: MainAxisAlignment.center,
                 spacing: 5,
                 children: [
-                  RowCircleImageTextLoading(cubit: serviceCubit),
+                  RowCircleImageTextLoading(),
                   SizedBox(height: 50,),
                   CircularProgressIndicatorWithTextWidget(text: AppLanguageKeys.waitingForOffers),
                 ],
@@ -100,7 +83,7 @@ class _ListDataInFirstPageInServiceRequestState extends State<ListDataInFirstPag
             return Column(
               spacing: 30,
               children: [
-                SelectTheTypeOfService(cubit: serviceCubit),
+                SelectTheTypeOfService(),
                 PartTextWithTextFieldInListDataInFirstPageInServiceRequest(
                   textFormController1: textFormController1,
                   textFormController2: textFormController2,

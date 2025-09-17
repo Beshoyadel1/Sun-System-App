@@ -13,9 +13,7 @@ import '../../../../../core/theming/text_styles.dart';
 import '../../../../../core/theming/assets.dart';
 
 class SelectTheTypeOfService extends StatefulWidget {
-  final ServiceSelectionCubit cubit;
-
-  const SelectTheTypeOfService({super.key, required this.cubit});
+  const SelectTheTypeOfService({super.key});
 
   @override
   State<SelectTheTypeOfService> createState() => _SelectTheTypeOfServiceState();
@@ -23,19 +21,20 @@ class SelectTheTypeOfService extends StatefulWidget {
 
 class _SelectTheTypeOfServiceState extends State<SelectTheTypeOfService> {
   int? selectedIndex;
+  final serviceCubit = ServiceSelectionCubit(); // Singleton instance
 
   @override
   void initState() {
     super.initState();
     selectedIndex = 0;
     final item = service[selectedIndex!];
-    widget.cubit.selectService(selectedIndex!, item['imgPathSelect']!, item['text']!);
+    serviceCubit.selectService(selectedIndex!, item['imgPathSelect']!, item['text']!);
   }
 
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<ServiceSelectionCubit, ServiceSelectionState>(
-      bloc: widget.cubit,
+      bloc: serviceCubit,
       buildWhen: (previous, current) => current is ServiceSelected,
       builder: (context, state) {
         if (state is ServiceSelected) {
@@ -52,7 +51,7 @@ class _SelectTheTypeOfServiceState extends State<SelectTheTypeOfService> {
                 return Expanded(
                   child: GestureDetector(
                     onTap: () {
-                      widget.cubit.selectService(index, item['imgPathSelect']!, item['text']!);
+                      serviceCubit.selectService(index, item['imgPathSelect']!, item['text']!);
                     },
                     child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 2.0),
@@ -73,8 +72,6 @@ class _SelectTheTypeOfServiceState extends State<SelectTheTypeOfService> {
     );
   }
 }
-
-
 
 
 final service = [

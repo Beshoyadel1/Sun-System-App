@@ -38,16 +38,6 @@ class _OrgLocationWidgetFirstPageInServiceRequestState extends State<OrgLocation
       crossAxisAlignment: CrossAxisAlignment.start,
       spacing: 10,
       children: [
-        if (!isTablet) ...{
-          Text(
-            "Organization Location",
-            style: TextStyle(
-              color: AppColors.orangeColor,
-              fontSize: 14,
-              fontWeight: FontWeight.w600,
-            ),
-          ),
-        },
         Container(
           width: double.infinity,
           height: 230,

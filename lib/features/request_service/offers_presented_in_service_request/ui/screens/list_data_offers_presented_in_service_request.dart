@@ -15,9 +15,8 @@ import 'package:sun_system_app/features/request_service/offers_presented_in_serv
 import 'package:sun_system_app/features/warranty/custom_widget/row_number_coin_widget.dart';
 
 class ListDataOffersPresentedInServiceRequest extends StatelessWidget {
-  final ServiceSelectionCubit serviceCubit;
 
-  const ListDataOffersPresentedInServiceRequest({super.key, required this.serviceCubit});
+  const ListDataOffersPresentedInServiceRequest({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +24,7 @@ class ListDataOffersPresentedInServiceRequest extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       spacing: 20,
       children: [
-        RowCircleImageTextLoading(cubit: serviceCubit),
+        RowCircleImageTextLoading(),
         SizedBox(height: 50,),
         TextInSelectTheTypeOfService(text: AppLanguageKeys.serviceCenterOffers),
         ContainerDataListOffer(
