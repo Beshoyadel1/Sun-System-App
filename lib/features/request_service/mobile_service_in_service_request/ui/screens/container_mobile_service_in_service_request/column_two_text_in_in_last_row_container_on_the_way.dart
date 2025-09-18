@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
 import 'package:sun_system_app/core/theming/colors.dart';
 import 'package:sun_system_app/core/theming/fonts.dart';
 import 'package:sun_system_app/core/theming/text_styles.dart';
@@ -15,9 +13,9 @@ class ColumnTwoTextInInLastRowContainerMobileServiceInServiceRequest extends Sta
   Widget build(BuildContext context) {
     return InkWell(
       onTap: (){
-        Navigator.of(context).push(
-          NavigateToPageWidget(
-              RatingDialogWidget()),
+        showDialog(
+          context: context,
+          builder: (context) =>  RatingDialogWidget(),
         );
       },
       child: Container(

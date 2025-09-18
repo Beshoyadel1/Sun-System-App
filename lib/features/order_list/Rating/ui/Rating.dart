@@ -11,29 +11,40 @@ import 'package:sun_system_app/features/order_list/Rating/logic/rating_cubit.dar
 import 'package:sun_system_app/features/order_list/Rating/logic/rating_state.dart';
 import 'package:sun_system_app/features/profile/custom_widget/first_name_textfield_personal_data_widget.dart';
 
-class RatingDialogWidget extends StatelessWidget {
+class RatingDialogWidget extends StatefulWidget {
   RatingDialogWidget({super.key});
 
+  @override
+  State<RatingDialogWidget> createState() => _RatingDialogWidgetState();
+}
+
+class _RatingDialogWidgetState extends State<RatingDialogWidget> {
   final TextEditingController _commentController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     final cubit = RatingCubit();
 
-    return Dialog(
-      backgroundColor: Colors.transparent,
-      insetPadding: const EdgeInsets.all(16),
-      child: BackdropFilter(
-        filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
-        child: Container(
-          decoration: BoxDecoration(
-            color: AppColors.scaffoldColor,
-            borderRadius: BorderRadius.circular(12),
-          ),
-          padding: const EdgeInsets.all(16),
-          child: MultiBlocBuilder(
-            cubit: cubit,
-            commentController: _commentController,
+    return Align(
+      alignment: AlignmentGeometry.topCenter,
+      child: SizedBox(
+        width: 500,
+        child: Dialog(
+          backgroundColor: Colors.transparent,
+          insetPadding: const EdgeInsets.all(16),
+          child: BackdropFilter(
+            filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
+            child: Container(
+              decoration: BoxDecoration(
+                color: AppColors.scaffoldColor,
+                borderRadius: BorderRadius.circular(12),
+              ),
+              padding: const EdgeInsets.all(16),
+              child: MultiBlocBuilder(
+                cubit: cubit,
+                commentController: _commentController,
+              ),
+            ),
           ),
         ),
       ),
