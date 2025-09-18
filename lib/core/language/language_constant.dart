@@ -1,6 +1,16 @@
 
 class AppLanguageKeys{
 
+  ////Order list////
+  static const String createNewRequest = 'createNewRequest';
+  static const String requestReceived = 'requestReceived';
+  static const String onTheWayToYou = 'onTheWayToYou';
+  static const String cancelBooking = 'cancelBooking';
+  static const String rateService = 'rateService';
+  static const String writeComment = 'writeComment';
+  static const String addYourComment = 'addYourComment';
+  ////end////
+
   ////Request - Service////
   static const String selectServiceType = 'selectServiceType';
   static const String roadService = 'roadService';

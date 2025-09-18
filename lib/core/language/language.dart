@@ -15,6 +15,15 @@ class AppLocalizations {
   static final Map<String, Map<String, String>> _localizedValues = {
     'ar': {
 
+      ////Order list////
+      AppLanguageKeys.createNewRequest: 'إنشاء طلب جديد',
+      AppLanguageKeys.requestReceived: 'تم الاستلام',
+      AppLanguageKeys.onTheWayToYou: 'في الطريق اليك',
+      AppLanguageKeys.cancelBooking: 'إلغاء الحجز',
+      AppLanguageKeys.rateService: 'تقييم الخدمة',
+      AppLanguageKeys.writeComment: 'أكتب تعليق',
+      AppLanguageKeys.addYourComment: 'أضف تعليقك',
+      ////end////
       ////Request - Service////
       AppLanguageKeys.selectServiceType: 'أختر نوع الخدمة',
       AppLanguageKeys.roadService: 'خدمة الطريق',
@@ -339,6 +348,16 @@ class AppLocalizations {
 
     },
     'en': {
+
+      ////Order list////
+      AppLanguageKeys.createNewRequest: 'Create New Request',
+      AppLanguageKeys.requestReceived: 'Request Received',
+      AppLanguageKeys.onTheWayToYou: 'On the Way to You',
+      AppLanguageKeys.cancelBooking: 'Cancel Booking',
+      AppLanguageKeys.rateService: 'Rate Service',
+      AppLanguageKeys.writeComment: 'Write Comment',
+      AppLanguageKeys.addYourComment: 'Add Your Comment',
+      ////end////
 
       ////Request - Service////
       AppLanguageKeys.selectServiceType: 'Select Service Type',

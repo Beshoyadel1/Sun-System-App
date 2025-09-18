@@ -2,7 +2,10 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:sun_system_app/features/order_list/Rating/ui/Rating.dart';
+import 'package:sun_system_app/features/order_list/first_page_order_list/ui/first_page_order_list.dart';
 import 'package:sun_system_app/features/request_service/bill_payment_in_service_request/ui/bill_payment_in_service_request.dart';
+import 'package:sun_system_app/features/request_service/mobile_service_in_service_request/ui/mobile_service_in_service_request.dart';
 import '../../../features/change_car/my_car_data_car_change/ui/my_car_data_car_change.dart';
 import '../../../features/request_service/first_page_in_service_request/ui/first_page_in_service_request.dart';
 import '../../../features/change_car/car_cr_v_car_change/ui/car_cr_v_car_change.dart';
@@ -77,7 +80,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const FirstPageInServiceRequest(),
+          home: const MobileServiceInServiceRequest(),
         );
       },
     ),
