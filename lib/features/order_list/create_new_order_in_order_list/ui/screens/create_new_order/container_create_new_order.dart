@@ -1,11 +1,8 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/features/order_list/create_new_order_in_order_list/ui/screens/create_new_order/first_row_container_on_the_way.dart';
-import 'package:sun_system_app/features/order_list/create_new_order_in_order_list/ui/screens/create_new_order/last_row_container_on_the_way.dart';
-import 'package:sun_system_app/features/order_list/create_new_order_in_order_list/ui/screens/create_new_order/row_lines_container_on_the_way.dart';
-import 'package:sun_system_app/features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_on_the_way/first_row_container_on_the_way.dart';
-import 'package:sun_system_app/features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_on_the_way/last_row_container_on_the_way.dart';
-import 'package:sun_system_app/features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_on_the_way/row_lines_container_on_the_way.dart';
+import '../../../../../../core/theming/colors.dart';
+import '../../../../../../features/order_list/create_new_order_in_order_list/ui/screens/create_new_order/first_row_container_on_the_way.dart';
+import '../../../../../../features/order_list/create_new_order_in_order_list/ui/screens/create_new_order/last_row_container_on_the_way.dart';
+import '../../../../../../features/order_list/create_new_order_in_order_list/ui/screens/create_new_order/row_lines_container_on_the_way.dart';
 
 class ContainerCreateNewOrder extends StatelessWidget {
   const ContainerCreateNewOrder({super.key});

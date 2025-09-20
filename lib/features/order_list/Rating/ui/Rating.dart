@@ -2,17 +2,17 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/pages_widgets/button_widget.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/order_list/Rating/logic/rating_cubit.dart';
-import 'package:sun_system_app/features/order_list/Rating/logic/rating_state.dart';
-import 'package:sun_system_app/features/profile/custom_widget/first_name_textfield_personal_data_widget.dart';
+import '../../../../../core/language/language_constant.dart';
+import '../../../../../core/pages_widgets/button_widget.dart';
+import '../../../../../core/theming/colors.dart';
+import '../../../../../core/theming/fonts.dart';
+import '../../../../../core/theming/text_styles.dart';
+import '../../../../../features/order_list/Rating/logic/rating_cubit.dart';
+import '../../../../../features/order_list/Rating/logic/rating_state.dart';
+import '../../../../../features/profile/custom_widget/first_name_textfield_personal_data_widget.dart';
 
 class RatingDialogWidget extends StatefulWidget {
-  RatingDialogWidget({super.key});
+  const RatingDialogWidget({super.key});
 
   @override
   State<RatingDialogWidget> createState() => _RatingDialogWidgetState();
@@ -30,7 +30,7 @@ class _RatingDialogWidgetState extends State<RatingDialogWidget> {
   @override
   Widget build(BuildContext context) {
     return Align(
-      alignment: AlignmentGeometry.topCenter,
+      alignment: AlignmentDirectional.center,
       child: SizedBox(
         width: 500,
         child: Dialog(

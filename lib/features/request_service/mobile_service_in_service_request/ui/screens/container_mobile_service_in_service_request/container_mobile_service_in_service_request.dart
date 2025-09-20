@@ -1,11 +1,8 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/features/request_service/bill_payment_in_service_request/ui/screens/container_bill_payment_in_service_request/first_row_container_bill_payment_in_service_request.dart';
-import 'package:sun_system_app/features/request_service/bill_payment_in_service_request/ui/screens/container_bill_payment_in_service_request/last_row_container_on_the_way.dart';
-import 'package:sun_system_app/features/request_service/bill_payment_in_service_request/ui/screens/container_bill_payment_in_service_request/row_lines_container_on_the_way.dart';
-import 'package:sun_system_app/features/request_service/mobile_service_in_service_request/ui/screens/container_mobile_service_in_service_request/first_row_container_bill_payment_in_service_request.dart';
-import 'package:sun_system_app/features/request_service/mobile_service_in_service_request/ui/screens/container_mobile_service_in_service_request/last_row_container_on_the_way.dart';
-import 'package:sun_system_app/features/request_service/mobile_service_in_service_request/ui/screens/container_mobile_service_in_service_request/row_lines_container_on_the_way.dart';
+import '../../../../../../core/theming/colors.dart';
+import '../../../../../../features/request_service/mobile_service_in_service_request/ui/screens/container_mobile_service_in_service_request/first_row_container_bill_payment_in_service_request.dart';
+import '../../../../../../features/request_service/mobile_service_in_service_request/ui/screens/container_mobile_service_in_service_request/last_row_container_on_the_way.dart';
+import '../../../../../../features/request_service/mobile_service_in_service_request/ui/screens/container_mobile_service_in_service_request/row_lines_container_on_the_way.dart';
 
 class ContainerMobileServiceInServiceRequest extends StatelessWidget {
   const ContainerMobileServiceInServiceRequest({super.key});

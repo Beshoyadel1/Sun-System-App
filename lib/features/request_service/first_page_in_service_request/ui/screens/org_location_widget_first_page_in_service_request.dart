@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../../../../../core/theming/colors.dart';
-import '../../../../../core/theming/text_styles.dart';
 import '../../../../../core/utilies/map_of_all_app.dart';
 import '../../../../../features/request_service/first_page_in_service_request/ui/screens/open_street_map_screen_first_page_in_service_request.dart';
 

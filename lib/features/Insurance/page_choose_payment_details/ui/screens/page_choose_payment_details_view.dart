@@ -37,7 +37,7 @@ class _PageChoosePaymentDetailsViewState extends State<PageChoosePaymentDetailsV
       appBar: AppBarInsuranceOffers(),
       body: SafeArea(
         child: Align(
-          alignment: AlignmentGeometry.center,
+          alignment: AlignmentDirectional.center,
           child: Column(
             children: [
               Expanded(

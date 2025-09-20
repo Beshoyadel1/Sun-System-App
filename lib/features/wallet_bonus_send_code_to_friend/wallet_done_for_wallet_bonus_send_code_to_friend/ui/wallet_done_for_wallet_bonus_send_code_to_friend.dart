@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/wallet_bonus_send_code_to_friend/wallet_for_wallet_bonus_send_code_to_friend/ui/wallet_for_wallet_bonus_send_code_to_friend.dart';
+import '../../../../../features/wallet_bonus_send_code_to_friend/wallet_for_wallet_bonus_send_code_to_friend/ui/wallet_for_wallet_bonus_send_code_to_friend.dart';
 import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
-import '../../../../../features/warranty/warranty_subscription/ui/warranty_subscription.dart';
 import '../../../../../core/theming/text_styles.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/theming/assets.dart';

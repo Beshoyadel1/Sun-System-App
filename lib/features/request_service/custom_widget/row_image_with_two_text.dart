@@ -1,10 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../core/theming/fonts.dart';
 import '../../../../../core/theming/text_styles.dart';
-import '../../../../../core/theming/assets.dart';
 
 class RowImageWithTwoText extends StatelessWidget {
  final String imagePath,text1,text2;

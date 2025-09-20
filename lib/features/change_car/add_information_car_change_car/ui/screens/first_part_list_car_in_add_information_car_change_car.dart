@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/features/insurance_new/custom_widget/first_name_textfield_identity_verification_new_widget.dart';
+import '../../../../../core/language/language_constant.dart';
+import '../../../../../features/insurance_new/custom_widget/first_name_textfield_identity_verification_new_widget.dart';
 
 class FirstPartListCarInAddInformationCarChangeCar extends StatelessWidget {
   const FirstPartListCarInAddInformationCarChangeCar({super.key});

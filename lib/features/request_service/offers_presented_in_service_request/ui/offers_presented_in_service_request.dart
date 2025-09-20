@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/request_service/first_page_in_service_request/logic/select_service_cubit/service_selection_cubit.dart';
-import 'package:sun_system_app/features/request_service/offers_presented_in_service_request/ui/screens/list_data_offers_presented_in_service_request.dart';
+import '../../../../../features/request_service/offers_presented_in_service_request/ui/screens/list_data_offers_presented_in_service_request.dart';
 import '../../../../../features/profile/custom_widget/appbar_profile_widget.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../core/language/language_constant.dart';

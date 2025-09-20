@@ -1,15 +1,8 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
-import 'package:sun_system_app/features/request_service/first_page_in_service_request/logic/select_service_cubit/service_selection_cubit.dart';
-import 'package:sun_system_app/features/request_service/first_page_in_service_request/logic/select_service_cubit/service_selection_state.dart';
+import '../../../../../features/request_service/first_page_in_service_request/logic/select_service_cubit/service_selection_cubit.dart';
 import '../../../../../core/theming/text_styles.dart';
-import '../../../../../core/language/language_constant.dart';
-import '../../../../../features/profile/custom_widget/first_name_textfield_personal_data_widget.dart';
-import '../../../../../features/request_service/first_page_in_service_request/ui/screens/select_the_type_of_service.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../core/theming/fonts.dart';
-import '../../../../../core/theming/text_styles.dart';
 
 class RowCircleImageTextLoading extends StatelessWidget {
 

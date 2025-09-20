@@ -19,7 +19,7 @@ class SendCodeForWalletBonusSendCodeToFriend extends StatelessWidget {
         child: Padding(
           padding: EdgeInsets.all(20),
           child: Align(
-            alignment: AlignmentGeometry.topCenter,
+            alignment: AlignmentDirectional.center,
             child: SizedBox(
               width: 500,
               child: SingleChildScrollView(

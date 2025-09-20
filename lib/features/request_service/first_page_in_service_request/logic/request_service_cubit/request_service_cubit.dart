@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sun_system_app/features/request_service/first_page_in_service_request/logic/request_service_cubit/request_service_state.dart';
+import '../../../../../features/request_service/first_page_in_service_request/logic/request_service_cubit/request_service_state.dart';
 
 class RequestServiceCubit extends Cubit<RequestServiceState> {
   RequestServiceCubit() : super(RequestServiceInitial());

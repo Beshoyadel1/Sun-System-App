@@ -1,12 +1,10 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/order_list/create_new_order_in_order_list/ui/screens/create_new_order/container_since_two_day_ago.dart';
-import 'package:sun_system_app/features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_on_the_way/container_since_two_day_ago.dart';
+import '../../../../../../core/language/language_constant.dart';
+import '../../../../../../core/theming/colors.dart';
+import '../../../../../../core/theming/fonts.dart';
+import '../../../../../../core/theming/text_styles.dart';
+import '../../../../../../features/order_list/create_new_order_in_order_list/ui/screens/create_new_order/container_since_two_day_ago.dart';
 
 class FirstRowContainerCreateNewOrder extends StatelessWidget {
   const FirstRowContainerCreateNewOrder ({super.key});

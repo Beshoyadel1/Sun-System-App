@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/request_service/map_background_in_service_request/ui/screens/open_street_map_screen_map_background.dart';
-import '../../../../../../core/theming/colors.dart';
-import '../../../../../../core/theming/text_styles.dart';
-import '../../../../../../core/utilies/map_of_all_app.dart';
+import '../../../../../features/request_service/map_background_in_service_request/ui/screens/open_street_map_screen_map_background.dart';
 
 class OrgLocationWidgetMapBackground extends StatefulWidget {
   const OrgLocationWidgetMapBackground({super.key, required this.location});

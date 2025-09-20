@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sun_system_app/features/wallet_bonus_send_code_to_friend/send_code_for_wallet_bonus_send_code_to_friend/logic/copy_state.dart';
+import '../../../../../features/wallet_bonus_send_code_to_friend/send_code_for_wallet_bonus_send_code_to_friend/logic/copy_state.dart';
 
 
 class CopyCubit extends Cubit<CopyState> {

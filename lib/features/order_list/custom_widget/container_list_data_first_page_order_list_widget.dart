@@ -1,13 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/Insurance/custom_widget/appbar_insurance_offers.dart';
-import 'package:sun_system_app/features/profile/custom_widget/appbar_profile_widget.dart';
-import 'package:sun_system_app/features/warranty/custom_widget/row_number_coin_widget.dart';
+import '../../../../../core/language/language_constant.dart';
+import '../../../../../core/theming/assets.dart';
+import '../../../../../core/theming/colors.dart';
+import '../../../../../core/theming/fonts.dart';
+import '../../../../../core/theming/text_styles.dart';
+import '../../../../../features/warranty/custom_widget/row_number_coin_widget.dart';
 
 class ContainerListDataFirstPageOrderListWidget extends StatelessWidget {
   final bool? isCreateNewOrder,isDone;
@@ -98,37 +96,37 @@ class ContainerListDataFirstPageOrderListWidget extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Expanded(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 7),
-                        decoration: BoxDecoration(
-                          color: isDone!? AppColors.blueColorDE: AppColors.pinkColor.withOpacity(0.8),
-                          borderRadius: const BorderRadius.all(Radius.circular(20)),
-                          border: Border.all(
-                              color:isDone!? AppColors.blueColorBF:AppColors.transparent
+                Row(
+                  children: [
+                    SizedBox(
+                      width: 30,
+                    ),
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 7),
+                      decoration: BoxDecoration(
+                        color: isDone!? AppColors.blueColorDE: AppColors.pinkColor.withOpacity(0.8),
+                        borderRadius: const BorderRadius.all(Radius.circular(20)),
+                        border: Border.all(
+                            color:isDone!? AppColors.blueColorBF:AppColors.transparent
+                        ),
+                        boxShadow: [
+                          BoxShadow(
+                            color: AppColors.darkColor.withOpacity(0.1),
+                            blurRadius: 4,
+                            offset: const Offset(0, 2),
                           ),
-                          boxShadow: [
-                            BoxShadow(
-                              color: AppColors.darkColor.withOpacity(0.1),
-                              blurRadius: 4,
-                              offset: const Offset(0, 2),
-                            ),
-                          ],
-                        ),
-                        child: TextInAppWidget(
-                          text:isDone! ? AppLanguageKeys.requestReceived:
-                          isCreateNewOrder!? AppLanguageKeys.createNewRequest:
-                          AppLanguageKeys.onTheWayToYou,
-                          textSize: 10,
-                          fontWeightIndex: FontSelectionData.regularFontFamily,
-                          textColor:isDone! ? AppColors.secondaryColor: AppColors.orangeColor,
-                        ),
+                        ],
                       ),
-                    ],
-                  ),
+                      child: TextInAppWidget(
+                        text:isDone! ? AppLanguageKeys.requestReceived:
+                        isCreateNewOrder!? AppLanguageKeys.createNewRequest:
+                        AppLanguageKeys.onTheWayToYou,
+                        textSize: 10,
+                        fontWeightIndex: FontSelectionData.regularFontFamily,
+                        textColor:isDone! ? AppColors.secondaryColor: AppColors.orangeColor,
+                      ),
+                    ),
+                  ],
                 ),
                 TextInAppWidget(
                   text: time,

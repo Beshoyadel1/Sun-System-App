@@ -5,13 +5,6 @@ import '../../../../../features/Insurance/page_choose_payment_details/ui/screens
 import '../../../../../features/warranty/warranty_payment/ui/screens/first_part_warranty_payment.dart';
 import '../../../../../core/theming/colors.dart';
 
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import '../../../../../features/warranty/warranty_payment/ui/screens/last_button_warranty_payment.dart';
-import '../../../../../features/Insurance/page_choose_payment_details/ui/screens/container_list_visa.dart';
-import '../../../../../features/warranty/warranty_payment/ui/screens/first_part_warranty_payment.dart';
-import '../../../../../core/theming/colors.dart';
-
 class WarrantyPaymentView extends StatelessWidget {
   const WarrantyPaymentView({super.key});
 

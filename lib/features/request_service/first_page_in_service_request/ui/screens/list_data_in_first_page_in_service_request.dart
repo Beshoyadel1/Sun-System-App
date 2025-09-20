@@ -1,21 +1,17 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/Insurance/custom_widget/app_snack_bar.dart';
-import 'package:sun_system_app/features/request_service/custom_widget/circular_progress_indicator_with_text_widget.dart';
-import 'package:sun_system_app/features/request_service/first_page_in_service_request/logic/request_service_cubit/request_service_cubit.dart';
-import 'package:sun_system_app/features/request_service/first_page_in_service_request/logic/request_service_cubit/request_service_state.dart';
-import 'package:sun_system_app/features/request_service/first_page_in_service_request/logic/select_service_cubit/service_selection_cubit.dart';
-import 'package:sun_system_app/features/request_service/first_page_in_service_request/ui/screens/row_circle_image_text_loading.dart';
-import 'package:sun_system_app/features/request_service/offers_presented_in_service_request/ui/offers_presented_in_service_request.dart';
+import '../../../../../core/language/language_constant.dart';
+import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
+import '../../../../../features/Insurance/custom_widget/app_snack_bar.dart';
+import '../../../../../features/request_service/custom_widget/circular_progress_indicator_with_text_widget.dart';
+import '../../../../../features/request_service/first_page_in_service_request/logic/request_service_cubit/request_service_cubit.dart';
+import '../../../../../features/request_service/first_page_in_service_request/logic/request_service_cubit/request_service_state.dart';
+import '../../../../../features/request_service/first_page_in_service_request/ui/screens/row_circle_image_text_loading.dart';
+import '../../../../../features/request_service/offers_presented_in_service_request/ui/offers_presented_in_service_request.dart';
 import '../../../../../features/request_service/first_page_in_service_request/ui/screens/last_button_in_list_data_in_first_page_in_service_request.dart';
 import '../../../../../features/request_service/first_page_in_service_request/ui/screens/map_in_list_data_in_first_page_in_service_request.dart';
 import '../../../../../features/request_service/first_page_in_service_request/ui/screens/select_time_of_service_screen.dart';
-import '../../../../../features/request_service/first_page_in_service_request/ui/screens/part_finish_service_in_list_data_in_first_page_in_service_request.dart' hide service;
 import '../../../../../features/request_service/first_page_in_service_request/ui/screens/part_text_with_textfield_in_list_data_in_first_page_in_service_request.dart';
 import '../../../../../features/request_service/first_page_in_service_request/ui/screens/select_the_type_of_service.dart';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

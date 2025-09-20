@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sun_system_app/features/warranty/warranty_subscription/ui/warranty_subscription.dart';
 import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
 import '../../../../../features/Insurance/custom_widget/app_snack_bar.dart';
 import '../../../../../features/Insurance/page_choose_payment_details/logic/radio_payment_cubit.dart';

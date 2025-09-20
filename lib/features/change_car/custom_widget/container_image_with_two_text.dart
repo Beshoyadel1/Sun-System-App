@@ -1,13 +1,11 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/change_car/car_bills_change_car/ui/car_bills_change_car.dart';
-import 'package:sun_system_app/features/change_car/custom_widget/image_with_two_text.dart';
+import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
+import '../../../../../core/language/language_constant.dart';
+import '../../../../../core/theming/colors.dart';
+import '../../../../../core/theming/fonts.dart';
+import '../../../../../core/theming/text_styles.dart';
+import '../../../../../features/change_car/car_bills_change_car/ui/car_bills_change_car.dart';
+import '../../../../../features/change_car/custom_widget/image_with_two_text.dart';
 
 class ContainerImageWithTwoText extends StatelessWidget {
   final String imageSrc;

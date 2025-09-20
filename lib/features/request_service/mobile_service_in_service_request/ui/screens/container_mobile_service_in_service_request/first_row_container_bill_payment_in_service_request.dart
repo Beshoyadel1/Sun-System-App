@@ -1,12 +1,11 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/request_service/bill_payment_in_service_request/ui/screens/container_bill_payment_in_service_request/container_since_two_day_ago.dart';
-import 'package:sun_system_app/features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_on_the_way/container_since_two_day_ago.dart';
+import '../../../../../../core/language/language_constant.dart';
+import '../../../../../../core/theming/assets.dart';
+import '../../../../../../core/theming/colors.dart';
+import '../../../../../../core/theming/fonts.dart';
+import '../../../../../../core/theming/text_styles.dart';
+import '../../../../../../features/request_service/bill_payment_in_service_request/ui/screens/container_bill_payment_in_service_request/container_since_two_day_ago.dart';
 
 class FirstRowContainerMobileServiceInServiceRequest extends StatelessWidget {
   const FirstRowContainerMobileServiceInServiceRequest ({super.key});

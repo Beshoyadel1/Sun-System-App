@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sun_system_app/features/order_list/Rating/logic/rating_state.dart';
+import '../../../../../features/order_list/Rating/logic/rating_state.dart';
 
 class RatingCubit extends Cubit<RatingState> {
   RatingCubit() : super(RatingState());

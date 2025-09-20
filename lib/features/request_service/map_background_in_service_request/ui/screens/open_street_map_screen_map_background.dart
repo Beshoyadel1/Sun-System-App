@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
+import '../../../../../core/theming/colors.dart';
 
 class OpenStreetMapScreenMapBackground extends StatelessWidget {
   const OpenStreetMapScreenMapBackground({super.key, required this.latitude, required this.longitude});

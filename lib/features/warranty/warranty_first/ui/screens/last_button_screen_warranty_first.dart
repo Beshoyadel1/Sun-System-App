@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/warranty/custom_widget/show_modal_bottom_sheet_widget.dart';
+import '../../../../../features/warranty/custom_widget/show_modal_bottom_sheet_widget.dart';
 import '../../../../../features/warranty/warranty_payment/ui/warranty_payment.dart';
-import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/pages_widgets/button_widget.dart';
 import '../../../../../core/theming/fonts.dart';

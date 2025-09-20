@@ -20,7 +20,7 @@ class InsuranceInfoViewNew extends StatelessWidget {
           padding: const EdgeInsets.all(20),
           child: SingleChildScrollView(
             child: Align(
-              alignment: AlignmentGeometry.center,
+              alignment: AlignmentDirectional.center,
               child: SizedBox(
                 width: 500,
                 child: Column(

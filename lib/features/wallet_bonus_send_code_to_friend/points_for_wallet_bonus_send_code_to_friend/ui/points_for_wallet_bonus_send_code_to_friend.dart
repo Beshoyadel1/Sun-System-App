@@ -1,9 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/wallet_bonus_send_code_to_friend/points_for_wallet_bonus_send_code_to_friend/ui/screens/first_part_for_points_for_wallet_bonus_send_code_to_friend.dart';
-import 'package:sun_system_app/features/wallet_bonus_send_code_to_friend/points_for_wallet_bonus_send_code_to_friend/ui/screens/second_part_for_points_for_wallet_bonus_send_code_to_friend.dart';
-import '../../wallet_for_wallet_bonus_send_code_to_friend/ui/screens/first_part_for_wallet_for_wallet_bonus_send_code_to_friend.dart';
-import '../../wallet_for_wallet_bonus_send_code_to_friend/ui/screens/second_part_for_wallet_for_wallet_bonus_send_code_to_friend.dart';
+import '../../../../../features/wallet_bonus_send_code_to_friend/points_for_wallet_bonus_send_code_to_friend/ui/screens/first_part_for_points_for_wallet_bonus_send_code_to_friend.dart';
+import '../../../../../features/wallet_bonus_send_code_to_friend/points_for_wallet_bonus_send_code_to_friend/ui/screens/second_part_for_points_for_wallet_bonus_send_code_to_friend.dart';
 import '../../../../core/language/language_constant.dart';
 import '../../../../core/theming/colors.dart';
 import '../../../profile/custom_widget/appbar_profile_widget.dart';

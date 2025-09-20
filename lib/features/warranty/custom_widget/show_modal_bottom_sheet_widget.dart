@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
+import '../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
 import '../../../../features/warranty/custom_widget/height_cubit.dart';
 import '../../../../core/theming/colors.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

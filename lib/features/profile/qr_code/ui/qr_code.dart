@@ -19,7 +19,7 @@ class QrCode extends StatelessWidget {
         child: Padding(
           padding: EdgeInsets.all(20),
           child: Align(
-            alignment: AlignmentGeometry.center,
+            alignment: AlignmentDirectional.center,
             child: SizedBox(
               width: 500,
               child: Column(

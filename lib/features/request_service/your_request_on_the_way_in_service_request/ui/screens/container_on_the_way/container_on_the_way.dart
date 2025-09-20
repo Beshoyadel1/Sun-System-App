@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_on_the_way/first_row_container_on_the_way.dart';
-import 'package:sun_system_app/features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_on_the_way/last_row_container_on_the_way.dart';
-import 'package:sun_system_app/features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_on_the_way/row_lines_container_on_the_way.dart';
+import '../../../../../../core/theming/colors.dart';
+import '../../../../../../features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_on_the_way/first_row_container_on_the_way.dart';
+import '../../../../../../features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_on_the_way/last_row_container_on_the_way.dart';
+import '../../../../../../features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_on_the_way/row_lines_container_on_the_way.dart';
 
 class ContainerOnTheWay extends StatelessWidget {
   const ContainerOnTheWay({super.key});

@@ -1,14 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/request_service/mobile_service_in_service_request/ui/screens/container_service_request/first_row_container_service_request_mobile_service.dart';
-import 'package:sun_system_app/features/request_service/mobile_service_in_service_request/ui/screens/container_service_request/fourth_row_container_service_request_mobile_service.dart';
-import 'package:sun_system_app/features/request_service/mobile_service_in_service_request/ui/screens/container_service_request/second_row_container_service_request_mobile_service.dart';
-import 'package:sun_system_app/features/request_service/mobile_service_in_service_request/ui/screens/container_service_request/third_row_container_service_request_mobile_service.dart';
+import '../../../../../../core/theming/colors.dart';
+import '../../../../../../features/request_service/mobile_service_in_service_request/ui/screens/container_service_request/first_row_container_service_request_mobile_service.dart';
+import '../../../../../../features/request_service/mobile_service_in_service_request/ui/screens/container_service_request/fourth_row_container_service_request_mobile_service.dart';
+import '../../../../../../features/request_service/mobile_service_in_service_request/ui/screens/container_service_request/second_row_container_service_request_mobile_service.dart';
+import '../../../../../../features/request_service/mobile_service_in_service_request/ui/screens/container_service_request/third_row_container_service_request_mobile_service.dart';
 
 class ContainerServiceRequest extends StatelessWidget {
   const ContainerServiceRequest({super.key});

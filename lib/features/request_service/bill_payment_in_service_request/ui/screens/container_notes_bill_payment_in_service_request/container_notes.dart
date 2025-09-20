@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/request_service/bill_payment_in_service_request/ui/screens/container_notes_bill_payment_in_service_request/first_row_container_notes_payment_in_service_request.dart';
+import '../../../../../../core/theming/colors.dart';
+import '../../../../../../core/theming/fonts.dart';
+import '../../../../../../core/theming/text_styles.dart';
+import '../../../../../../features/request_service/bill_payment_in_service_request/ui/screens/container_notes_bill_payment_in_service_request/first_row_container_notes_payment_in_service_request.dart';
 
 class ContainerNotesPaymentInServiceRequest extends StatelessWidget {
   const ContainerNotesPaymentInServiceRequest({super.key});

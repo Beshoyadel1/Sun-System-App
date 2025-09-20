@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:file_picker/file_picker.dart';
-
-import 'package:sun_system_app/features/change_car/add_information_car_change_car/logic/upload_file_cubit.dart';
-import 'package:sun_system_app/features/change_car/add_information_car_change_car/logic/upload_file_state.dart';
-import 'package:sun_system_app/features/change_car/add_information_car_change_car/ui/screens/design_container_add_in_second_part_list_car_in_add_information_car_change_car.dart';
-import 'package:sun_system_app/features/change_car/add_information_car_change_car/ui/screens/design_container_upload_file_in_second_part_list_car_in_add_information_car_change_car.dart';
-import 'package:sun_system_app/features/change_car/add_information_car_change_car/ui/screens/design_first_text_in_second_part_list_car_in_add_information_car_change_car.dart';
-import 'package:sun_system_app/features/change_car/add_information_car_change_car/ui/screens/design_last_text_in_second_part_list_car_in_add_information_car_change_car.dart';
+import '../../../../../features/change_car/add_information_car_change_car/logic/upload_file_cubit.dart';
+import '../../../../../features/change_car/add_information_car_change_car/logic/upload_file_state.dart';
+import '../../../../../features/change_car/add_information_car_change_car/ui/screens/design_container_add_in_second_part_list_car_in_add_information_car_change_car.dart';
+import '../../../../../features/change_car/add_information_car_change_car/ui/screens/design_container_upload_file_in_second_part_list_car_in_add_information_car_change_car.dart';
+import '../../../../../features/change_car/add_information_car_change_car/ui/screens/design_first_text_in_second_part_list_car_in_add_information_car_change_car.dart';
+import '../../../../../features/change_car/add_information_car_change_car/ui/screens/design_last_text_in_second_part_list_car_in_add_information_car_change_car.dart';
 
 class SecondPartListCarInAddInformationCarChangeCar extends StatefulWidget {
   const SecondPartListCarInAddInformationCarChangeCar({super.key});

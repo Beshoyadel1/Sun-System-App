@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_map/open_street_map_screen_first_page_in_service_request_container_map.dart';
-
+import '../../../../../../features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_map/open_street_map_screen_first_page_in_service_request_container_map.dart';
 import '../../../../../../core/theming/colors.dart';
-import '../../../../../../core/theming/text_styles.dart';
 import '../../../../../../core/utilies/map_of_all_app.dart';
-import '../../../../../../features/request_service/first_page_in_service_request/ui/screens/open_street_map_screen_first_page_in_service_request.dart';
 
 class OrgLocationWidgetFirstPageInServiceRequestContainerMap extends StatefulWidget {
   const OrgLocationWidgetFirstPageInServiceRequestContainerMap({super.key, required this.location});

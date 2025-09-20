@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/features/request_service/mobile_service_in_service_request/ui/screens/container_invoice_mobile_service_in_service_request/fifth_row_container_invoice_mobile_service_in_service_request.dart';
-import 'package:sun_system_app/features/request_service/mobile_service_in_service_request/ui/screens/container_invoice_mobile_service_in_service_request/first_row_container_invoice_mobile_service_in_service_request.dart';
-import 'package:sun_system_app/features/request_service/mobile_service_in_service_request/ui/screens/container_invoice_mobile_service_in_service_request/fourth_row_container_invoice_mobile_service_in_service_request.dart';
-import 'package:sun_system_app/features/request_service/mobile_service_in_service_request/ui/screens/container_invoice_mobile_service_in_service_request/second_row_container_invoice_mobile_service_in_service_request.dart';
-import 'package:sun_system_app/features/request_service/mobile_service_in_service_request/ui/screens/container_invoice_mobile_service_in_service_request/third_row_container_invoice_mobile_service_in_service_request.dart';
+import '../../../../../../core/theming/colors.dart';
+import '../../../../../../features/request_service/mobile_service_in_service_request/ui/screens/container_invoice_mobile_service_in_service_request/fifth_row_container_invoice_mobile_service_in_service_request.dart';
+import '../../../../../../features/request_service/mobile_service_in_service_request/ui/screens/container_invoice_mobile_service_in_service_request/first_row_container_invoice_mobile_service_in_service_request.dart';
+import '../../../../../../features/request_service/mobile_service_in_service_request/ui/screens/container_invoice_mobile_service_in_service_request/fourth_row_container_invoice_mobile_service_in_service_request.dart';
+import '../../../../../../features/request_service/mobile_service_in_service_request/ui/screens/container_invoice_mobile_service_in_service_request/second_row_container_invoice_mobile_service_in_service_request.dart';
+import '../../../../../../features/request_service/mobile_service_in_service_request/ui/screens/container_invoice_mobile_service_in_service_request/third_row_container_invoice_mobile_service_in_service_request.dart';
 
 class ContainerInvoiceMobileServiceInServiceRequest extends StatelessWidget {
   const ContainerInvoiceMobileServiceInServiceRequest({super.key});

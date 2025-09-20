@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
+import '../../../../../../core/theming/colors.dart';
+import '../../../../../../core/theming/fonts.dart';
+import '../../../../../../core/theming/text_styles.dart';
 
 class TextDirection extends StatelessWidget {
   final String textMessage;

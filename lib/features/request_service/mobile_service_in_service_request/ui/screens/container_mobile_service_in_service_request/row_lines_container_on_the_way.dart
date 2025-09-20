@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
+import '../../../../../../core/theming/colors.dart';
 
 class RowLinesContainerMobileServiceInServiceRequest extends StatelessWidget {
   const RowLinesContainerMobileServiceInServiceRequest({super.key});

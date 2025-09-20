@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/pages_widgets/button_widget.dart';
-import 'package:sun_system_app/core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/features/request_service/mobile_service_in_service_request/ui/mobile_service_in_service_request.dart';
+import '../../../../../../core/language/language_constant.dart';
+import '../../../../../../core/theming/colors.dart';
+import '../../../../../../core/theming/fonts.dart';
+import '../../../../../../core/pages_widgets/button_widget.dart';
+import '../../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
+import '../../../../../../features/request_service/mobile_service_in_service_request/ui/mobile_service_in_service_request.dart';
 
 class LastButtonWithBackGround extends StatelessWidget {
 

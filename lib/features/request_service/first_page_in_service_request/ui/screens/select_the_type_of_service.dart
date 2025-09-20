@@ -2,14 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../../features/request_service/first_page_in_service_request/logic/select_service_cubit/service_selection_cubit.dart';
-import '../../../../../features/change_car/custom_widget/container_image_with_two_text.dart';
 import '../../../../../features/request_service/custom_widget/container_select_the_type_of_service_widget.dart';
 import '../../logic/select_service_cubit/service_selection_state.dart';
 import '../../../../../features/request_service/first_page_in_service_request/ui/screens/text_in_select_the_type_of_service.dart';
 import '../../../../../core/language/language_constant.dart';
-import '../../../../../core/theming/colors.dart';
-import '../../../../../core/theming/fonts.dart';
-import '../../../../../core/theming/text_styles.dart';
 import '../../../../../core/theming/assets.dart';
 
 class SelectTheTypeOfService extends StatefulWidget {

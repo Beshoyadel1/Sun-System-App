@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/warranty/warranty_first/ui/screens/second_part_page_warranty_first.dart';
+import '../../../../../features/warranty/warranty_first/ui/screens/second_part_page_warranty_first.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/pages_widgets/button_widget.dart';
 import '../../../../../core/theming/fonts.dart';

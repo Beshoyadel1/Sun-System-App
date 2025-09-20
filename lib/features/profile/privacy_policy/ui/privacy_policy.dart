@@ -16,10 +16,10 @@ class PrivacyPolicy extends StatelessWidget {
        appBar: AppbarProfileWidget(title: AppLanguageKeys.privacyTitle,),
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(20),
+          padding: EdgeInsets.all(20),
           child: SingleChildScrollView(
             child: Align(
-              alignment: AlignmentGeometry.centerRight,
+              alignment: AlignmentDirectional.centerStart,
               child: TextInAppWidget(
                 text: AppLanguageKeys.privacyIntro,
                 textSize: 12,

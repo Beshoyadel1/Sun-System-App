@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
+import '../../../../../../core/theming/colors.dart';
 
 class RowLinesContainerOnTheWay extends StatelessWidget {
   const RowLinesContainerOnTheWay ({super.key});

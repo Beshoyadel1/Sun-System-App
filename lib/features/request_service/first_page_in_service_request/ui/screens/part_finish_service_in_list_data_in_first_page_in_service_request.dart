@@ -1,10 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../../../core/theming/colors.dart';
-import '../../../../../core/theming/fonts.dart';
-import '../../../../../core/theming/text_styles.dart';
-import '../../../../../core/theming/assets.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../features/request_service/custom_widget/container_part_finish_service_in_list_data_in_first_page_in_service_request.dart';
 import '../../../../../features/request_service/first_page_in_service_request/logic/select_time_service_cubit/select_time_service_selection_cubit.dart';

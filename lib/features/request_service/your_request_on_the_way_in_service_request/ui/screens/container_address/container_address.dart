@@ -1,13 +1,9 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/request_service/custom_widget/container_image_background_pink_widget.dart';
-import 'package:sun_system_app/features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_address/row_image_data_in_container_address.dart';
-import 'package:sun_system_app/features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_service/row_image_data_in_container_service.dart';
-import 'package:sun_system_app/features/warranty/custom_widget/row_number_coin_widget.dart';
+import '../../../../../../core/language/language_constant.dart';
+import '../../../../../../core/theming/colors.dart';
+import '../../../../../../core/theming/fonts.dart';
+import '../../../../../../core/theming/text_styles.dart';
+import '../../../../../../features/request_service/your_request_on_the_way_in_service_request/ui/screens/container_address/row_image_data_in_container_address.dart';
 
 class ContainerAddress extends StatelessWidget {
   const ContainerAddress({super.key});

@@ -1,7 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/wallet_bonus_send_code_to_friend/wallet_payment_for_wallet_bonus_send_code_to_friend/ui/wallet_payment_for_wallet_bonus_send_code_to_friend.dart';
-import 'package:sun_system_app/features/warranty/custom_widget/show_modal_bottom_sheet_widget.dart';
 import '../../../../../core/pages_widgets/button_widget.dart';
 import '../../../../../core/theming/assets.dart';
 import '../../../../../core/theming/fonts.dart';

@@ -1,9 +1,8 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/pages_widgets/button_widget.dart';
-import 'package:sun_system_app/core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
+import '../../../../../../core/language/language_constant.dart';
+import '../../../../../../core/theming/colors.dart';
+import '../../../../../../core/theming/fonts.dart';
+import '../../../../../../core/pages_widgets/button_widget.dart';
 
 class LastButtonInCreateNewOrderInOrderList extends StatelessWidget {
   const LastButtonInCreateNewOrderInOrderList({super.key});
