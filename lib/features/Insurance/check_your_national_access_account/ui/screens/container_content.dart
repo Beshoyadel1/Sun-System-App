@@ -1,9 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sun_system_app/features/Insurance/check_your_national_access_account/ui/screens/container_content_part_change.dart';
+import '../../../../../features/Insurance/check_your_national_access_account/ui/screens/container_content_part_change.dart';
 import '../../../../../core/theming/colors.dart';
-import '../../../../../features/Insurance/check_your_national_access_account/logic/container_check_your_national_cubit.dart';
 import '../../../../../features/Insurance/check_your_national_access_account/ui/screens/image_label_divider_container_check_your_national_access_account.dart';
 
 class ContainerContent extends StatelessWidget {

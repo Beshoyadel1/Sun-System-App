@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/Insurance/custom_widget/design_cubit_list_visa_widget.dart';
+import '../../../../../features/Insurance/custom_widget/design_cubit_list_visa_widget.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/theming/fonts.dart';
 import '../../../../../core/theming/text_styles.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/warranty/warranty_subscription/ui/screens/second_part_warranty_subscription.dart';
+import '../../../../../features/warranty/warranty_subscription/ui/screens/second_part_warranty_subscription.dart';
 import '../../../../../features/warranty/warranty_subscription/ui/screens/first_part_warranty_subscription.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../features/profile/custom_widget/appbar_profile_widget.dart';

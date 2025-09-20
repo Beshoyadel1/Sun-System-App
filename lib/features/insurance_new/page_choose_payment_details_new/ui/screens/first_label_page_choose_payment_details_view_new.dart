@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import '../../../../../features/insurance_new/page_choose_payment_details_new/ui/screens/design_cubit_list_visa_new.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/theming/fonts.dart';
 import '../../../../../core/theming/text_styles.dart';

@@ -1,11 +1,10 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/insurance_new/insurance_offers_new/ui/screens/row_image_text_insurance_new_offers_part_one.dart';
+import '../../../../../core/language/language_constant.dart';
+import '../../../../../core/theming/assets.dart';
+import '../../../../../core/theming/colors.dart';
+import '../../../../../core/theming/fonts.dart';
+import '../../../../../core/theming/text_styles.dart';
+
 
 class RowImageTextInsuranceNewOffersPartOne extends StatelessWidget {
   const RowImageTextInsuranceNewOffersPartOne({super.key});

@@ -1,9 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
-import '../../../../features/Insurance/identity_verification/identity_verification.dart';
-import '../../../../features/Insurance/insurance_offers/ui/screens/container_best_offer.dart';
-import '../../../../core/language/language_constant.dart';
 import '../../../../core/theming/assets.dart';
 import '../../../../core/theming/colors.dart';
 import '../../../../core/theming/fonts.dart';

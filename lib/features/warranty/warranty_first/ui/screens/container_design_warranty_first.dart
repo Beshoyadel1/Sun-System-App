@@ -3,6 +3,7 @@ import '../../../../../features/warranty/warranty_first/ui/screens/last_button_s
 import '../../../../../features/warranty/warranty_first/ui/screens/second_part_page_warranty_first.dart';
 import '../../../../../features/warranty/warranty_first/ui/screens/first_part_page_warranty_first.dart';
 import '../../../../../core/theming/colors.dart';
+
 class ContainerDesignWarrantyFirst extends StatelessWidget {
   const ContainerDesignWarrantyFirst({super.key});
 

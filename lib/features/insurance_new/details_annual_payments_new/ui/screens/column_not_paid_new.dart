@@ -3,6 +3,7 @@ import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widge
 import '../../../../../features/Insurance/page_choose_payment_details/ui/page_choose_payment_details.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../features/Insurance/custom_widget/container_installment.dart';
+
 class ColumnNotPaidNew extends StatelessWidget {
   const ColumnNotPaidNew({super.key});
 

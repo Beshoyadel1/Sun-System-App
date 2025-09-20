@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../../features/warranty/warranty_payment/ui/screens/warranty_payment_view.dart';
 import '../../../../../features/Insurance/page_choose_payment_details/logic/radio_payment_cubit.dart';
-import '../../../../../features/Insurance/page_choose_payment_details/ui/screens/container_list_visa.dart';
 
 class WarrantyPayment extends StatelessWidget {
   const WarrantyPayment({super.key});

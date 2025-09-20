@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import '../../../../../features/insurance_new/details_annual_payments_new/ui/screens/column_not_paid_new.dart';
-import '../../../../../features/insurance_new/details_annual_payments_new/ui/screens/column_paid_new.dart';
 import '../../../../../features/insurance_new/details_annual_payments_new/ui/screens/column_paid_next_installment_new.dart';
 import '../../../../../features/insurance_new/details_annual_payments_new/ui/screens/row_first_container_annual_payment_new.dart';
 import '../../../../../core/theming/colors.dart';

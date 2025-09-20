@@ -3,10 +3,8 @@ import '../../../../../features/warranty/custom_widget/row_number_coin_widget.da
 import '../../../../../core/theming/text_styles.dart';
 import '../../../../../features/profile/custom_widget/container_list_container_text_notifications_widget.dart';
 import '../../../../../core/language/language_constant.dart';
-import '../../../../../core/pages_widgets/button_widget.dart';
 import '../../../../../core/theming/assets.dart';
 import '../../../../../core/theming/fonts.dart';
-import '../../../../../features/profile/custom_widget/appbar_profile_widget.dart';
 import '../../../../../core/theming/colors.dart';
 
 class FirstPartWarrantyPayment extends StatelessWidget {

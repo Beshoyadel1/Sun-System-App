@@ -1,16 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../../../../core/theming/assets.dart';
-import '../../../../../../features/Insurance/finish_third_payment_details/ui/finish_third_payment_details.dart';
-import '../../../../../../features/Insurance/page_choose_payment_details/logic/radio_payment_state.dart';
-import '../../../../../features/Insurance/custom_widget/app_snack_bar.dart';
-import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
 import '../../../../../core/pages_widgets/button_widget.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/theming/fonts.dart';
 import '../../../../../core/theming/colors.dart';
-import '../../../../../features/Insurance/page_choose_payment_details/logic/radio_payment_cubit.dart';
 
 class LastButtonContainerPageChoosePaymentDetailsWidget extends StatelessWidget {
   final void Function()? onTap;

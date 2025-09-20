@@ -1,12 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
-import 'package:sun_system_app/features/Insurance/custom_widget/app_snack_bar.dart';
-import 'package:sun_system_app/features/Insurance/custom_widget/last_button_container_page_choose_payment_details_widget.dart';
-import 'package:sun_system_app/features/Insurance/finish_third_payment_details/ui/finish_third_payment_details.dart';
-import 'package:sun_system_app/features/Insurance/page_choose_payment_details/logic/radio_payment_state.dart';
 import '../../../../../features/Insurance/page_choose_payment_details/logic/radio_payment_cubit.dart';
 import '../../../../../features/Insurance/page_choose_payment_details/ui/screens/last_button_container_page_choose_payment_details.dart';
 import '../../../../../features/Insurance/page_choose_payment_details/ui/screens/container_list_visa.dart';

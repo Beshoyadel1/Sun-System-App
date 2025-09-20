@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import '../../../../../core/language/language_constant.dart';
-import '../../../../../features/Insurance/custom_widget/container_installment.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../core/theming/assets.dart';
 import '../../../../../core/theming/fonts.dart';

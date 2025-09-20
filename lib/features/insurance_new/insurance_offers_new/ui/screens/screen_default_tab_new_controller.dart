@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sun_system_app/features/insurance_new/insurance_offers_new/ui/screens/comprehensive_insurance_new_view.dart';
+import '../../../../../features/insurance_new/insurance_offers_new/ui/screens/comprehensive_insurance_new_view.dart';
 import '../../../../../features/insurance_new/insurance_offers_new/logic/tab_new_cubit/tab_insurance_new_offers_cubit.dart';
 import '../../../../../features/insurance_new/insurance_offers_new/logic/tab_new_cubit/tab_insurance_new_offers_state.dart';
 import '../../../../../features/insurance_new/insurance_offers_new/ui/screens/third_party_insurance_new.dart';

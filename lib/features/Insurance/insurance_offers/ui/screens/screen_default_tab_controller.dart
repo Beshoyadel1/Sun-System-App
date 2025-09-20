@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
 import '../../../../../features/Insurance/insurance_offers/logic/tab_cubit/tab_insurance_offers_cubit.dart';
 import '../../../../../features/Insurance/insurance_offers/logic/tab_cubit/tab_insurance_offers_state.dart';
-
 import '../../../../../features/Insurance/insurance_offers/ui/screens/third_party_insurance.dart';
 import '../../../../../features/Insurance/insurance_offers/ui/screens/comprehensive_insurance.dart';
 import '../../../../../core/theming/colors.dart';

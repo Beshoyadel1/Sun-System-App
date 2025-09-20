@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/insurance_new/your_insurance_information_new/ui/screens/data_change_insurance_info_view_new.dart';
+import '../../../../../features/insurance_new/your_insurance_information_new/ui/screens/data_change_insurance_info_view_new.dart';
 import '../../../../../features/Insurance/custom_widget/appbar_insurance_offers.dart';
 import '../../../../../features/insurance_new/your_insurance_information_new/ui/screens/first_row_your_insurance_information_new.dart';
 import '../../../../../core/theming/colors.dart';
