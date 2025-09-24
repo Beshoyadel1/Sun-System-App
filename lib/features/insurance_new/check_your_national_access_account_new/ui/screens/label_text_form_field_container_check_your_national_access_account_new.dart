@@ -34,9 +34,6 @@ class LabelTextFormFieldContainerCheckYourNationalAccessAccountNew extends State
           textSize: 15,
           textFormWidth: 500,
         ),
-        SizedBox(
-          height: 30,
-        ),
       ],
     );
   }

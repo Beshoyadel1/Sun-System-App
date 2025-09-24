@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
-import '../../../../../features/car_batteries/confirm_service_booking_car_batteries/screens/container_model_car_in_list_data_confirm_service_booking_car_batteries/second_row_in_container_model_car_in_list_data_confirm_service_booking_car_batteries.dart';
-import '../../../../../features/car_batteries/confirm_service_booking_car_batteries/screens/container_model_car_in_list_data_confirm_service_booking_car_batteries/first_row_in_container_model_car_in_list_data_confirm_service_booking_car_batteries.dart';
+import '../../../../../features/car_batteries/confirm_service_booking_car_batteries/screens/container_service_in_list_data_confirm_service_booking_car_batteries/first_row_in_container_service_in_list_data_confirm_service_booking_car_batteries.dart';
+import '../../../../../features/car_batteries/confirm_service_booking_car_batteries/screens/container_service_in_list_data_confirm_service_booking_car_batteries/second_row_in_container_service_in_list_data_confirm_service_booking_car_batteries.dart';
 import '../../../../../core/theming/colors.dart';
 
-class ContainerModelCarInListDataConfirmServiceBookingCarBatteries extends StatelessWidget {
-  const ContainerModelCarInListDataConfirmServiceBookingCarBatteries({super.key});
+class ContainerServiceInListDataConfirmServiceBookingCarBatteries extends StatelessWidget {
+  const ContainerServiceInListDataConfirmServiceBookingCarBatteries({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -27,8 +27,8 @@ class ContainerModelCarInListDataConfirmServiceBookingCarBatteries extends State
       child: Column(
         spacing: 15,
         children: [
-          FirstRowInContainerModelCarInListDataConfirmServiceBookingCarBatteries(),
-          SecondRowInContainerModelCarInListDataConfirmServiceBookingCarBatteries()
+          FirstRowInContainerServiceInListDataConfirmServiceBookingCarBatteries(),
+          SecondRowInContainerServiceInListDataConfirmServiceBookingCarBatteries()
         ],
       ),
     );

@@ -4,14 +4,15 @@ import '../../../../../core/theming/fonts.dart';
 import '../../../../../core/theming/text_styles.dart';
 
 class ContainerPartFinishServiceInListDataInFirstPageInServiceRequest extends StatelessWidget {
-  final String day,date;
-  final bool isSelected;
-
+  final String? day,date,hour;
+  final bool isSelected ,isHour;
   const ContainerPartFinishServiceInListDataInFirstPageInServiceRequest({
     super.key,
-    required this.day,
-    required this.date,
+     this.day,
+     this.date,
+     this.hour,
     required this.isSelected,
+    this.isHour=false
   });
 
   @override
@@ -30,16 +31,27 @@ class ContainerPartFinishServiceInListDataInFirstPageInServiceRequest extends St
           ),
         ],
       ),
-      child: Column(
+      child:
+      isHour?
+      Center(
+        child: TextInAppWidget(
+        text: hour!,
+        textSize: 12,
+        fontWeightIndex: FontSelectionData.regularFontFamily,
+        textColor: isSelected?AppColors.whiteColor: AppColors.greyColor,
+            ),
+      )
+          :
+      Column(
         children: [
           TextInAppWidget(
-            text: day,
+            text: day!,
             textSize: 12,
             fontWeightIndex: FontSelectionData.regularFontFamily,
             textColor:isSelected?AppColors.whiteColor: AppColors.greyColor,
           ),
           TextInAppWidget(
-            text: date,
+            text: date!,
             textSize: 12,
             fontWeightIndex: FontSelectionData.regularFontFamily,
             textColor: isSelected?AppColors.whiteColor: AppColors.greyColor,

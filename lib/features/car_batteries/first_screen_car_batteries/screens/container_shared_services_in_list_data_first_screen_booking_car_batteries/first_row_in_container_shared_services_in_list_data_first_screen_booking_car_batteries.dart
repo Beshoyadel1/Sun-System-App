@@ -1,39 +1,38 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../../../features/car_batteries/first_screen_car_batteries/screens/first_container_in_list_data_first_screen_booking_car_batteries/stack_data_in_first_container_in_list_data_first_screen_booking_car_batteries.dart';
+import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/theming/assets.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../core/theming/fonts.dart';
 import '../../../../../core/theming/text_styles.dart';
 
-class ContainerSharedServicesInListDataFirstScreenBookingCarBatteries extends StatelessWidget {
-  const ContainerSharedServicesInListDataFirstScreenBookingCarBatteries({super.key});
+class FirstRowInContainerSharedServicesInListDataFirstScreenBookingCarBatteries extends StatelessWidget {
+  const FirstRowInContainerSharedServicesInListDataFirstScreenBookingCarBatteries({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-        padding: EdgeInsetsGeometry.all(5),
-        decoration: BoxDecoration(
-          color: AppColors.whiteColor,
-          borderRadius: BorderRadius.all(Radius.circular(20)),
-          border: Border.all(
-              color: AppColors.transparent
-          ),
-          boxShadow: [
-            BoxShadow(
-              color: AppColors.darkColor.withOpacity(0.1),
-              blurRadius: 4,
-              offset: const Offset(0, 2),
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        TextInAppWidget(
+          text:AppLanguageKeys.sharedServices,
+          textSize: 12,
+          fontWeightIndex: FontSelectionData.mediumFontFamily,
+          textColor:AppColors.darkColor,
+        ),
+        Row(
+          spacing: 5,
+          children: [
+            Image.asset(AppImageKeys.shield,width: 20,),
+            TextInAppWidget(
+              text:AppLanguageKeys.sunWarranty,
+              textSize: 12,
+              fontWeightIndex: FontSelectionData.mediumFontFamily,
+              textColor:AppColors.darkColor,
             ),
           ],
-        ),
-        child:Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          spacing: 10,
-          children: [
-          
-          ],
         )
+      ],
     );
   }
 }

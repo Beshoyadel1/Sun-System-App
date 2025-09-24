@@ -1,12 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../../../features/delivery_laundry/confirm_your_location_delivery_laundry/screens/list_data_confirm_your_location_delivery_laundry.dart';
+import '../../../../../features/delivery_laundry/write_your_notes_delivery_laundry/screens/last_button_in_write_your_notes_delivery_laundry.dart';
+import '../../../../../features/delivery_laundry/write_your_notes_delivery_laundry/screens/list_data_write_your_notes_delivery_laundry.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../features/profile/custom_widget/appbar_profile_widget.dart';
 
 
-class ConfirmYourLocationDeliveryLaundry extends StatelessWidget {
-  const ConfirmYourLocationDeliveryLaundry({super.key});
+class WriteYourNotesDeliveryLaundry extends StatelessWidget {
+  const WriteYourNotesDeliveryLaundry({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,9 +25,10 @@ class ConfirmYourLocationDeliveryLaundry extends StatelessWidget {
                 children: [
                   Expanded(
                     child: SingleChildScrollView(
-                        child: ListDataConfirmYourLocationDeliveryLaundry()
+                        child: ListDataWriteYourNotesDeliveryLaundry()
                     ),
                   ),
+                  LastButtonInWriteYourNotesDeliveryLaundry()
                 ],
               ),
             ),

@@ -21,7 +21,7 @@ class RowNumberCoinWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       mainAxisAlignment:mainAxisAlignment ?? MainAxisAlignment.center,
-      spacing: 10,
+      spacing: 5,
       children: [
         TextInAppWidget(
           text: numberText,

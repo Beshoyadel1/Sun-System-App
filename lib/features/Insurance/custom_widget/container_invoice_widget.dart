@@ -18,12 +18,20 @@ class ContainerInvoiceWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 500,
-      padding: EdgeInsetsGeometry.symmetric(vertical: 13,horizontal: 20),
-      //  margin: EdgeInsetsGeometry.all(20),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
       decoration: BoxDecoration(
-        color: AppColors.whiteColor,
-        borderRadius: BorderRadius.circular(8),
+        color: AppColors.whiteColor.withOpacity(0.8),
+        borderRadius: const BorderRadius.all(Radius.circular(20)),
+        border: Border.all(
+            color: AppColors.transparent
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: AppColors.darkColor.withOpacity(0.1),
+            blurRadius: 4,
+            offset: const Offset(0, 2),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

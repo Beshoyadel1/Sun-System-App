@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import '../../../../../features/request_service/map_background_in_service_request/ui/screens/open_street_map_screen_map_background.dart';
+import '../../../../../features/delivery_laundry/confirm_your_location_delivery_laundry/screens/open_street_map_screen_confirm_your_location_delivery_laundry.dart';
 
-class OrgLocationWidgetMapBackground extends StatefulWidget {
-  const OrgLocationWidgetMapBackground({super.key, required this.location});
+class OrgLocationWidgetConfirmYourLocationDeliveryLaundry extends StatefulWidget {
+  const OrgLocationWidgetConfirmYourLocationDeliveryLaundry({super.key, required this.location});
 
   final String location;
 
   @override
-  State<OrgLocationWidgetMapBackground> createState() => _OrgLocationWidgetMapBackgroundState();
+  State<OrgLocationWidgetConfirmYourLocationDeliveryLaundry> createState() => _OrgLocationWidgetConfirmYourLocationDeliveryLaundryState();
 }
 
-class _OrgLocationWidgetMapBackgroundState
-    extends State<OrgLocationWidgetMapBackground> {
+class _OrgLocationWidgetConfirmYourLocationDeliveryLaundryState
+    extends State<OrgLocationWidgetConfirmYourLocationDeliveryLaundry> {
   double latitude = 0;
   double longitude = 0;
 
@@ -27,7 +27,7 @@ class _OrgLocationWidgetMapBackgroundState
   @override
   Widget build(BuildContext context) {
     return SizedBox.expand(
-      child: OpenStreetMapScreenMapBackground(
+      child: OpenStreetMapScreenConfirmYourLocationDeliveryLaundry(
         latitude: latitude,
         longitude: longitude,
       ),

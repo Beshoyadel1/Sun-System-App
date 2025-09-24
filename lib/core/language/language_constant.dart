@@ -1,6 +1,43 @@
 
 class AppLanguageKeys{
 
+  ////Delivery laundry////
+  static const String packages = 'packages';
+  static const String goldPackage = 'goldPackage';
+  static const String premiumPackage = 'premiumPackage';
+  static const String fullCleaning = 'fullCleaning';
+  static const String interiorPolishing = 'interiorPolishing';
+  static const String writeNotes = 'writeNotes';
+  static const String sendRequest = 'sendRequest';
+  static const String requestAccepted = 'requestAccepted';
+  static const String highwayServiceCompleted = 'highwayServiceCompleted';
+  static const String searchYourAddress = 'searchYourAddress';
+  static const String confirmCarLocation = 'confirmCarLocation';
+  static const String pleaseSelectCarLocation = 'pleaseSelectCarLocation';
+
+  ////End////
+
+  ////Car Batteries////
+  static const String glassReplacement = 'glassReplacement';
+  static const String hour = 'hour';
+  static const String mobile = 'mobile';
+  static const String sharedServices = 'sharedServices';
+  static const String sparePartsAndProducts = 'sparePartsAndProducts';
+  static const String reviews = 'reviews';
+  static const String viewReviews = 'viewReviews';
+  static const String bookService = 'bookService';
+  static const String newItem = 'newItem';
+  static const String selectServices = 'selectServices';
+  static const String confirmService = 'confirmService';
+  static const String confirmBookingTime = 'confirmBookingTime';
+  static const String selectDay = 'selectDay';
+  static const String selectHour = 'selectHour';
+  static const String confirmServiceBooking = 'confirmServiceBooking';
+  static const String appointment = 'appointment';
+  static const String coupon = 'coupon';
+  static const String apply = 'apply';
+  ////End////
+
   ////Order list////
   static const String createNewRequest = 'createNewRequest';
   static const String requestReceived = 'requestReceived';

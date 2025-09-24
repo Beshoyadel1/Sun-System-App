@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../../../features/delivery_laundry/first_screen_delivery_laundry/screens/list_data_first_screen_delivery_laundry.dart';
+import '../../../../../features/delivery_laundry/confirm_your_location_delivery_laundry/screens/list_data_confirm_your_location_delivery_laundry.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../features/profile/custom_widget/appbar_profile_widget.dart';
 
 
-class FirstScreenCarBatteries extends StatelessWidget {
-  const FirstScreenCarBatteries({super.key});
+class ConfirmYourLocationDeliveryLaundry extends StatelessWidget {
+  const ConfirmYourLocationDeliveryLaundry({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,15 +20,7 @@ class FirstScreenCarBatteries extends StatelessWidget {
             alignment:AlignmentDirectional.center,
             child: SizedBox(
               width: 350,
-              child: Column(
-                children: [
-                  Expanded(
-                    child: SingleChildScrollView(
-                        child: ListDataFirstScreenDeliveryLaundry()
-                    ),
-                  ),
-                ],
-              ),
+              child: ListDataConfirmYourLocationDeliveryLaundry(),
             ),
           ),
         ),

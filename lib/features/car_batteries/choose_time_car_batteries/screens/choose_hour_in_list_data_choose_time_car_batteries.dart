@@ -1,22 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/core/theming/fonts.dart';
-import 'package:sun_system_app/core/theming/text_styles.dart';
-import 'package:sun_system_app/features/car_batteries/choose_time_car_batteries/logic/select_day_in_choose_time_car_batteries_cubit.dart';
-import 'package:sun_system_app/features/car_batteries/choose_time_car_batteries/logic/select_day_in_choose_time_car_batteries_state.dart';
+import '../../../../../core/language/language_constant.dart';
+import '../../../../../core/theming/colors.dart';
+import '../../../../../core/theming/fonts.dart';
+import '../../../../../core/theming/text_styles.dart';
+import '../../../../../features/car_batteries/choose_time_car_batteries/logic/select_day_in_choose_time_car_batteries_cubit.dart';
+import '../../../../../features/car_batteries/choose_time_car_batteries/logic/select_day_in_choose_time_car_batteries_state.dart';
 import '../../../../../features/request_service/custom_widget/container_part_finish_service_in_list_data_in_first_page_in_service_request.dart';
 
-class ChooseDayInListDataChooseTimeCarBatteries extends StatefulWidget {
-  const ChooseDayInListDataChooseTimeCarBatteries({super.key});
+class ChooseHourInListDataChooseTimeCarBatteries extends StatefulWidget {
+  const ChooseHourInListDataChooseTimeCarBatteries({super.key});
 
   @override
-  State<ChooseDayInListDataChooseTimeCarBatteries> createState() =>
-      _ChooseDayInListDataChooseTimeCarBatteriesState();
+  State<ChooseHourInListDataChooseTimeCarBatteries> createState() => _ChooseHourInListDataChooseTimeCarBatteriesState();
 }
 
-class _ChooseDayInListDataChooseTimeCarBatteriesState extends State<ChooseDayInListDataChooseTimeCarBatteries> {
+class _ChooseHourInListDataChooseTimeCarBatteriesState extends State<ChooseHourInListDataChooseTimeCarBatteries> {
   late final SelectDayInChooseTimeCarBatteriesCubit _cubit;
 
   @override
@@ -55,7 +54,7 @@ class _ChooseDayInListDataChooseTimeCarBatteriesState extends State<ChooseDayInL
             }
 
             return SizedBox(
-              height: 70,
+              height: 50,
               child: ListView.separated(
                 scrollDirection: Axis.horizontal,
                 itemCount: 5,
@@ -68,8 +67,8 @@ class _ChooseDayInListDataChooseTimeCarBatteriesState extends State<ChooseDayInL
                     },
                     child:
                     ContainerPartFinishServiceInListDataInFirstPageInServiceRequest(
-                      day: 'السبت',
-                      date: '1 يناير',
+                      isHour: true,
+                      hour: '1:00 م',
                       isSelected: isSelected,
                     ),
                   );

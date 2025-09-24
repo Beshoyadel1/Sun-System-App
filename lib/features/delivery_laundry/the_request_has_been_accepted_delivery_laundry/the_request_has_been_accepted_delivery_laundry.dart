@@ -1,18 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../../../features/delivery_laundry/confirm_your_location_delivery_laundry/screens/list_data_confirm_your_location_delivery_laundry.dart';
+import '../../../../../features/delivery_laundry/the_request_has_been_accepted_delivery_laundry/screens/list_data_the_request_has_been_accepted_delivery_laundry.dart';
 import '../../../../../core/theming/colors.dart';
-import '../../../../../features/profile/custom_widget/appbar_profile_widget.dart';
 
-
-class ConfirmYourLocationDeliveryLaundry extends StatelessWidget {
-  const ConfirmYourLocationDeliveryLaundry({super.key});
+class TheRequestHasBeenAcceptedDeliveryLaundry extends StatelessWidget {
+  const TheRequestHasBeenAcceptedDeliveryLaundry({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.scaffoldColor,
-      appBar: AppbarProfileWidget(title:'أسم المركز',),
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.all(20),
@@ -24,7 +21,7 @@ class ConfirmYourLocationDeliveryLaundry extends StatelessWidget {
                 children: [
                   Expanded(
                     child: SingleChildScrollView(
-                        child: ListDataConfirmYourLocationDeliveryLaundry()
+                        child: ListDataTheRequestHasBeenAcceptedDeliveryLaundry()
                     ),
                   ),
                 ],

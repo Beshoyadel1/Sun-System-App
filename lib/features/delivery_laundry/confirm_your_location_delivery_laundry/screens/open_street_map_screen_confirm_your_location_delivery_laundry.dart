@@ -3,8 +3,8 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 import '../../../../../core/theming/colors.dart';
 
-class OpenStreetMapScreenMapBackground extends StatelessWidget {
-  const OpenStreetMapScreenMapBackground({super.key, required this.latitude, required this.longitude});
+class OpenStreetMapScreenConfirmYourLocationDeliveryLaundry extends StatelessWidget {
+  const OpenStreetMapScreenConfirmYourLocationDeliveryLaundry({super.key, required this.latitude, required this.longitude});
 
   final double latitude;
   final double longitude;

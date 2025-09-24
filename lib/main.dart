@@ -2,7 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import '../../../features/request_service/mobile_service_in_service_request/ui/mobile_service_in_service_request.dart';
+import '../../../features/delivery_laundry/first_screen_delivery_laundry/first_screen_delivery_laundry.dart';
 import '../core/language/language.dart';
 import '../core/language/language_cubit/language_cubit.dart';
 import '../core/theming/colors.dart';
@@ -65,7 +65,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const MobileServiceInServiceRequest(),
+          home: const FirstScreenDeliveryLaundry(),
         );
       },
     ),

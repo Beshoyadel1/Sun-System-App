@@ -15,6 +15,43 @@ class AppLocalizations {
   static final Map<String, Map<String, String>> _localizedValues = {
     'ar': {
 
+      ////Delivery laundry////
+      AppLanguageKeys.packages: 'الباقات',
+      AppLanguageKeys.goldPackage: 'باقة جولد',
+      AppLanguageKeys.premiumPackage: 'باقة بريميم',
+      AppLanguageKeys.fullCleaning: 'شامل جميع النظافة',
+      AppLanguageKeys.interiorPolishing: 'تلميع داخلي للسيارة',
+      AppLanguageKeys.writeNotes: 'أكتب ملاحظاتك او احتياجات من مزودي الخدمة',
+      AppLanguageKeys.sendRequest: 'إرسال الطلب',
+      AppLanguageKeys.requestAccepted: 'تم قبول الطلب',
+      AppLanguageKeys.highwayServiceCompleted: 'تم الانتهاء من خدمة الطرق السريعة',
+      AppLanguageKeys.searchYourAddress: 'بحث عنوانك',
+      AppLanguageKeys.confirmCarLocation: 'تأكيد موقع سيارتك',
+      AppLanguageKeys.pleaseSelectCarLocation: 'برجاء قم بتتحديد مكان سيارتك',
+
+      ////End////
+
+      ////Car Batteries////
+      AppLanguageKeys.glassReplacement: 'تغيير زجاج',
+      AppLanguageKeys.hour: 'ساعة',
+      AppLanguageKeys.mobile: 'متنقل',
+      AppLanguageKeys.sharedServices: 'الخدمات المشتركة',
+      AppLanguageKeys.sparePartsAndProducts: 'قطع غيار ومنتجات',
+      AppLanguageKeys.reviews: 'التقييمات',
+      AppLanguageKeys.viewReviews: 'عرض التقييمات',
+      AppLanguageKeys.bookService: 'حجز الخدمة',
+      AppLanguageKeys.newItem: 'جديد',
+      AppLanguageKeys.selectServices: 'أختيار الخدمات التي تحتاجها',
+      AppLanguageKeys.confirmService: 'تأكيد الخدمة',
+      AppLanguageKeys.confirmBookingTime: 'تأكيد التوقيت المناسب لحجز خدماتك',
+      AppLanguageKeys.selectDay: 'أختيار اليوم',
+      AppLanguageKeys.selectHour: 'أختيار الساعة',
+      AppLanguageKeys.confirmServiceBooking: 'تأكيد حجز الخدمة',
+      AppLanguageKeys.appointment: 'الميعاد',
+      AppLanguageKeys.coupon: 'الكوبون',
+      AppLanguageKeys.apply: 'تطبيق',
+      ////End////
+
       ////Order list////
       AppLanguageKeys.createNewRequest: 'إنشاء طلب جديد',
       AppLanguageKeys.requestReceived: 'تم الاستلام',
@@ -348,6 +385,42 @@ class AppLocalizations {
 
     },
     'en': {
+
+      ////Delivery laundry////
+      AppLanguageKeys.packages: 'Packages',
+      AppLanguageKeys.goldPackage: 'Gold Package',
+      AppLanguageKeys.premiumPackage: 'Premium Package',
+      AppLanguageKeys.fullCleaning: 'Full Cleaning Included',
+      AppLanguageKeys.interiorPolishing: 'Interior Car Polishing',
+      AppLanguageKeys.writeNotes: 'Write your notes or needs for service providers',
+      AppLanguageKeys.sendRequest: 'Send Request',
+      AppLanguageKeys.requestAccepted: 'Request Accepted',
+      AppLanguageKeys.highwayServiceCompleted: 'Highway Service Completed',
+      AppLanguageKeys.searchYourAddress: 'Search Your Address',
+      AppLanguageKeys.confirmCarLocation: 'Confirm Your Car Location',
+      AppLanguageKeys.pleaseSelectCarLocation: 'Please select your car location',
+      ////End////
+
+      ////Car Batteries////
+      AppLanguageKeys.glassReplacement: 'Glass Replacement',
+      AppLanguageKeys.hour: 'Hour',
+      AppLanguageKeys.mobile: 'Mobile',
+      AppLanguageKeys.sharedServices: 'Shared Services',
+      AppLanguageKeys.sparePartsAndProducts: 'Spare Parts & Products',
+      AppLanguageKeys.reviews: 'Reviews',
+      AppLanguageKeys.viewReviews: 'View Reviews',
+      AppLanguageKeys.bookService: 'Book Service',
+      AppLanguageKeys.newItem: 'New',
+      AppLanguageKeys.selectServices: 'Select the services you need',
+      AppLanguageKeys.confirmService: 'Confirm Service',
+      AppLanguageKeys.confirmBookingTime: 'Confirm the suitable time to book your services',
+      AppLanguageKeys.selectDay: 'Select Day',
+      AppLanguageKeys.selectHour: 'Select Hour',
+      AppLanguageKeys.confirmServiceBooking: 'Confirm Service Booking',
+      AppLanguageKeys.appointment: 'Appointment',
+      AppLanguageKeys.coupon: 'Coupon',
+      AppLanguageKeys.apply: 'Apply',
+      ////End////
 
       ////Order list////
       AppLanguageKeys.createNewRequest: 'Create New Request',

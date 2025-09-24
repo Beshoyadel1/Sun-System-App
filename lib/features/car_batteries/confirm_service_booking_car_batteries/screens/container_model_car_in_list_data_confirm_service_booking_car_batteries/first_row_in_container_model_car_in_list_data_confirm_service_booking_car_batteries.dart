@@ -1,32 +1,26 @@
 import 'package:flutter/cupertino.dart';
+import '../../../../../features/request_service/bill_payment_in_service_request/ui/screens/container_notes_bill_payment_in_service_request/row_icon_edit_orange.dart';
+import '../../../../../core/language/language_constant.dart';
+import '../../../../../core/theming/fonts.dart';
+import '../../../../../core/theming/text_styles.dart';
 import '../../../../../core/theming/colors.dart';
 
-class ContainerModelCarInListDataConfirmServiceBookingCarBatteries extends StatelessWidget {
-  const ContainerModelCarInListDataConfirmServiceBookingCarBatteries({super.key});
+class FirstRowInContainerModelCarInListDataConfirmServiceBookingCarBatteries extends StatelessWidget {
+  const FirstRowInContainerModelCarInListDataConfirmServiceBookingCarBatteries({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
-      decoration: BoxDecoration(
-        color: AppColors.whiteColor.withOpacity(0.8),
-        borderRadius: const BorderRadius.all(Radius.circular(20)),
-        border: Border.all(
-            color: AppColors.transparent
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        TextInAppWidget(
+          text:AppLanguageKeys.carModel,
+          textSize: 14,
+          fontWeightIndex: FontSelectionData.regularFontFamily,
+          textColor:AppColors.darkColor,
         ),
-        boxShadow: [
-          BoxShadow(
-            color: AppColors.darkColor.withOpacity(0.1),
-            blurRadius: 4,
-            offset: const Offset(0, 2),
-          ),
-        ],
-      ),
-      child: Column(
-        children: [
-          //
-        ],
-      ),
+        RowIconEditOrange()
+      ],
     );
   }
 }

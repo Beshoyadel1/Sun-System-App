@@ -1,8 +1,20 @@
 class AppImageKeys{
 
-  ////Order list////
+  ////Delivery laundry////
+  ////End////
 
-  ////end////
+  ////Car Batteries////
+  static const String  service_test='assets/images/service_test.png';
+  static const String  star_orange='assets/images/star_orange.png';
+  static const String  clock_orange='assets/images/clock_orange.png';
+  static const String  car_orange='assets/images/car_orange.png';
+  static const String  test50='assets/images/test50.png';
+  static const String  test101='assets/images/test101.png';
+  static const String  test102='assets/images/test102.png';
+  static const String  packet='assets/images/packet.png';
+
+  ////End////
+
   ////Request - Service////
   static const String  service1='assets/images/service1.png';
   static const String  service2='assets/images/service2.png';

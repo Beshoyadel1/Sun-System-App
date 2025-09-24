@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../../../features/car_batteries/first_screen_car_batteries/screens/list_data_first_screen_booking_car_batteries.dart';
+import '../../../../../features/delivery_laundry/first_screen_delivery_laundry/screens/list_data_first_screen_delivery_laundry.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../features/profile/custom_widget/appbar_profile_widget.dart';
 
 
-class FirstScreenCarBatteries extends StatelessWidget {
-  const FirstScreenCarBatteries({super.key});
+class FirstScreenDeliveryLaundry extends StatelessWidget {
+  const FirstScreenDeliveryLaundry({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class FirstScreenCarBatteries extends StatelessWidget {
                 children: [
                   Expanded(
                     child: SingleChildScrollView(
-                        child: ListDataFirstScreenBookingCarBatteries()
+                        child: ListDataFirstScreenDeliveryLaundry()
                     ),
                   ),
                 ],

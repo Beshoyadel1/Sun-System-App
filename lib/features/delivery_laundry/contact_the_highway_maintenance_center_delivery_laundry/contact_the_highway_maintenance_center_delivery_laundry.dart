@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../../../features/delivery_laundry/write_your_notes_delivery_laundry/screens/list_data_write_your_notes_delivery_laundry.dart';
+import '../../../../../features/delivery_laundry/contact_the_highway_maintenance_center_delivery_laundry/screens/list_data_contact_the_highway_maintenance_center_delivery_laundry.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../features/profile/custom_widget/appbar_profile_widget.dart';
 
 
-class WriteYourNotesDeliveryLaundry extends StatelessWidget {
-  const WriteYourNotesDeliveryLaundry({super.key});
+class ContactTheHighwayMaintenanceCenterDeliveryLaundry extends StatelessWidget {
+  const ContactTheHighwayMaintenanceCenterDeliveryLaundry({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class WriteYourNotesDeliveryLaundry extends StatelessWidget {
                 children: [
                   Expanded(
                     child: SingleChildScrollView(
-                        child: ListDataWriteYourNotesDeliveryLaundry()
+                        child: ListDataContactTheHighwayMaintenanceCenterDeliveryLaundry()
                     ),
                   ),
                 ],
