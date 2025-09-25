@@ -15,6 +15,11 @@ class AppLocalizations {
   static final Map<String, Map<String, String>> _localizedValues = {
     'ar': {
 
+      ////Change tires////
+      AppLanguageKeys.tireBalancing: 'ترصيص كفرات',
+      AppLanguageKeys.wheelAlignment: 'وزن ازرعة',
+      ////End////
+
       ////Delivery laundry////
       AppLanguageKeys.packages: 'الباقات',
       AppLanguageKeys.goldPackage: 'باقة جولد',
@@ -385,6 +390,11 @@ class AppLocalizations {
 
     },
     'en': {
+
+      ////Change tires////
+      AppLanguageKeys.tireBalancing: 'Tire Balancing',
+      AppLanguageKeys.wheelAlignment: 'Wheel Alignment',
+      ////End////
 
       ////Delivery laundry////
       AppLanguageKeys.packages: 'Packages',

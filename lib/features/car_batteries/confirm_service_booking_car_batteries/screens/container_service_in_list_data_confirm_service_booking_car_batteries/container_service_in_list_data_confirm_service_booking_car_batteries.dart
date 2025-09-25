@@ -4,7 +4,14 @@ import '../../../../../features/car_batteries/confirm_service_booking_car_batter
 import '../../../../../core/theming/colors.dart';
 
 class ContainerServiceInListDataConfirmServiceBookingCarBatteries extends StatelessWidget {
-  const ContainerServiceInListDataConfirmServiceBookingCarBatteries({super.key});
+  final String? text,price,imagePath;
+
+  const ContainerServiceInListDataConfirmServiceBookingCarBatteries({
+    super.key,
+    this.imagePath,
+    this.text,
+    this.price
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +35,11 @@ class ContainerServiceInListDataConfirmServiceBookingCarBatteries extends Statel
         spacing: 15,
         children: [
           FirstRowInContainerServiceInListDataConfirmServiceBookingCarBatteries(),
-          SecondRowInContainerServiceInListDataConfirmServiceBookingCarBatteries()
+          SecondRowInContainerServiceInListDataConfirmServiceBookingCarBatteries(
+            imagePath: imagePath,
+            text: text,
+            price: price,
+          )
         ],
       ),
     );

@@ -1,6 +1,9 @@
 class AppImageKeys{
 
-  ////Delivery laundry////
+  ////Change tires////
+  static const String  change_tires='assets/images/change_tires.png';
+  static const String  tires1='assets/images/tires1.png';
+
   ////End////
 
   ////Car Batteries////

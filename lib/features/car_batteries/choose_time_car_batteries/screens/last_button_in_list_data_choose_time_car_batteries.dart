@@ -7,7 +7,8 @@ import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/theming/colors.dart';
 
 class LastButtonInListDataChooseTimeCarBatteries extends StatelessWidget {
-  const LastButtonInListDataChooseTimeCarBatteries({super.key});
+  final Widget? widget;
+  const LastButtonInListDataChooseTimeCarBatteries({super.key, this.widget});
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +23,7 @@ class LastButtonInListDataChooseTimeCarBatteries extends StatelessWidget {
       borderRadius: 30,
       onTap: (){
         Navigator.of(context).push(
-          NavigateToPageWidget(ConfirmServiceBookingCarBatteries()),
+          NavigateToPageWidget(widget ?? ConfirmServiceBookingCarBatteries()),
         );
       },
     );

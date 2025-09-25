@@ -8,7 +8,12 @@ import '../../../../../core/theming/text_styles.dart';
 import '../../../../../core/theming/colors.dart';
 
 class ColumnInSecondRowInContainerServiceInListDataConfirmServiceBookingCarBatteries extends StatelessWidget {
-  const ColumnInSecondRowInContainerServiceInListDataConfirmServiceBookingCarBatteries({super.key});
+  final String? text,price;
+  const ColumnInSecondRowInContainerServiceInListDataConfirmServiceBookingCarBatteries({
+    super.key,
+    this.text,
+    this.price
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -16,13 +21,13 @@ class ColumnInSecondRowInContainerServiceInListDataConfirmServiceBookingCarBatte
       spacing: 5,
       children: [
         TextInAppWidget(
-          text:AppLanguageKeys.batteries,
+          text:text?? AppLanguageKeys.batteries,
           textSize: 14,
           fontWeightIndex: FontSelectionData.regularFontFamily,
           textColor:AppColors.darkColor,
         ),
         RowNumberCoinWidget(
-            numberText: '500',
+            numberText:price?? '500',
             sizeText: 13,
             imageSrc: AppImageKeys.coin
         )

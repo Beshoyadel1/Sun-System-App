@@ -1,6 +1,11 @@
 
 class AppLanguageKeys{
 
+  ////Change tires////
+  static const String tireBalancing = 'tireBalancing';
+  static const String wheelAlignment = 'wheelAlignment';
+  ////End////
+
   ////Delivery laundry////
   static const String packages = 'packages';
   static const String goldPackage = 'goldPackage';

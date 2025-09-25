@@ -5,7 +5,13 @@ import '../../../../../features/car_batteries/confirm_service_booking_car_batter
 import '../../../../../core/theming/colors.dart';
 
 class SecondRowInContainerServiceInListDataConfirmServiceBookingCarBatteries extends StatelessWidget {
-  const SecondRowInContainerServiceInListDataConfirmServiceBookingCarBatteries({super.key});
+  final String? text,price,imagePath;
+
+  const SecondRowInContainerServiceInListDataConfirmServiceBookingCarBatteries({super.key,
+  this.imagePath,
+  this.text,
+  this.price
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -15,9 +21,12 @@ class SecondRowInContainerServiceInListDataConfirmServiceBookingCarBatteries ext
         CircleAvatar(
           radius: 20,
           backgroundColor: AppColors.pinkColor,
-          child: Image.asset(AppImageKeys.test50,width: 25,),
+          child: Image.asset(imagePath?? AppImageKeys.test50,width: 25,),
         ),
-        ColumnInSecondRowInContainerServiceInListDataConfirmServiceBookingCarBatteries()
+        ColumnInSecondRowInContainerServiceInListDataConfirmServiceBookingCarBatteries(
+          text: text,
+          price: price,
+        )
       ],
     );
   }

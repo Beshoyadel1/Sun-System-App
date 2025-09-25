@@ -3,13 +3,11 @@ import 'package:flutter/material.dart';
 import '../../../../../features/car_batteries/first_screen_car_batteries/screens/first_container_in_list_data_first_screen_booking_car_batteries/second_row_text_in_first_container_in_list_data_first_screen_booking_car_batteries.dart';
 import '../../../../../features/car_batteries/first_screen_car_batteries/screens/first_container_in_list_data_first_screen_booking_car_batteries/third_row_text_in_first_container_in_list_data_first_screen_booking_car_batteries.dart';
 import '../../../../../features/car_batteries/first_screen_car_batteries/screens/first_container_in_list_data_first_screen_booking_car_batteries/stack_data_in_first_container_in_list_data_first_screen_booking_car_batteries.dart';
-import '../../../../../core/theming/assets.dart';
 import '../../../../../core/theming/colors.dart';
-import '../../../../../core/theming/fonts.dart';
-import '../../../../../core/theming/text_styles.dart';
 
 class FirstContainerInListDataFirstScreenBookingCarBatteries extends StatelessWidget {
-  const FirstContainerInListDataFirstScreenBookingCarBatteries({super.key});
+  final String? imagePath;
+  const FirstContainerInListDataFirstScreenBookingCarBatteries({super.key ,this.imagePath});
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +31,9 @@ class FirstContainerInListDataFirstScreenBookingCarBatteries extends StatelessWi
           crossAxisAlignment: CrossAxisAlignment.stretch,
           spacing: 10,
           children: [
-            StackDataInFirstContainerInListDataFirstScreenBookingCarBatteries(),
+            StackDataInFirstContainerInListDataFirstScreenBookingCarBatteries(
+              imagPath: imagePath,
+            ),
             SecondRowTextInFirstContainerInListDataFirstScreenBookingCarBatteries(),
             ThirdRowTextInFirstContainerInListDataFirstScreenBookingCarBatteries()
           ],
