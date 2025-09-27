@@ -15,6 +15,12 @@ class AppLocalizations {
   static final Map<String, Map<String, String>> _localizedValues = {
     'ar': {
 
+      ////Change the glass////
+      AppLanguageKeys.frontGlassReplacement: 'تغيير زجاج امامي',
+      AppLanguageKeys.sideGlassReplacement: 'تغيير زجاج جانبي',
+      AppLanguageKeys.frontGlass: 'زجاج امامي',
+      ////End////
+
       ////Change tires////
       AppLanguageKeys.tireBalancing: 'ترصيص كفرات',
       AppLanguageKeys.wheelAlignment: 'وزن ازرعة',
@@ -390,6 +396,12 @@ class AppLocalizations {
 
     },
     'en': {
+
+      ////Change the glass////
+      AppLanguageKeys.frontGlassReplacement: 'Front Glass Replacement',
+      AppLanguageKeys.sideGlassReplacement: 'Side Glass Replacement',
+      AppLanguageKeys.frontGlass: 'Front Glass',
+      ////End////
 
       ////Change tires////
       AppLanguageKeys.tireBalancing: 'Tire Balancing',

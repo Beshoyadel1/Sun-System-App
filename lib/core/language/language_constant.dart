@@ -1,6 +1,12 @@
 
 class AppLanguageKeys{
 
+  ////Change the glass////
+  static const String frontGlassReplacement = 'frontGlassReplacement';
+  static const String sideGlassReplacement = 'sideGlassReplacement';
+  static const String frontGlass = 'frontGlass';
+  ////End////
+
   ////Change tires////
   static const String tireBalancing = 'tireBalancing';
   static const String wheelAlignment = 'wheelAlignment';

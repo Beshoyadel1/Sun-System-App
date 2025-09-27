@@ -1,9 +1,13 @@
 class AppImageKeys{
 
+  ////Change the glass////
+  static const String  glass='assets/images/glass.png';
+  static const String  glass2='assets/images/glass2.png';
+  ////End////
+
   ////Change tires////
   static const String  change_tires='assets/images/change_tires.png';
   static const String  tires1='assets/images/tires1.png';
-
   ////End////
 
   ////Car Batteries////
@@ -15,7 +19,6 @@ class AppImageKeys{
   static const String  test101='assets/images/test101.png';
   static const String  test102='assets/images/test102.png';
   static const String  packet='assets/images/packet.png';
-
   ////End////
 
   ////Request - Service////

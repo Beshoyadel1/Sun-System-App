@@ -7,7 +7,12 @@ import '../../../../../core/theming/assets.dart';
 import '../../../../../core/theming/colors.dart';
 
 class ContainerSharedServicesInListDataFirstScreenBookingCarBatteries extends StatelessWidget {
-  const ContainerSharedServicesInListDataFirstScreenBookingCarBatteries({super.key});
+  final String? imagePath,text;
+  const ContainerSharedServicesInListDataFirstScreenBookingCarBatteries({
+    super.key,
+    this.imagePath,
+    this.text
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -33,8 +38,8 @@ class ContainerSharedServicesInListDataFirstScreenBookingCarBatteries extends St
           children: [
             FirstRowInContainerSharedServicesInListDataFirstScreenBookingCarBatteries(),
             ColumnImageTextWidget(
-                imagePath: AppImageKeys.test50,
-                text: AppLanguageKeys.batteries,
+                imagePath: imagePath ?? AppImageKeys.test50,
+                text: text ?? AppLanguageKeys.batteries,
             ),
           ],
         )

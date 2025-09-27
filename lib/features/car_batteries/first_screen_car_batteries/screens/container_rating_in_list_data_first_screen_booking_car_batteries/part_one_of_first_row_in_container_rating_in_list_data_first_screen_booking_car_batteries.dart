@@ -22,7 +22,7 @@ class PartOneOfFirstRowInContainerRatingInListDataFirstScreenBookingCarBatteries
           textColor:AppColors.darkColor,
         ),
         RowTextIconOrange(
-            text: '407',
+            text: '4,7',
             imagePath: AppImageKeys.star_orange
         )
       ],
