@@ -1,5 +1,15 @@
 class AppImageKeys{
 
+  ////dashboard////
+  static const String  notification1='assets/images/notification1.png';
+  static const String  logo10='assets/images/logo10.png';
+  static const String  car1_service='assets/images/car1_service.png';
+  static const String  car2_service='assets/images/car2_service.png';
+  static const String  car3_service='assets/images/car3_service.png';
+  static const String  car4_service='assets/images/car4_service.png';
+
+  ////End////
+
   ////Change the glass////
   static const String  glass='assets/images/glass.png';
   static const String  glass2='assets/images/glass2.png';

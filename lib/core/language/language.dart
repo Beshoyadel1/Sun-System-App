@@ -15,6 +15,19 @@ class AppLocalizations {
   static final Map<String, Map<String, String>> _localizedValues = {
     'ar': {
 
+      ////dashboard////
+      AppLanguageKeys.nissanServiceSettings: 'اعدادات الخدمات الخاص بالسيارات نيسان',
+      AppLanguageKeys.serviceSettingsDetails: 'اعدادات الخدمات من حيث نوع الخدمة والاسعار والباقات المشتركة',
+      AppLanguageKeys.backToSettings: 'رجوع للصفحة الاعدادت',
+      AppLanguageKeys.internalServices: 'صيانات وخدمات داخلية',
+      AppLanguageKeys.addServices: 'إضافة الخدمات',
+      AppLanguageKeys.mobileAndTransportServices: 'الخدمات المتنقلة والنقل',
+      AppLanguageKeys.carSpareParts: 'قطع غيار سيارات',
+      AppLanguageKeys.sharedPackages: 'باقات مشتركة',
+      AppLanguageKeys.serviceSettings: 'اعدادات الخدمات',
+
+      ////End////
+
       ////Change the glass////
       AppLanguageKeys.frontGlassReplacement: 'تغيير زجاج امامي',
       AppLanguageKeys.sideGlassReplacement: 'تغيير زجاج جانبي',
@@ -396,6 +409,18 @@ class AppLocalizations {
 
     },
     'en': {
+
+      ////dashboard////
+      AppLanguageKeys.nissanServiceSettings: 'Nissan Car Service Settings',
+      AppLanguageKeys.serviceSettingsDetails: 'Service settings by type, prices, and shared packages',
+      AppLanguageKeys.backToSettings: 'Back to Settings Page',
+      AppLanguageKeys.internalServices: 'Internal Maintenance & Services',
+      AppLanguageKeys.addServices: 'Add Services',
+      AppLanguageKeys.mobileAndTransportServices: 'Mobile & Transport Services',
+      AppLanguageKeys.carSpareParts: 'Car Spare Parts',
+      AppLanguageKeys.sharedPackages: 'Shared Packages',
+      AppLanguageKeys.serviceSettings: 'Service Settings',
+      ////End////
 
       ////Change the glass////
       AppLanguageKeys.frontGlassReplacement: 'Front Glass Replacement',

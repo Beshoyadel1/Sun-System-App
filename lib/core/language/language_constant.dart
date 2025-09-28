@@ -1,6 +1,19 @@
 
 class AppLanguageKeys{
 
+  ////dashboard////
+  static const String nissanServiceSettings = 'nissanServiceSettings';
+  static const String serviceSettingsDetails = 'serviceSettingsDetails';
+  static const String backToSettings = 'backToSettings';
+  static const String internalServices = 'internalServices';
+  static const String addServices = 'addServices';
+  static const String mobileAndTransportServices = 'mobileAndTransportServices';
+  static const String carSpareParts = 'carSpareParts';
+  static const String sharedPackages = 'sharedPackages';
+  static const String serviceSettings = 'serviceSettings';
+
+  ////End////
+
   ////Change the glass////
   static const String frontGlassReplacement = 'frontGlassReplacement';
   static const String sideGlassReplacement = 'sideGlassReplacement';

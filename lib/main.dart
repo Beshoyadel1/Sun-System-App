@@ -2,7 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import '../../../features/change_the_glass/first_screen_change_the_glass/first_screen_change_the_glass.dart';
+import '../../../features/dashboard/service_settings/first_screen_service_settings/first_screen_service_settings.dart';
 import '../core/language/language.dart';
 import '../core/language/language_cubit/language_cubit.dart';
 import '../core/theming/colors.dart';
@@ -65,7 +65,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const FirstScreenChangeTheGlass(),
+          home: const FirstScreenServiceSettings(),
         );
       },
     ),
