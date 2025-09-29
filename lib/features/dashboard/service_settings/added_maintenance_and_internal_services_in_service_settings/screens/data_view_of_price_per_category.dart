@@ -24,10 +24,11 @@ class DataViewOfPricePerCategory extends StatelessWidget {
           ListMobileOfDataViewOfPricePerCategory()
               :
           ListWebOfDataViewOfPricePerCategory(),
+
           Row(
             children: [
               SizedBox(
-                width: 200,
+                width: 150,
                 child: ContainerReturnToPageSetting(
                   color: AppColors.orangeColor,
                   text: AppLanguageKeys.add,

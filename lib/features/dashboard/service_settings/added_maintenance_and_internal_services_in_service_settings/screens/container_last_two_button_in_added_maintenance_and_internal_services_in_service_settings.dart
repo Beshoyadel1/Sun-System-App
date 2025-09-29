@@ -28,6 +28,7 @@ class ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettin
         ],
       ),
       child: Row(
+        spacing: 10,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Flexible(
