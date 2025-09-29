@@ -25,7 +25,16 @@ class AppLocalizations {
       AppLanguageKeys.carSpareParts: 'قطع غيار سيارات',
       AppLanguageKeys.sharedPackages: 'باقات مشتركة',
       AppLanguageKeys.serviceSettings: 'اعدادات الخدمات',
-
+      AppLanguageKeys.addInternalServices: 'أضافة صيانات وخدمات داخلية',
+      AppLanguageKeys.allCategories: 'جميع الفئات',
+      AppLanguageKeys.unifiedPriceForAll: 'سعر موحد لكل فئات',
+      AppLanguageKeys.pricePerCategory: 'سعر لكل فئة',
+      AppLanguageKeys.sar: 'ريال سعودي',
+      AppLanguageKeys.add: 'إضافة',
+      AppLanguageKeys.carWash: 'غسيل سيارات',
+      AppLanguageKeys.battery: 'بطارية',
+      AppLanguageKeys.back: 'رجوع',
+      AppLanguageKeys.save: 'حفظ',
       ////End////
 
       ////Change the glass////
@@ -420,6 +429,16 @@ class AppLocalizations {
       AppLanguageKeys.carSpareParts: 'Car Spare Parts',
       AppLanguageKeys.sharedPackages: 'Shared Packages',
       AppLanguageKeys.serviceSettings: 'Service Settings',
+      AppLanguageKeys.addInternalServices: 'Add Internal Maintenance & Services',
+      AppLanguageKeys.allCategories: 'All Categories',
+      AppLanguageKeys.unifiedPriceForAll: 'Unified Price for All Categories',
+      AppLanguageKeys.pricePerCategory: 'Price per Category',
+      AppLanguageKeys.sar: 'SAR',
+      AppLanguageKeys.add: 'Add',
+      AppLanguageKeys.carWash: 'Car Wash',
+      AppLanguageKeys.battery: 'Battery',
+      AppLanguageKeys.back: 'Back',
+      AppLanguageKeys.save: 'Save',
       ////End////
 
       ////Change the glass////

@@ -1,15 +1,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:sun_system_app/features/dashboard/service_settings/added_maintenance_and_internal_services_in_service_settings/screens/container_last_two_button_in_added_maintenance_and_internal_services_in_service_settings.dart';
+import '../../../../../features/dashboard/service_settings/added_maintenance_and_internal_services_in_service_settings/screens/list_data_added_maintenance_and_internal_services_in_service_settings.dart';
 import '../../../../../features/dashboard/service_settings/custom_widget/appbar_dashboard_widget.dart';
 import '../../../../../features/dashboard/service_settings/custom_widget/backgroundDesktop.dart';
 import '../../../../../core/utilies/map_of_all_app.dart';
-import '../../../../../features/dashboard/service_settings/first_screen_service_settings/screens/list_data_first_screen_service_setting.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../core/language/language_constant.dart';
 
 
-class FirstScreenServiceSettings extends StatelessWidget {
-  const FirstScreenServiceSettings({super.key});
+class AddedMaintenanceAndInternalServicesInServiceSettings extends StatelessWidget {
+  const AddedMaintenanceAndInternalServicesInServiceSettings({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -34,13 +35,14 @@ class FirstScreenServiceSettings extends StatelessWidget {
                   children: [
                     Expanded(
                       child: SingleChildScrollView(
-                          child: ListDataFirstScreenServiceSetting()
+                          child: ListDataAddedMaintenanceAndInternalServicesInServiceSettings()
                       ),
                     ),
                   ],
                 ),
               ),
             ),
+            bottomNavigationBar:ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettings(),
           ),
         ),
       ],

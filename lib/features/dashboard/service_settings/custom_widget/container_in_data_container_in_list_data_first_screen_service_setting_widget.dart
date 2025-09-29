@@ -42,37 +42,42 @@ class ContainerInDataContainerInListDataFirstScreenServiceSettingWidget extends 
       ),
       child: isMobile
           ? Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
         spacing: 10,
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             spacing: 10,
             children: [
-              ContainerImageWidget(
-                imagePath: imagePath,
-                color: AppColors.greyColor,
-                width: 50,
-                height: 50,
+              Flexible(
+                child: ContainerImageWidget(
+                  imagePath: imagePath,
+                  color: AppColors.greyColor,
+                  width: 50,
+                  height: 50,
+                ),
               ),
-              TextInAppWidget(
-                text: title,
-                textSize: 13,
-                fontWeightIndex: FontSelectionData.regularFontFamily,
-                textColor: AppColors.blackColor,
-                maxLines: 2,
-                isEllipsisTextOverflow: true,
+              Expanded(
+                child: TextInAppWidget(
+                  text: title,
+                  textSize: 13,
+                  fontWeightIndex: FontSelectionData.regularFontFamily,
+                  textColor: AppColors.blackColor,
+                  maxLines: 2,
+                  isEllipsisTextOverflow: true,
+                ),
               ),
             ],
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              ContainerReturnToPageSetting(
-                color: AppColors.orangeColor,
-                text: AppLanguageKeys.addServices,
-                icon: CupertinoIcons.add,
-                onTap: onTap,
+              Expanded(
+                child: ContainerReturnToPageSetting(
+                  color: AppColors.orangeColor,
+                  text: AppLanguageKeys.addServices,
+                  icon: CupertinoIcons.add,
+                  onTap: onTap,
+                ),
               ),
             ],
           ),

@@ -1,34 +1,33 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../../../core/language/language_constant.dart';
+import '../../../../../core/theming/colors.dart';
 import '../../../../../core/theming/fonts.dart';
 import '../../../../../core/theming/text_styles.dart';
-import '../../../../../core/theming/colors.dart';
 
-
-class ContainerReturnToPageSetting extends StatelessWidget {
-  final String? text;
-  final Color? color;
-  final IconData? icon;
+class ContainerTextOnly extends StatelessWidget {
+  final String text;
+  final Color? colorBackGround,colorText;
+  final double? width,height;
   final void Function()? onTap;
-  const ContainerReturnToPageSetting({
+  const ContainerTextOnly({
     super.key,
-    this.text,
-    this.color,
-    this.onTap,
-    this.icon
+    required this.text,
+    this.colorText,
+    this.colorBackGround,
+    this.width,
+    this.height,
+    this.onTap
   });
 
   @override
   Widget build(BuildContext context) {
-
     return InkWell(
       onTap: onTap,
       child: Container(
-      //  width: 200,
+        width:width?? 200,
         padding: EdgeInsetsGeometry.all(10),
         decoration: BoxDecoration(
-          color: color?? AppColors.blackColor44,
+          color:colorBackGround?? AppColors.blackColor44,
           borderRadius: BorderRadius.all(Radius.circular(20)),
           boxShadow: [
             BoxShadow(
@@ -42,12 +41,11 @@ class ContainerReturnToPageSetting extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           spacing: 5,
           children: [
-            Icon(icon?? CupertinoIcons.back,color: AppColors.whiteColor,size: 15,),
             TextInAppWidget(
-              text:text?? AppLanguageKeys.backToSettings,
+              text:text,
               textSize: 12,
               fontWeightIndex: FontSelectionData.mediumFontFamily,
-              textColor:AppColors.whiteColor,
+              textColor:colorText?? AppColors.whiteColor,
             ),
           ],
         ),

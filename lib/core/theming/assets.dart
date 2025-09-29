@@ -7,6 +7,15 @@ class AppImageKeys{
   static const String  car2_service='assets/images/car2_service.png';
   static const String  car3_service='assets/images/car3_service.png';
   static const String  car4_service='assets/images/car4_service.png';
+  static const String  car500='assets/images/car500.png';
+  static const String  car501='assets/images/car501.png';
+  static const String  car502='assets/images/car502.png';
+  static const String  car503='assets/images/car503.png';
+  static const String  setting3='assets/images/setting3.png';
+  static const String  setting4='assets/images/setting4.png';
+  static const String  setting5='assets/images/setting5.png';
+  static const String  setting6='assets/images/setting6.png';
+
 
   ////End////
 

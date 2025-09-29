@@ -21,7 +21,7 @@ class ContainerImageWidget extends StatelessWidget {
       padding: EdgeInsetsGeometry.all(10),
       decoration: BoxDecoration(
         color: color,
-        borderRadius: BorderRadius.all(Radius.circular(20)),
+        borderRadius: BorderRadius.all(Radius.circular(15)),
         border: Border.all(
             color: AppColors.greyColor.withOpacity(0.3)
         ),

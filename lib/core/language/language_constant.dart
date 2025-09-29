@@ -11,7 +11,16 @@ class AppLanguageKeys{
   static const String carSpareParts = 'carSpareParts';
   static const String sharedPackages = 'sharedPackages';
   static const String serviceSettings = 'serviceSettings';
-
+  static const String addInternalServices = 'addInternalServices';
+  static const String allCategories = 'allCategories';
+  static const String unifiedPriceForAll = 'unifiedPriceForAll';
+  static const String pricePerCategory = 'pricePerCategory';
+  static const String sar = 'sar';
+  static const String add = 'add';
+  static const String carWash = 'carWash';
+  static const String battery = 'battery';
+  static const String back = 'back';
+  static const String save = 'save';
   ////End////
 
   ////Change the glass////
