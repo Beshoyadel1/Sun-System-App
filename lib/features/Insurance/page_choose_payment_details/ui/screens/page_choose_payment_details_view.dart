@@ -32,25 +32,28 @@ class _PageChoosePaymentDetailsViewState extends State<PageChoosePaymentDetailsV
       body: SafeArea(
         child: Align(
           alignment: AlignmentDirectional.center,
-          child: Column(
-            children: [
-              Expanded(
-                child: SingleChildScrollView(
-                  padding: const EdgeInsets.all(20),
-                  child: Column(
-                    children: const [
-                      ContainerInstallmentPayment(),
-                      SizedBox(height: 40),
-                      ContainerInvoice(),
-                      SizedBox(height: 40),
-                      ContainerListVisa(),
-                      SizedBox(height: 20),
-                    ],
+          child: SizedBox(
+            width: 500,
+            child: Column(
+              children: [
+                Expanded(
+                  child: SingleChildScrollView(
+                    padding: const EdgeInsets.all(20),
+                    child: Column(
+                      children: const [
+                        ContainerInstallmentPayment(),
+                        SizedBox(height: 40),
+                        ContainerInvoice(),
+                        SizedBox(height: 40),
+                        ContainerListVisa(),
+                        SizedBox(height: 20),
+                      ],
+                    ),
                   ),
                 ),
-              ),
-              LastButtonContainerPageChoosePaymentDetails()
-            ],
+                LastButtonContainerPageChoosePaymentDetails()
+              ],
+            ),
           ),
         ),
       ),

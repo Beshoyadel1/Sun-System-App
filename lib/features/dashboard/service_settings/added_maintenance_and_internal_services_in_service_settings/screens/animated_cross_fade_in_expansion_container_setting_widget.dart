@@ -13,26 +13,24 @@ class AnimatedCrossFadeInExpansionContainerSettingWidget extends StatelessWidget
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<DetailsContainerSettingCubit, DetailsContainerSettingState>(
-        builder: (context, state) {
-        return AnimatedCrossFade(
-          firstChild: const SizedBox.shrink(),
-          secondChild: Column(
+      builder: (context, state) {
+        return AnimatedSize(
+          duration: const Duration(milliseconds: 300),
+          curve: Curves.easeInOut,
+          child: state.isExpanded
+              ? Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               RowRadioListTileSetting(),
-              if (state.selectedOption == 0) ...[
+              if (state.selectedOption == 0)
                 const DataViewOfUnifiedPriceForAll()
-              ] else if (state.selectedOption == 1) ...[
-                const DataViewOfPricePerCategory()
-              ]
+              else if (state.selectedOption == 1)
+                const DataViewOfPricePerCategory(),
             ],
-          ),
-          crossFadeState: state.isExpanded
-              ? CrossFadeState.showSecond
-              : CrossFadeState.showFirst,
-          duration: const Duration(milliseconds: 300),
+          )
+              : const SizedBox.shrink(),
         );
-      }
+      },
     );
   }
 }

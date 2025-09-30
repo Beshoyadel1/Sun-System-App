@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/pages_widgets/text_form_field_widget.dart';
-import '../../../../../core/theming/assets.dart';
+import '../../../../../core/pages_widgets/text_form_field_widget.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../core/theming/fonts.dart';
@@ -56,7 +55,7 @@ class _CarImageTextInSettingWidgetState extends State<CarImageTextInSettingWidge
               hintTextSize: 10,
               hintTextColor: AppColors.orangeColor,
               textSize: 10,
-              textFormWidth: 150,
+              textFormWidth: 200,
               textFormHeight: 35,
               contentPadding: const EdgeInsets.symmetric(horizontal: 10,vertical: 10),
             ),

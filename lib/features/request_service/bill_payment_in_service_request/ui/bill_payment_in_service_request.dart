@@ -14,28 +14,31 @@ class BillPaymentInServiceRequest  extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.scaffoldColor,
-      appBar: AppbarProfileWidget(title:AppLanguageKeys.requestNumber,),
-      body: SafeArea(
-        child: Padding(
-          padding: EdgeInsets.all(20),
-          child: Align(
-            alignment: AlignmentDirectional.center,
-            child: SizedBox(
-              width: 500,
-              child: Column(
-                children: [
-                  Expanded(
-                    child: SingleChildScrollView(
-                        child: ListDataYourBillPaymentInServiceRequest()
+      body: Align(
+        alignment: AlignmentDirectional.center,
+        child: SizedBox(
+          width: 500,
+          child: Scaffold(
+            backgroundColor: AppColors.scaffoldColor,
+            appBar: AppbarProfileWidget(title:AppLanguageKeys.requestNumber,),
+            body: SafeArea(
+              child: Padding(
+                padding: EdgeInsets.all(20),
+                child: Column(
+                  children: [
+                    Expanded(
+                      child: SingleChildScrollView(
+                          child: ListDataYourBillPaymentInServiceRequest()
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
+            bottomNavigationBar: LastButtonWithBackGround(),
           ),
         ),
       ),
-      bottomNavigationBar: LastButtonWithBackGround(),
     );
   }
 }

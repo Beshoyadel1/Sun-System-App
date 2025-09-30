@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/dashboard/service_settings/custom_widget/custom_row_list_of_data_view_of_price_per_category.dart';
-import '../../../../../features/dashboard/service_settings/custom_widget/car_image_text_in_setting_widget.dart';
+import '../../../../../features/dashboard/service_settings/custom_widget/custom_row_list_of_data_view_of_price_per_category.dart';
 import '../../../../../core/theming/assets.dart';
 
 

@@ -1,10 +1,7 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/features/dashboard/service_settings/custom_widget/container_text_only.dart';
+import '../../../../../features/dashboard/service_settings/custom_widget/container_text_only.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/theming/colors.dart';
-import '../../../../../core/theming/fonts.dart';
-import '../../../../../core/theming/text_styles.dart';
-import '../../../../../features/dashboard/service_settings/first_screen_service_settings/screens/container_return_to_page_setting.dart';
 
 class ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettings extends StatelessWidget {
   const ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettings({super.key});
@@ -15,7 +12,7 @@ class ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettin
       padding: EdgeInsetsGeometry.all(10),
       decoration: BoxDecoration(
         color: AppColors.whiteColor,
-        borderRadius: BorderRadius.all(Radius.circular(20)),
+        borderRadius: BorderRadius.only(topLeft: Radius.circular(20),topRight: Radius.circular(20)),
         border: Border.all(
             color: AppColors.greyColor.withOpacity(0.3)
         ),

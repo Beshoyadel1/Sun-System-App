@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
-import 'package:sun_system_app/features/dashboard/service_settings/first_screen_service_settings/screens/container_return_to_page_setting.dart';
+import '../../../../../core/language/language_constant.dart';
+import '../../../../../core/theming/colors.dart';
+import '../../../../../features/dashboard/service_settings/first_screen_service_settings/screens/container_return_to_page_setting.dart';
 import '../../../../../features/dashboard/service_settings/added_maintenance_and_internal_services_in_service_settings/screens/list_mobile_of_data_view_of_price_per_category.dart';
 import '../../../../../features/dashboard/service_settings/added_maintenance_and_internal_services_in_service_settings/screens/list_web_of_data_view_of_price_per_category.dart';
 import '../../../../../core/utilies/map_of_all_app.dart';

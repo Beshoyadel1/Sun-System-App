@@ -21,6 +21,7 @@ class FirstRowContainerInvoiceMobileServiceInServiceRequest extends StatelessWid
           textColor: AppColors.darkColor,
         ),
         Container(
+          width: 80,
           padding: EdgeInsetsGeometry.symmetric(horizontal: 10,vertical: 7),
           decoration: BoxDecoration(
             color: AppColors.whiteColor,
@@ -29,11 +30,13 @@ class FirstRowContainerInvoiceMobileServiceInServiceRequest extends StatelessWid
               color: AppColors.greyColor,
             )
           ),
-          child: TextInAppWidget(
-            text: AppLanguageKeys.details,
-            textSize: 10,
-            fontWeightIndex: FontSelectionData.regularFontFamily,
-            textColor: AppColors.darkColor,
+          child: Center(
+            child: TextInAppWidget(
+              text: AppLanguageKeys.details,
+              textSize: 10,
+              fontWeightIndex: FontSelectionData.regularFontFamily,
+              textColor: AppColors.darkColor,
+            ),
           ),
         )
       ],

@@ -28,7 +28,6 @@ class CustomRowListOfDataViewOfPricePerCategory extends StatelessWidget {
     ):
     Row(
       spacing: 5,
-
       children: [
         CarImageTextInSettingWidget(imagePath: imagePath1, text: text1),
         CarImageTextInSettingWidget(imagePath:imagePath2, text: text2),

@@ -19,24 +19,27 @@ class PageChoosePaymentDetailsViewNew extends StatelessWidget {
       body: SafeArea(
         child: Align(
           alignment: AlignmentDirectional.center,
-          child: Column(
-            children: [
-              Expanded(
-                child: SingleChildScrollView(
-                  padding: const EdgeInsets.all(20),
-                  child: Column(
-                    spacing: 40,
-                    children: const [
-                      FirstLabelPageChoosePaymentDetailsViewNew(),
-                      ContainerInstallmentPaymentNew(),
-                      ContainerInvoiceNew(),
-                      ContainerListVisaNew(),
-                    ],
+          child: SizedBox(
+            width: 500,
+            child: Column(
+              children: [
+                Expanded(
+                  child: SingleChildScrollView(
+                    padding: const EdgeInsets.all(20),
+                    child: Column(
+                      spacing: 40,
+                      children: const [
+                        FirstLabelPageChoosePaymentDetailsViewNew(),
+                        ContainerInstallmentPaymentNew(),
+                        ContainerInvoiceNew(),
+                        ContainerListVisaNew(),
+                      ],
+                    ),
                   ),
                 ),
-              ),
-              LastButtonContainerPageChoosePaymentDetailsNew()
-            ],
+                LastButtonContainerPageChoosePaymentDetailsNew()
+              ],
+            ),
           ),
         ),
       ),
