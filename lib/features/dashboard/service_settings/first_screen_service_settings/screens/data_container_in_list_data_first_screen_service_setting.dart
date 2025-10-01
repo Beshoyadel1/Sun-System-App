@@ -23,6 +23,7 @@ class DataContainerInListDataFirstScreenServiceSetting extends StatelessWidget {
             imagePath: AppImageKeys.car1_service,
             title: AppLanguageKeys.internalServices,
             onTap: (){
+              Navigator.pop(context);
               Navigator.of(context).push(
                 NavigateToPageWidget(
                   AddedMaintenanceAndInternalServicesInServiceSettings(),

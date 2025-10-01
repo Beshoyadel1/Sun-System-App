@@ -13,6 +13,10 @@ class AnimatedCrossFadeInExpansionContainerSettingWidget extends StatelessWidget
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<DetailsContainerSettingCubit, DetailsContainerSettingState>(
+      buildWhen: (previous, current) {
+        return previous.isExpanded != current.isExpanded ||
+            previous.selectedOption != current.selectedOption;
+      },
       builder: (context, state) {
         return AnimatedSize(
           duration: const Duration(milliseconds: 300),

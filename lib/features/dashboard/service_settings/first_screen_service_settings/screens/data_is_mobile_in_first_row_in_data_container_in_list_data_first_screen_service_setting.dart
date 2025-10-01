@@ -24,11 +24,8 @@ class DataIsMobileInFirstRowInDataContainerInListDataFirstScreenServiceSetting e
         ),
         ContainerReturnToPageSetting(
           onTap: (){
-            NavigateToPageWidget.navigate(
-              context,
-              const FirstScreenServiceSettings(),
-              type: NavigateType.clearAll,
-            );
+            Navigator.pop(context);
+            Navigator.of(context).push(NavigateToPageWidget(const FirstScreenServiceSettings()));
           },
         )
       ],

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
+import '../../../../../features/warranty/custom_widget/NavigateType.dart';
 import '../../../../../features/warranty/warranty_subscription/ui/warranty_subscription.dart';
 import '../../../../../core/theming/text_styles.dart';
 import '../../../../../core/language/language_constant.dart';

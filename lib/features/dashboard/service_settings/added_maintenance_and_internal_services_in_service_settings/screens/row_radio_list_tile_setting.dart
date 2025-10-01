@@ -11,6 +11,8 @@ class RowRadioListTileSetting extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<DetailsContainerSettingCubit, DetailsContainerSettingState>(
+        buildWhen: (previous, current) =>
+        previous.selectedOption != current.selectedOption,
         builder: (context, state) {
         return Row(
           children: [

@@ -20,51 +20,47 @@ class ExpansionContainerSettingWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (_) => DetailsContainerSettingCubit(),
-      child: BlocBuilder<DetailsContainerSettingCubit, DetailsContainerSettingState>(
-        builder: (context, state) {
-          return Container(
-            padding: const EdgeInsets.all(10),
-            decoration: BoxDecoration(
-              color: AppColors.whiteColor,
-              borderRadius: const BorderRadius.all(Radius.circular(20)),
-              border: Border.all(color: Colors.grey.withOpacity(0.3)),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black.withOpacity(0.1),
-                  blurRadius: 4,
-                  offset: const Offset(0, 2),
-                ),
-              ],
+      child: Container(
+        padding: const EdgeInsets.all(10),
+        decoration: BoxDecoration(
+          color: AppColors.whiteColor,
+          borderRadius: const BorderRadius.all(Radius.circular(20)),
+          border: Border.all(color: Colors.grey.withOpacity(0.3)),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.1),
+              blurRadius: 4,
+              offset: const Offset(0, 2),
             ),
-            child: Column(
+          ],
+        ),
+        child: Column(
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Flexible(
-                      child: Row(
-                        spacing: 5,
-                        children: [
-                          Image.asset(imagePath),
-                          Expanded(
-                            child: TextInAppWidget(
-                              text: text,
-                              textSize: 13,
-                              fontWeightIndex: FontSelectionData.mediumFontFamily,
-                              textColor: AppColors.darkColor,
-                            ),
-                          ),
-                        ],
+                Flexible(
+                  child: Row(
+                    spacing: 5,
+                    children: [
+                      Image.asset(imagePath),
+                      Expanded(
+                        child: TextInAppWidget(
+                          text: text,
+                          textSize: 13,
+                          fontWeightIndex: FontSelectionData.mediumFontFamily,
+                          textColor: AppColors.darkColor,
+                        ),
                       ),
-                    ),
-                    ContainerOpenCloseTabSetting()
-                  ],
+                    ],
+                  ),
                 ),
-                AnimatedCrossFadeInExpansionContainerSettingWidget()
+                ContainerOpenCloseTabSetting()
               ],
             ),
-          );
-        },
+            AnimatedCrossFadeInExpansionContainerSettingWidget()
+          ],
+        ),
       ),
     );
   }

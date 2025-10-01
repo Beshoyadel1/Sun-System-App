@@ -12,6 +12,7 @@ class ContainerOpenCloseTabSetting extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<DetailsContainerSettingCubit, DetailsContainerSettingState>(
+        buildWhen: (previous, current) => previous.isExpanded != current.isExpanded,
         builder: (context, state) {
         return Container(
           decoration: const BoxDecoration(

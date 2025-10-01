@@ -1,12 +1,5 @@
 import 'package:flutter/material.dart';
 
-enum NavigateType {
-  push,           // Normal push (keep stack)
-  replace,        // Replace current page
-  removePrevious, // Pop one, then push
-  clearAll,       // Remove all and push
-}
-
 class NavigateToPageWidget<T> extends PageRouteBuilder<T> {
   final Widget page;
 
@@ -29,52 +22,4 @@ class NavigateToPageWidget<T> extends PageRouteBuilder<T> {
       );
     },
   );
-
-  /// Flexible navigation method
-  static Future<T?> navigate<T>(
-      BuildContext context,
-      Widget page, {
-        NavigateType type = NavigateType.push,
-      }) {
-    final route = NavigateToPageWidget<T>(page);
-
-    switch (type) {
-      case NavigateType.push:
-        return Navigator.push<T>(context, route);
-
-      case NavigateType.replace:
-        return Navigator.pushReplacement<T, T>(context, route);
-
-      case NavigateType.removePrevious:
-        Navigator.pop(context); // remove one
-        return Navigator.push<T>(context, route);
-
-      case NavigateType.clearAll:
-        return Navigator.pushAndRemoveUntil<T>(
-          context,
-          route,
-              (route) => false, // clear all previous
-        );
-    }
-  }
-}
-void useNavigateToPageWidget(
-    BuildContext context,
-    Widget page, {
-      NavigateType type = NavigateType.push,
-      bool closeSheet = false, // automatically closes bottom sheet if true
-    }) {
-  if (closeSheet) {
-    if (Navigator.of(context, rootNavigator: true).canPop()) {
-      Navigator.of(context, rootNavigator: true).pop();
-    }
-  }
-
-  WidgetsBinding.instance.addPostFrameCallback((_) {
-    NavigateToPageWidget.navigate(
-      Navigator.of(context, rootNavigator: true).context,
-      page,
-      type: type,
-    );
-  });
 }

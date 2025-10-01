@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import '../../../../../features/warranty/custom_widget/NavigateType.dart';
 import '../../../../../features/wallet_bonus_send_code_to_friend/wallet_for_wallet_bonus_send_code_to_friend/ui/wallet_for_wallet_bonus_send_code_to_friend.dart';
-import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
 import '../../../../../core/theming/text_styles.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/theming/assets.dart';
