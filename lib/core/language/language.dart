@@ -16,6 +16,25 @@ class AppLocalizations {
     'ar': {
 
       ////dashboard////
+      AppLanguageKeys.addNewUser: 'أضافة مستخدم جديد',
+      AppLanguageKeys.userPermissionsSettings: 'إعدادات صلاحيات المستخدمين داخل النظام',
+      AppLanguageKeys.employeeName: 'أسم الموظف',
+      AppLanguageKeys.jobTitle: 'اسم الوظيفة',
+      AppLanguageKeys.accountStatus: 'حالة الحساب',
+      AppLanguageKeys.active: 'مفعل',
+      AppLanguageKeys.inactive: 'غير مفعل',
+      AppLanguageKeys.picture: 'صورة',
+      AppLanguageKeys.uploadPicture: 'رفع صورة',
+      AppLanguageKeys.userPermissions: 'صلاحيات المستخدم',
+      AppLanguageKeys.statistics: 'الاحصائيات',
+      AppLanguageKeys.servicesSettings: 'إعدادات خدمات',
+      AppLanguageKeys.carModelSettings: 'إعدادت موديل السيارات',
+      AppLanguageKeys.accountManagement: 'ادارة الحسابات',
+      AppLanguageKeys.permissionsManagement: 'ادارة الصلاحيات',
+      AppLanguageKeys.organizationManagement: 'ادارة المنشأة',
+      AppLanguageKeys.permissionsFromServices: 'صلاحيات من الخدمات التي يحصل عليها المستخدم',
+      AppLanguageKeys.maintenanceServices: 'خدمات الصيانة',
+
       AppLanguageKeys.nissanServiceSettings: 'اعدادات الخدمات الخاص بالسيارات نيسان',
       AppLanguageKeys.serviceSettingsDetails: 'اعدادات الخدمات من حيث نوع الخدمة والاسعار والباقات المشتركة',
       AppLanguageKeys.backToSettings: 'رجوع للصفحة الاعدادت',
@@ -420,6 +439,25 @@ class AppLocalizations {
     'en': {
 
       ////dashboard////
+      AppLanguageKeys.addNewUser: 'Add New User',
+      AppLanguageKeys.userPermissionsSettings: 'User Permissions Settings in the System',
+      AppLanguageKeys.employeeName: 'Employee Name',
+      AppLanguageKeys.jobTitle: 'Job Title',
+      AppLanguageKeys.accountStatus: 'Account Status',
+      AppLanguageKeys.active: 'Active',
+      AppLanguageKeys.inactive: 'Inactive',
+      AppLanguageKeys.picture: 'Picture',
+      AppLanguageKeys.uploadPicture: 'Upload Picture',
+      AppLanguageKeys.userPermissions: 'User Permissions',
+      AppLanguageKeys.statistics: 'Statistics',
+      AppLanguageKeys.servicesSettings: 'Services Settings',
+      AppLanguageKeys.carModelSettings: 'Car Model Settings',
+      AppLanguageKeys.accountManagement: 'Account Management',
+      AppLanguageKeys.permissionsManagement: 'Permissions Management',
+      AppLanguageKeys.organizationManagement: 'Organization Management',
+      AppLanguageKeys.permissionsFromServices: 'Permissions from Services available to the user',
+      AppLanguageKeys.maintenanceServices: 'Maintenance Services',
+
       AppLanguageKeys.nissanServiceSettings: 'Nissan Car Service Settings',
       AppLanguageKeys.serviceSettingsDetails: 'Service settings by type, prices, and shared packages',
       AppLanguageKeys.backToSettings: 'Back to Settings Page',

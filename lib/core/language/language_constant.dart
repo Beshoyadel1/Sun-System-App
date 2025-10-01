@@ -2,6 +2,25 @@
 class AppLanguageKeys{
 
   ////dashboard////
+  static const String addNewUser = 'addNewUser';
+  static const String userPermissionsSettings = 'userPermissionsSettings';
+  static const String employeeName = 'employeeName';
+  static const String jobTitle = 'jobTitle';
+  static const String accountStatus = 'accountStatus';
+  static const String active = 'active';
+  static const String inactive = 'inactive';
+  static const String picture = 'picture';
+  static const String uploadPicture = 'uploadPicture';
+  static const String userPermissions = 'userPermissions';
+  static const String statistics = 'statistics';
+  static const String servicesSettings = 'servicesSettings';
+  static const String carModelSettings = 'carModelSettings';
+  static const String accountManagement = 'accountManagement';
+  static const String permissionsManagement = 'permissionsManagement';
+  static const String organizationManagement = 'organizationManagement';
+  static const String permissionsFromServices = 'permissionsFromServices';
+  static const String maintenanceServices = 'maintenanceServices';
+
   static const String nissanServiceSettings = 'nissanServiceSettings';
   static const String serviceSettingsDetails = 'serviceSettingsDetails';
   static const String backToSettings = 'backToSettings';

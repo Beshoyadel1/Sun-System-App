@@ -22,11 +22,11 @@ class DataContainerInListDataAddedMaintenanceAndInternalServicesInServiceSetting
           FirstRowInDataContainerInListDataFirstScreenServiceSetting(),
           IconCarOrangeTextOfAddedMaintenanceAndInternalServices(),
           ExpansionContainerSettingWidget(
-            imagePath: AppImageKeys.service3,
+            imagePath: AppImageKeys.setting1,
             text: AppLanguageKeys.maintenanceAndRepair,
           ),
           ExpansionContainerSettingWidget(
-            imagePath: AppImageKeys.service4,
+            imagePath: AppImageKeys.setting2,
             text: AppLanguageKeys.oilChange,
           ),
           ExpansionContainerSettingWidget(

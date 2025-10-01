@@ -29,7 +29,7 @@ class _CarImageTextInSettingWidgetState extends State<CarImageTextInSettingWidge
   }
   @override
   Widget build(BuildContext context) {
-    return Expanded(
+    return Flexible(
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         spacing: 5,

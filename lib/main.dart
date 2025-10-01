@@ -2,6 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import '../../../features/dashboard/permissions/first_screen_permissions/first_screen_permissions.dart';
 import '../../../features/dashboard/service_settings/first_screen_service_settings/first_screen_service_settings.dart';
 import '../core/language/language.dart';
 import '../core/language/language_cubit/language_cubit.dart';
@@ -65,7 +66,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const FirstScreenServiceSettings(),
+          home: const FirstScreenPermissions(),
         );
       },
     ),

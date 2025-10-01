@@ -16,7 +16,7 @@ class FirstScreenServiceSettings extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     bool isMobile = size.width <= ValuesOfAllApp.mobileWidth;
     bool isTabletCustom = size.width > ValuesOfAllApp.mobileWidth && size.width <= ValuesOfAllApp.customTabWidth;
-    bool isDesktop = size.width > ValuesOfAllApp.tabWidth;
+    bool isTab = size.width > ValuesOfAllApp.tabWidth;
 
     return Row(
       children: [
