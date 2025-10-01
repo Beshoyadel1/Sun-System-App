@@ -52,6 +52,7 @@ class FirstPartForWalletForWalletBonusSendCodeToFriend extends StatelessWidget {
 
         BlocBuilder<WalletCubit, WalletState>(
           bloc: walletCubit,
+          buildWhen: (previous, current) => previous.balance != current.balance,
           builder: (context, state) {
             return RowNumberCoinWidget(
               numberText: state.balance,

@@ -70,6 +70,7 @@ class ContainerListDataChooseServiceCarBatteriesWidget extends StatelessWidget {
           BlocProvider(
             create: (_) => CheckBoxCarBatteriesCubit(),
             child: BlocBuilder<CheckBoxCarBatteriesCubit, bool>(
+
               builder: (context, isChecked) {
                 return Checkbox(
                   value: isChecked,
