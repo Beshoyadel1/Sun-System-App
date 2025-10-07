@@ -4,7 +4,12 @@ import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/theming/colors.dart';
 
 class ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettings extends StatelessWidget {
-  const ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettings({super.key});
+  final void Function()? onTapBack,onTapSave;
+  const ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettings({
+    super.key,
+    this.onTapBack,
+    this.onTapSave,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -30,6 +35,7 @@ class ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettin
         children: [
           Flexible(
             child: ContainerTextOnly(
+                onTap:onTapBack,
                 text: AppLanguageKeys.back,
                 colorBackGround: AppColors.orangeColor,
               width: 200,
@@ -37,6 +43,7 @@ class ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettin
           ),
           Flexible(
             child: ContainerTextOnly(
+              onTap:onTapSave,
               text: AppLanguageKeys.save,
               width: 200,
             ),

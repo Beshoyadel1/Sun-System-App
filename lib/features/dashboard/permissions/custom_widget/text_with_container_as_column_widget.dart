@@ -26,7 +26,7 @@ class TextWithContainerAsColumnWidget extends StatelessWidget {
             textColor: AppColors.blackColor,
           ),
           Container(
-            padding: EdgeInsetsGeometry.all(10),
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
             decoration: BoxDecoration(
               color: AppColors.blackColor44,
               borderRadius: BorderRadius.all(Radius.circular(50)),

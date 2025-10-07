@@ -2,6 +2,27 @@
 class AppLanguageKeys{
 
   ////dashboard////
+  static const String monthly = 'monthly';
+  static const String daily = 'daily';
+
+  static const String selectTime = 'selectTime';
+  static const String newRequests = 'newRequests';
+  static const String newRequestsList = 'newRequestsList';
+  static const String noRequests = 'noRequests';
+  static const String internalServicesStats = 'internalServicesStats';
+  static const String weekly = 'weekly';
+  static const String internalServicesProfit = 'internalServicesProfit';
+  static const String internalServicesRating = 'internalServicesRating';
+  static const String afterReceivingRequests = 'afterReceivingRequests';
+  static const String jobName = 'jobName';
+  static const String requestStatus = 'requestStatus';
+  static const String underService = 'underService';
+  static const String requestDate = 'requestDate';
+  static const String servicePrice = 'servicePrice';
+  static const String delivered = 'delivered';
+  static const String requestRejected = 'requestRejected';
+  static const String newRequest = 'newRequest';
+
   static const String addNewUser = 'addNewUser';
   static const String userPermissionsSettings = 'userPermissionsSettings';
   static const String employeeName = 'employeeName';

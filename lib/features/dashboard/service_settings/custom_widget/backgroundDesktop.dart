@@ -4,23 +4,20 @@ import '../../../../../core/theming/assets.dart';
 import '../../../../../core/theming/colors.dart';
 
 class backgroundDesktop extends StatelessWidget {
-  const backgroundDesktop({super.key});
+  final int? flexNumber;
+  const backgroundDesktop({
+    super.key,
+    this.flexNumber=1
+  });
 
   @override
   Widget build(BuildContext context) {
-    return  Expanded(
-      flex: 1,
-      child: Scaffold(
-        backgroundColor: AppColors.orangeColor,
-        body: Container(
-          color: AppColors.darkBlueColor.withOpacity(0.05),
-          child: Center(
-            child: Image.asset(
-             AppImageKeys.car1,
-              height: 220,
-            ),
-          ),
-        ),
+    return  Container(
+      color: AppColors.orangeColor,
+      child: Image.asset(
+        AppImageKeys.sun_logo,
+        height: double.infinity,
+        width: 250,
       ),
     );
   }

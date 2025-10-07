@@ -6,7 +6,8 @@ import '../../../../../core/theming/text_styles.dart';
 
 class CircularProgressIndicatorWithTextWidget extends StatelessWidget {
   final String text;
-  const CircularProgressIndicatorWithTextWidget({super.key,required this.text});
+  final double? textSize;
+  const CircularProgressIndicatorWithTextWidget({super.key,required this.text,this.textSize});
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +19,7 @@ class CircularProgressIndicatorWithTextWidget extends StatelessWidget {
         ),
         TextInAppWidget(
           text:text,
-          textSize: 12,
+          textSize:textSize?? 12,
           textColor:AppColors.blackColor44 ,
           fontWeightIndex:FontSelectionData.mediumFontFamily,
         )

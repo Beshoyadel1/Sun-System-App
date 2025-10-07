@@ -39,39 +39,46 @@ class TextWithTextFormFieldAsColumnWidget extends StatelessWidget {
                             buildWhen: (previous, current) => previous != current,
                             builder: (context, selectedOption) {
                 return SizedBox(
-                  height: 50,
-                  child: DropdownButtonFormField<String>(
-                    isExpanded: false,
-                    value: selectedOption,
+                  height: 35,
+                  child: InputDecorator(
                     decoration: InputDecoration(
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(25),
                       ),
+                      contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                     ),
-                    hint: TextInAppWidget(
-                      text: hint,
-                      textSize: 13,
-                      fontWeightIndex: FontSelectionData.regularFontFamily,
-                      textColor: AppColors.darkColor.withOpacity(0.4),
-                    ),
-                    items: options!
-                        .map((option) => DropdownMenuItem(
-                      value: option,
-                      child: TextInAppWidget(
-                        text: option,
-                        textSize: 13,
-                        fontWeightIndex:
-                        FontSelectionData.regularFontFamily,
-                        textColor: AppColors.blackColor,
+                    child: DropdownButtonHideUnderline(
+                      child: DropdownButton<String>(
+                        dropdownColor: AppColors.whiteColor,
+                        isExpanded: true,
+                        value: selectedOption,
+                        hint: TextInAppWidget(
+                          text: hint,
+                          textSize: 13,
+                          fontWeightIndex: FontSelectionData.regularFontFamily,
+                          textColor: AppColors.darkColor.withOpacity(0.4),
+                        ),
+                        items: options!
+                            .map(
+                              (option) => DropdownMenuItem(
+                            value: option,
+                            child: TextInAppWidget(
+                              text: option,
+                              textSize: 13,
+                              fontWeightIndex: FontSelectionData.regularFontFamily,
+                              textColor: AppColors.blackColor,
+                            ),
+                          ),
+                        )
+                            .toList(),
+                        onChanged: (value) {
+                          context.read<OptionDashboardCubit>().selectOption(value);
+                          textFormController.text = value ?? "";
+                            },
+                          ),
+                        ),
                       ),
-                    ))
-                        .toList(),
-                    onChanged: (value) {
-                      context.read<OptionDashboardCubit>().selectOption(value);
-                      textFormController.text = value ?? "";
-                    },
-                  ),
-                );
+                    );
                             },
                           ),
               )
@@ -84,8 +91,9 @@ class TextWithTextFormFieldAsColumnWidget extends StatelessWidget {
                 hintTextColor: AppColors.darkColor.withOpacity(0.4),
                 textSize: 11,
                 contentPadding: EdgeInsetsGeometry.all(5),
-                textFormHeight: 50,
+                textFormHeight: 35,
           ),
+
         ],
       ),
     );

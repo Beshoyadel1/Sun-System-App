@@ -1,6 +1,13 @@
 class AppImageKeys{
 
   ////dashboard////
+
+  static const String  backgroundstar='assets/images/backgroundstar.png';
+
+  static const String  star11='assets/images/star11.png';
+
+  static const String  person22='assets/images/person22.png';
+
   static const String  notification1='assets/images/notification1.png';
   static const String  logo10='assets/images/logo10.png';
   static const String  car1_service='assets/images/car1_service.png';
@@ -17,6 +24,8 @@ class AppImageKeys{
   static const String  setting4='assets/images/setting4.png';
   static const String  setting5='assets/images/setting5.png';
   static const String  setting6='assets/images/setting6.png';
+  static const String  userPermissions='assets/images/userPermissions.png';
+  static const String  sun_logo='assets/images/sun_logo.png';
 
   ////End////
 

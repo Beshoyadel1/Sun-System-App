@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import '../../../../../core/utilies/map_of_all_app.dart';
 import '../../../../../features/dashboard/permissions/custom_widget/text_with_container_as_column_widget.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../features/dashboard/permissions/custom_widget/text_with_text_form_field_as_column_widget.dart';
@@ -13,6 +12,7 @@ class MobileOfDataContainerInListDataFirstScreenPermissions extends StatelessWid
       spacing: 10,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        //row_
         Row(
           spacing: 5,
           children: [
