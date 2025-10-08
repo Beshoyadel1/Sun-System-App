@@ -2,6 +2,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import '../../../features/dashboard/communication_and_policies_pages/first_screen_communication_and_policies_pages/first_screen_communication_and_policies_pages.dart';
+import '../../../features/dashboard/advertisements/first_screen_advertisements/first_screen_advertisements.dart';
 import '../../../features/dashboard/internal_orders/first_screen_internal_orders/first_screen_internal_orders.dart';
 import '../../../features/dashboard/service_settings/added_maintenance_and_internal_services_in_service_settings/added_maintenance_and_internal_services_in_service_settings.dart';
 import '../../../features/dashboard/permissions/first_screen_permissions/first_screen_permissions.dart';
@@ -72,7 +74,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const FirstScreenInternalOrders(),
+          home: const FirstScreenCommunicationAndPoliciesPages(),
         );
       },
     ),

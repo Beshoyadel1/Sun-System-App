@@ -2,6 +2,30 @@
 class AppLanguageKeys{
 
   ////dashboard////
+  static const providersTermsAndConditions = 'providersTermsAndConditions';
+  static const providersPrivacyPolicy = 'providersPrivacyPolicy';
+  static const aboutSunIntro = 'aboutSunIntro';
+
+  static const String contactAndPoliciesPages = 'contactAndPoliciesPages';
+  static const String contactUs = 'contact_us';
+  static const String aboutSun = 'about_sun';
+  static const String privacyPolicy = 'privacy_policy';
+  static const String termsAndConditions = 'termsAndConditions';
+  static const String sendUsMessage = 'sendUsMessage';
+  static const String name = 'name';
+  static const String messageText = 'messageText';
+  static const String send = 'send';
+
+  static const String advertisements = 'advertisements';
+  static const String bannerImage = 'bannerImage';
+  static const String bannerSizeNote = 'bannerSizeNote';
+  static const String uploadImage = 'uploadImage';
+  static const String link = 'link';
+  static const String category = 'category';
+  static const String storeOffers = 'storeOffers';
+  static const String durationFromTo = 'durationFromTo';
+  static const String createBannerAd = 'createBannerAd';
+
   static const String monthly = 'monthly';
   static const String daily = 'daily';
 

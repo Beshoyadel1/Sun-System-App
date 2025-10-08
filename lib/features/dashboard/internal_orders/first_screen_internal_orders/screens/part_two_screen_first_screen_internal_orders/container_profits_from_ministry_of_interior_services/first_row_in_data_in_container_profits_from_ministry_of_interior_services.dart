@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/core/utilies/map_of_all_app.dart';
+import '../../../../../../../core/utilies/map_of_all_app.dart';
 import '../../../../../../../core/language/language_constant.dart';
 import '../../../../../../../core/theming/colors.dart';
 import '../../../../../../../core/theming/fonts.dart';

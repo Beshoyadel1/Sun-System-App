@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sun_system_app/core/utilies/map_of_all_app.dart';
+import '../../../../../../../core/utilies/map_of_all_app.dart';
 import '../../../../../../../core/language/language_constant.dart';
 import '../../../../../../../core/theming/colors.dart';
 import '../../../../../../../features/dashboard/internal_orders/custom_widget/row_circle_color_text_percentage_widget.dart';

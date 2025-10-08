@@ -1,11 +1,10 @@
 class AppImageKeys{
 
   ////dashboard////
-
+  static const String  iconSend='assets/images/iconSend.png';
+  static const String  upload='assets/images/upload.png';
   static const String  backgroundstar='assets/images/backgroundstar.png';
-
   static const String  star11='assets/images/star11.png';
-
   static const String  person22='assets/images/person22.png';
 
   static const String  notification1='assets/images/notification1.png';

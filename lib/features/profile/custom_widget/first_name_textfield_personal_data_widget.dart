@@ -17,6 +17,7 @@ class FirstNameTextfieldPersonalDataWidget extends StatefulWidget {
   final bool? isRegular;
   final int? maxLines;
   final TextEditingController? textFormController;
+  final double? textFormWidth,textFormHeight;
   const FirstNameTextfieldPersonalDataWidget({
     super.key,
     required this.name,
@@ -26,6 +27,8 @@ class FirstNameTextfieldPersonalDataWidget extends StatefulWidget {
     this.isRegular=false,
     this.maxLines,
     this.textFormController,
+    this.textFormWidth,
+    this.textFormHeight
   });
 
   @override
@@ -112,7 +115,8 @@ class _FirstNameTextfieldPersonalDataWidgetState extends State<FirstNameTextfiel
               hintTextSize: 12,
               hintTextColor: AppColors.darkColor.withOpacity(0.4),
               textSize: 15,
-              textFormWidth: 500,
+              textFormWidth:widget.textFormWidth?? 500,
+              textFormHeight: widget.textFormHeight,
               enabledBorderRadius: widget.isCard?BorderRadius.all(CupertinoScrollbar.defaultRadius):null,
               contentPadding: const EdgeInsets.symmetric(horizontal: 10,vertical: 10),
               maxLines: widget.maxLines,

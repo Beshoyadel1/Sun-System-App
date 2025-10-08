@@ -16,6 +16,66 @@ class AppLocalizations {
     'ar': {
 
       ////dashboard////
+      AppLanguageKeys.providersTermsAndConditions: '''
+1. التسجيل والاعتماد
+يشترط تسجيل المركز ببيانات صحيحة ودقيقة.
+يحق لـ صن مراجعة واعتماد أو رفض طلب التسجيل دون إبداء الأسباب.
+يتحمل المزود مسؤولية تحديث بياناته باستمرار.
+
+2. استخدام المنصة
+يلتزم المزود باستخدام المنصة فقط للأغراض المصرح بها (تقديم خدمات صيانة السيارات).
+يمنع إساءة استخدام المنصة أو محاولة التلاعب بالأنظمة أو العملاء.
+أي مخالفة قد تؤدي إلى إيقاف أو إلغاء الحساب.
+
+3. الطلبات والخدمات
+يتعهد المزود بتنفيذ الطلبات المتفق عليها بجودة عالية وفي الوقت المحدد.
+الأسعار المقدمة للعملاء يجب أن تكون واضحة وشفافة.
+يحق للعميل إلغاء أو تعديل الطلب وفق سياسات الإلغاء المعلنة.
+
+4. الالتزامات المالية
+يتم الاتفاق على آلية الدفع والتحصيل من خلال منصة صن.
+يتحمل المزود أي التزامات مالية تجاه العملاء نتيجة الإخلال بتنفيذ الخدمة.
+قد يتم خصم رسوم خدمة أو عمولات لصالح صن حسب السياسة المعتمدة.
+
+5. التقييمات والمراجعات
+يحق للعملاء تقييم الخدمات المقدمة.
+تُعتبر التقييمات جزءًا من النظام العام للمنصة ولا يمكن حذفها إلا إذا ثبت مخالفتها للسياسة.
+
+6. المسؤولية
+يتحمل المزود المسؤولية الكاملة عن جودة الخدمات المقدمة.
+صن ليست مسؤولة عن أي أضرار مباشرة أو غير مباشرة تنتج عن تنفيذ الخدمة، وإنما دورها يقتصر على الوساطة بين المزود والعميل.
+
+7. إنهاء الخدمة
+يحق لـ صن إيقاف أو إنهاء حساب المزود عند مخالفة الشروط أو الإضرار بسمعة المنصة.
+يحق للمزود طلب إغلاق حسابه في أي وقت بعد تسوية الالتزامات المالية.
+
+8. التعديلات على الشروط
+تحتفظ صن بحق تعديل أو تحديث الشروط والأحكام في أي وقت.
+يتم إخطار المزودين بالتعديلات عبر المنصة أو البريد الإلكتروني.
+''',
+      AppLanguageKeys.providersPrivacyPolicy: "سياسة الخصوصية لمراكز السيارات (المزودين الخدميين)\n\n1. جمع المعلومات\nنقوم بجمع البيانات الأساسية الخاصة بالمراكز المزودة للخدمة مثل:\n- معلومات المركز (الاسم التجاري – الموقع – نوع الخدمات).\n- بيانات التواصل (الهاتف – البريد الإلكتروني).\n- بيانات الحساب (اسم المستخدم – كلمة المرور).\n\n2. استخدام المعلومات\nتُستخدم المعلومات فقط من أجل:\n- إنشاء الحساب وتفعيله.\n- إدارة الطلبات والخدمات.\n- التواصل بين المركز والعميل.\n- تحسين جودة الخدمة وتجربة الاستخدام.\n\n3. مشاركة المعلومات\nلا تتم مشاركة بيانات المزودين مع أي طرف ثالث خارج نطاق المنصة، إلا إذا كان ذلك مطلوبًا قانونيًا.\nبعض المعلومات مثل اسم المركز والخدمات متاحة للعملاء لتمكينهم من اختيار الخدمة.\n\n4. حماية البيانات\nنلتزم بحماية بيانات المزودين من أي وصول غير مصرح به عبر أنظمة آمنة وتشفير المعلومات الحساسة.\n\n5. حقوق المزود\n- الاطلاع على بياناته المسجلة وتحديثها.\n- طلب حذف الحساب من المنصة.\n- تقديم ملاحظات أو شكاوى بخصوص إدارة البيانات.\n\n6. التعديلات على السياسة\nقد نقوم بتحديث سياسة الخصوصية من وقت لآخر، وسيتم إخطار المزودين عند وجود أي تغييرات جوهرية.",
+      AppLanguageKeys.aboutSunIntro: "صن هو منصّة رقمية متخصصة في ربط أصحاب السيارات بمراكز الصيانة والخدمات المعتمدة. نهدف إلى تسهيل وصول العملاء إلى خدماتك وزيادة فرص مركزك في النمو، من خلال إدارة الطلبات بشكل منظم واحترافي عبر منصّة موثوقة وسهلة الاستخدام.\n\nمع صن، تحصل مراكز السيارات على:\n- قاعدة عملاء أوسع.\n- إدارة سهلة للطلبات والخدمات.\n- متابعة دقيقة للتقييمات والأداء.\n- فرص أكبر لزيادة الإيرادات وتوسيع النشاط.",
+
+      AppLanguageKeys.contactAndPoliciesPages: 'صفحات التواصل والسياسات',
+      AppLanguageKeys.contactUs: 'تواصل معنا',
+      AppLanguageKeys.aboutSun: 'عن صن',
+      AppLanguageKeys.privacyPolicy: 'سياسة الخصوصية',
+      AppLanguageKeys.termsAndConditions: 'الشروط والاحكام',
+      AppLanguageKeys.sendUsMessage: 'قم بارسال رسالتك',
+      AppLanguageKeys.name: 'الاسم',
+      AppLanguageKeys.messageText: 'نص الرسالة',
+      AppLanguageKeys.send: 'إرسال',
+
+      AppLanguageKeys.advertisements: 'الاعلانات',
+      AppLanguageKeys.bannerImage: 'صورة البنر',
+      AppLanguageKeys.bannerSizeNote: 'المقاس المناسب للصورة هو 1108×428 بكسل',
+      AppLanguageKeys.uploadImage: 'ارفع صورة (jpg.jpeg.gif.png.webp)',
+      AppLanguageKeys.link: 'الرابط',
+      AppLanguageKeys.category: 'تصنيف',
+      AppLanguageKeys.storeOffers: 'عروض المتجر',
+      AppLanguageKeys.durationFromTo: 'المدة من / الي',
+      AppLanguageKeys.createBannerAd: 'إنشاء بانر اعلان',
+
       AppLanguageKeys.monthly: 'شهري',
       AppLanguageKeys.daily: 'يومي',
       AppLanguageKeys.selectTime: 'اختر الوقت',
@@ -459,6 +519,65 @@ class AppLocalizations {
     'en': {
 
       ////dashboard////
+      AppLanguageKeys.providersTermsAndConditions: '''
+1. Registration and Approval  
+The service center must register with accurate and valid information.  
+Sun reserves the right to review, approve, or reject any registration request without stating reasons.  
+The provider is responsible for keeping their information updated.  
+
+2. Use of the Platform  
+The provider agrees to use the platform only for authorized purposes (offering car maintenance services).  
+Misuse of the platform or attempts to manipulate the system or customers are strictly prohibited.  
+Any violation may result in account suspension or termination.  
+
+3. Orders and Services  
+The provider commits to delivering the agreed services with high quality and within the specified time.  
+Prices offered to customers must be clear and transparent.  
+Customers have the right to cancel or modify their orders according to the published cancellation policy.  
+
+4. Financial Obligations  
+Payment and collection mechanisms are managed through the Sun platform.  
+The provider is responsible for any financial obligations toward customers resulting from service failure.  
+Service fees or commissions may be deducted by Sun according to the approved policy.  
+
+5. Ratings and Reviews  
+Customers have the right to rate the provided services.  
+Ratings are part of the platform’s public system and cannot be deleted unless they violate the policy.  
+
+6. Liability  
+The provider bears full responsibility for the quality of services provided.  
+Sun is not responsible for any direct or indirect damages resulting from service execution; its role is limited to mediation between the provider and the customer.  
+
+7. Termination of Service  
+Sun reserves the right to suspend or terminate a provider’s account in case of violations or harm to the platform’s reputation.  
+The provider may request account closure at any time after settling financial obligations.  
+
+8. Amendments to the Terms  
+Sun reserves the right to modify or update these terms and conditions at any time.  
+Providers will be notified of any major changes via the platform or email.
+''',
+      AppLanguageKeys.providersPrivacyPolicy: "Privacy Policy for Car Service Providers\n\n1. Information Collection\nWe collect essential data related to service provider centers such as:\n- Center information (trade name – location – type of services).\n- Contact details (phone – email).\n- Account information (username – password).\n\n2. Use of Information\nThe collected information is used only for:\n- Creating and activating accounts.\n- Managing orders and services.\n- Facilitating communication between the center and the customer.\n- Improving service quality and user experience.\n\n3. Information Sharing\nWe do not share provider data with any third party outside the platform unless legally required.\nSome information, such as the center name and offered services, is visible to customers to help them choose services.\n\n4. Data Protection\nWe are committed to protecting provider data from unauthorized access through secure systems and encryption of sensitive information.\n\n5. Provider Rights\n- Access and update their registered data.\n- Request account deletion from the platform.\n- Submit feedback or complaints regarding data management.\n\n6. Policy Updates\nWe may update the privacy policy from time to time, and providers will be notified of any significant changes.",
+      AppLanguageKeys.aboutSunIntro: "Sun is a digital platform that connects car owners with certified maintenance and service centers. We aim to make it easier for customers to reach your services and help your center grow by managing requests efficiently and professionally through a trusted, user-friendly platform.\n\nWith Sun, car centers get:\n- A wider customer base.\n- Easy management of orders and services.\n- Accurate tracking of reviews and performance.\n- Greater opportunities to increase revenue and expand operations.",
+      AppLanguageKeys.contactAndPoliciesPages: 'Contact & Policy Pages',
+      AppLanguageKeys.contactUs: 'Contact Us',
+      AppLanguageKeys.aboutSun: 'About Sun',
+      AppLanguageKeys.privacyPolicy: 'Privacy Policy',
+      AppLanguageKeys.termsAndConditions: 'Terms and Conditions',
+      AppLanguageKeys.sendUsMessage: 'Send Us Your Message',
+      AppLanguageKeys.name: 'Name',
+      AppLanguageKeys.messageText: 'Message Text',
+      AppLanguageKeys.send: 'Send',
+
+      AppLanguageKeys.advertisements: 'Advertisements',
+      AppLanguageKeys.bannerImage: 'Banner Image',
+      AppLanguageKeys.bannerSizeNote: 'Recommended image size is 1108×428 pixels',
+      AppLanguageKeys.uploadImage: 'Upload Image (jpg, jpeg, gif, png, webp)',
+      AppLanguageKeys.link: 'Link',
+      AppLanguageKeys.category: 'Category',
+      AppLanguageKeys.storeOffers: 'Store Offers',
+      AppLanguageKeys.durationFromTo: 'Duration From / To',
+      AppLanguageKeys.createBannerAd: 'Create Banner Ad',
+
       AppLanguageKeys.monthly: 'Monthly',
       AppLanguageKeys.daily: 'Daily',
       AppLanguageKeys.selectTime: 'Select Time',
