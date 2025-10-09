@@ -1,6 +1,9 @@
 class AppImageKeys{
 
   ////dashboard////
+  static const String  rates10='assets/images/rates10.png';
+
+  static const String  service99='assets/images/service99.png';
   static const String  iconSend='assets/images/iconSend.png';
   static const String  upload='assets/images/upload.png';
   static const String  backgroundstar='assets/images/backgroundstar.png';

@@ -2,6 +2,13 @@
 class AppLanguageKeys{
 
   ////dashboard////
+  static const String oils = 'oils';
+  static const String allChanges = 'allChanges';
+
+  static const String allReviews = 'allReviews';
+  static const String reviewsListForAllServices = 'reviewsListForAllServices';
+  static const String totalReviews = 'totalReviews';
+
   static const providersTermsAndConditions = 'providersTermsAndConditions';
   static const providersPrivacyPolicy = 'providersPrivacyPolicy';
   static const aboutSunIntro = 'aboutSunIntro';

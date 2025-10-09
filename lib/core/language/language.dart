@@ -16,6 +16,12 @@ class AppLocalizations {
     'ar': {
 
       ////dashboard////
+      AppLanguageKeys.oils: 'زيوت',
+      AppLanguageKeys.allChanges: 'جميع الغيارات',
+      AppLanguageKeys.allReviews: 'جميع التقييمات',
+      AppLanguageKeys.reviewsListForAllServices: 'قائمة التقييمات لجميع الخدمات',
+      AppLanguageKeys.totalReviews: 'اجمالي التقييمات',
+
       AppLanguageKeys.providersTermsAndConditions: '''
 1. التسجيل والاعتماد
 يشترط تسجيل المركز ببيانات صحيحة ودقيقة.
@@ -519,6 +525,11 @@ class AppLocalizations {
     'en': {
 
       ////dashboard////
+      AppLanguageKeys.oils: 'Oils',
+      AppLanguageKeys.allChanges: 'All Changes',
+      AppLanguageKeys.allReviews: 'All Reviews',
+      AppLanguageKeys.reviewsListForAllServices: 'Reviews list for all services',
+      AppLanguageKeys.totalReviews: 'Total Reviews',
       AppLanguageKeys.providersTermsAndConditions: '''
 1. Registration and Approval  
 The service center must register with accurate and valid information.  
