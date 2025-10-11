@@ -2,6 +2,21 @@
 class AppLanguageKeys{
 
   ////dashboard////
+  static const String searchFrom = 'searchFrom';
+  static const String to = 'to';
+
+  static const String allOrders = 'allOrders';
+  static const String ordersListFromServices = 'ordersListFromServices';
+  static const String newOrders = 'newOrders';
+  static const String completedOrders = 'completedOrders';
+  static const String search = 'search';
+
+  static const String confirm = 'confirm';
+  static const String cancel = 'cancel';
+
+  static const String logout = 'logout_dashboard';
+  static const String confirmLogout = 'confirmLogout';
+
   static const String oils = 'oils';
   static const String allChanges = 'allChanges';
 

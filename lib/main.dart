@@ -2,6 +2,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import '../../../features/dashboard/logout_dashboard/first_screen_logout_dashboard/logout_dashboard.dart';
+import '../../../features/dashboard/notifications/first_screen_advertisements/first_screen_notifications.dart';
 import '../../../features/dashboard/rates/first_screen_rates/first_screen_rates.dart';
 import '../../../features/dashboard/communication_and_policies_pages/first_screen_communication_and_policies_pages/first_screen_communication_and_policies_pages.dart';
 import '../../../features/dashboard/advertisements/first_screen_advertisements/first_screen_advertisements.dart';
@@ -75,7 +77,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const FirstScreenRates(),
+          home: const FirstScreenNotifications(),
         );
       },
     ),

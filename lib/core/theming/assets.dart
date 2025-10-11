@@ -1,6 +1,8 @@
 class AppImageKeys{
 
   ////dashboard////
+  static const String  logout='assets/images/logout.png';
+
   static const String  rates10='assets/images/rates10.png';
 
   static const String  service99='assets/images/service99.png';

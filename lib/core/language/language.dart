@@ -16,6 +16,19 @@ class AppLocalizations {
     'ar': {
 
       ////dashboard////
+
+          AppLanguageKeys.searchFrom: 'بحث من',
+          AppLanguageKeys.to: 'الي',
+          AppLanguageKeys.allOrders: 'جميع الطلبات',
+          AppLanguageKeys.ordersListFromServices: 'قائمة الطلبات من الخدمات',
+          AppLanguageKeys.newOrders: 'الطلبات الجديدة',
+          AppLanguageKeys.completedOrders: 'الطلبات المنتهية',
+          AppLanguageKeys.search: 'بحث',
+
+      AppLanguageKeys.confirm: 'تأكيد',
+      AppLanguageKeys.cancel: 'إلغاء',
+      AppLanguageKeys.logout: 'تسجيل الخروج',
+      AppLanguageKeys.confirmLogout: 'هل تريد تأكيد الخروج؟',
       AppLanguageKeys.oils: 'زيوت',
       AppLanguageKeys.allChanges: 'جميع الغيارات',
       AppLanguageKeys.allReviews: 'جميع التقييمات',
@@ -524,7 +537,21 @@ class AppLocalizations {
     },
     'en': {
 
+
       ////dashboard////
+
+          AppLanguageKeys.searchFrom: 'Search From',
+          AppLanguageKeys.to: 'To',
+          AppLanguageKeys.allOrders: 'All Orders',
+          AppLanguageKeys.ordersListFromServices: 'Orders list from services',
+          AppLanguageKeys.newOrders: 'New Orders',
+          AppLanguageKeys.completedOrders: 'Completed Orders',
+          AppLanguageKeys.search: 'Search',
+          AppLanguageKeys.confirm: 'Confirm',
+          AppLanguageKeys.cancel: 'Cancel',
+          AppLanguageKeys.logout: 'Logout',
+
+      AppLanguageKeys.confirmLogout: 'Do you want to confirm logout_dashboard?',
       AppLanguageKeys.oils: 'Oils',
       AppLanguageKeys.allChanges: 'All Changes',
       AppLanguageKeys.allReviews: 'All Reviews',
