@@ -2,6 +2,8 @@
 class AppLanguageKeys{
 
   ////dashboard////
+  static const String allNotifications = 'allNotifications';
+
   static const String searchFrom = 'searchFrom';
   static const String to = 'to';
 

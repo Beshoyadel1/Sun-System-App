@@ -17,6 +17,7 @@ class AppLocalizations {
 
       ////dashboard////
 
+          AppLanguageKeys.allNotifications: 'جميع الإشعارات',
           AppLanguageKeys.searchFrom: 'بحث من',
           AppLanguageKeys.to: 'الي',
           AppLanguageKeys.allOrders: 'جميع الطلبات',
@@ -540,6 +541,7 @@ class AppLocalizations {
 
       ////dashboard////
 
+          AppLanguageKeys.allNotifications: 'All Notifications',
           AppLanguageKeys.searchFrom: 'Search From',
           AppLanguageKeys.to: 'To',
           AppLanguageKeys.allOrders: 'All Orders',
