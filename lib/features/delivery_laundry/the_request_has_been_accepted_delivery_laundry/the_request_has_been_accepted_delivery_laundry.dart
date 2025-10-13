@@ -4,7 +4,11 @@ import '../../../../../features/delivery_laundry/the_request_has_been_accepted_d
 import '../../../../../core/theming/colors.dart';
 
 class TheRequestHasBeenAcceptedDeliveryLaundry extends StatelessWidget {
-  const TheRequestHasBeenAcceptedDeliveryLaundry({super.key});
+  final String? text;
+  const TheRequestHasBeenAcceptedDeliveryLaundry({
+    super.key,
+    this.text
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +25,9 @@ class TheRequestHasBeenAcceptedDeliveryLaundry extends StatelessWidget {
                 children: [
                   Expanded(
                     child: SingleChildScrollView(
-                        child: ListDataTheRequestHasBeenAcceptedDeliveryLaundry()
+                        child: ListDataTheRequestHasBeenAcceptedDeliveryLaundry(
+                          text:text,
+                        )
                     ),
                   ),
                 ],

@@ -2,6 +2,16 @@
 class AppLanguageKeys{
 
   ////dashboard////
+  static const String transferCarToAnotherUser = 'transferCarToAnotherUser';
+  static const String yourPassword = 'yourPassword';
+  static const String newUserEmailOrPhone = 'newUserEmailOrPhone';
+  static const String reasonForTransfer = 'reasonForTransfer';
+  static const String transferNotice = 'transferNotice';
+  static const String completeTransfer = 'completeTransfer';
+  static const String waitingForNewUserApproval = 'waitingForNewUserApproval';
+  static const String carTransferredToNewOwner = 'carTransferredToNewOwner';
+  static const String transferYourNewCar = 'transferYourNewCar';
+
   static const String allNotifications = 'allNotifications';
 
   static const String searchFrom = 'searchFrom';

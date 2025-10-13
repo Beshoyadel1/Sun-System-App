@@ -19,7 +19,7 @@ class AppbarProfileWidget extends StatelessWidget implements PreferredSizeWidget
       flexibleSpace: Container( color: color ?? AppColors.scaffoldColor,),
       title: TextInAppWidget(
         text: title,
-        textSize: 18,
+        textSize: 15,
         fontWeightIndex: FontSelectionData.mediumFontFamily,
         textColor: AppColors.darkColor,
       ),

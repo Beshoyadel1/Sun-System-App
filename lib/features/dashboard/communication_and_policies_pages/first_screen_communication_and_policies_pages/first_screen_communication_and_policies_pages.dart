@@ -1,8 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/features/insurance_new/insurance_offers_new/ui/screens/default_tab_controller_insurance_new_offers.dart';
-import 'package:sun_system_app/features/insurance_new/insurance_offers_new/ui/screens/first_row_title_insurance_new_offers.dart';
-import 'package:sun_system_app/features/insurance_new/insurance_offers_new/ui/screens/second_row_insurance_new_offers.dart';
 import '../../../../../features/dashboard/communication_and_policies_pages/first_screen_communication_and_policies_pages/screens/list_data_first_screen_communication_and_policies_pages.dart';
 import '../../../../../features/dashboard/service_settings/custom_widget/appbar_dashboard_widget.dart';
 import '../../../../../features/dashboard/service_settings/custom_widget/backgroundDesktop.dart';

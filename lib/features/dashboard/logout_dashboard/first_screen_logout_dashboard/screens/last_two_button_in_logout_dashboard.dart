@@ -4,7 +4,6 @@ import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/pages_widgets/button_widget.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../core/theming/fonts.dart';
-import '../../../../../core/theming/text_styles.dart';
 
 class LastTwoButtonInLogoutDashboard extends StatelessWidget {
   final void Function()? onTapConfirm,onTapCancel;

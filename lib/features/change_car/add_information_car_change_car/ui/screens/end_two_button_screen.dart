@@ -6,7 +6,12 @@ import '../../../../../core/pages_widgets/button_widget.dart';
 
 
 class EndTwoButtonScreen extends StatelessWidget {
-  const EndTwoButtonScreen({super.key});
+  final void Function()? onTapTransfer,onTapDelete;
+  const EndTwoButtonScreen({
+    super.key,
+    this.onTapDelete,
+    this.onTapTransfer
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +33,7 @@ class EndTwoButtonScreen extends StatelessWidget {
               widthContainer:120,
               borderRadius: 30,
              // iconData: Icons.add,
-              onTap: (){},
+              onTap: onTapTransfer,
             ),
             ButtonWidget(
               isIconInEnd: false,
@@ -40,7 +45,7 @@ class EndTwoButtonScreen extends StatelessWidget {
               heightContainer: 40,
               widthContainer:120,
               borderRadius: 30,
-              onTap: (){},
+              onTap: onTapDelete,
             ),
           ],
         ),

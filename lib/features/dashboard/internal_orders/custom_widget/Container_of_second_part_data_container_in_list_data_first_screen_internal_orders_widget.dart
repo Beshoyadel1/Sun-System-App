@@ -1,14 +1,8 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sun_system_app/features/dashboard/internal_orders/first_screen_internal_orders/screens/big_container_of_new_orders/part_container_big_container_of_new_orders/custom_tab_second_part_data_container_in_list_data_first_screen_internal_orders.dart';
-import 'package:sun_system_app/features/dashboard/internal_orders/first_screen_internal_orders/screens/big_container_of_new_orders/part_container_big_container_of_new_orders/mobile_second_part_data_container_in_list_data_first_screen_internal_orders.dart';
+import '../../../../../features/dashboard/internal_orders/first_screen_internal_orders/screens/big_container_of_new_orders/part_container_big_container_of_new_orders/custom_tab_second_part_data_container_in_list_data_first_screen_internal_orders.dart';
+import '../../../../../features/dashboard/internal_orders/first_screen_internal_orders/screens/big_container_of_new_orders/part_container_big_container_of_new_orders/mobile_second_part_data_container_in_list_data_first_screen_internal_orders.dart';
 import '../../../../../../../features/dashboard/internal_orders/first_screen_internal_orders/screens/big_container_of_new_orders/part_container_big_container_of_new_orders/tab_second_part_data_container_in_list_data_first_screen_internal_orders.dart';
 import '../../../../../../../core/utilies/map_of_all_app.dart';
-import '../../../../../../../features/dashboard/internal_orders/custom_widget/Column_date_order_with_time_widget.dart';
-import '../../../../../../../features/dashboard/internal_orders/custom_widget/column_price_order_widget.dart';
-import '../../../../../../../features/dashboard/internal_orders/custom_widget/column_request_status_widget.dart';
-import '../../../../../../../features/dashboard/internal_orders/custom_widget/container_details_widget.dart';
-import '../../../../../../../features/dashboard/internal_orders/custom_widget/row_image_with_title_orange_and_sub_title_black_widget.dart';
-import '../../../../../../../features/dashboard/internal_orders/custom_widget/row_kind_of_car_with_text_widget.dart';
 import '../../../../../../../core/theming/colors.dart';
 
 class ContainerOfSecondPartDataContainerInListDataFirstScreenInternalOrdersWidget extends StatelessWidget {

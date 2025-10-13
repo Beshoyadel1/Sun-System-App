@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sun_system_app/core/theming/colors.dart';
+import '../../../../../core/theming/colors.dart';
 
 class SmallCircle extends StatelessWidget {
   final double size;

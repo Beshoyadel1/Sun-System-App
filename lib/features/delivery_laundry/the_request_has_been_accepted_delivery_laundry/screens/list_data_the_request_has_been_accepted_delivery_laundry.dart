@@ -7,7 +7,11 @@ import '../../../../../core/theming/text_styles.dart';
 import '../../../../../core/theming/colors.dart';
 
 class ListDataTheRequestHasBeenAcceptedDeliveryLaundry extends StatelessWidget {
-  const ListDataTheRequestHasBeenAcceptedDeliveryLaundry({super.key});
+  final String? text;
+  const ListDataTheRequestHasBeenAcceptedDeliveryLaundry({
+    super.key,
+    this.text
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +21,7 @@ class ListDataTheRequestHasBeenAcceptedDeliveryLaundry extends StatelessWidget {
         children: [
           Image.asset(AppImageKeys.done_star),
           TextInAppWidget(
-            text:AppLanguageKeys.requestAccepted,
+            text:text?? AppLanguageKeys.requestAccepted,
             textSize: 18,
             fontWeightIndex: FontSelectionData.mediumFontFamily,
             textColor:AppColors.darkColor,

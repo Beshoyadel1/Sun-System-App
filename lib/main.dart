@@ -2,6 +2,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import '../../../features/car_ownership_transfer_request/you_car_details_car_ownership_transfer_request/you_car_details_car_ownership_transfer_request.dart';
+import '../../../features/car_ownership_transfer_request/first_screen_car_ownership_transfer_request/first_screen_car_ownership_transfer_request.dart';
 import '../../../features/dashboard/logout_dashboard/first_screen_logout_dashboard/logout_dashboard.dart';
 import '../../../features/dashboard/notifications/first_screen_advertisements/first_screen_notifications.dart';
 import '../../../features/dashboard/rates/first_screen_rates/first_screen_rates.dart';
@@ -77,7 +79,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const FirstScreenNotifications(),
+          home: const FirstScreenCarOwnershipTransferRequest(),
         );
       },
     ),

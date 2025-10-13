@@ -16,6 +16,15 @@ class AppLocalizations {
     'ar': {
 
       ////dashboard////
+          AppLanguageKeys.transferCarToAnotherUser: 'نقل السيارة لمستخدم أخر',
+          AppLanguageKeys.yourPassword: 'كلمة المرور الخاص بك',
+          AppLanguageKeys.newUserEmailOrPhone: 'الايميل أو رقم الهاتف للمستخدم الجديد',
+          AppLanguageKeys.reasonForTransfer: 'سبب لنقل الحساب',
+          AppLanguageKeys.transferNotice: 'سيتم نقل جميع الصيانات والفواتير السابقة مع عدا الاوراق الشخصية او الرخصة الخاصة بك',
+          AppLanguageKeys.completeTransfer: 'اتمام النقل',
+          AppLanguageKeys.waitingForNewUserApproval: 'في انتظار موافقة المستخدم الجديد لنقل السيارة',
+          AppLanguageKeys.carTransferredToNewOwner: 'تم نقل السيارة للمالك أخر',
+          AppLanguageKeys.transferYourNewCar: 'نقل سيارتك الجديدة',
 
           AppLanguageKeys.allNotifications: 'جميع الإشعارات',
           AppLanguageKeys.searchFrom: 'بحث من',
@@ -540,6 +549,16 @@ class AppLocalizations {
 
 
       ////dashboard////
+
+          AppLanguageKeys.transferCarToAnotherUser: 'Transfer Car to Another User',
+          AppLanguageKeys.yourPassword: 'Your Password',
+          AppLanguageKeys.newUserEmailOrPhone: 'Email or Phone of New User',
+          AppLanguageKeys.reasonForTransfer: 'Reason for Account Transfer',
+          AppLanguageKeys.transferNotice: 'All previous maintenance and invoices will be transferred except your personal documents or license.',
+          AppLanguageKeys.completeTransfer: 'Complete Transfer',
+          AppLanguageKeys.waitingForNewUserApproval: 'Waiting for new user approval to transfer the car',
+          AppLanguageKeys.carTransferredToNewOwner: 'Car has been transferred to a new owner',
+          AppLanguageKeys.transferYourNewCar: 'Transfer Your New Car',
 
           AppLanguageKeys.allNotifications: 'All Notifications',
           AppLanguageKeys.searchFrom: 'Search From',
