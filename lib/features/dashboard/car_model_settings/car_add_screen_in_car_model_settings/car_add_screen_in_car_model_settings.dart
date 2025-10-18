@@ -1,15 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../../../features/dashboard/advertisements/first_screen_advertisements/screens/list_data_first_screen_advertisements.dart';
+import '../../../../../features/dashboard/car_model_settings/car_add_screen_in_car_model_settings/screens/list_data_car_add_screen_in_car_model_settings.dart';
+import '../../../../../features/dashboard/car_model_settings/first_screen_car_model_settings/screens/last_two_button_in_first_screen_car_model_settings.dart';
 import '../../../../../features/dashboard/service_settings/custom_widget/appbar_dashboard_widget.dart';
 import '../../../../../features/dashboard/service_settings/custom_widget/backgroundDesktop.dart';
 import '../../../../../core/utilies/map_of_all_app.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../core/language/language_constant.dart';
 
-
-class FirstScreenAdvertisements extends StatelessWidget {
-  const FirstScreenAdvertisements({super.key});
+class CarAddScreenInCarModelSettings extends StatelessWidget {
+  const CarAddScreenInCarModelSettings({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +26,7 @@ class FirstScreenAdvertisements extends StatelessWidget {
           flex: 3,
           child: Scaffold(
             backgroundColor: AppColors.scaffoldColor,
-            appBar: AppbarDashboardWidget(title:AppLanguageKeys.advertisements,),
+            appBar: AppbarDashboardWidget(title:AppLanguageKeys.carModel,),
             body: SafeArea(
               child: Padding(
                 padding: EdgeInsets.all(20),
@@ -34,14 +34,19 @@ class FirstScreenAdvertisements extends StatelessWidget {
                   children: [
                     Expanded(
                       child: SingleChildScrollView(
-                          child: ListDataFirstScreenAdvertisements()
+                          child: ListDataCarAddScreenInCarModelSettings()
                       ),
                     ),
                   ],
                 ),
               ),
             ),
+            bottomNavigationBar:LastTwoButtonInFirstScreenCarModelSettings(
+              isSave: true,
+              onTapAdd: (){
 
+              },
+            ),
           ),
         ),
       ],

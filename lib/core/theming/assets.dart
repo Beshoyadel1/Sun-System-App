@@ -1,6 +1,9 @@
 class AppImageKeys{
 
   ////dashboard////
+
+  static const String  search2='assets/images/search2.png';
+
   static const String  logout='assets/images/logout.png';
 
   static const String  rates10='assets/images/rates10.png';
@@ -14,6 +17,9 @@ class AppImageKeys{
 
   static const String  notification1='assets/images/notification1.png';
   static const String  logo10='assets/images/logo10.png';
+  static const String  logo11='assets/images/logo11.png';
+  static const String  logo12='assets/images/logo12.png';
+  static const String  logo13='assets/images/logo13.png';
   static const String  car1_service='assets/images/car1_service.png';
   static const String  car2_service='assets/images/car2_service.png';
   static const String  car3_service='assets/images/car3_service.png';

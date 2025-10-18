@@ -16,6 +16,16 @@ class AppLocalizations {
     'ar': {
 
       ////dashboard////
+
+          AppLanguageKeys.selectCarModelByServices: 'حدد موديل السيارات بناء علي الخدمات التي ستقدمها لعملائك',
+          AppLanguageKeys.multipleCarSelectionNote: 'يمكنك تحديد سيارات مختلفة في أن واحد',
+          AppLanguageKeys.searchCarModel: 'يمكنك البحث لاختيار موديل السيارة',
+          AppLanguageKeys.chooseCategory: 'أختر الفئة',
+          AppLanguageKeys.selectModelYears: 'حدد سنوات الموديل',
+          AppLanguageKeys.carCategory: 'فئة السيارات',
+          AppLanguageKeys.addCarModel: 'إضافة موديل سيارة',
+
+
           AppLanguageKeys.transferCarToAnotherUser: 'نقل السيارة لمستخدم أخر',
           AppLanguageKeys.yourPassword: 'كلمة المرور الخاص بك',
           AppLanguageKeys.newUserEmailOrPhone: 'الايميل أو رقم الهاتف للمستخدم الجديد',
@@ -549,6 +559,14 @@ class AppLocalizations {
 
 
       ////dashboard////
+
+          AppLanguageKeys.selectCarModelByServices: 'Select car models based on the services you offer to your customers',
+          AppLanguageKeys.multipleCarSelectionNote: 'You can select multiple cars at once',
+          AppLanguageKeys.searchCarModel: 'You can search to select your car model',
+          AppLanguageKeys.chooseCategory: 'Choose Category',
+          AppLanguageKeys.selectModelYears: 'Select Model Years',
+          AppLanguageKeys.carCategory: 'Car Category',
+          AppLanguageKeys.addCarModel: 'Add Car Model',
 
           AppLanguageKeys.transferCarToAnotherUser: 'Transfer Car to Another User',
           AppLanguageKeys.yourPassword: 'Your Password',

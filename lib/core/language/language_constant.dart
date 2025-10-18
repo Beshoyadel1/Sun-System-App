@@ -2,6 +2,15 @@
 class AppLanguageKeys{
 
   ////dashboard////
+
+  static const String selectCarModelByServices = 'selectCarModelByServices';
+  static const String multipleCarSelectionNote = 'multipleCarSelectionNote';
+  static const String searchCarModel = 'searchCarModel';
+  static const String chooseCategory = 'chooseCategory';
+  static const String selectModelYears = 'selectModelYears';
+  static const String carCategory = 'carCategory';
+  static const String addCarModel = 'addCarModel';
+
   static const String transferCarToAnotherUser = 'transferCarToAnotherUser';
   static const String yourPassword = 'yourPassword';
   static const String newUserEmailOrPhone = 'newUserEmailOrPhone';
