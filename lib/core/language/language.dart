@@ -16,7 +16,9 @@ class AppLocalizations {
     'ar': {
 
       ////dashboard////
-
+          AppLanguageKeys.mobileServices: 'الخدمات المتنقلة',
+          AppLanguageKeys.towTruckRequest: 'طلب سطحة',
+          AppLanguageKeys.highwayService: 'خدمة الطرق السريعة',
           AppLanguageKeys.selectCarModelByServices: 'حدد موديل السيارات بناء علي الخدمات التي ستقدمها لعملائك',
           AppLanguageKeys.multipleCarSelectionNote: 'يمكنك تحديد سيارات مختلفة في أن واحد',
           AppLanguageKeys.searchCarModel: 'يمكنك البحث لاختيار موديل السيارة',
@@ -559,7 +561,9 @@ class AppLocalizations {
 
 
       ////dashboard////
-
+          AppLanguageKeys.mobileServices: 'Mobile Services',
+          AppLanguageKeys.towTruckRequest: 'Tow Truck Request',
+          AppLanguageKeys.highwayService: 'Highway Service',
           AppLanguageKeys.selectCarModelByServices: 'Select car models based on the services you offer to your customers',
           AppLanguageKeys.multipleCarSelectionNote: 'You can select multiple cars at once',
           AppLanguageKeys.searchCarModel: 'You can search to select your car model',

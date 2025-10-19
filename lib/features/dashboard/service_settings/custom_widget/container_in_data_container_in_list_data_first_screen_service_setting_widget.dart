@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import '../../../../../core/utilies/map_of_all_app.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/theming/fonts.dart';
@@ -11,12 +12,13 @@ import '../../../../../core/theming/colors.dart';
 class ContainerInDataContainerInListDataFirstScreenServiceSettingWidget extends StatelessWidget {
   final String imagePath, title;
   final void Function()? onTap;
-
+  final bool? isTaskEdit;
   const ContainerInDataContainerInListDataFirstScreenServiceSettingWidget({
     super.key,
     required this.imagePath,
     required this.title,
     this.onTap,
+    this.isTaskEdit=false,
   });
 
   @override
@@ -51,7 +53,7 @@ class ContainerInDataContainerInListDataFirstScreenServiceSettingWidget extends 
               Flexible(
                 child: ContainerImageWidget(
                   imagePath: imagePath,
-                  color: AppColors.greyColor,
+                  color:isTaskEdit!? AppColors.orangeColor:AppColors.greyColor,
                   width: 50,
                   height: 50,
                 ),
@@ -73,9 +75,9 @@ class ContainerInDataContainerInListDataFirstScreenServiceSettingWidget extends 
             children: [
               Expanded(
                 child: ContainerReturnToPageSetting(
-                  color: AppColors.orangeColor,
-                  text: AppLanguageKeys.addServices,
-                  icon: CupertinoIcons.add,
+                  color:isTaskEdit!? AppColors.blackColor44:AppColors.orangeColor,
+                  text:isTaskEdit!?AppLanguageKeys.edit: AppLanguageKeys.addServices,
+                  icon: isTaskEdit!?Icons.edit_calendar:CupertinoIcons.add,
                   onTap: onTap,
                 ),
               ),
@@ -92,7 +94,7 @@ class ContainerInDataContainerInListDataFirstScreenServiceSettingWidget extends 
               children: [
                 ContainerImageWidget(
                   imagePath: imagePath,
-                  color: AppColors.greyColor,
+                  color: isTaskEdit!? AppColors.orangeColor:AppColors.greyColor,
                   width: 50,
                   height: 50,
                 ),
@@ -110,9 +112,9 @@ class ContainerInDataContainerInListDataFirstScreenServiceSettingWidget extends 
             ),
           ),
           ContainerReturnToPageSetting(
-            color: AppColors.orangeColor,
-            text: AppLanguageKeys.addServices,
-            icon: CupertinoIcons.add,
+            color:isTaskEdit!? AppColors.blackColor44:AppColors.orangeColor,
+            text:isTaskEdit!?AppLanguageKeys.edit: AppLanguageKeys.addServices,
+            icon: isTaskEdit!?Icons.edit_calendar:CupertinoIcons.add,
             onTap: onTap,
           ),
         ],

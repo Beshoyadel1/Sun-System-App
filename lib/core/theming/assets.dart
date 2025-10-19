@@ -1,11 +1,11 @@
 class AppImageKeys{
 
   ////dashboard////
+  static const String  service00='assets/images/service00.png';
+  static const String  service01='assets/images/service01.png';
 
   static const String  search2='assets/images/search2.png';
-
   static const String  logout='assets/images/logout.png';
-
   static const String  rates10='assets/images/rates10.png';
 
   static const String  service99='assets/images/service99.png';

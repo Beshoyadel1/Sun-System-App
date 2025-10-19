@@ -7,7 +7,11 @@ import '../../../../../features/dashboard/service_settings/added_maintenance_and
 
 
 class ContainerOpenCloseTabSetting extends StatelessWidget {
-  const ContainerOpenCloseTabSetting({super.key});
+  final bool? isDoneTask;
+  const ContainerOpenCloseTabSetting({
+    super.key,
+    this.isDoneTask=false
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -15,8 +19,8 @@ class ContainerOpenCloseTabSetting extends StatelessWidget {
         buildWhen: (previous, current) => previous.isExpanded != current.isExpanded,
         builder: (context, state) {
         return Container(
-          decoration: const BoxDecoration(
-            color: AppColors.greyColor,
+          decoration: BoxDecoration(
+            color:isDoneTask!? AppColors.orangeColor:AppColors.greyColor,
             shape: BoxShape.circle,
           ),
           child: IconButton(

@@ -25,7 +25,7 @@ class ContainerReturnToPageSetting extends StatelessWidget {
     return InkWell(
       onTap: onTap,
       child: Container(
-      //  width: 200,
+        width: 200,
         padding: EdgeInsetsGeometry.all(10),
         decoration: BoxDecoration(
           color: color?? AppColors.blackColor44,

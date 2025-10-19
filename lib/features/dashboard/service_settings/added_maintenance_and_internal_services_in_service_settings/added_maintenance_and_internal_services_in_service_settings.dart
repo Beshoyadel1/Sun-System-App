@@ -21,7 +21,7 @@ class AddedMaintenanceAndInternalServicesInServiceSettings extends StatelessWidg
 
     return Row(
       children: [
-        if (!isMobile && !isTabletCustom)
+        if (!isMobile)
           const backgroundDesktop(),
         Expanded(
           flex: 3,

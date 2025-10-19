@@ -2,7 +2,9 @@
 class AppLanguageKeys{
 
   ////dashboard////
-
+  static const String mobileServices = 'mobileServices';
+  static const String towTruckRequest = 'towTruckRequest';
+  static const String highwayService = 'highwayService';
   static const String selectCarModelByServices = 'selectCarModelByServices';
   static const String multipleCarSelectionNote = 'multipleCarSelectionNote';
   static const String searchCarModel = 'searchCarModel';

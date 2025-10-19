@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import '../../../../../features/dashboard/service_settings/internal_maintenance_and_services_in_service_settings/internal_maintenance_and_services_in_service_settings.dart';
 import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
 import '../../../../../features/dashboard/service_settings/added_maintenance_and_internal_services_in_service_settings/added_maintenance_and_internal_services_in_service_settings.dart';
 import '../../../../../core/language/language_constant.dart';
@@ -22,6 +23,7 @@ class DataContainerInListDataFirstScreenServiceSetting extends StatelessWidget {
           ContainerInDataContainerInListDataFirstScreenServiceSettingWidget(
             imagePath: AppImageKeys.car1_service,
             title: AppLanguageKeys.internalServices,
+            isTaskEdit: true,
             onTap: (){
               Navigator.pop(context);
               Navigator.of(context).push(
@@ -34,6 +36,15 @@ class DataContainerInListDataFirstScreenServiceSetting extends StatelessWidget {
           ContainerInDataContainerInListDataFirstScreenServiceSettingWidget(
             imagePath: AppImageKeys.car2_service,
             title: AppLanguageKeys.mobileAndTransportServices,
+            isTaskEdit: true,
+            onTap: (){
+              Navigator.pop(context);
+              Navigator.of(context).push(
+                NavigateToPageWidget(
+                  InternalMaintenanceAndServicesInServiceSettings(),
+                ),
+              );
+            },
           ),
           ContainerInDataContainerInListDataFirstScreenServiceSettingWidget(
             imagePath: AppImageKeys.car3_service,

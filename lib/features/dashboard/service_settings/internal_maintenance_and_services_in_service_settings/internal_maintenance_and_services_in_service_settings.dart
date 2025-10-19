@@ -1,9 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
-import '../../../../../features/dashboard/car_model_settings/car_add_screen_in_car_model_settings/car_add_screen_in_car_model_settings.dart';
-import '../../../../../features/dashboard/car_model_settings/first_screen_car_model_settings/screens/last_two_button_in_first_screen_car_model_settings.dart';
-import '../../../../../features/dashboard/car_model_settings/first_screen_car_model_settings/screens/list_data_first_screen_car_model_settings.dart';
+import '../../../../../features/dashboard/service_settings/internal_maintenance_and_services_in_service_settings/screens/list_data_internal_maintenance_and_services_in_service_settings.dart';
+import '../../../../../features/dashboard/service_settings/added_maintenance_and_internal_services_in_service_settings/screens/container_last_two_button_in_added_maintenance_and_internal_services_in_service_settings.dart';
 import '../../../../../features/dashboard/service_settings/custom_widget/appbar_dashboard_widget.dart';
 import '../../../../../features/dashboard/service_settings/custom_widget/backgroundDesktop.dart';
 import '../../../../../core/utilies/map_of_all_app.dart';
@@ -11,8 +9,8 @@ import '../../../../../core/theming/colors.dart';
 import '../../../../../core/language/language_constant.dart';
 
 
-class FirstScreenCarModelSettings extends StatelessWidget {
-  const FirstScreenCarModelSettings({super.key});
+class InternalMaintenanceAndServicesInServiceSettings extends StatelessWidget {
+  const InternalMaintenanceAndServicesInServiceSettings({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +27,7 @@ class FirstScreenCarModelSettings extends StatelessWidget {
           flex: 3,
           child: Scaffold(
             backgroundColor: AppColors.scaffoldColor,
-            appBar: AppbarDashboardWidget(title:AppLanguageKeys.carModel,),
+            appBar: AppbarDashboardWidget(title:AppLanguageKeys.serviceSettings,),
             body: SafeArea(
               child: Padding(
                 padding: EdgeInsets.all(20),
@@ -37,21 +35,14 @@ class FirstScreenCarModelSettings extends StatelessWidget {
                   children: [
                     Expanded(
                       child: SingleChildScrollView(
-                          child: ListDataFirstScreenCarModelSettings()
+                          child: ListDataInternalMaintenanceAndServicesInServiceSettings()
                       ),
                     ),
                   ],
                 ),
               ),
             ),
-            bottomNavigationBar:LastTwoButtonInFirstScreenCarModelSettings(
-              onTapAdd: (){
-                Navigator.pop(context);
-                  Navigator.of(context).push(
-                    NavigateToPageWidget(CarAddScreenInCarModelSettings()),
-                  );
-              },
-            ),
+            bottomNavigationBar:ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettings(),
           ),
         ),
       ],

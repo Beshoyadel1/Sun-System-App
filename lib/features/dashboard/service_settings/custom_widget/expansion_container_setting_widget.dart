@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:sun_system_app/core/language/language_constant.dart';
 import '../../../../../features/dashboard/service_settings/added_maintenance_and_internal_services_in_service_settings/screens/animated_cross_fade_in_expansion_container_setting_widget.dart';
 import '../../../../../features/dashboard/service_settings/added_maintenance_and_internal_services_in_service_settings/screens/container_open_close_tab_setting.dart';
 import '../../../../../core/theming/colors.dart';
@@ -9,10 +10,12 @@ import '../../../../../features/dashboard/service_settings/added_maintenance_and
 
 class ExpansionContainerSettingWidget extends StatelessWidget {
   final String imagePath, text;
+  final bool? isDoneTask;
   const ExpansionContainerSettingWidget({
     super.key,
     required this.imagePath,
     required this.text,
+    this.isDoneTask=false
   });
 
   @override
@@ -38,23 +41,37 @@ class ExpansionContainerSettingWidget extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Flexible(
+                Expanded(
                   child: Row(
                     spacing: 5,
                     children: [
-                      Image.asset(imagePath),
-                      Expanded(
-                        child: TextInAppWidget(
-                          text: text,
-                          textSize: 13,
-                          fontWeightIndex: FontSelectionData.mediumFontFamily,
-                          textColor: AppColors.darkColor,
+                      Flexible(
+                        child: Opacity(
+                          opacity:isDoneTask!?1:0.5,
+                            child: Image.asset(imagePath)
                         ),
                       ),
+                      TextInAppWidget(
+                        text: text,
+                        textSize: 13,
+                        fontWeightIndex: FontSelectionData.mediumFontFamily,
+                        textColor: AppColors.darkColor,
+                      ),
+                      if (isDoneTask!)
+                        Expanded(
+                          child: TextInAppWidget(
+                            text: AppLanguageKeys.allCategories,
+                            textSize: 13,
+                            fontWeightIndex: FontSelectionData.regularFontFamily,
+                            textColor: AppColors.orangeColor,
+                          ),
+                        ),
                     ],
                   ),
                 ),
-                ContainerOpenCloseTabSetting()
+                ContainerOpenCloseTabSetting(
+                  isDoneTask: isDoneTask,
+                )
               ],
             ),
             AnimatedCrossFadeInExpansionContainerSettingWidget()
