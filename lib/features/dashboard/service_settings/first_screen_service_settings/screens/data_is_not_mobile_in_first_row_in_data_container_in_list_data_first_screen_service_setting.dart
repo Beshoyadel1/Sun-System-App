@@ -6,7 +6,15 @@ import '../../../../../features/dashboard/service_settings/first_screen_service_
 import '../../../../../features/dashboard/service_settings/first_screen_service_settings/screens/Container_image_in_first_row_in_data_container_in_list_data_first_screen_service_setting.dart';
 
 class DataIsNotMobileInFirstRowInDataContainerInListDataFirstScreenServiceSetting extends StatelessWidget {
-  const DataIsNotMobileInFirstRowInDataContainerInListDataFirstScreenServiceSetting({super.key});
+  final String? text1,text2,textContainer;
+  final Function()? onTap;
+  const DataIsNotMobileInFirstRowInDataContainerInListDataFirstScreenServiceSetting({
+    super.key,
+    this.text1,
+    this.text2,
+    this.textContainer,
+    this.onTap,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -19,12 +27,16 @@ class DataIsNotMobileInFirstRowInDataContainerInListDataFirstScreenServiceSettin
             spacing: 10,
             children: [
               ContainerImageInFirstRowInDataContainerInListDataFirstScreenServiceSetting(),
-              ColumnTwoTextInFirstRowInDataContainerInListDataFirstScreenServiceSetting()
+              ColumnTwoTextInFirstRowInDataContainerInListDataFirstScreenServiceSetting(
+                text1: text1,
+                text2: text2,
+              )
             ],
           ),
         ),
         ContainerReturnToPageSetting(
-          onTap: (){
+          text:textContainer,
+          onTap:onTap?? (){
             Navigator.pop(context);
             Navigator.of(context).push(
                 NavigateToPageWidget(const FirstScreenServiceSettings()

@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import '../../../../../features/dashboard/service_settings/car_spare_parts_in_service_settings/car_spare_parts_in_service_settings.dart';
 import '../../../../../features/dashboard/service_settings/internal_maintenance_and_services_in_service_settings/internal_maintenance_and_services_in_service_settings.dart';
 import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
 import '../../../../../features/dashboard/service_settings/added_maintenance_and_internal_services_in_service_settings/added_maintenance_and_internal_services_in_service_settings.dart';
@@ -49,6 +50,15 @@ class DataContainerInListDataFirstScreenServiceSetting extends StatelessWidget {
           ContainerInDataContainerInListDataFirstScreenServiceSettingWidget(
             imagePath: AppImageKeys.car3_service,
             title: AppLanguageKeys.carSpareParts,
+
+            onTap: (){
+              Navigator.pop(context);
+              Navigator.of(context).push(
+                NavigateToPageWidget(
+                  CarSparePartsInServiceSettings(),
+                ),
+              );
+            },
           ),
           ContainerInDataContainerInListDataFirstScreenServiceSettingWidget(
             imagePath: AppImageKeys.car4_service,

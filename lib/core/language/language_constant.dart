@@ -2,6 +2,25 @@
 class AppLanguageKeys{
 
   ////dashboard////
+
+  static const String delete = 'delete';
+  static const String sizesOrDimensions = 'sizesOrDimensions';
+  static const String availableQuantity = 'availableQuantity';
+
+  static const String addSparePart = 'addSparePart';
+  static const String addSparePartDetails = 'addSparePartDetails';
+  static const String allCategoriesIncluded = 'allCategoriesIncluded';
+  static const String specificCategory = 'specificCategory';
+  static const String partName = 'partName';
+  static const String spareCategory = 'spareCategory';
+  static const String price = 'price';
+  static const String sparePartImage = 'sparePartImage';
+  static const String writeText = 'writeText';
+  static const String imageSizeNote = 'imageSizeNote';
+  static const String productDetails = 'productDetails';
+  static const String totalPartsInStock = 'totalPartsInStock';
+  static const String numberOfSizesIfAvailable = 'numberOfSizesIfAvailable';
+
   static const String mobileServices = 'mobileServices';
   static const String towTruckRequest = 'towTruckRequest';
   static const String highwayService = 'highwayService';

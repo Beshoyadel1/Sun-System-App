@@ -5,7 +5,12 @@ import '../../../../../core/theming/fonts.dart';
 import '../../../../../core/theming/text_styles.dart';
 
 class ColumnTwoTextInFirstRowInDataContainerInListDataFirstScreenServiceSetting extends StatelessWidget {
-  const ColumnTwoTextInFirstRowInDataContainerInListDataFirstScreenServiceSetting({super.key});
+  final String? text1,text2;
+  const ColumnTwoTextInFirstRowInDataContainerInListDataFirstScreenServiceSetting({
+    super.key,
+    this.text1,
+    this.text2
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -15,13 +20,13 @@ class ColumnTwoTextInFirstRowInDataContainerInListDataFirstScreenServiceSetting 
         spacing: 5,
         children: [
           TextInAppWidget(
-            text:AppLanguageKeys.nissanServiceSettings,
+            text:text1?? AppLanguageKeys.nissanServiceSettings,
             textSize: 13,
             fontWeightIndex: FontSelectionData.mediumFontFamily,
             textColor:AppColors.blackColor,
           ),
           TextInAppWidget(
-            text:AppLanguageKeys.serviceSettingsDetails,
+            text:text2??AppLanguageKeys.serviceSettingsDetails,
             textSize: 11,
             fontWeightIndex: FontSelectionData.regularFontFamily,
             textColor:AppColors.blackColor,

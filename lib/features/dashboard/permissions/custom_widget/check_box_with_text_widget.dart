@@ -8,9 +8,11 @@ import '../../../../../features/dashboard/permissions/first_screen_permissions/l
 class CheckBoxWithText extends StatelessWidget {
   final String text;
   final String? imageSelect;
-  const CheckBoxWithText({super.key,
+
+  const CheckBoxWithText({
+    super.key,
     required this.text,
-    this.imageSelect
+    this.imageSelect,
   });
 
   @override
@@ -20,46 +22,51 @@ class CheckBoxWithText extends StatelessWidget {
       child: BlocBuilder<CheckBoxWithTextCubit, bool>(
         buildWhen: (previous, current) => previous != current,
         builder: (context, isChecked) {
-          return Flexible(
-            child: Row(
-              spacing: 5,
-              children: [
-                Checkbox(
-                  activeColor: AppColors.orangeColor,
-                  value: isChecked,
-                  onChanged: (value) {
-                    context.read<CheckBoxWithTextCubit>().toggle(value ?? false);
-                  },
-                ),
-                imageSelect != null ?
-                Flexible(
-                  child: Opacity(
-                      opacity:isChecked? 1:0.5,
-                      child: Column(
-                        spacing: 5,
-                        children: [
-                          Image.asset(imageSelect!),
-                          TextInAppWidget(
-                            text: text,
-                            textSize: 11,
-                            fontWeightIndex: FontSelectionData.regularFontFamily,
-                            textColor: AppColors.blackColor,
-                          ),
-                        ],
-                      )
+          return Row(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Checkbox(
+                activeColor: AppColors.orangeColor,
+                value: isChecked,
+                onChanged: (value) {
+                  context.read<CheckBoxWithTextCubit>().toggle(value ?? false);
+                },
+              ),
+              if (imageSelect != null)
+                Opacity(
+                  opacity: isChecked ? 1 : 0.5,
+                  child: Column(
+                    spacing: 5,
+                    children: [
+                      Image.asset(
+                        imageSelect!,
+                        width: 50,
+                        height: 50,
+                        fit: BoxFit.contain,
+                      ),
+                      TextInAppWidget(
+                        text: text,
+                        textSize: 11,
+                        fontWeightIndex: FontSelectionData.regularFontFamily,
+                        textColor: AppColors.blackColor,
+                      ),
+                    ],
                   ),
                 )
-                    :
-                Expanded(
+              else
+                Padding(
+                  padding: const EdgeInsets.only(top: 12),
                   child: TextInAppWidget(
                     text: text,
                     textSize: 11,
                     fontWeightIndex: FontSelectionData.regularFontFamily,
-                    textColor:isChecked ? AppColors.blackColor : AppColors.greyColor,
+                    textColor: isChecked
+                        ? AppColors.blackColor
+                        : AppColors.greyColor,
                   ),
                 ),
-              ],
-            ),
+            ],
           );
         },
       ),

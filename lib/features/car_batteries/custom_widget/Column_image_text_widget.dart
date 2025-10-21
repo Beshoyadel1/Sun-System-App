@@ -17,8 +17,8 @@ class ColumnImageTextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      spacing: 10,
-      crossAxisAlignment: CrossAxisAlignment.start,
+      spacing: 5,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Image.asset(imagePath),
         TextInAppWidget(

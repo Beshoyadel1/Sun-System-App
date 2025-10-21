@@ -16,6 +16,26 @@ class AppLocalizations {
     'ar': {
 
       ////dashboard////
+
+          AppLanguageKeys.delete: 'حذف',
+          AppLanguageKeys.sizesOrDimensions: 'المقاسات او الاحجام',
+          AppLanguageKeys.availableQuantity: 'عدد القطع المتاحة',
+
+          AppLanguageKeys.addSparePart: 'إضافة قطع غيار',
+          AppLanguageKeys.addSparePartDetails: 'اضافة قطع غيار من حيث نوع الفئة وتفاصيل المنتج',
+          AppLanguageKeys.allCategoriesIncluded: 'شامل لكل الفئات',
+          AppLanguageKeys.specificCategory: 'خاص بفئة',
+          AppLanguageKeys.partName: 'اسم القطعة',
+          AppLanguageKeys.spareCategory: 'فئة الغيار',
+          AppLanguageKeys.price: 'السعر',
+          AppLanguageKeys.sparePartImage: 'صورة قطعه الغيار',
+          AppLanguageKeys.writeText: 'كتابة نص',
+          AppLanguageKeys.imageSizeNote:
+          'المقاس لا يقل عن (100px ارتفاع * 250px عرض) من نوع (jpg, jpeg, png, gif) ولا يتجاوز 5 ميجابيت لكل صوره بحد اقصي 10 صور',
+          AppLanguageKeys.productDetails: 'تفاصيل المنتج',
+          AppLanguageKeys.totalPartsInStock: 'اجمالي القطع في المخزون',
+          AppLanguageKeys.numberOfSizesIfAvailable: 'عدد المقاسات ان وجدت',
+
           AppLanguageKeys.mobileServices: 'الخدمات المتنقلة',
           AppLanguageKeys.towTruckRequest: 'طلب سطحة',
           AppLanguageKeys.highwayService: 'خدمة الطرق السريعة',
@@ -561,6 +581,26 @@ class AppLocalizations {
 
 
       ////dashboard////
+
+          AppLanguageKeys.delete: 'Delete',
+          AppLanguageKeys.sizesOrDimensions: 'Sizes or Dimensions',
+          AppLanguageKeys.availableQuantity: 'Available Quantity',
+
+          AppLanguageKeys.addSparePart: 'Add Spare Part',
+          AppLanguageKeys.addSparePartDetails: 'Add spare parts by category type and product details',
+          AppLanguageKeys.allCategoriesIncluded: 'Included for all categories',
+          AppLanguageKeys.specificCategory: 'Specific to category',
+          AppLanguageKeys.partName: 'Part Name',
+          AppLanguageKeys.spareCategory: 'Spare Category',
+          AppLanguageKeys.price: 'Price',
+          AppLanguageKeys.sparePartImage: 'Spare Part Image',
+          AppLanguageKeys.writeText: 'Write Text',
+          AppLanguageKeys.imageSizeNote:
+          'Image size must not be less than (100px height * 250px width), formats (jpg, jpeg, png, gif), max 5MB per image, up to 10 images.',
+          AppLanguageKeys.productDetails: 'Product Details',
+          AppLanguageKeys.totalPartsInStock: 'Total Parts in Stock',
+          AppLanguageKeys.numberOfSizesIfAvailable: 'Number of Sizes (if available)',
+
           AppLanguageKeys.mobileServices: 'Mobile Services',
           AppLanguageKeys.towTruckRequest: 'Tow Truck Request',
           AppLanguageKeys.highwayService: 'Highway Service',

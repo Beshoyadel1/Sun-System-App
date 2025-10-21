@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sun_system_app/core/language/language_constant.dart';
+import '../../../../../../../core/language/language_constant.dart';
 import '../../../../../features/dashboard/service_settings/added_maintenance_and_internal_services_in_service_settings/screens/animated_cross_fade_in_expansion_container_setting_widget.dart';
 import '../../../../../features/dashboard/service_settings/added_maintenance_and_internal_services_in_service_settings/screens/container_open_close_tab_setting.dart';
 import '../../../../../core/theming/colors.dart';

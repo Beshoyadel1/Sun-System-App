@@ -10,12 +10,16 @@ class TextWithTextFormFieldAsColumnWidget extends StatelessWidget {
   final String text, hint;
   final List<String>? options;
   final TextEditingController textFormController = TextEditingController();
-
+  final int? maxLines;
+  final double?textFormWidth,textFormHeight;
   TextWithTextFormFieldAsColumnWidget({
     super.key,
     required this.text,
     required this.hint,
     this.options,
+    this.maxLines,
+    this.textFormWidth,
+    this.textFormHeight
   });
 
   @override
@@ -39,7 +43,7 @@ class TextWithTextFormFieldAsColumnWidget extends StatelessWidget {
                             buildWhen: (previous, current) => previous != current,
                             builder: (context, selectedOption) {
                 return SizedBox(
-                  height: 35,
+                  height:textFormHeight?? 35,
                   child: InputDecorator(
                     decoration: InputDecoration(
                       border: OutlineInputBorder(
@@ -91,7 +95,9 @@ class TextWithTextFormFieldAsColumnWidget extends StatelessWidget {
                 hintTextColor: AppColors.darkColor.withOpacity(0.4),
                 textSize: 11,
                 contentPadding: EdgeInsetsGeometry.all(5),
-                textFormHeight: 35,
+                textFormHeight: maxLines != null && maxLines! > 1 ? null : (textFormHeight ?? 35),
+                maxLines:maxLines,
+                textFormWidth:textFormWidth,
           ),
 
         ],

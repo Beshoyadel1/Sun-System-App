@@ -6,12 +6,13 @@ import '../../../../../core/theming/fonts.dart';
 
 class LastButtonInListDataFirstScreenAdvertisements extends StatelessWidget {
   final void Function()? onTap;
-  const LastButtonInListDataFirstScreenAdvertisements({super.key,this.onTap});
+  final String? text;
+  const LastButtonInListDataFirstScreenAdvertisements({super.key,this.onTap,this.text});
 
   @override
   Widget build(BuildContext context) {
     return ButtonWidget(
-      text:AppLanguageKeys.createBannerAd,
+      text:text??AppLanguageKeys.createBannerAd,
       textColor: AppColors.whiteColor,
       buttonColor: AppColors.orangeColor,
       textSize: 12,

@@ -1,4 +1,6 @@
 import 'package:flutter/cupertino.dart';
+import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
+import '../../../../../features/dashboard/service_settings/first_screen_service_settings/first_screen_service_settings.dart';
 import '../../../../../features/dashboard/service_settings/custom_widget/container_text_only.dart';
 import '../../../../../core/language/language_constant.dart';
 import '../../../../../core/theming/colors.dart';
@@ -35,7 +37,10 @@ class ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettin
         children: [
           Flexible(
             child: ContainerTextOnly(
-                onTap:onTapBack,
+              onTap: (){
+                Navigator.pop(context);
+                Navigator.of(context).push(NavigateToPageWidget(const FirstScreenServiceSettings()));
+              },
                 text: AppLanguageKeys.back,
                 colorBackGround: AppColors.orangeColor,
               width: 200,

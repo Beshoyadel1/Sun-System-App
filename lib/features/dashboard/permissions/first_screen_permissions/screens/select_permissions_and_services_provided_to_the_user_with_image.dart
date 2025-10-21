@@ -12,7 +12,8 @@ class SelectPermissionsAndServicesProvidedToTheUserWithImage extends StatelessWi
       children: [
         Row(
           children: [
-            CheckBoxWithText(text: AppLanguageKeys.maintenanceServices,
+            CheckBoxWithText(
+              text: AppLanguageKeys.maintenanceServices,
               imageSelect: AppImageKeys.service33,
             ),
             CheckBoxWithText(text: AppLanguageKeys.maintenanceServices,
