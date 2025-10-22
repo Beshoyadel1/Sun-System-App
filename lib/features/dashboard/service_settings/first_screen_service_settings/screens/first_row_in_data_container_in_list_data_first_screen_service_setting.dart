@@ -4,14 +4,32 @@ import '../../../../../features/dashboard/service_settings/first_screen_service_
 import '../../../../../core/utilies/map_of_all_app.dart';
 
 class FirstRowInDataContainerInListDataFirstScreenServiceSetting extends StatelessWidget {
-  const FirstRowInDataContainerInListDataFirstScreenServiceSetting({super.key});
+  final String? text1,text2,textContainer;
+  final Function()? onTap;
+  const FirstRowInDataContainerInListDataFirstScreenServiceSetting({
+    super.key,
+    this.text1,
+    this.text2,
+    this.textContainer,
+    this.onTap,
+  });
 
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     bool isMobile = size.width <= ValuesOfAllApp.mobileWidth;
     return isMobile?
-    DataIsMobileInFirstRowInDataContainerInListDataFirstScreenServiceSetting():
-    DataIsNotMobileInFirstRowInDataContainerInListDataFirstScreenServiceSetting();
+    DataIsMobileInFirstRowInDataContainerInListDataFirstScreenServiceSetting(
+      text1: text1,
+      text2: text2,
+      onTap: onTap,
+      textContainer:textContainer,
+    ):
+    DataIsNotMobileInFirstRowInDataContainerInListDataFirstScreenServiceSetting(
+      text1: text1,
+      text2: text2,
+      onTap: onTap,
+      textContainer:textContainer,
+    );
   }
 }

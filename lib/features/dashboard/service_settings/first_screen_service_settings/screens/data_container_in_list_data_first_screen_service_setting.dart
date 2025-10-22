@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import '../../../../../features/dashboard/service_settings/shared_packages_in_service_settings/shared_packages_in_service_settings.dart';
 import '../../../../../features/dashboard/service_settings/car_spare_parts_in_service_settings/car_spare_parts_in_service_settings.dart';
 import '../../../../../features/dashboard/service_settings/internal_maintenance_and_services_in_service_settings/internal_maintenance_and_services_in_service_settings.dart';
 import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
@@ -20,7 +21,10 @@ class DataContainerInListDataFirstScreenServiceSetting extends StatelessWidget {
         spacing: 30,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          FirstRowInDataContainerInListDataFirstScreenServiceSetting(),
+          FirstRowInDataContainerInListDataFirstScreenServiceSetting(
+            text1: AppLanguageKeys.nissanServiceSettings,
+            text2:AppLanguageKeys.serviceSettingsDetails,
+          ),
           ContainerInDataContainerInListDataFirstScreenServiceSettingWidget(
             imagePath: AppImageKeys.car1_service,
             title: AppLanguageKeys.internalServices,
@@ -63,6 +67,14 @@ class DataContainerInListDataFirstScreenServiceSetting extends StatelessWidget {
           ContainerInDataContainerInListDataFirstScreenServiceSettingWidget(
             imagePath: AppImageKeys.car4_service,
             title: AppLanguageKeys.sharedPackages,
+            onTap: (){
+              Navigator.pop(context);
+              Navigator.of(context).push(
+                NavigateToPageWidget(
+                  SharedPackagesInServiceSettings(),
+                ),
+              );
+            },
           ),
         ],
       ),

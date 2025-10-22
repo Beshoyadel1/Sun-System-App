@@ -17,7 +17,8 @@ class DataContainerInListDataCarSparePartsInServiceSettings extends StatelessWid
         spacing: 30,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          FirstRowInDataContainerInListDataFirstScreenServiceSetting(),
+          FirstRowInDataContainerInListDataFirstScreenServiceSetting(
+          ),
           IconCarOrangeTextOfCarSparePartsInServiceSettings(),
           ListViewDataContainerCarSparePartsDetails()
         ],

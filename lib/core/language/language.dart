@@ -17,6 +17,12 @@ class AppLocalizations {
 
       ////dashboard////
 
+          AppLanguageKeys.addDifferentServices: 'اضافة خدمات مختلف مع اكثر من باقه مختلفة',
+          AppLanguageKeys.specialPackage: 'باقة مميزة',
+          AppLanguageKeys.packageName: 'اسم الباقة',
+          AppLanguageKeys.packageDescription: 'وصف الخدمات داخل الباقة',
+          AppLanguageKeys.servicesIncluded: 'نوع الخدمات من ضمن الباقة',
+
           AppLanguageKeys.delete: 'حذف',
           AppLanguageKeys.sizesOrDimensions: 'المقاسات او الاحجام',
           AppLanguageKeys.availableQuantity: 'عدد القطع المتاحة',
@@ -581,6 +587,12 @@ class AppLocalizations {
 
 
       ////dashboard////
+
+          AppLanguageKeys.addDifferentServices: 'Add different services with multiple package types',
+          AppLanguageKeys.specialPackage: 'Special Package',
+          AppLanguageKeys.packageName: 'Package Name',
+          AppLanguageKeys.packageDescription: 'Description of services in the package',
+          AppLanguageKeys.servicesIncluded: 'Services included in the package',
 
           AppLanguageKeys.delete: 'Delete',
           AppLanguageKeys.sizesOrDimensions: 'Sizes or Dimensions',

@@ -3,6 +3,12 @@ class AppLanguageKeys{
 
   ////dashboard////
 
+  static const String addDifferentServices = 'addDifferentServices';
+  static const String specialPackage = 'specialPackage';
+  static const String packageName = 'packageName';
+  static const String packageDescription = 'packageDescription';
+  static const String servicesIncluded = 'servicesIncluded';
+
   static const String delete = 'delete';
   static const String sizesOrDimensions = 'sizesOrDimensions';
   static const String availableQuantity = 'availableQuantity';

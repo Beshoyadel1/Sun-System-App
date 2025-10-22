@@ -33,12 +33,18 @@ class DataIsMobileInFirstRowInDataContainerInListDataFirstScreenServiceSetting e
             )
           ],
         ),
-        ContainerReturnToPageSetting(
-          text: textContainer,
-          onTap:onTap?? (){
-            Navigator.pop(context);
-            Navigator.of(context).push(NavigateToPageWidget(const FirstScreenServiceSettings()));
-          },
+        Row(
+          children: [
+            Expanded(
+              child: ContainerReturnToPageSetting(
+                text: textContainer,
+                onTap:onTap?? (){
+                  Navigator.pop(context);
+                  Navigator.of(context).push(NavigateToPageWidget(const FirstScreenServiceSettings()));
+                },
+              ),
+            ),
+          ],
         )
       ],
     );

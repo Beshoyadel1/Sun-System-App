@@ -15,6 +15,7 @@ class SizesOfSpareParts extends StatelessWidget {
       spacing: 20,
       children: [
         Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             TextInAppWidget(
               text:AppLanguageKeys.sizesOrDimensions,
@@ -23,6 +24,7 @@ class SizesOfSpareParts extends StatelessWidget {
               textColor:AppColors.darkColor,
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               spacing: 10,
               children: [
                 ContainerNumberWidget(textNumber: '1',),
@@ -33,6 +35,7 @@ class SizesOfSpareParts extends StatelessWidget {
           ],
         ),
         Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             TextInAppWidget(
               text:AppLanguageKeys.availableQuantity,

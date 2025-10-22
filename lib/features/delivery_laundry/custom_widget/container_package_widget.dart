@@ -6,13 +6,14 @@ import '../../../../../core/theming/colors.dart';
 
 class ContainerPackageWidget extends StatelessWidget {
   final String text;
-  const ContainerPackageWidget({super.key,required this.text});
+  final double? width,height,textSize;
+  const ContainerPackageWidget({super.key,required this.text,this.width,this.height,this.textSize});
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 80,
-      height: 80,
+      width:width?? 80,
+      height:height?? 80,
       padding: EdgeInsetsGeometry.all(10),
       decoration: BoxDecoration(
           shape: BoxShape.circle,
@@ -21,10 +22,11 @@ class ContainerPackageWidget extends StatelessWidget {
       child: Center(
         child: TextInAppWidget(
           text:text,
-          textSize: 14,
+          textSize:textSize?? 14,
           fontWeightIndex: FontSelectionData.regularFontFamily,
           textColor:AppColors.whiteColor,
           maxLines: 2,
+          textAlign: TextAlign.center,
         ),
       ),
     );

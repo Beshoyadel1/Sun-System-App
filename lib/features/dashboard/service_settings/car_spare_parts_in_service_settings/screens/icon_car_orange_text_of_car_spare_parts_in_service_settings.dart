@@ -7,7 +7,8 @@ import '../../../../../core/theming/text_styles.dart';
 import '../../../../../features/dashboard/service_settings/custom_widget/container_image_widget.dart';
 
 class IconCarOrangeTextOfCarSparePartsInServiceSettings extends StatelessWidget {
-  const IconCarOrangeTextOfCarSparePartsInServiceSettings({super.key});
+  final String? imagePath,text;
+  const IconCarOrangeTextOfCarSparePartsInServiceSettings({super.key,this.text,this.imagePath});
 
   @override
   Widget build(BuildContext context) {
@@ -16,14 +17,14 @@ class IconCarOrangeTextOfCarSparePartsInServiceSettings extends StatelessWidget 
       children: [
         Flexible(
           child: ContainerImageWidget(
-              imagePath: AppImageKeys.car3_service,
+              imagePath:imagePath?? AppImageKeys.car3_service,
               color: AppColors.orangeColor,
               width: 45,
           ),
         ),
         Expanded(
           child: TextInAppWidget(
-            text:AppLanguageKeys.carSpareParts,
+            text:text??AppLanguageKeys.carSpareParts,
             textSize: 13,
             fontWeightIndex: FontSelectionData.mediumFontFamily,
             textColor:AppColors.orangeColor,
