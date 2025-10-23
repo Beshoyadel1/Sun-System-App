@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import '../../../../../core/pages_widgets/general_widgets/navigate_to_page_widget.dart';
+import '../../../../../features/dashboard/service_settings/shared_packages_in_service_settings/sub/add_shared_packages_in_service_settings/add_shared_packages_in_service_settings.dart';
 import '../../../../../features/dashboard/service_settings/shared_packages_in_service_settings/screens/list_data_shared_packages_in_service_settings.dart';
 import '../../../../../features/dashboard/service_settings/car_spare_parts_in_service_settings/screens/floating_action_button_screen.dart';
 import '../../../../../features/dashboard/service_settings/custom_widget/appbar_dashboard_widget.dart';
@@ -44,8 +46,8 @@ class SharedPackagesInServiceSettings extends StatelessWidget {
             ),
             floatingActionButton: FloatingActionButtonScreen(
               onPressed: (){
-              //   Navigator.pop(context);
-              //   Navigator.of(context).push(NavigateToPageWidget(const AddSparePartsInServiceSettings()));
+                 Navigator.pop(context);
+                 Navigator.of(context).push(NavigateToPageWidget(const AddSharedPackagesInServiceSettings()));
               },
             ),
             floatingActionButtonLocation: FloatingActionButtonLocation.startFloat,

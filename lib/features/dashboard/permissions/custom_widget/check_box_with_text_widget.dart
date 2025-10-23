@@ -24,7 +24,7 @@ class CheckBoxWithText extends StatelessWidget {
         builder: (context, isChecked) {
           return Row(
             mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Checkbox(
                 activeColor: AppColors.orangeColor,

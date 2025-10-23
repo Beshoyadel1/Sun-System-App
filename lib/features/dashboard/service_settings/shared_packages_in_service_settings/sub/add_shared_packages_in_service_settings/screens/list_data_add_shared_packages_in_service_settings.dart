@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'data_container_in_list_data_add_spare_parts_in_service_settings.dart';
+import '../../../../../../../features/dashboard/service_settings/shared_packages_in_service_settings/sub/add_shared_packages_in_service_settings/screens/data_container_in_list_data_add_shared_packages_in_service_settings.dart';
 import '../../../../../../../core/theming/colors.dart';
 
-class ListDataAddSparePartsInServiceSettings extends StatelessWidget {
-  const ListDataAddSparePartsInServiceSettings({super.key});
+class ListDataAddSharedPackagesInServiceSettings extends StatelessWidget {
+  const ListDataAddSharedPackagesInServiceSettings({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class ListDataAddSparePartsInServiceSettings extends StatelessWidget {
           ),
         ],
       ),
-      child: DataContainerInListDataAddSparePartsInServiceSettings(),
+      child: DataContainerInListDataAddSharedPackagesInServiceSettings(),
     );
   }
 }
