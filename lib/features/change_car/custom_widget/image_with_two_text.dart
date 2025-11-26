@@ -7,34 +7,41 @@ class ImageWithTwoText extends StatelessWidget {
   final String imageSrc;
   final String title;
   final String subTitle;
-   ImageWithTwoText({
-     super.key,
+  final Color? titleColor,subTitleColor;
+  final bool isSemiBold;
+  final double? textSizeTitle,textSizeSubTitle;
+    ImageWithTwoText({
      required this.imageSrc,
      required this.title,
      required this.subTitle,
+     this.subTitleColor,
+     this.titleColor,
+      this.isSemiBold=false,
+      this.textSizeSubTitle,
+      this.textSizeTitle
    });
 
   @override
   Widget build(BuildContext context) {
     return Row(
+      spacing: 10,
       children: [
         Image.asset(imageSrc, width: 50),
-        const SizedBox(width: 10),
         Column(
+          spacing: 5,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             TextInAppWidget(
               text:title,
-              textSize: 12,
-              fontWeightIndex: FontSelectionData.regularFontFamily,
-              textColor: AppColors.darkColor,
+              textSize:textSizeTitle?? 12,
+              fontWeightIndex:isSemiBold?FontSelectionData.semiBoldFontFamily: FontSelectionData.regularFontFamily,
+              textColor:titleColor?? AppColors.darkColor,
             ),
-            const SizedBox(height: 5),
             TextInAppWidget(
               text: subTitle,
-              textSize: 12,
-              fontWeightIndex: FontSelectionData.regularFontFamily,
-              textColor:AppColors.orangeColor,
+              textSize:textSizeSubTitle?? 12,
+              fontWeightIndex:isSemiBold?FontSelectionData.semiBoldFontFamily: FontSelectionData.regularFontFamily,
+              textColor:subTitleColor??AppColors.orangeColor,
             ),
           ],
         ),

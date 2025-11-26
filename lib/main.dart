@@ -2,18 +2,16 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import '../../../features/dashboard/car_model_settings/first_screen_car_model_settings/first_screen_car_model_settings.dart';
-import '../../../features/car_ownership_transfer_request/you_car_details_car_ownership_transfer_request/you_car_details_car_ownership_transfer_request.dart';
-import '../../../features/car_ownership_transfer_request/first_screen_car_ownership_transfer_request/first_screen_car_ownership_transfer_request.dart';
-import '../../../features/dashboard/logout_dashboard/first_screen_logout_dashboard/logout_dashboard.dart';
-import '../../../features/dashboard/notifications/first_screen_advertisements/first_screen_notifications.dart';
-import '../../../features/dashboard/rates/first_screen_rates/first_screen_rates.dart';
-import '../../../features/dashboard/communication_and_policies_pages/first_screen_communication_and_policies_pages/first_screen_communication_and_policies_pages.dart';
-import '../../../features/dashboard/advertisements/first_screen_advertisements/first_screen_advertisements.dart';
-import '../../../features/dashboard/internal_orders/first_screen_internal_orders/first_screen_internal_orders.dart';
-import '../../../features/dashboard/service_settings/added_maintenance_and_internal_services_in_service_settings/added_maintenance_and_internal_services_in_service_settings.dart';
-import '../../../features/dashboard/permissions/first_screen_permissions/first_screen_permissions.dart';
-import '../../../features/dashboard/service_settings/first_screen_service_settings/first_screen_service_settings.dart';
+import '../../../features/dashboard/Admin/advertisements/first_screen_advertisements/first_screen_advertisements.dart';
+import '../../../features/dashboard/Admin/car_model_settings/car_add_screen_in_car_model_settings/car_add_screen_in_car_model_settings.dart';
+import '../../../features/dashboard/Admin/car_model_settings/first_screen_car_model_settings/first_screen_car_model_settings.dart';
+import '../../../features/dashboard/Admin/communication_and_policies_pages/first_screen_communication_and_policies_pages/first_screen_communication_and_policies_pages.dart';
+import '../../../features/dashboard/Admin/internal_orders/first_screen_internal_orders/first_screen_internal_orders.dart';
+import '../../../features/dashboard/Admin/logout_dashboard/first_screen_logout_dashboard/logout_dashboard.dart';
+import '../../../features/dashboard/Admin/notifications/first_screen_advertisements/first_screen_notifications.dart';
+import '../../../features/dashboard/Admin/permissions/first_screen_permissions/first_screen_permissions.dart';
+import '../../../features/dashboard/Admin/rates/first_screen_rates/first_screen_rates.dart';
+import '../../../features/dashboard/Admin/service_settings/first_screen_service_settings/first_screen_service_settings.dart';
 import '../core/language/language.dart';
 import '../core/language/language_cubit/language_cubit.dart';
 import '../core/theming/colors.dart';
@@ -80,7 +78,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const FirstScreenServiceSettings(),
+          home: const FirstScreenAdvertisements(),
         );
       },
     ),

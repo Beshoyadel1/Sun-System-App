@@ -15,7 +15,34 @@ class AppLocalizations {
   static final Map<String, Map<String, String>> _localizedValues = {
     'ar': {
 
-      ////dashboard////
+          ////Admin Owner////
+          AppLanguageKeys.companyProfits: 'أرباح المنشأت',
+          AppLanguageKeys.totalCompanyBalances: 'اجمالي ارصدة المنشأت',
+          AppLanguageKeys.managementCommission: 'عمولة الأدارة',
+          AppLanguageKeys.transferCompanyProfits: 'تحويل ارباح المنشأة',
+          AppLanguageKeys.providerName: 'أسم المزود',
+          AppLanguageKeys.transferNumber: 'رقم التحويل',
+          AppLanguageKeys.transferDate: 'تاريخ التحويل',
+          AppLanguageKeys.companyEarnings: 'ربح المنشأة',
+          AppLanguageKeys.netProfit: 'صافي الربح',
+          AppLanguageKeys.establishmentProfit: 'ربح المنشأة',
+          AppLanguageKeys.paidSuccessfully: 'مدفوعه بنجاح',
+          AppLanguageKeys.searchByNameOrCompanyNumber: 'بحث باسم او رقم المنشأة',
+          AppLanguageKeys.totalBalance: 'الرصيد الاجمالي',
+          AppLanguageKeys.packageType: 'نوع الباقة',
+          AppLanguageKeys.companyBalance: 'رصيد المنشأة "شيف"',
+          AppLanguageKeys.adminCommission: 'عمولة الأدارة',
+          AppLanguageKeys.transferProfitBalance: 'تحويل رصيد الأرباح',
+          AppLanguageKeys.transferBalance: 'تحويل الرصيد',
+          AppLanguageKeys.latestProfitTransfers: 'أخر معاملات لتحويل الارباح',
+          AppLanguageKeys.ibanOrAccountNumber: 'رقم الايبان او رقم الحساب',
+          AppLanguageKeys.amount: 'المبلغ',
+          AppLanguageKeys.maxTransferLimit: '(حد اقصي للتحويل هو 900 ريال)',
+          AppLanguageKeys.confirmTransfer: 'تأكيد التحويل',
+          ////END////
+
+
+          ////dashboard////
 
           AppLanguageKeys.addDifferentServices: 'اضافة خدمات مختلف مع اكثر من باقه مختلفة',
           AppLanguageKeys.specialPackage: 'باقة مميزة',
@@ -585,6 +612,31 @@ class AppLocalizations {
     },
     'en': {
 
+          ////Admin Owner////
+          AppLanguageKeys.companyProfits: 'Company Profits',
+          AppLanguageKeys.totalCompanyBalances: 'Total Company Balances',
+          AppLanguageKeys.managementCommission: 'Management Commission',
+          AppLanguageKeys.transferCompanyProfits: 'Transfer Company Profits',
+          AppLanguageKeys.providerName: 'Provider Name',
+          AppLanguageKeys.transferNumber: 'Transfer Number',
+          AppLanguageKeys.transferDate: 'Transfer Date',
+          AppLanguageKeys.companyEarnings: 'Company Earnings',
+          AppLanguageKeys.netProfit: 'Net Profit',
+          AppLanguageKeys.establishmentProfit: 'Establishment Profit',
+          AppLanguageKeys.paidSuccessfully: 'Paid Successfully',
+          AppLanguageKeys.searchByNameOrCompanyNumber: 'Search by name or company number',
+          AppLanguageKeys.totalBalance: 'Total Balance',
+          AppLanguageKeys.packageType: 'Package Type',
+          AppLanguageKeys.companyBalance: 'Company Balance “Chief”',
+          AppLanguageKeys.adminCommission: 'Admin Commission',
+          AppLanguageKeys.transferProfitBalance: 'Transfer Profit Balance',
+          AppLanguageKeys.transferBalance: 'Transfer Balance',
+          AppLanguageKeys.latestProfitTransfers: 'Latest Profit Transfer Transactions',
+          AppLanguageKeys.ibanOrAccountNumber: 'IBAN or Account Number',
+          AppLanguageKeys.amount: 'Amount',
+          AppLanguageKeys.maxTransferLimit: '(Maximum transfer limit is 900 SAR)',
+          AppLanguageKeys.confirmTransfer: 'Confirm Transfer',
+          ////END////
 
       ////dashboard////
 

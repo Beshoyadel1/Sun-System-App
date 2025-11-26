@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sun_system_app/core/theming/assets.dart';
+import '../../../../../core/theming/assets.dart';
 import '../../../../../features/Insurance/page_choose_payment_details/logic/radio_payment_state.dart';
 
 class RadioPaymentCubit extends Cubit<RadioPaymentState> {
