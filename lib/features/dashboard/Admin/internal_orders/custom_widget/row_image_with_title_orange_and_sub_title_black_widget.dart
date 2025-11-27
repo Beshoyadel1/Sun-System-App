@@ -37,7 +37,7 @@ class RowImageWithTitleOrangeAndSubTitleBlackWidget extends StatelessWidget {
                 textSize: 9,
                 fontWeightIndex: FontSelectionData.mediumFontFamily,
                 textColor:AppColors.darkColor,
-              )
+              ),
             ],
           ),
         )

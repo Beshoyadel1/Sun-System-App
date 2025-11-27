@@ -1,33 +1,10 @@
 
 class AppLanguageKeys{
-  ////Admin Owner////
-  static const String companyProfits = 'companyProfits';
-  static const String totalCompanyBalances = 'totalCompanyBalances';
-  static const String managementCommission = 'managementCommission';
-  static const String transferCompanyProfits = 'transferCompanyProfits';
-  static const String providerName = 'providerName';
-  static const String transferNumber = 'transferNumber';
-  static const String transferDate = 'transferDate';
-  static const String companyEarnings = 'companyEarnings';
-  static const String netProfit = 'netProfit';
-  static const String establishmentProfit = 'establishmentProfit';
-  static const String paidSuccessfully = 'paidSuccessfully';
-  static const String searchByNameOrCompanyNumber = 'searchByNameOrCompanyNumber';
-  static const String totalBalance = 'totalBalance';
-  static const String packageType = 'packageType';
-  static const String companyBalance = 'companyBalance';
-  static const String adminCommission = 'adminCommission';
-  static const String transferProfitBalance = 'transferProfitBalance';
-  static const String transferBalance = 'transferBalance';
-  static const String latestProfitTransfers = 'latestProfitTransfers';
-  static const String ibanOrAccountNumber = 'ibanOrAccountNumber';
-  static const String amount = 'amount';
-  static const String maxTransferLimit = 'maxTransferLimit';
-  static const String confirmTransfer = 'confirmTransfer';
-  ////END////
 
   ////dashboard////
 
+  static const String fillingOrdersSalesForAllBranches = 'fillingOrdersSalesForAllBranches';
+  static const String fuelFillingSalesPerBranch = 'fuelFillingSalesPerBranch';
   static const String addDifferentServices = 'addDifferentServices';
   static const String specialPackage = 'specialPackage';
   static const String packageName = 'packageName';

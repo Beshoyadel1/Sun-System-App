@@ -13,6 +13,7 @@ class AppImageKeys{
   ////END////
 
   ////dashboard////
+  static const String  branch='assets/images/branch.png';
   static const String  service00='assets/images/service00.png';
   static const String  service01='assets/images/service01.png';
 

@@ -24,7 +24,6 @@ class MapBackgroundInServiceRequest extends StatelessWidget {
             ),
           ),
           LastContainerInMapBackgroundInServiceRequest(),
-
         ],
       ),
     );
