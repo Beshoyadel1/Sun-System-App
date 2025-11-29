@@ -2,7 +2,14 @@
 class AppLanguageKeys{
 
   ////dashboard////
-
+  static const String oilProducts = 'oilProducts';
+  static const String allSoldProducts = 'allSoldProducts';
+  static const String allDisplayedProducts = 'allDisplayedProducts';
+  static const String availableDisplayedList = 'availableDisplayedList';
+  static const String addNewOil = 'addNewOil';
+  static const String saleDate = 'saleDate';
+  static const String productPrice = 'productPrice';
+  static const String allFillingOrders = 'allFillingOrders';
   static const String fillingOrdersSalesForAllBranches = 'fillingOrdersSalesForAllBranches';
   static const String fuelFillingSalesPerBranch = 'fuelFillingSalesPerBranch';
   static const String addDifferentServices = 'addDifferentServices';

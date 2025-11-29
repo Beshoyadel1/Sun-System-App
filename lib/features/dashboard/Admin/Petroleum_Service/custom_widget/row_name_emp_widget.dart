@@ -5,12 +5,18 @@ import '../../../../../../../../core/theming/fonts.dart';
 import '../../../../../../../../core/theming/text_styles.dart';
 
 class RowNameEmpWidget extends StatelessWidget {
-  final String? title,nameEmp,imagePath;
+  final String? title,subTitle,imagePath;
+  final Color? textColorTitle,textColorSubTitle;
+  final double? textSizeTitle,textSizeSubTitle;
   const RowNameEmpWidget({
     super.key,
     this.title,
-    this.nameEmp,
-    this.imagePath
+    this.subTitle,
+    this.imagePath,
+    this.textColorSubTitle,
+    this.textColorTitle,
+    this.textSizeSubTitle,
+    this.textSizeTitle
   });
 
   @override
@@ -25,15 +31,15 @@ class RowNameEmpWidget extends StatelessWidget {
           children: [
             TextInAppWidget(
               text:title??'أسم العامل',
-              textSize: 9,
+              textSize: textSizeTitle??9,
               fontWeightIndex: FontSelectionData.regularFontFamily,
-              textColor:AppColors.greyColor,
+              textColor:textColorTitle??AppColors.greyColor,
             ),
             TextInAppWidget(
-              text:nameEmp??'أحمد محمود',
-              textSize: 12,
+              text:subTitle??'أحمد محمود',
+              textSize: textSizeSubTitle??12,
               fontWeightIndex: FontSelectionData.regularFontFamily,
-              textColor:AppColors.darkColor,
+              textColor:textColorSubTitle??AppColors.darkColor,
             )
           ],
         )

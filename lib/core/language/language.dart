@@ -16,6 +16,15 @@ class AppLocalizations {
     'ar': {
 
           ////dashboard////
+          AppLanguageKeys.oilProducts: 'منتجات الزيوت',
+          AppLanguageKeys.allSoldProducts: 'جميع المنتجات المباعة',
+          AppLanguageKeys.allDisplayedProducts: 'جميع المنتجات المعروضة',
+          AppLanguageKeys.availableDisplayedList: 'قائمة المنتجات المعروضة المتاحة للبيع في المحطات',
+          AppLanguageKeys.addNewOil: 'إضافة زيت جديد',
+          AppLanguageKeys.saleDate: 'تاريخ البيع',
+          AppLanguageKeys.productPrice: 'سعر المنتج',
+
+          AppLanguageKeys.allFillingOrders: 'جميع طلبات التعبئة',
           AppLanguageKeys.fillingOrdersSalesForAllBranches: 'مبيعات من طلبات التعبئة لجميع الفروع',
           AppLanguageKeys.fuelFillingSalesPerBranch: 'مبيعات تعبئة الوقود لكل فرع',
           AppLanguageKeys.addDifferentServices: 'اضافة خدمات مختلف مع اكثر من باقه مختلفة',
@@ -589,6 +598,14 @@ class AppLocalizations {
 
 
       ////dashboard////
+          AppLanguageKeys.oilProducts: 'Oil Products',
+          AppLanguageKeys.allSoldProducts: 'All Sold Products',
+          AppLanguageKeys.allDisplayedProducts: 'All Displayed Products',
+          AppLanguageKeys.availableDisplayedList: 'Displayed Products Available for Sale at Stations',
+          AppLanguageKeys.addNewOil: 'Add New Oil',
+          AppLanguageKeys.saleDate: 'Sale Date',
+          AppLanguageKeys.productPrice: 'Product Price',
+          AppLanguageKeys.allFillingOrders: 'All Filling Orders',
           AppLanguageKeys.fillingOrdersSalesForAllBranches: 'Sales from Filling Orders for All Branches',
           AppLanguageKeys.fuelFillingSalesPerBranch: 'Fuel Filling Sales Per Branch',
           AppLanguageKeys.addDifferentServices: 'Add different services with multiple package types',

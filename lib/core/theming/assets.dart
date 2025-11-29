@@ -1,18 +1,7 @@
 class AppImageKeys{
 
-  ////Admin Owner////
-  static const String  date='assets/images/date.png';
-  static const String  smat='assets/images/smat.png';
-  static const String  person_smat='assets/images/person_smat.png';
-  static const String  bag_money='assets/images/bag_money.png';
-  static const String  money='assets/images/money.png';
-  static const String  convert='assets/images/convert.png';
-  static const String  provider_name='assets/images/provider_name.png';
-  static const String  filter5='assets/images/filter5.png';
-
-  ////END////
-
   ////dashboard////
+  static const String  testOil='assets/images/testOil.png';
   static const String  branch='assets/images/branch.png';
   static const String  service00='assets/images/service00.png';
   static const String  service01='assets/images/service01.png';

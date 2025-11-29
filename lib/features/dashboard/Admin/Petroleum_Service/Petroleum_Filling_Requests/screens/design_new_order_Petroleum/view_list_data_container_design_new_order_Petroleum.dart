@@ -5,13 +5,18 @@ import '../../../../../../../../features/dashboard/Admin/Petroleum_Service/Petro
 import '../../../../../../../../core/theming/colors.dart';
 
 class ViewListDataContainerDesignNewOrderPetroleum extends StatelessWidget {
-  const ViewListDataContainerDesignNewOrderPetroleum({super.key});
+  final double? sizeTab,sizeCustomTab;
+  const ViewListDataContainerDesignNewOrderPetroleum({
+    super.key,
+    this.sizeCustomTab,
+    this.sizeTab
+  });
 
   @override
   Widget build(BuildContext context) {
     final Size size = MediaQuery.of(context).size;
-    final bool isMobile = size.width <= 1045;
-    final bool isTabletCustom = size.width > 1000 && size.width <= 1450;
+    final bool isMobile = size.width <= (sizeCustomTab??1045);
+    final bool isTabletCustom = size.width > (sizeCustomTab ?? 1000) && size.width <= (sizeTab ?? 1450);
 
     const int itemCount = 10;
 

@@ -26,7 +26,6 @@ class ListDataPetroleumFillingRequests extends StatelessWidget {
 
         if ((isMobile))
          DesignCraveDigramForPetroleum(),
-
       ],
     );
   }
