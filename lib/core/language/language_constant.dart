@@ -2,6 +2,26 @@
 class AppLanguageKeys{
 
   ////dashboard////
+  static const String commercialRecordCertificate = 'commercialRecordCertificate';
+  static const String ownerIdOrResidenceCard = 'ownerIdOrResidenceCard';
+  static const String establishmentManagement = 'establishmentManagement';
+  static const String establishmentData = 'establishmentData';
+  static const String fillEstablishmentAccountData = 'fillEstablishmentAccountData';
+  static const String identity = 'identity';
+  static const String branches = 'branches';
+  static const String workingHours = 'workingHours';
+  static const String bankAccount = 'bankAccount';
+  static const String establishmentName = 'establishmentName';
+  static const String establishmentNameEn = 'establishmentNameEn';
+  static const String activityType = 'activityType';
+  static const String commercialRegistration = 'commercialRegistration';
+  static const String taxNumber = 'taxNumber';
+  static const String shortAddress4Letters = 'shortAddress4Letters';
+  static const String buildingNumber = 'buildingNumber';
+  static const String city = 'city';
+  static const String attachFile = 'attachFile';
+  static const String ownerIdOrIqama = 'ownerIdOrIqama';
+
   static const String oilProducts = 'oilProducts';
   static const String allSoldProducts = 'allSoldProducts';
   static const String allDisplayedProducts = 'allDisplayedProducts';
@@ -86,7 +106,7 @@ class AppLanguageKeys{
   static const aboutSunIntro = 'aboutSunIntro';
 
   static const String contactAndPoliciesPages = 'contactAndPoliciesPages';
-  static const String contactUs = 'contact_us';
+  static const String contactUs = 'establishment_data';
   static const String aboutSun = 'about_sun';
   static const String privacyPolicy = 'privacy_policy';
   static const String termsAndConditions = 'termsAndConditions';

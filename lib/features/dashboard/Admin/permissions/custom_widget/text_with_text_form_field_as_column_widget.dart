@@ -30,7 +30,7 @@ class TextWithTextFormFieldAsColumnWidget extends StatelessWidget {
         children: [
           TextInAppWidget(
             text: text,
-            textSize: 13,
+            textSize: 11,
             fontWeightIndex: FontSelectionData.regularFontFamily,
             textColor: AppColors.blackColor,
           ),
