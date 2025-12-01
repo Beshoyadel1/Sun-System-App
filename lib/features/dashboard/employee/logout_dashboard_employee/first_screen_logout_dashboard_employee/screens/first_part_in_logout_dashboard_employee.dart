@@ -6,8 +6,8 @@ import '../../../../../../core/theming/colors.dart';
 import '../../../../../../core/theming/fonts.dart';
 import '../../../../../../core/theming/text_styles.dart';
 
-class FirstPartInLogoutDashboard extends StatelessWidget {
-  const FirstPartInLogoutDashboard({super.key});
+class FirstPartInLogoutDashboardEmployee extends StatelessWidget {
+  const FirstPartInLogoutDashboardEmployee({super.key});
 
   @override
   Widget build(BuildContext context) {

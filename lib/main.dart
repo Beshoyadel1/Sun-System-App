@@ -2,6 +2,9 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import '../../../features/dashboard/employee/communication_and_policies_pages_emp/first_screen_communication_and_policies_pages/first_screen_communication_and_policies_pages_emp.dart';
+import '../../../features/dashboard/employee/personal_data_emp/personal_data_emp/personal_data_emp.dart';
+import '../../../features/dashboard/employee/logout_dashboard_employee/first_screen_logout_dashboard_employee/logout_dashboard_employee.dart';
 import '../../../features/dashboard/Admin/Petroleum_Service/Facility_Management/facility_management/facility_management.dart';
 import '../../../features/dashboard/Admin/Petroleum_Service/Oil_Products/oil_products.dart';
 import '../../../features/dashboard/Admin/Petroleum_Service/Petroleum_Filling_Requests/Petroleum_Filling_Requests.dart';
@@ -81,7 +84,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const FacilityManagement(),
+          home: const FirstScreenCommunicationAndPoliciesPagesEmp(),
         );
       },
     ),

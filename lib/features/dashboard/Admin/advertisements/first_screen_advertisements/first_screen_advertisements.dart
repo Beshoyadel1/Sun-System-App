@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../../../features/dashboard/Admin/service_settings/custom_widget/backgroundDesktop.dart';
+import '../../../../../features/dashboard/admin/service_settings/custom_widget/backgroundDesktop.dart';
 import 'screens/list_data_first_screen_advertisements.dart';
 import '../../../../../features/dashboard/Admin/service_settings/custom_widget/appbar_dashboard_widget.dart';
 import '../../../../../core/utilies/map_of_all_app.dart';

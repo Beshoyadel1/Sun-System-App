@@ -2,6 +2,11 @@
 class AppLanguageKeys{
 
   ////dashboard////
+  static const String employeeNameEn = 'employeeNameEn';
+  static const String employeeId = 'employeeId';
+  static const String joiningDate = 'joiningDate';
+  static const String address = 'address';
+
   static const String commercialRecordCertificate = 'commercialRecordCertificate';
   static const String ownerIdOrResidenceCard = 'ownerIdOrResidenceCard';
   static const String establishmentManagement = 'establishmentManagement';
@@ -107,8 +112,8 @@ class AppLanguageKeys{
 
   static const String contactAndPoliciesPages = 'contactAndPoliciesPages';
   static const String contactUs = 'establishment_data';
-  static const String aboutSun = 'about_sun';
-  static const String privacyPolicy = 'privacy_policy';
+  static const String aboutSun = 'about_sun_emp';
+  static const String privacyPolicy = 'privacy_policy_emp';
   static const String termsAndConditions = 'termsAndConditions';
   static const String sendUsMessage = 'sendUsMessage';
   static const String name = 'name';

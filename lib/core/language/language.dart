@@ -16,6 +16,11 @@ class AppLocalizations {
     'ar': {
 
           ////dashboard////
+          AppLanguageKeys.employeeNameEn: 'اسم الموظف EN',
+          AppLanguageKeys.employeeId: 'رقم الهوية',
+          AppLanguageKeys.joiningDate: 'تاريخ الانضمام',
+          AppLanguageKeys.address: 'العنوان',
+
           AppLanguageKeys.commercialRecordCertificate: 'شهادة السجل التجاري',
           AppLanguageKeys.ownerIdOrResidenceCard: 'بطاقة الهوية أو إقامة صاحب الشركة',
           AppLanguageKeys.establishmentManagement: 'إدارة المنشأة',
@@ -618,6 +623,11 @@ class AppLocalizations {
 
 
       ////dashboard////
+          AppLanguageKeys.employeeNameEn: 'Employee Name (EN)',
+          AppLanguageKeys.employeeId: 'ID',
+          AppLanguageKeys.joiningDate: 'Joining Date',
+          AppLanguageKeys.address: 'Address',
+
           AppLanguageKeys.commercialRecordCertificate: 'Commercial Registration Certificate',
           AppLanguageKeys.ownerIdOrResidenceCard: 'Owner ID or Residence Card',
           AppLanguageKeys.establishmentManagement: 'Establishment Management',
@@ -791,7 +801,7 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.newRequest: 'New Request',
 
       AppLanguageKeys.addNewUser: 'Add New User',
-      AppLanguageKeys.userPermissionsSettings: 'User Permissions Settings in the System',
+      AppLanguageKeys.userPermissionsSettings: 'User permissions_user Settings in the System',
       AppLanguageKeys.employeeName: 'Employee Name',
       AppLanguageKeys.jobTitle: 'Job Title',
       AppLanguageKeys.accountStatus: 'Account Status',
@@ -799,14 +809,14 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.inactive: 'Inactive',
       AppLanguageKeys.picture: 'Picture',
       AppLanguageKeys.uploadPicture: 'Upload Picture',
-      AppLanguageKeys.userPermissions: 'User Permissions',
+      AppLanguageKeys.userPermissions: 'User permissions_user',
       AppLanguageKeys.statistics: 'Statistics',
       AppLanguageKeys.servicesSettings: 'Services Settings',
       AppLanguageKeys.carModelSettings: 'Car Model Settings',
       AppLanguageKeys.accountManagement: 'Account Management',
-      AppLanguageKeys.permissionsManagement: 'Permissions Management',
+      AppLanguageKeys.permissionsManagement: 'permissions_user Management',
       AppLanguageKeys.organizationManagement: 'Organization Management',
-      AppLanguageKeys.permissionsFromServices: 'Permissions from Services available to the user',
+      AppLanguageKeys.permissionsFromServices: 'permissions_user from Services available to the user',
       AppLanguageKeys.maintenanceServices: 'Maintenance Services',
 
       AppLanguageKeys.nissanServiceSettings: 'Nissan Car Service Settings',

@@ -11,7 +11,7 @@ class TextWithTextFormFieldAsColumnWidget extends StatelessWidget {
   final List<String>? options;
   final TextEditingController textFormController = TextEditingController();
   final int? maxLines;
-  final double? textFormWidth,textFormHeight;
+  final double? textFormWidth,textFormHeight,borderRadius;
   TextWithTextFormFieldAsColumnWidget({
     super.key,
     required this.text,
@@ -20,6 +20,7 @@ class TextWithTextFormFieldAsColumnWidget extends StatelessWidget {
     this.maxLines,
     this.textFormWidth,
     this.textFormHeight,
+    this.borderRadius
   });
 
   @override
@@ -47,7 +48,7 @@ class TextWithTextFormFieldAsColumnWidget extends StatelessWidget {
                   child: InputDecorator(
                     decoration: InputDecoration(
                       border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(25),
+                        borderRadius: BorderRadius.circular(borderRadius??25),
                       ),
                       contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                     ),
@@ -98,6 +99,8 @@ class TextWithTextFormFieldAsColumnWidget extends StatelessWidget {
                 textFormHeight: maxLines != null && maxLines! > 1 ? null : (textFormHeight ?? 35),
                 maxLines:maxLines,
                 textFormWidth:textFormWidth,
+                focusedBorderRadius: BorderRadius.circular(borderRadius??15),
+                enabledBorderRadius: BorderRadius.circular(borderRadius??15),
           ),
 
         ],
