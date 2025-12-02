@@ -16,6 +16,14 @@ class AppLocalizations {
     'ar': {
 
           ////dashboard////
+          AppLanguageKeys.writeYourMessageHere: 'اكتب رسالتك هنا',
+
+          AppLanguageKeys.technicalSupport: 'الدعم الفني',
+          AppLanguageKeys.messages: 'الرسائل',
+          AppLanguageKeys.teamMembers: 'فريق العمل',
+          AppLanguageKeys.membersCount: 'عدد الأعضاء',
+          AppLanguageKeys.searchInMessages: 'بحث في الرسائل',
+
           AppLanguageKeys.employeeNameEn: 'اسم الموظف EN',
           AppLanguageKeys.employeeId: 'رقم الهوية',
           AppLanguageKeys.joiningDate: 'تاريخ الانضمام',
@@ -623,6 +631,14 @@ class AppLocalizations {
 
 
       ////dashboard////
+          AppLanguageKeys.writeYourMessageHere: 'Write your message here',
+
+          AppLanguageKeys.technicalSupport: 'Technical Support',
+          AppLanguageKeys.messages: 'Messages',
+          AppLanguageKeys.teamMembers: 'Team Members',
+          AppLanguageKeys.membersCount: 'Number of Members',
+          AppLanguageKeys.searchInMessages: 'Search in Messages',
+
           AppLanguageKeys.employeeNameEn: 'Employee Name (EN)',
           AppLanguageKeys.employeeId: 'ID',
           AppLanguageKeys.joiningDate: 'Joining Date',

@@ -2,6 +2,15 @@
 class AppLanguageKeys{
 
   ////dashboard////
+  static const String writeYourMessageHere = 'writeYourMessageHere';
+
+  static const String technicalSupport = 'technicalSupport';
+  static const String messages = 'messages';
+  static const String teamMembers = 'teamMembers';
+  static const String membersCount = 'membersCount';
+  static const String searchInMessages = 'searchInMessages';
+
+
   static const String employeeNameEn = 'employeeNameEn';
   static const String employeeId = 'employeeId';
   static const String joiningDate = 'joiningDate';

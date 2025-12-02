@@ -1,6 +1,12 @@
 class AppImageKeys{
 
   ////dashboard////
+
+  static const String  support_message_emp1='assets/images/support_message_emp1.png';
+  static const String  support_message_emp2='assets/images/support_message_emp2.png';
+  static const String  support_message_emp3='assets/images/support_message_emp3.png';
+  static const String  support_message_emp4='assets/images/support_message_emp4.png';
+
   static const String  testOil='assets/images/testOil.png';
   static const String  branch='assets/images/branch.png';
   static const String  service00='assets/images/service00.png';
