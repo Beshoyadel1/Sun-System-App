@@ -2,6 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import '../../../features/dashboard/employee/login_emp/login_emp/login_emp.dart';
 import '../../../features/dashboard/employee/technical_support/technical_support_emp/technical_support_emp.dart';
 import '../../../features/dashboard/employee/communication_and_policies_pages_emp/first_screen_communication_and_policies_pages/first_screen_communication_and_policies_pages_emp.dart';
 import '../../../features/dashboard/employee/personal_data_emp/personal_data_emp/personal_data_emp.dart';
@@ -85,7 +86,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const TechnicalSupportEmp(),
+          home: const LoginEmp(),
           );
         },
       ),

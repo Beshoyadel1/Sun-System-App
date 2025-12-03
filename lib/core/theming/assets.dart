@@ -2,6 +2,12 @@ class AppImageKeys{
 
   ////dashboard////
 
+
+  static const String  sun_logo_emp='assets/images/sun_logo_emp.png';
+  static const String  sun_logo_emp2='assets/images/sun_logo_emp2.png';
+  static const String  login_emp='assets/images/login_emp.png';
+
+
   static const String  support_message_emp1='assets/images/support_message_emp1.png';
   static const String  support_message_emp2='assets/images/support_message_emp2.png';
   static const String  support_message_emp3='assets/images/support_message_emp3.png';

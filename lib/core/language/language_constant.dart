@@ -2,6 +2,10 @@
 class AppLanguageKeys{
 
   ////dashboard////
+  static const String yourPerfectPlatform = 'yourPerfectPlatform';
+  static const String employeesLogin = 'employeesLogin';
+  static const String enterPhoneAndPassword = 'enterPhoneAndPassword';
+
   static const String writeYourMessageHere = 'writeYourMessageHere';
 
   static const String technicalSupport = 'technicalSupport';

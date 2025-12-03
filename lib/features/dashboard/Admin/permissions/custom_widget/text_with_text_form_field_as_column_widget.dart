@@ -11,7 +11,7 @@ class TextWithTextFormFieldAsColumnWidget extends StatelessWidget {
   final List<String>? options;
   final TextEditingController textFormController = TextEditingController();
   final int? maxLines;
-  final double? textFormWidth,textFormHeight,borderRadius;
+  final double? textFormWidth,textFormHeight,borderRadius,textSize;
   TextWithTextFormFieldAsColumnWidget({
     super.key,
     required this.text,
@@ -20,7 +20,8 @@ class TextWithTextFormFieldAsColumnWidget extends StatelessWidget {
     this.maxLines,
     this.textFormWidth,
     this.textFormHeight,
-    this.borderRadius
+    this.borderRadius,
+    this.textSize
   });
 
   @override
@@ -31,7 +32,7 @@ class TextWithTextFormFieldAsColumnWidget extends StatelessWidget {
         children: [
           TextInAppWidget(
             text: text,
-            textSize: 11,
+            textSize:textSize?? 11,
             fontWeightIndex: FontSelectionData.regularFontFamily,
             textColor: AppColors.blackColor,
           ),

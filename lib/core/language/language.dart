@@ -16,6 +16,10 @@ class AppLocalizations {
     'ar': {
 
           ////dashboard////
+          AppLanguageKeys.yourPerfectPlatform: 'منصتك المثالية للوصول إلى العملاء وزيادة حجوزات مركزك بخدمات السيارات',
+          AppLanguageKeys.employeesLogin: 'تسجيل الدخول للموظفين',
+          AppLanguageKeys.enterPhoneAndPassword: 'برجاء ادخال رقم الهاتف وكلمة المرور',
+
           AppLanguageKeys.writeYourMessageHere: 'اكتب رسالتك هنا',
 
           AppLanguageKeys.technicalSupport: 'الدعم الفني',
@@ -631,6 +635,10 @@ class AppLocalizations {
 
 
       ////dashboard////
+          AppLanguageKeys.yourPerfectPlatform: 'Your perfect platform to reach customers and increase your car center bookings',
+          AppLanguageKeys.employeesLogin: 'Employee Login',
+          AppLanguageKeys.enterPhoneAndPassword: 'Please enter phone number and password',
+
           AppLanguageKeys.writeYourMessageHere: 'Write your message here',
 
           AppLanguageKeys.technicalSupport: 'Technical Support',
