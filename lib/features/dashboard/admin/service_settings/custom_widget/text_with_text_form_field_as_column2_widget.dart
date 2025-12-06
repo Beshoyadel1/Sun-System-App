@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../../../features/dashboard/Admin/permissions/first_screen_permissions/logic/option_dashboard_cubit.dart';
+import '../../../../../../features/dashboard/Admin/permissions/first_screen_permissions/logic/option_dashboard_cubit.dart';
 import '../../../../../core/pages_widgets/text_form_field_widget.dart';
 import '../../../../../core/theming/colors.dart';
 import '../../../../../core/theming/fonts.dart';
@@ -8,13 +8,10 @@ import '../../../../../core/theming/text_styles.dart';
 
 class TextWithTextFormFieldAsColumn2Widget extends StatelessWidget {
   final String text, hint;
-  final String? text2;
   final List<String>? options;
   final TextEditingController textFormController = TextEditingController();
   final int? maxLines;
-  final double?textFormWidth,textFormHeight,textSize1,textSize2;
-  final bool? isRowText;
-  final Color? textColor2;
+  final double? textFormWidth,textFormHeight,borderRadius,textSize;
   TextWithTextFormFieldAsColumn2Widget({
     super.key,
     required this.text,
@@ -23,11 +20,8 @@ class TextWithTextFormFieldAsColumn2Widget extends StatelessWidget {
     this.maxLines,
     this.textFormWidth,
     this.textFormHeight,
-    this.isRowText=false,
-    this.text2,
-    this.textColor2,
-    this.textSize1,
-    this.textSize2
+    this.borderRadius,
+    this.textSize
   });
 
   @override
@@ -35,28 +29,9 @@ class TextWithTextFormFieldAsColumn2Widget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        isRowText!?
-            Row(
-              spacing: 5,
-              children: [
-                TextInAppWidget(
-                  text: text,
-                  textSize:textSize1?? 13,
-                  fontWeightIndex: FontSelectionData.regularFontFamily,
-                  textColor: AppColors.blackColor,
-                ),
-                TextInAppWidget(
-                  text: text2??'',
-                  textSize:textSize2?? 13,
-                  fontWeightIndex: FontSelectionData.regularFontFamily,
-                  textColor:textColor2?? AppColors.cyanColor,
-                ),
-              ],
-            )
-            :
         TextInAppWidget(
           text: text,
-          textSize: 13,
+          textSize:textSize?? 11,
           fontWeightIndex: FontSelectionData.regularFontFamily,
           textColor: AppColors.blackColor,
         ),
@@ -73,7 +48,7 @@ class TextWithTextFormFieldAsColumn2Widget extends StatelessWidget {
                 child: InputDecorator(
                   decoration: InputDecoration(
                     border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(25),
+                      borderRadius: BorderRadius.circular(borderRadius??25),
                     ),
                     contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                   ),
@@ -124,6 +99,8 @@ class TextWithTextFormFieldAsColumn2Widget extends StatelessWidget {
           textFormHeight: maxLines != null && maxLines! > 1 ? null : (textFormHeight ?? 35),
           maxLines:maxLines,
           textFormWidth:textFormWidth,
+          focusedBorderRadius: BorderRadius.circular(borderRadius??15),
+          enabledBorderRadius: BorderRadius.circular(borderRadius??15),
         ),
 
       ],

@@ -2,6 +2,22 @@
 class AppLanguageKeys{
 
   ////dashboard////
+  static const String carDetails = 'carDetails';
+  static const String viewAllOrderDetails = 'viewAllOrderDetails';
+  static const String carSpecifications = 'carSpecifications';
+  static const String carSold = 'carSold';
+
+  static const String usage = 'usage';
+  static const String brandNew = 'brandNew';
+  static const String filter = 'filter';
+  static const String carsList = 'carsList';
+  static const String allCars = 'allCars';
+  static const String newCars = 'newCars';
+  static const String usedCars = 'usedCars';
+  static const String carCondition = 'carCondition';
+  static const String messagesCount = 'messagesCount';
+  static const String carPrice = 'carPrice';
+
   static const String yourPerfectPlatform = 'yourPerfectPlatform';
   static const String employeesLogin = 'employeesLogin';
   static const String enterPhoneAndPassword = 'enterPhoneAndPassword';

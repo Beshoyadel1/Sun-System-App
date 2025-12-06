@@ -1,0 +1,32 @@
+import 'package:flutter/material.dart';
+import '../../../../../../../../core/language/language_constant.dart';
+import '../../../../../../../../core/theming/colors.dart';
+import '../../../../../../../../core/theming/fonts.dart';
+import '../../../../../../../../core/theming/text_styles.dart';
+
+
+class ContainerSold extends StatelessWidget {
+  final void Function()? onTap;
+  const ContainerSold({super.key,this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap:onTap,
+      child: Container(
+        padding: EdgeInsets.symmetric(horizontal: 15,vertical: 10),
+        decoration: BoxDecoration(
+          color: AppColors.orangeColor,
+          borderRadius: BorderRadius.all(Radius.circular(20)),
+
+        ),
+        child: TextInAppWidget(
+          text:AppLanguageKeys.carSold,
+          textSize: 14,
+          fontWeightIndex: FontSelectionData.regularFontFamily,
+          textColor:AppColors.whiteColor,
+        ),
+      ),
+    );
+  }
+}

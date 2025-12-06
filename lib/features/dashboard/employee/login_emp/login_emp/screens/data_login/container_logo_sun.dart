@@ -17,8 +17,8 @@ class ContainerLogoSun extends StatelessWidget {
       child: Row(
         spacing: 5,
         children: [
-          Image.asset(AppImageKeys.sun_logo_emp2,width: 100,),
-          Image.asset(AppImageKeys.sun_logo_emp,width: 150,)
+          Flexible(child: Image.asset(AppImageKeys.sun_logo_emp2,width: 100,)),
+          Flexible(child: Image.asset(AppImageKeys.sun_logo_emp,width: 150,))
         ],
       ),
     );

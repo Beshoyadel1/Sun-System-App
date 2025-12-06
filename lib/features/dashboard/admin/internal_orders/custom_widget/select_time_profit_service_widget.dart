@@ -5,7 +5,6 @@ import '../../../../../core/theming/colors.dart';
 import '../../../../../core/theming/fonts.dart';
 import '../../../../../core/theming/text_styles.dart';
 
-
 class SelectTimeProfitServiceWidget extends StatefulWidget {
   final String hint;
   final List<String>? options;
@@ -23,7 +22,7 @@ class SelectTimeProfitServiceWidget extends StatefulWidget {
     this.width,
     this.height,
     this.borderColor,
-    this.borderRadius
+    this.borderRadius,
   });
 
   @override

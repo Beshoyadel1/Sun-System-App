@@ -16,7 +16,24 @@ class AppLocalizations {
     'ar': {
 
           ////dashboard////
-          AppLanguageKeys.yourPerfectPlatform: 'منصتك المثالية للوصول إلى العملاء وزيادة حجوزات مركزك بخدمات السيارات',
+      AppLanguageKeys.carDetails: 'تفاصيل السيارة',
+      AppLanguageKeys.viewAllOrderDetails: 'عرض جميع تفاصيل الطلب',
+      AppLanguageKeys.carSpecifications: 'مواصفات السيارة',
+      AppLanguageKeys.carSold: 'تم بيع السيارة',
+
+          AppLanguageKeys.carsList: 'قائمة السيارات من السيارات الحالية والمباعة سابقاً',
+          AppLanguageKeys.allCars: 'جميع السيارات',
+          AppLanguageKeys.newCars: 'سيارات جديدة',
+          AppLanguageKeys.usedCars: 'سيارات مستعملة',
+          AppLanguageKeys.carCondition: 'حالة السيارة',
+          AppLanguageKeys.messagesCount: 'عدد الرسائل',
+          AppLanguageKeys.carPrice: 'سعر السيارة',
+          AppLanguageKeys.filter: 'فلتر',
+          AppLanguageKeys.usage: 'استعمال',
+          AppLanguageKeys.brandNew: 'جديد',
+
+
+      AppLanguageKeys.yourPerfectPlatform: 'منصتك المثالية للوصول إلى العملاء وزيادة حجوزات مركزك بخدمات السيارات',
           AppLanguageKeys.employeesLogin: 'تسجيل الدخول للموظفين',
           AppLanguageKeys.enterPhoneAndPassword: 'برجاء ادخال رقم الهاتف وكلمة المرور',
 
@@ -635,6 +652,23 @@ class AppLocalizations {
 
 
       ////dashboard////
+      AppLanguageKeys.carDetails: 'Car Details',
+      AppLanguageKeys.viewAllOrderDetails: 'View All Order Details',
+      AppLanguageKeys.carSpecifications: 'Car Specifications',
+      AppLanguageKeys.carSold: 'Car Sold',
+
+      AppLanguageKeys.filter: 'Filter',
+          AppLanguageKeys.carsList: 'Cars list of current and previously sold vehicles',
+          AppLanguageKeys.allCars: 'All Cars',
+          AppLanguageKeys.newCars: 'New Cars',
+          AppLanguageKeys.usedCars: 'Used Cars',
+          AppLanguageKeys.carCondition: 'Car Condition',
+          AppLanguageKeys.messagesCount: 'Number of Messages',
+          AppLanguageKeys.carPrice: 'Car Price',
+          AppLanguageKeys.usage: 'Used',
+          AppLanguageKeys.brandNew: 'New',
+
+
           AppLanguageKeys.yourPerfectPlatform: 'Your perfect platform to reach customers and increase your car center bookings',
           AppLanguageKeys.employeesLogin: 'Employee Login',
           AppLanguageKeys.enterPhoneAndPassword: 'Please enter phone number and password',

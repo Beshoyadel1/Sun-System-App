@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
+import 'package:sun_system_app/core/theming/assets.dart';
+import '../../../../../../../features/dashboard/Admin/service_settings/custom_widget/text_with_text_form_field_as_column2_widget.dart';
 import '../../../../../../../core/pages_widgets/button_widget.dart';
 import '../../../../../../../core/language/language_constant.dart';
-import '../../../../../../../features/dashboard/Admin/permissions/custom_widget/text_with_text_form_field_as_column_widget.dart';
 import '../../../../../../../../core/theming/colors.dart';
 import '../../../../../../../../core/theming/fonts.dart';
 import '../../../../../../../../core/theming/text_styles.dart';
@@ -11,31 +12,23 @@ class DataUserEnter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
+    bool isMobile = size.width <= 940;
     return Column(
-      spacing: 20,
+      spacing: 30,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Row(
-          spacing: 50,
-          children: [
-            TextWithTextFormFieldAsColumnWidget(
-              text: AppLanguageKeys.name,
-              hint: '',
-              borderRadius: 5,
-              textSize: 15,
-            ),
-          ],
+        TextWithTextFormFieldAsColumn2Widget(
+          text: AppLanguageKeys.name,
+          hint: '',
+          borderRadius: 5,
+          textSize: 15,
         ),
-        Row(
-          spacing: 50,
-          children: [
-            TextWithTextFormFieldAsColumnWidget(
-              text: AppLanguageKeys.password,
-              hint: '',
-              borderRadius: 5,
-              textSize: 15,
-            ),
-          ],
+        TextWithTextFormFieldAsColumn2Widget(
+          text: AppLanguageKeys.password,
+          hint: '',
+          borderRadius: 5,
+          textSize: 15,
         ),
         TextInAppWidget(
           text:AppLanguageKeys.forgotPassword,
@@ -54,6 +47,7 @@ class DataUserEnter extends StatelessWidget {
           borderRadius: 30,
           onTap: (){},
         ),
+
       ],
     );
   }

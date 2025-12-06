@@ -1,7 +1,12 @@
 class AppImageKeys{
 
   ////dashboard////
+  static const String  car_details1='assets/images/car_details1.png';
+  static const String  car_details2='assets/images/car_details2.png';
+  static const String  car_details3='assets/images/car_details3.png';
 
+  static const String  car_container='assets/images/car_container.png';
+  static const String  test_car80='assets/images/test_car80.png';
 
   static const String  sun_logo_emp='assets/images/sun_logo_emp.png';
   static const String  sun_logo_emp2='assets/images/sun_logo_emp2.png';
@@ -147,6 +152,7 @@ class AppImageKeys{
   ////Insurance////
   static const String  search='assets/images/search.png';
   static const String  filter='assets/images/filter.png';
+  static const String  filter2='assets/images/filter2.png';
   static const String  company1='assets/images/company1.png';
   static const String  company2='assets/images/company2.png';
   static const String  company3='assets/images/company3.png';
