@@ -16,6 +16,14 @@ class AppLocalizations {
     'ar': {
 
           ////dashboard////
+      AppLanguageKeys.orderDelivery: 'تسليم الطلب',
+      AppLanguageKeys.contactCustomer: 'تواصل مع العميل',
+      AppLanguageKeys.orderArrived: 'تم وصول الطلب',
+
+      AppLanguageKeys.sparePartsOrders: 'طلبات قطع غيار',
+      AppLanguageKeys.serviceOrdersList: 'قائمة الطلبات من الخدمات',
+      AppLanguageKeys.shippingCompany: 'شركة الشحن',
+
       AppLanguageKeys.carDetails: 'تفاصيل السيارة',
       AppLanguageKeys.viewAllOrderDetails: 'عرض جميع تفاصيل الطلب',
       AppLanguageKeys.carSpecifications: 'مواصفات السيارة',
@@ -422,7 +430,7 @@ class AppLocalizations {
       AppLanguageKeys.notifications: 'الاشعارات',
       AppLanguageKeys.newMessage: 'رسالة جديدة',
       AppLanguageKeys.order255Expired: 'انتهاء طلب 255',
-      AppLanguageKeys.onTheWay: 'في الطريق اليك',
+      AppLanguageKeys.onTheWay: 'في الطريق',
       AppLanguageKeys.privacyTitle: 'سياسة الخصوصية',
       AppLanguageKeys.privacyIntro: '''
       في تطبيق "صن"، نولي أهمية قصوى لخصوصية مستخدمينا ونسعى دائمًا لحماية بياناتهم الشخصية. 
@@ -652,6 +660,14 @@ class AppLocalizations {
 
 
       ////dashboard////
+      AppLanguageKeys.orderDelivery: 'Order Delivery',
+      AppLanguageKeys.contactCustomer: 'Contact Customer',
+      AppLanguageKeys.orderArrived: 'Order Has Arrived',
+
+      AppLanguageKeys.sparePartsOrders: 'Spare Parts Orders',
+      AppLanguageKeys.serviceOrdersList: 'Orders List from Services',
+      AppLanguageKeys.shippingCompany: 'Shipping Company',
+
       AppLanguageKeys.carDetails: 'Car Details',
       AppLanguageKeys.viewAllOrderDetails: 'View All Order Details',
       AppLanguageKeys.carSpecifications: 'Car Specifications',

@@ -1,6 +1,11 @@
 class AppImageKeys{
 
   ////dashboard////
+  static const String  road1='assets/images/road1.png';
+
+  static const String  call_contact='assets/images/call_contact.png';
+  static const String  message_contact='assets/images/message_contact.png';
+
   static const String  car_details1='assets/images/car_details1.png';
   static const String  car_details2='assets/images/car_details2.png';
   static const String  car_details3='assets/images/car_details3.png';

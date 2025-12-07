@@ -6,10 +6,12 @@ import '../../../../../../../../core/theming/fonts.dart';
 import '../../../../../../../../core/theming/text_styles.dart';
 
 class CarConditionWidget extends StatelessWidget {
+  final String? textContainer;
   final bool? isNew;
   const CarConditionWidget({
     super.key,
-    this.isNew=false
+    this.isNew=false,
+    this.textContainer,
   });
 
   @override
@@ -36,7 +38,7 @@ class CarConditionWidget extends StatelessWidget {
             children: [
               Image.asset(AppImageKeys.car_container,color: isNew!?AppColors.blueColor:AppColors.orangeColor,),
               TextInAppWidget(
-                text:isNew!?AppLanguageKeys.brandNew:AppLanguageKeys.usage,
+                text:textContainer??(isNew!?AppLanguageKeys.brandNew:AppLanguageKeys.usage),
                 textSize: 13,
                 fontWeightIndex: FontSelectionData.regularFontFamily,
                 textColor:isNew!?AppColors.blueColor:AppColors.orangeColor,

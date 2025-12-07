@@ -2,6 +2,14 @@
 class AppLanguageKeys{
 
   ////dashboard////
+  static const String orderDelivery = 'orderDelivery';
+  static const String contactCustomer = 'contactCustomer';
+  static const String orderArrived = 'orderArrived';
+
+  static const String sparePartsOrders = 'sparePartsOrders';
+  static const String serviceOrdersList = 'serviceOrdersList';
+  static const String shippingCompany = 'shippingCompany';
+
   static const String carDetails = 'carDetails';
   static const String viewAllOrderDetails = 'viewAllOrderDetails';
   static const String carSpecifications = 'carSpecifications';

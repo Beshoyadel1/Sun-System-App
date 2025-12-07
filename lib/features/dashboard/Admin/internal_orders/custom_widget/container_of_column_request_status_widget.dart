@@ -6,12 +6,15 @@ import '../../../../../../../core/theming/fonts.dart';
 import '../../../../../../../core/theming/text_styles.dart';
 
 class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
-  final bool? isAccept,isReject,isNewOrder;
+  final bool? isAccept,isReject,isNewOrder,isTruck;
+  final double? textSize;
   const ContainerOfColumnRequestStatusWidget({
     super.key,
     this.isAccept=false,
     this.isReject=false,
     this.isNewOrder=false,
+    this.isTruck=false,
+    this.textSize,
   });
   @override
   Widget build(BuildContext context) {
@@ -22,6 +25,7 @@ class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
         color:isNewOrder!?AppColors.blackColor25:
         isReject!?AppColors.partPinkMixColor.withOpacity(0.1)
             :isAccept!? AppColors.partGreenMixColor.withOpacity(0.1):
+        isTruck!?AppColors.lightGreenColor:
         AppColors.pinkColor,
         borderRadius: BorderRadius.all(Radius.circular(20)),
       ),
@@ -31,23 +35,30 @@ class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
           Icon(
             isNewOrder!?Icons.file_open_outlined:
             isReject!? Icons.close:
-            isAccept!? Icons.done: Icons.settings,
+            isAccept!? Icons.done:
+            isTruck!?Icons.airport_shuttle_outlined:
+            Icons.settings,
             size: 15,
             color:isNewOrder!?AppColors.blackColor44:
             isReject!? AppColors.redColor:
             isAccept!? AppColors.greenColor:
+            isTruck!? AppColors.blueColor:
             AppColors.orangeColor,
           ),
           Expanded(
             child: TextInAppWidget(
               text:isNewOrder!?AppLanguageKeys.newRequest:
               isReject!? AppLanguageKeys.requestRejected:
-              isAccept!?AppLanguageKeys.delivered:AppLanguageKeys.underService,
-              textSize: 9,
+              isAccept!?AppLanguageKeys.delivered:
+              isTruck!?AppLanguageKeys.onTheWay:
+              AppLanguageKeys.underService,
+              textSize: textSize??9,
               fontWeightIndex: FontSelectionData.regularFontFamily,
               textColor:isNewOrder!?AppColors.blackColor44:
               isReject!? AppColors.redColor:
-              isAccept!? AppColors.greenColor:AppColors.orangeColor,
+              isAccept!? AppColors.greenColor:
+              isTruck!? AppColors.blueColor:
+              AppColors.orangeColor,
             ),
           ),
         ],

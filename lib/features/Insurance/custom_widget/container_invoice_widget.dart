@@ -13,17 +13,24 @@ class ContainerInvoiceWidget extends StatelessWidget {
   final String? textTimeFinishPay;
   final String? selectedImage;
 
-  const ContainerInvoiceWidget({this.selectedImage,this.textTimeFinishPay,this.isFinished=false,required this.priceInsuranceInstallment,required this.priceTaxes,required this.priceTotal});
+  const ContainerInvoiceWidget({
+    this.selectedImage,
+    this.textTimeFinishPay,
+    this.isFinished=false,
+    required this.priceInsuranceInstallment,
+    required this.priceTaxes,
+    required this.priceTotal,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
+      padding: EdgeInsetsGeometry.all(10),
       decoration: BoxDecoration(
-        color: AppColors.whiteColor.withOpacity(0.8),
-        borderRadius: const BorderRadius.all(Radius.circular(20)),
+        color: AppColors.whiteColor,
+        borderRadius: BorderRadius.all(Radius.circular(20)),
         border: Border.all(
-            color: AppColors.transparent
+            color: AppColors.greyColor.withOpacity(0.3)
         ),
         boxShadow: [
           BoxShadow(

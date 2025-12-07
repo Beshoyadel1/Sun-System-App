@@ -8,13 +8,17 @@ import '../../../../../../../core/theming/text_styles.dart';
 
 class ColumnRequestStatusWidget extends StatelessWidget {
   final String? text;
-  final bool? isAccept,isReject,isNewOrder;
+  final double? textSizeContainer,textSize;
+  final bool? isAccept,isReject,isNewOrder,isTruck;
   const ColumnRequestStatusWidget({
     super.key,
     this.isAccept=false,
     this.isReject=false,
     this.isNewOrder=false,
-    this.text
+    this.isTruck,
+    this.text,
+    this.textSizeContainer,
+    this.textSize
   });
 
   @override
@@ -25,7 +29,7 @@ class ColumnRequestStatusWidget extends StatelessWidget {
       children: [
         TextInAppWidget(
           text:text?? AppLanguageKeys.requestStatus,
-          textSize: 11,
+          textSize: textSize??11,
           fontWeightIndex: FontSelectionData.mediumFontFamily,
           textColor: AppColors.greyColor,
         ),
@@ -33,6 +37,8 @@ class ColumnRequestStatusWidget extends StatelessWidget {
           isReject: isReject,
           isAccept: isAccept,
           isNewOrder: isNewOrder,
+          isTruck:isTruck,
+          textSize:textSizeContainer,
         )
       ],
     );
