@@ -23,7 +23,7 @@ class DataContainerInListOrderDetailsOrderReceivedEmp extends StatelessWidget {
           ContainerDataOrderInMobilityRequestsEmp(
             widthMobile: 1300,
             widthTabletCustom:1600,
-            isAccept: true,
+            isAccept4: true,
             onTap: (){},
           ),
           if(isMobile)

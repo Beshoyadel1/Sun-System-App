@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import '../../../../../../../features/dashboard/employee/mobility_requests_emp/first_screen_mobility_requests_emp/screens/all_orders/data_container_data_order_in_mobility_requests_emp.dart';
 import '../../../../../../../core/theming/colors.dart';
 
-class ContainerDataOrderInMobilityRequestsEmp extends StatelessWidget {
+class ContainerDataOrderInRequestsForInternalServicesEmp extends StatelessWidget {
   final double? widthMobile,widthTabletCustom;
   final void Function()? onTap;
   final bool? isAccept4,isReject4,isNewOrder4,isTruck4;
   final String? numberText1,imageSrc2,title2,subTitle2,imageSrc3,kindCar3,nameCar3,title5,subTitle5,price6;
-  const ContainerDataOrderInMobilityRequestsEmp({
+  const ContainerDataOrderInRequestsForInternalServicesEmp({
     super.key,
     this.widthMobile,
     this.widthTabletCustom,
