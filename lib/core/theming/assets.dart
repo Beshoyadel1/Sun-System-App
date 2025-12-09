@@ -1,6 +1,9 @@
 class AppImageKeys{
 
   ////dashboard////
+  static const String  container_background_sun='assets/images/container_background_sun.png';
+  static const String  backgroun_admin_sun='assets/images/backgroun_admin_sun.png';
+
   static const String  road1='assets/images/road1.png';
 
   static const String  call_contact='assets/images/call_contact.png';
@@ -15,7 +18,7 @@ class AppImageKeys{
 
   static const String  sun_logo_emp='assets/images/sun_logo_emp.png';
   static const String  sun_logo_emp2='assets/images/sun_logo_emp2.png';
-  static const String  login_emp='assets/images/login_emp.png';
+  static const String  login_emp='assets/images/login_admin_sun.png';
 
 
   static const String  support_message_emp1='assets/images/support_message_emp1.png';
