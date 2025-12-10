@@ -2,6 +2,9 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import '../../../features/dashboard/admin_sun/sun_packages_management_admin_sun/sun_packages_management_admin_sun/sun_packages_management_admin_sun.dart';
+import '../../../features/dashboard/admin_sun/managing_policy_pages_admin_sun/managing_policy_pages_admin_sun/managing_policy_pages_admin_sun.dart';
+import '../../../features/dashboard/admin_sun/rates_admin_sun/first_screen_rates_admin_sun/first_screen_rates_admin_sun.dart';
 import '../../../features/dashboard/admin_sun/orders_admin_sun/all_orders_admin_sun/all_orders_admin_sun.dart';
 import '../../../features/dashboard/admin_sun/rates_admin_sun/rates_admin_sun/rates_admin_sun.dart';
 import '../../../features/dashboard/admin_sun/technical_support_admin_sun/technical_support_emp/technical_support_admin_sun.dart';
@@ -95,7 +98,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const AllOrdersAdminSun(),
+          home: const SunPackagesManagementAdminSun(),
           );
         },
       ),

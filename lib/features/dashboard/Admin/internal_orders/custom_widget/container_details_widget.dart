@@ -6,10 +6,12 @@ import '../../../../../../../core/theming/fonts.dart';
 import '../../../../../../../core/theming/text_styles.dart';
 
 class ContainerDetailsWidget extends StatelessWidget {
+  final String? title;
   final void Function()? onTap;
   const ContainerDetailsWidget({
     super.key,
     this.onTap,
+    this.title
   });
 
   @override
@@ -34,7 +36,7 @@ class ContainerDetailsWidget extends StatelessWidget {
         ),
         child: Center(
           child: TextInAppWidget(
-            text:AppLanguageKeys.details,
+            text:title??AppLanguageKeys.details,
             textSize: 12,
             fontWeightIndex: FontSelectionData.regularFontFamily,
             textColor:AppColors.orangeColor,

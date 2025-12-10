@@ -9,11 +9,14 @@ class ContainerSold extends StatelessWidget {
   final String? text;
   final Color? backGroundColor;
   final void Function()? onTap;
+  final double? horizontal,vertical;
   const ContainerSold({
     super.key,
     this.onTap,
     this.text,
     this.backGroundColor,
+    this.horizontal,
+    this.vertical
   });
 
   @override
@@ -21,7 +24,7 @@ class ContainerSold extends StatelessWidget {
     return InkWell(
       onTap:onTap,
       child: Container(
-        padding: EdgeInsets.symmetric(horizontal: 15,vertical: 10),
+        padding: EdgeInsets.symmetric(horizontal:horizontal?? 15,vertical:vertical?? 10),
         decoration: BoxDecoration(
           color: backGroundColor??AppColors.orangeColor,
           borderRadius: BorderRadius.all(Radius.circular(20)),

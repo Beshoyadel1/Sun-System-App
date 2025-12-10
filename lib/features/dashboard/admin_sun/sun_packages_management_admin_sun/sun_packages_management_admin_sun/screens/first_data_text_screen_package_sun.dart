@@ -1,35 +1,33 @@
 import 'package:flutter/material.dart';
-import '../../../../../../../../core/language/language_constant.dart';
+import '../../../../../../../../core/theming/assets.dart';
 import '../../../../../../../../core/theming/colors.dart';
 import '../../../../../../../../core/theming/fonts.dart';
 import '../../../../../../../../core/theming/text_styles.dart';
 
-class TitleWithSubTitleInFirstScreenSparePartsRequestsEmp extends StatelessWidget {
-  final String? title,subTitle;
-  const TitleWithSubTitleInFirstScreenSparePartsRequestsEmp({
+class FirstDataTextScreenPackageSun extends StatelessWidget {
+  const FirstDataTextScreenPackageSun({
     super.key,
-    this.title,
-    this.subTitle
   });
 
   @override
   Widget build(BuildContext context) {
     return Column(
-      spacing: 10,
+      spacing: 30,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         TextInAppWidget(
-          text:title??AppLanguageKeys.allOrders,
+          text:'باقات ',
           textSize: 18,
           fontWeightIndex: FontSelectionData.semiBoldFontFamily,
           textColor:AppColors.blackColor,
         ),
         TextInAppWidget(
-          text:subTitle??AppLanguageKeys.serviceOrdersList,
+          text:'يمكنك لدخول التفاصيل لكل منشأة ',
           textSize: 17,
           fontWeightIndex: FontSelectionData.regularFontFamily,
-          textColor:AppColors.blackColor44,
+          textColor:AppColors.blackColor,
         ),
+        Image.asset(AppImageKeys.control_package_sun)
       ],
     );
   }

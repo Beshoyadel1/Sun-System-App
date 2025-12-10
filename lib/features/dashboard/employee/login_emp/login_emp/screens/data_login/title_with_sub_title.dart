@@ -5,8 +5,17 @@ import '../../../../../../../../core/theming/fonts.dart';
 import '../../../../../../../../core/theming/text_styles.dart';
 
 class TitleWithSubTitle extends StatelessWidget {
-  const TitleWithSubTitle({super.key});
-
+  final String? title,subTitle;
+  final Color? titleColor,subTitleColor;
+  final double? textSizeTitle,textSizeSubTitle;
+  TitleWithSubTitle({
+    this.title,
+    this.subTitle,
+    this.subTitleColor,
+    this.titleColor,
+    this.textSizeSubTitle,
+    this.textSizeTitle
+  });
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -14,16 +23,16 @@ class TitleWithSubTitle extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         TextInAppWidget(
-          text:AppLanguageKeys.employeesLogin,
-          textSize: 18,
+          text:title??AppLanguageKeys.employeesLogin,
+          textSize: textSizeTitle??18,
           fontWeightIndex: FontSelectionData.semiBoldFontFamily,
-          textColor:AppColors.blackColor,
+          textColor:titleColor??AppColors.blackColor,
         ),
         TextInAppWidget(
-          text:AppLanguageKeys.enterPhoneAndPassword,
-          textSize: 17,
+          text:subTitle??AppLanguageKeys.enterPhoneAndPassword,
+          textSize: textSizeSubTitle??17,
           fontWeightIndex: FontSelectionData.regularFontFamily,
-          textColor:AppColors.blackColor,
+          textColor:subTitleColor??AppColors.blackColor,
         ),
       ],
     );
