@@ -6,7 +6,6 @@ class ContainerEditDeleteWidget extends StatelessWidget {
   final bool? isDelete;
   final VoidCallback? onPressed;
   final double? size;
-
   const ContainerEditDeleteWidget({
     super.key,
     this.isDelete = false,
@@ -17,7 +16,6 @@ class ContainerEditDeleteWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final double iconSize = size ?? 20;
-
     return GestureDetector(
       onTap: onPressed,
       child: Container(
@@ -25,7 +23,7 @@ class ContainerEditDeleteWidget extends StatelessWidget {
         height: iconSize + 8,
         decoration: BoxDecoration(
           color: isDelete! ? AppColors.redColor : AppColors.darkBlueColor,
-          shape: BoxShape.circle,
+          shape:BoxShape.circle ,
         ),
         alignment: Alignment.center,
         child: Icon(
@@ -33,7 +31,7 @@ class ContainerEditDeleteWidget extends StatelessWidget {
           color: AppColors.whiteColor,
           size: iconSize,
         ),
-      ),
+      )
     );
   }
 }

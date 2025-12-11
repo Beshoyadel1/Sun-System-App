@@ -25,7 +25,7 @@ class TitleWithSubTitle extends StatelessWidget {
         TextInAppWidget(
           text:title??AppLanguageKeys.employeesLogin,
           textSize: textSizeTitle??18,
-          fontWeightIndex: FontSelectionData.semiBoldFontFamily,
+          fontWeightIndex: FontSelectionData.regularFontFamily,
           textColor:titleColor??AppColors.blackColor,
         ),
         TextInAppWidget(

@@ -55,16 +55,13 @@ class CheckBoxWithText extends StatelessWidget {
                   ),
                 )
               else
-                Padding(
-                  padding: const EdgeInsets.only(top: 12),
-                  child: TextInAppWidget(
-                    text: text,
-                    textSize: 11,
-                    fontWeightIndex: FontSelectionData.regularFontFamily,
-                    textColor: isChecked
-                        ? AppColors.blackColor
-                        : AppColors.greyColor,
-                  ),
+                TextInAppWidget(
+                  text: text,
+                  textSize: 11,
+                  fontWeightIndex: FontSelectionData.regularFontFamily,
+                  textColor: isChecked
+                      ? AppColors.blackColor
+                      : AppColors.greyColor,
                 ),
             ],
           );

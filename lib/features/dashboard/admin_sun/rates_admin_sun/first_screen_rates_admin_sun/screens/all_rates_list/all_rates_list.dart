@@ -25,7 +25,6 @@ class AllRatesList extends StatelessWidget {
           ),
           ContainerDataAllRatesList(
               onTap: (){
-
               Navigator.of(context).push(
                 NavigateToPageWidget(RatesAdminSun()),
               );

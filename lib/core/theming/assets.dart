@@ -1,6 +1,8 @@
 class AppImageKeys{
 
   ////dashboard////
+  static const String  test_advertisements='assets/images/test_advertisements.png';
+
   static const String  control_package_sun='assets/images/control_package_sun.png';
 
   static const String  container_background_sun='assets/images/container_background_sun.png';

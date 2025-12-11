@@ -554,6 +554,7 @@ class AppLanguageKeys{
   static const String searchPlaceholder = 'Search for any service, center name, or anything';
   static const String tireSpareParts = 'Tire spare parts';
   static const String discount50 = '50% discount';
+  static const String discount = 'discount';
   static const String variousServices = 'Various services';
   static const String repairAndMaintenance = 'Repair and maintenance';
   static const String oilServices = 'Oil services';

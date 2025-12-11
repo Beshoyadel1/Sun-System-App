@@ -7,10 +7,13 @@ import '../../../../../../core/theming/colors.dart';
 
 class ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettings extends StatelessWidget {
   final void Function()? onTapBack,onTapSave;
+  final String? textContainerLeft,textContainerRight;
   const ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettings({
     super.key,
     this.onTapBack,
     this.onTapSave,
+    this.textContainerLeft,
+    this.textContainerRight
   });
 
   @override
@@ -41,7 +44,7 @@ class ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettin
                 Navigator.pop(context);
                 Navigator.of(context).push(NavigateToPageWidget(const FirstScreenServiceSettings()));
               },
-                text: AppLanguageKeys.back,
+                text: textContainerRight??AppLanguageKeys.back,
                 colorBackGround: AppColors.orangeColor,
               width: 200,
             ),
@@ -49,7 +52,7 @@ class ContainerLastTwoButtonInAddedMaintenanceAndInternalServicesInServiceSettin
           Flexible(
             child: ContainerTextOnly(
               onTap:onTapSave,
-              text: AppLanguageKeys.save,
+              text: textContainerLeft??AppLanguageKeys.save,
               width: 200,
             ),
           )
