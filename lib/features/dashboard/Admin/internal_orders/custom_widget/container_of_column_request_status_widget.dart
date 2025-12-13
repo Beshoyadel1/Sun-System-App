@@ -6,7 +6,7 @@ import '../../../../../../../core/theming/fonts.dart';
 import '../../../../../../../core/theming/text_styles.dart';
 
 class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
-  final bool? isAccept,isReject,isNewOrder,isTruck;
+  final bool? isAccept,isReject,isNewOrder,isTruck,isPaidSuccess;
   final double? textSize;
   const ContainerOfColumnRequestStatusWidget({
     super.key,
@@ -14,6 +14,7 @@ class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
     this.isReject=false,
     this.isNewOrder=false,
     this.isTruck=false,
+    this.isPaidSuccess=false,
     this.textSize,
   });
   @override
@@ -24,7 +25,7 @@ class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
       decoration: BoxDecoration(
         color:isNewOrder!?AppColors.blackColor25:
         isReject!?AppColors.partPinkMixColor.withOpacity(0.1)
-            :isAccept!? AppColors.partGreenMixColor.withOpacity(0.1):
+            :(isAccept!||isPaidSuccess!)? AppColors.partGreenMixColor.withOpacity(0.1):
         isTruck!?AppColors.lightGreenColor:
         AppColors.pinkColor,
         borderRadius: BorderRadius.all(Radius.circular(20)),
@@ -35,13 +36,13 @@ class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
           Icon(
             isNewOrder!?Icons.file_open_outlined:
             isReject!? Icons.close:
-            isAccept!? Icons.done:
+            (isAccept!||isPaidSuccess!)? Icons.done:
             isTruck!?Icons.airport_shuttle_outlined:
             Icons.settings,
             size: 15,
             color:isNewOrder!?AppColors.blackColor44:
             isReject!? AppColors.redColor:
-            isAccept!? AppColors.greenColor:
+            (isAccept!||isPaidSuccess!)? AppColors.greenColor:
             isTruck!? AppColors.blueColor:
             AppColors.orangeColor,
           ),
@@ -50,13 +51,14 @@ class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
               text:isNewOrder!?AppLanguageKeys.newRequest:
               isReject!? AppLanguageKeys.requestRejected:
               isAccept!?AppLanguageKeys.delivered:
+              isPaidSuccess!?AppLanguageKeys.paymentSuccessful:
               isTruck!?AppLanguageKeys.onTheWay:
               AppLanguageKeys.underService,
               textSize: textSize??9,
               fontWeightIndex: FontSelectionData.regularFontFamily,
               textColor:isNewOrder!?AppColors.blackColor44:
               isReject!? AppColors.redColor:
-              isAccept!? AppColors.greenColor:
+              (isAccept!||isPaidSuccess!)? AppColors.greenColor:
               isTruck!? AppColors.blueColor:
               AppColors.orangeColor,
             ),

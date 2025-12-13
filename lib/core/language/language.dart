@@ -16,6 +16,8 @@ class AppLocalizations {
     'ar': {
 
           ////dashboard////
+      AppLanguageKeys.paymentSuccessful: 'تم الدفع بنجاح',
+
       AppLanguageKeys.orderDelivery: 'تسليم الطلب',
       AppLanguageKeys.contactCustomer: 'تواصل مع العميل',
       AppLanguageKeys.orderArrived: 'تم وصول الطلب',
@@ -661,6 +663,8 @@ class AppLocalizations {
 
 
       ////dashboard////
+      AppLanguageKeys.paymentSuccessful: 'Payment Successful',
+
       AppLanguageKeys.orderDelivery: 'Order Delivery',
       AppLanguageKeys.contactCustomer: 'Contact Customer',
       AppLanguageKeys.orderArrived: 'Order Has Arrived',

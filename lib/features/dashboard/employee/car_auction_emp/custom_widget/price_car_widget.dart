@@ -7,10 +7,11 @@ import '../../../../../../../../core/theming/fonts.dart';
 import '../../../../../../../../core/theming/text_styles.dart';
 
 class PriceCarWidget extends StatelessWidget {
-  final String? price;
+  final String? price,text;
   const PriceCarWidget({
     super.key,
-    this.price
+    this.price,
+    this.text
   });
 
   @override
@@ -20,7 +21,7 @@ class PriceCarWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         TextInAppWidget(
-          text:AppLanguageKeys.carPrice,
+          text:text??AppLanguageKeys.carPrice,
           textSize: 13,
           fontWeightIndex: FontSelectionData.regularFontFamily,
           textColor:AppColors.greyColor,

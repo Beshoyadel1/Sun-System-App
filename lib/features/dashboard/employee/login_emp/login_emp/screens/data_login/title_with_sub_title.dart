@@ -19,7 +19,7 @@ class TitleWithSubTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      spacing: 10,
+      spacing: 5,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         TextInAppWidget(

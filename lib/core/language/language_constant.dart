@@ -2,6 +2,7 @@
 class AppLanguageKeys{
 
   ////dashboard////
+  static const String paymentSuccessful = 'paymentSuccessful';
   static const String orderDelivery = 'orderDelivery';
   static const String contactCustomer = 'contactCustomer';
   static const String orderArrived = 'orderArrived';

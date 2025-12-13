@@ -1,6 +1,13 @@
 class AppImageKeys{
 
   ////dashboard////
+
+  static const String  icon_arrow='assets/images/icon_arrow.png';
+
+  static const String  account_sun1='assets/images/account_sun1.png';
+  static const String  account_sun2='assets/images/account_sun2.png';
+  static const String  account_sun3='assets/images/account_sun3.png';
+
   static const String  test_advertisements='assets/images/test_advertisements.png';
 
   static const String  control_package_sun='assets/images/control_package_sun.png';

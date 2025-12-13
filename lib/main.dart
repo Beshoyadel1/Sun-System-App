@@ -2,6 +2,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import '../../../features/dashboard/admin_sun/accounts_management_admin_sun/second_screen_accounts_management_admin_sun/second_screen_accounts_management_admin_sun.dart';
+import '../../../features/dashboard/admin_sun/accounts_management_admin_sun/first_screen_accounts_management_admin_sun/first_screen_accounts_management_admin_sun.dart';
 import '../../../features/dashboard/admin_sun/advertisements_and_discounts_admin_sun/first_screen_advertisements_admin_sun/first_screen_advertisements_admin_sun.dart';
 import '../../../features/dashboard/admin_sun/advertisements_and_discounts_admin_sun/add_advertisements_admin_sun/add_advertisements_admin_sun.dart';
 import '../../../features/dashboard/admin_sun/permissions_admin_sun/first_screen_permissions_admin_sun/first_screen_permissions_admin_sun.dart';
@@ -101,7 +103,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const FirstScreenAdvertisementsAdminSun(),
+          home: const SecondScreenAccountsManagementAdminSun(),
           );
         },
       ),

@@ -3,10 +3,9 @@ import 'package:flutter/material.dart';
 import '../../../../../core/theming/colors.dart';
 
 class ContainerIconWidget extends StatelessWidget {
-  final void Function()? onPressed;
   final String imagPath;
   final void Function()? onTap;
-  const ContainerIconWidget({super.key ,this.onPressed, required this.imagPath,this.onTap});
+  const ContainerIconWidget({super.key , required this.imagPath,this.onTap});
 
   @override
   Widget build(BuildContext context) {
