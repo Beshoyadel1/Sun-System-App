@@ -8,16 +8,18 @@ import '../../../../../../../../core/theming/text_styles.dart';
 
 class PriceCarWidget extends StatelessWidget {
   final String? price,text;
+  final double? spacing;
   const PriceCarWidget({
     super.key,
     this.price,
-    this.text
+    this.text,
+    this.spacing
   });
 
   @override
   Widget build(BuildContext context) {
     return Column(
-      spacing: 5,
+      spacing:spacing?? 5,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         TextInAppWidget(

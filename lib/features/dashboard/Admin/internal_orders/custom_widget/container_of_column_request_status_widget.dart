@@ -6,8 +6,9 @@ import '../../../../../../../core/theming/fonts.dart';
 import '../../../../../../../core/theming/text_styles.dart';
 
 class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
-  final bool? isAccept,isReject,isNewOrder,isTruck,isPaidSuccess;
+  final bool? isAccept,isReject,isNewOrder,isTruck,isPaidSuccess,isServiceProvider,isActive,isInActive;
   final double? textSize;
+  final String? textInSideContainer;
   const ContainerOfColumnRequestStatusWidget({
     super.key,
     this.isAccept=false,
@@ -15,7 +16,11 @@ class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
     this.isNewOrder=false,
     this.isTruck=false,
     this.isPaidSuccess=false,
+    this.isServiceProvider=false,
+    this.isActive=false,
+    this.isInActive=false,
     this.textSize,
+    this.textInSideContainer,
   });
   @override
   Widget build(BuildContext context) {
@@ -24,8 +29,8 @@ class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
       padding: EdgeInsetsGeometry.symmetric(vertical: 5,horizontal: 10),
       decoration: BoxDecoration(
         color:isNewOrder!?AppColors.blackColor25:
-        isReject!?AppColors.partPinkMixColor.withOpacity(0.1)
-            :(isAccept!||isPaidSuccess!)? AppColors.partGreenMixColor.withOpacity(0.1):
+        (isReject!||isInActive!)?AppColors.partPinkMixColor.withOpacity(0.1)
+            :(isAccept!||isPaidSuccess!||isServiceProvider!||isActive!)? AppColors.partGreenMixColor.withOpacity(0.1):
         isTruck!?AppColors.lightGreenColor:
         AppColors.pinkColor,
         borderRadius: BorderRadius.all(Radius.circular(20)),
@@ -35,30 +40,33 @@ class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
         children: [
           Icon(
             isNewOrder!?Icons.file_open_outlined:
-            isReject!? Icons.close:
-            (isAccept!||isPaidSuccess!)? Icons.done:
+            (isReject!||isInActive!)? Icons.close:
+            (isAccept!||isPaidSuccess!||isServiceProvider!||isActive!)? Icons.done:
             isTruck!?Icons.airport_shuttle_outlined:
             Icons.settings,
             size: 15,
             color:isNewOrder!?AppColors.blackColor44:
-            isReject!? AppColors.redColor:
-            (isAccept!||isPaidSuccess!)? AppColors.greenColor:
+            (isReject!||isInActive!)? AppColors.redColor:
+            (isAccept!||isPaidSuccess!||isServiceProvider!||isActive!)? AppColors.greenColor:
             isTruck!? AppColors.blueColor:
             AppColors.orangeColor,
           ),
           Expanded(
             child: TextInAppWidget(
-              text:isNewOrder!?AppLanguageKeys.newRequest:
+              text: isNewOrder!?AppLanguageKeys.newRequest:
               isReject!? AppLanguageKeys.requestRejected:
               isAccept!?AppLanguageKeys.delivered:
               isPaidSuccess!?AppLanguageKeys.paymentSuccessful:
+              isServiceProvider!?AppLanguageKeys.serviceProvider:
+              isActive!?AppLanguageKeys.active:
+              isInActive!?AppLanguageKeys.inactive:
               isTruck!?AppLanguageKeys.onTheWay:
               AppLanguageKeys.underService,
               textSize: textSize??9,
               fontWeightIndex: FontSelectionData.regularFontFamily,
               textColor:isNewOrder!?AppColors.blackColor44:
-              isReject!? AppColors.redColor:
-              (isAccept!||isPaidSuccess!)? AppColors.greenColor:
+              (isReject!||isInActive!)? AppColors.redColor:
+              (isAccept!||isPaidSuccess!||isServiceProvider!||isActive!)? AppColors.greenColor:
               isTruck!? AppColors.blueColor:
               AppColors.orangeColor,
             ),

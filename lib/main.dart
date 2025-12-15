@@ -2,6 +2,9 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import '../../../features/dashboard/admin_sun/insurance_admin_sun/second_screen_insurance_admin_sun/second_screen_insurance_admin_sun.dart';
+import '../../../features/dashboard/admin_sun/insurance_admin_sun/first_screen_insurance_admin_sun/first_screen_insurance_admin_sun.dart';
+import '../../../features/dashboard/admin_sun/car_auction_admin_sun/first_screen_car_auction_admin_sun/first_screen_car_auction_admin_sun.dart';
 import '../../../features/dashboard/admin_sun/accounts_management_admin_sun/second_screen_accounts_management_admin_sun/second_screen_accounts_management_admin_sun.dart';
 import '../../../features/dashboard/admin_sun/accounts_management_admin_sun/first_screen_accounts_management_admin_sun/first_screen_accounts_management_admin_sun.dart';
 import '../../../features/dashboard/admin_sun/advertisements_and_discounts_admin_sun/first_screen_advertisements_admin_sun/first_screen_advertisements_admin_sun.dart';
@@ -103,7 +106,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const SecondScreenAccountsManagementAdminSun(),
+          home: const SecondScreenInsuranceAdminSun(),
           );
         },
       ),
