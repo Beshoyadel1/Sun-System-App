@@ -13,7 +13,8 @@ import '../../../../../../../core/theming/assets.dart';
 
 
 class MobileDataContainerDataCarInCarAuctionAdminSum extends StatelessWidget {
-  const MobileDataContainerDataCarInCarAuctionAdminSum({super.key});
+  final void Function()? onTap;
+  const MobileDataContainerDataCarInCarAuctionAdminSum({super.key,this.onTap});
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -44,7 +45,7 @@ class MobileDataContainerDataCarInCarAuctionAdminSum extends StatelessWidget {
           ],
         ),
         ContainerDetailsWidget(
-          onTap:(){
+          onTap:onTap??(){
             Navigator.of(context).push(
               NavigateToPageWidget(CarDetailsAdminSun()),
             );

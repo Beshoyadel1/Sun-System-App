@@ -4,17 +4,23 @@ import '../../../../../../../features/dashboard/admin_sun/car_auction_admin_sun/
 
 class DataContainerDataCarInCarAuctionAdminSum extends StatelessWidget {
   final double? widthMobile;
+  final void Function()? onTap;
   const DataContainerDataCarInCarAuctionAdminSum({
     super.key,
-  this.widthMobile
+    this.widthMobile,
+    this.onTap,
   });
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     bool isMobile = size.width <= (widthMobile??900);
     return isMobile?
-    MobileDataContainerDataCarInCarAuctionAdminSum()
+    MobileDataContainerDataCarInCarAuctionAdminSum(
+      onTap:onTap,
+    )
     :
-    TabDataContainerDataCarInCarAuctionAdminSum();
+    TabDataContainerDataCarInCarAuctionAdminSum(
+      onTap:onTap,
+    );
   }
 }

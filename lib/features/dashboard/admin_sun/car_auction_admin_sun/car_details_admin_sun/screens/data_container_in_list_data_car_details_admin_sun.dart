@@ -28,12 +28,12 @@ class DataContainerInListDataCarDetailsAdminSun extends StatelessWidget {
         children: [
           TitleWithSubTitleInCarDetailsAdminSun(),
 
-          if(isMobile)
-            ContainerEditDeleteCarDetailsAdminSun(),
-
           ContainerDataCarInCarAuctionAdminSum(
             widthMobile: 1400,
+            onTap: (){},
           ),
+          if(isMobile)
+            ContainerEditDeleteCarDetailsAdminSun(),
 
           TitleWithSubTitleInCarDetails2EmpAdminSun(),
           ImagesCarDetailsAdminSun(),

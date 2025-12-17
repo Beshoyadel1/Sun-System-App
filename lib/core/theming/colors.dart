@@ -37,5 +37,6 @@ class AppColors{
   static const Color partPinkMixColor = Color(0xffFF383C);
   static const Color partCyanColor = Color(0xffF2F4F8);
   static const Color brownColor = Color(0xffFF9865);
+  static const Color darkBrownColor = Color(0xffD65718);
   static const Color lightBlueColor = Color(0xffAFE2E3);
 }

@@ -1,16 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../../../../../features/dashboard/admin_sun/car_auction_admin_sun/car_auction_admin_sun/screens/all_cars_admin_sum/data_container_data_car_in_car_auction_admin_sum.dart';
+import '../../../../../../../features/dashboard/admin_sun/car_auction_admin_sun/car_details_admin_sun/screens/part_fuel_consumption_rate/data_container_part_fuel_consumption_rate.dart';
 import '../../../../../../../core/theming/colors.dart';
 
-class ContainerDataCarInCarAuctionAdminSum extends StatelessWidget {
-  final double? widthMobile;
-  final void Function()? onTap;
-  const ContainerDataCarInCarAuctionAdminSum({
-    super.key,
-    this.widthMobile,
-    this.onTap
-  });
+class ContainerPartFuelConsumptionRate extends StatelessWidget {
+  const ContainerPartFuelConsumptionRate({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -29,10 +24,7 @@ class ContainerDataCarInCarAuctionAdminSum extends StatelessWidget {
           ),
         ],
       ),
-      child: DataContainerDataCarInCarAuctionAdminSum(
-        widthMobile: widthMobile,
-        onTap:onTap ,
-      ),
+      child: DataContainerPartFuelConsumptionRate(),
     );
   }
 }
