@@ -9,7 +9,7 @@ class ImageWithTwoText extends StatelessWidget {
   final String subTitle;
   final Color? titleColor,subTitleColor;
   final bool isSemiBold;
-  final double? textSizeTitle,textSizeSubTitle;
+  final double? textSizeTitle,textSizeSubTitle,widthImage;
     ImageWithTwoText({
      required this.imageSrc,
      required this.title,
@@ -18,7 +18,8 @@ class ImageWithTwoText extends StatelessWidget {
      this.titleColor,
       this.isSemiBold=false,
       this.textSizeSubTitle,
-      this.textSizeTitle
+      this.textSizeTitle,
+      this.widthImage
    });
 
   @override
@@ -26,7 +27,7 @@ class ImageWithTwoText extends StatelessWidget {
     return Row(
       spacing: 10,
       children: [
-        Image.asset(imageSrc, width: 50),
+        Image.asset(imageSrc, width:widthImage?? 50),
         Column(
           spacing: 5,
           crossAxisAlignment: CrossAxisAlignment.start,

@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../../../../features/dashboard/admin_sun/car_auction_admin_sun/car_auction_admin_sun/screens/data_container_in_list_data_car_auction_admin_sum.dart';
+import '../../../../../../features/dashboard/admin_sun/companies_admin_sun/all_companies_admin_sun/screens/data_container_in_list_all_companies_admin_sun.dart';
 import '../../../../../../core/theming/colors.dart';
 
-class ListDataCarAuctionAdminSum extends StatelessWidget {
-  const ListDataCarAuctionAdminSum({super.key});
+class ListDataAllCompaniesAdminSun extends StatelessWidget {
+  const ListDataAllCompaniesAdminSun({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,9 @@ class ListDataCarAuctionAdminSum extends StatelessWidget {
       decoration: BoxDecoration(
         color: AppColors.whiteColor,
         borderRadius: BorderRadius.all(Radius.circular(20)),
-        border: Border.all(color: AppColors.greyColor.withOpacity(0.3)),
+        border: Border.all(
+            color: AppColors.greyColor.withOpacity(0.3)
+        ),
         boxShadow: [
           BoxShadow(
             color: AppColors.darkColor.withOpacity(0.1),
@@ -22,7 +24,7 @@ class ListDataCarAuctionAdminSum extends StatelessWidget {
           ),
         ],
       ),
-      child: DataContainerInListDataCarAuctionAdminSum(),
+      child: DataContainerInListAllCompaniesAdminSun(),
     );
   }
 }

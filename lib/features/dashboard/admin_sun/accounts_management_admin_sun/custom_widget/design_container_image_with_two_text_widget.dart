@@ -28,41 +28,45 @@ class DesignContainerImageWithTwoTextWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsetsGeometry.all(10),
-      decoration: BoxDecoration(
-        color: AppColors.whiteColor,
-        borderRadius: BorderRadius.all(Radius.circular(20)),
-        border: Border.all(
-            color: AppColors.greyColor.withOpacity(0.3)
+    return Flexible(
+      child: Container(
+        padding: EdgeInsetsGeometry.all(10),
+        decoration: BoxDecoration(
+          color: AppColors.whiteColor,
+          borderRadius: BorderRadius.all(Radius.circular(20)),
+          border: Border.all(
+              color: AppColors.greyColor.withOpacity(0.3)
+          ),
+          boxShadow: [
+            BoxShadow(
+              color: AppColors.darkColor.withOpacity(0.1),
+              blurRadius: 4,
+              offset: const Offset(0, 2),
+            ),
+          ],
         ),
-        boxShadow: [
-          BoxShadow(
-            color: AppColors.darkColor.withOpacity(0.1),
-            blurRadius: 4,
-            offset: const Offset(0, 2),
-          ),
-        ],
-      ),
-      child: Row(
-        spacing: 10,
-        children: [
-          ContainerImageWidget(
-            imagePath:imagePath?? AppImageKeys.account_sun1,
-            color: imageContainerColor??AppColors.pinkColor,
-            isBorder: isBorder??false,
-            width:imageContainerWidth??70,
-            height:imageContainerHeight,
-          ),
-          TitleWithSubTitle(
-            title:title??'أجمالي الارصدة ' ,
-            subTitle:subTitle??'50000 ريال',
-            textSizeTitle:textSizeTitle?? 15,
-            textSizeSubTitle:textSizeSubTitle?? 14,
-            subTitleColor:subTitleColor?? AppColors.orangeColor,
-            titleColor:titleColor?? AppColors.blackColor,
-          )
-        ],
+        child: Row(
+          spacing: 10,
+          children: [
+            Flexible(
+              child: ContainerImageWidget(
+                imagePath:imagePath?? AppImageKeys.account_sun1,
+                color: imageContainerColor??AppColors.pinkColor,
+                isBorder: isBorder??false,
+                width:imageContainerWidth??70,
+                height:imageContainerHeight,
+              ),
+            ),
+            TitleWithSubTitle(
+              title:title??'أجمالي الارصدة ' ,
+              subTitle:subTitle??'50000 ريال',
+              textSizeTitle:textSizeTitle?? 15,
+              textSizeSubTitle:textSizeSubTitle?? 14,
+              subTitleColor:subTitleColor?? AppColors.orangeColor,
+              titleColor:titleColor?? AppColors.blackColor,
+            )
+          ],
+        ),
       ),
     );
   }
