@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../../../../features/dashboard/admin_sun/companies_admin_sun/all_companies_admin_sun/screens/orders_in_all_companies_admin_sum/container_orders_in_all_companies_admin_sum.dart';
 import '../../../../../../features/dashboard/admin_sun/companies_admin_sun/all_companies_admin_sun/screens/statistics_in_all_compaines_admin_sum/statistics_in_all_companies_admin_sum.dart';
 import '../../../../../../features/dashboard/admin_sun/car_auction_admin_sun/car_auction_admin_sun/screens/all_cars_admin_sum/all_cars_admin_sum.dart';
 import '../../../../../../features/dashboard/employee/communication_and_policies_pages_emp/custom_widget/tab_communication_and_policies_emp_widget.dart';
@@ -65,7 +66,7 @@ class _TabAllCompaniesAdminSunListState
 
 final List<Widget> widgetInsuranceOffers = const [
   StatisticsInAllCompaniesAdminSum(),
-  AllCarsAdminSum(),
+  ContainerOrdersInAllCompaniesAdminSum(),
   AllCarsAdminSum(),
   AllCarsAdminSum(),
   AllCarsAdminSum(),

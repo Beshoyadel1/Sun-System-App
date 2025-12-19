@@ -6,7 +6,6 @@ import '../../../../../../../../features/dashboard/admin_sun/companies_admin_sun
 
 class ListDataContainerDataRightStatisticsAdminSum extends StatelessWidget {
   const ListDataContainerDataRightStatisticsAdminSum({super.key});
-
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;

@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
 class AppColors{
+  static const Color yelloContainerLoadingColor = Color(0xffF2C513);
+  static const Color yelloIconLoadingColor = Color(0xffC49E06);
+  static const Color yelloTextLoadingColor = Color(0xffC59F04);
   static const Color purpleColor = Color(0xff905689);
   static const Color lightCyanColor = Color(0xffE6F1EF);
   static const Color lightWhiteColor = Color(0xfffcfbf7);

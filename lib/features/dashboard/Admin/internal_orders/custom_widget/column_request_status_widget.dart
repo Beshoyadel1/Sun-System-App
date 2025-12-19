@@ -9,7 +9,7 @@ import '../../../../../../../core/theming/text_styles.dart';
 class ColumnRequestStatusWidget extends StatelessWidget {
   final String? text;
   final double? textSizeContainer,textSize;
-  final bool? isAccept,isReject,isNewOrder,isTruck,isPaidSuccess,isServiceProvider,isActive,isInActive;
+  final bool? isAccept,isReject,isNewOrder,isTruck,isPaidSuccess,isServiceProvider,isActive,isInActive,isWaitingForApproval;
   const ColumnRequestStatusWidget({
     super.key,
     this.isAccept=false,
@@ -20,6 +20,7 @@ class ColumnRequestStatusWidget extends StatelessWidget {
     this.isServiceProvider=false,
     this.isActive=false,
     this.isInActive=false,
+    this.isWaitingForApproval=false,
     this.text,
     this.textSizeContainer,
     this.textSize
@@ -46,6 +47,7 @@ class ColumnRequestStatusWidget extends StatelessWidget {
           isPaidSuccess:isPaidSuccess,
           isActive:isActive ,
           isInActive:isInActive ,
+          isWaitingForApproval:isWaitingForApproval,
           textSize:textSizeContainer,
         )
       ],

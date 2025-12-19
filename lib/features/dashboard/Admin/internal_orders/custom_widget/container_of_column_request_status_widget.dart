@@ -6,7 +6,7 @@ import '../../../../../../../core/theming/fonts.dart';
 import '../../../../../../../core/theming/text_styles.dart';
 
 class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
-  final bool? isAccept,isReject,isNewOrder,isTruck,isPaidSuccess,isServiceProvider,isActive,isInActive;
+  final bool? isAccept,isReject,isNewOrder,isTruck,isPaidSuccess,isServiceProvider,isActive,isInActive,isWaitingForApproval;
   final double? textSize;
   final String? textInSideContainer;
   const ContainerOfColumnRequestStatusWidget({
@@ -18,6 +18,7 @@ class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
     this.isPaidSuccess=false,
     this.isServiceProvider=false,
     this.isActive=false,
+    this.isWaitingForApproval=false,
     this.isInActive=false,
     this.textSize,
     this.textInSideContainer,
@@ -31,6 +32,7 @@ class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
         color:isNewOrder!?AppColors.blackColor25:
         (isReject!||isInActive!)?AppColors.partPinkMixColor.withOpacity(0.1)
             :(isAccept!||isPaidSuccess!||isServiceProvider!||isActive!)? AppColors.partGreenMixColor.withOpacity(0.1):
+        isWaitingForApproval!?AppColors.yelloContainerLoadingColor.withOpacity(0.2):
         isTruck!?AppColors.lightGreenColor:
         AppColors.pinkColor,
         borderRadius: BorderRadius.all(Radius.circular(20)),
@@ -42,12 +44,14 @@ class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
             isNewOrder!?Icons.file_open_outlined:
             (isReject!||isInActive!)? Icons.close:
             (isAccept!||isPaidSuccess!||isServiceProvider!||isActive!)? Icons.done:
+            isWaitingForApproval!?Icons.autorenew:
             isTruck!?Icons.airport_shuttle_outlined:
             Icons.settings,
             size: 15,
             color:isNewOrder!?AppColors.blackColor44:
             (isReject!||isInActive!)? AppColors.redColor:
             (isAccept!||isPaidSuccess!||isServiceProvider!||isActive!)? AppColors.greenColor:
+            isWaitingForApproval!?AppColors.yelloIconLoadingColor:
             isTruck!? AppColors.blueColor:
             AppColors.orangeColor,
           ),
@@ -60,6 +64,7 @@ class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
               isServiceProvider!?AppLanguageKeys.serviceProvider:
               isActive!?AppLanguageKeys.active:
               isInActive!?AppLanguageKeys.inactive:
+              isWaitingForApproval!?AppLanguageKeys.waitingForApproval:
               isTruck!?AppLanguageKeys.onTheWay:
               AppLanguageKeys.underService,
               textSize: textSize??9,
@@ -67,6 +72,7 @@ class ContainerOfColumnRequestStatusWidget extends StatelessWidget {
               textColor:isNewOrder!?AppColors.blackColor44:
               (isReject!||isInActive!)? AppColors.redColor:
               (isAccept!||isPaidSuccess!||isServiceProvider!||isActive!)? AppColors.greenColor:
+              isWaitingForApproval!?AppColors.yelloTextLoadingColor:
               isTruck!? AppColors.blueColor:
               AppColors.orangeColor,
             ),

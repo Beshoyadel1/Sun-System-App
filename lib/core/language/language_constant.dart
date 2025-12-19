@@ -1,5 +1,7 @@
 class AppLanguageKeys {
   ////dashboard////
+  static const String waitingForApproval = 'waitingForApproval';
+
   static const String drivers = 'drivers';
 
   static const String serviceProvider = 'serviceProvider';

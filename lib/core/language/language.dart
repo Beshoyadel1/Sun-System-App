@@ -15,6 +15,8 @@ class AppLocalizations {
   static final Map<String, Map<String, String>> _localizedValues = {
     'ar': {
       ////dashboard////
+      AppLanguageKeys.waitingForApproval: 'انتظار الموافقة',
+
       AppLanguageKeys.drivers: 'السائقين',
       AppLanguageKeys.serviceProvider: 'مزود الخدمة',
 
@@ -701,6 +703,8 @@ class AppLocalizations {
     },
     'en': {
       ////dashboard////
+      AppLanguageKeys.waitingForApproval: 'Waiting for Approval',
+
       AppLanguageKeys.drivers: 'Drivers',
 
       AppLanguageKeys.serviceProvider: 'Service Provider',
