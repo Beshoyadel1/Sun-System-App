@@ -1,5 +1,6 @@
 class AppLanguageKeys {
   ////dashboard////
+  static const String establishmentOrders = 'establishmentOrders';
   static const String waitingForApproval = 'waitingForApproval';
 
   static const String drivers = 'drivers';
