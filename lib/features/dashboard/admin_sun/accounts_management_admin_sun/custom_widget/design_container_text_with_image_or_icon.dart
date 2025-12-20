@@ -9,8 +9,8 @@ import '../../../../../../core/theming/colors.dart';
 class DesignContainerTextWithImageOrIcon extends StatelessWidget {
   final void Function()? onTap;
   final String? imagePath,text;
-  final double? textSize;
-  final Color? textColor,iconColor,containerColor;
+  final double? textSize,vertical,horizontal;
+  final Color? textColor,iconColor,containerColor,borderColor;
   final IconData? iconData;
   const DesignContainerTextWithImageOrIcon({
     super.key,
@@ -22,6 +22,9 @@ class DesignContainerTextWithImageOrIcon extends StatelessWidget {
     this.textSize,
     this.iconData,
     this.iconColor,
+    this.borderColor,
+    this.vertical,
+    this.horizontal
   });
 
   @override
@@ -29,10 +32,13 @@ class DesignContainerTextWithImageOrIcon extends StatelessWidget {
     return InkWell(
       onTap:onTap,
       child: Container(
-        padding: EdgeInsets.symmetric(vertical: 7,horizontal: 12),
+        padding: EdgeInsets.symmetric(vertical: vertical??7,horizontal:horizontal?? 12),
         decoration: BoxDecoration(
           color: containerColor??AppColors.blueColor,
           borderRadius: BorderRadius.all(Radius.circular(20)),
+          border: Border.all(
+            color: borderColor??AppColors.transparent,
+          )
         ),
         child: Row(
           spacing: 5,

@@ -1,9 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../../../../features/dashboard/admin_sun/companies_admin_sun/all_companies_admin_sun/screens/drivers_in_all_companies_admin_sum/drivers_in_all_companies_admin_sum.dart';
+import '../../../../../../features/dashboard/admin_sun/companies_admin_sun/all_companies_admin_sun/screens/vehicles_in_all_companies_admin_sum/vehicles_in_all_companies_admin_sum.dart';
+import '../../../../../../features/dashboard/admin_sun/companies_admin_sun/all_companies_admin_sun/screens/facility_data_in_all_companies_admin_sum/facility_data_in_all_companies_admin_sum.dart';
 import '../../../../../../features/dashboard/admin_sun/companies_admin_sun/all_companies_admin_sun/screens/orders_in_all_companies_admin_sum/container_orders_in_all_companies_admin_sum.dart';
 import '../../../../../../features/dashboard/admin_sun/companies_admin_sun/all_companies_admin_sun/screens/statistics_in_all_compaines_admin_sum/statistics_in_all_companies_admin_sum.dart';
-import '../../../../../../features/dashboard/admin_sun/car_auction_admin_sun/car_auction_admin_sun/screens/all_cars_admin_sum/all_cars_admin_sum.dart';
 import '../../../../../../features/dashboard/employee/communication_and_policies_pages_emp/custom_widget/tab_communication_and_policies_emp_widget.dart';
 import '../../../../../../features/insurance_new/insurance_offers_new/logic/tab_new_cubit/tab_insurance_new_offers_cubit.dart';
 import '../../../../../../features/insurance_new/insurance_offers_new/logic/tab_new_cubit/tab_insurance_new_offers_state.dart';
@@ -67,10 +69,10 @@ class _TabAllCompaniesAdminSunListState
 final List<Widget> widgetInsuranceOffers = const [
   StatisticsInAllCompaniesAdminSum(),
   ContainerOrdersInAllCompaniesAdminSum(),
-  AllCarsAdminSum(),
-  AllCarsAdminSum(),
-  AllCarsAdminSum(),
-  AllCarsAdminSum(),
+  FacilityDataInAllCompaniesAdminSum(),
+  VehiclesInAllCompaniesAdminSum(),
+  VehiclesInAllCompaniesAdminSum(),
+  DriversInAllCompaniesAdminSum(),
 ];
 final List<String> eventsNameList = [
   AppLanguageKeys.statistics,
