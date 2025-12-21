@@ -1,11 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../../../../features/dashboard/admin_sun/service_providers_sun/all_service_providers_sun/screens/statistics_in_all_service_provider_admin_sum/statistics_in_all_service_provider_admin_sum.dart';
 import '../../../../../../features/dashboard/admin_sun/service_providers_sun/all_service_providers_sun/screens/facility_data_in_all_service_provider_sum/facility_data_in_all_service_provider_sum.dart';
 import '../../../../../../features/dashboard/admin_sun/service_providers_sun/all_service_providers_sun/screens/factory_orders_in_all_service_provider_sun/factory_orders_in_all_service_provider_sun.dart';
-import '../../../../../../features/dashboard/admin_sun/companies_admin_sun/all_companies_admin_sun/screens/drivers_in_all_companies_admin_sum/drivers_in_all_companies_admin_sum.dart';
-import '../../../../../../features/dashboard/admin_sun/companies_admin_sun/all_companies_admin_sun/screens/vehicles_in_all_companies_admin_sum/vehicles_in_all_companies_admin_sum.dart';
-import '../../../../../../features/dashboard/admin_sun/companies_admin_sun/all_companies_admin_sun/screens/statistics_in_all_compaines_admin_sum/statistics_in_all_companies_admin_sum.dart';
 import '../../../../../../features/dashboard/employee/communication_and_policies_pages_emp/custom_widget/tab_communication_and_policies_emp_widget.dart';
 import '../../../../../../features/insurance_new/insurance_offers_new/logic/tab_new_cubit/tab_insurance_new_offers_cubit.dart';
 import '../../../../../../features/insurance_new/insurance_offers_new/logic/tab_new_cubit/tab_insurance_new_offers_state.dart';
@@ -67,7 +65,7 @@ class _TabAllServiceProvidersSunListState
 }
 
 final List<Widget> widgetInsuranceOffers = const [
-  StatisticsInAllCompaniesAdminSum(),
+  StatisticsInAllServiceProviderAdminSum(),
   FactoryOrdersInAllServiceProviderSun(),
   FacilityDataInAllServiceProviderSum(),
   FacilityDataInAllServiceProviderSum(),

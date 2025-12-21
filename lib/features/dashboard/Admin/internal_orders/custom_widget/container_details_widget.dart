@@ -8,10 +8,14 @@ import '../../../../../../../core/theming/text_styles.dart';
 class ContainerDetailsWidget extends StatelessWidget {
   final String? title;
   final void Function()? onTap;
+  final Color? backGroundColor,textColor,borderColor;
   const ContainerDetailsWidget({
     super.key,
     this.onTap,
-    this.title
+    this.title,
+    this.textColor,
+    this.borderColor,
+    this.backGroundColor
   });
 
   @override
@@ -21,10 +25,10 @@ class ContainerDetailsWidget extends StatelessWidget {
       child: Container(
         padding: EdgeInsetsGeometry.symmetric(vertical: 5,horizontal: 15),
         decoration: BoxDecoration(
-          color: AppColors.whiteColor,
+          color: backGroundColor??AppColors.whiteColor,
           borderRadius: BorderRadius.all(Radius.circular(20)),
           border: Border.all(
-              color: AppColors.orangeColor
+              color: borderColor??AppColors.orangeColor
           ),
           boxShadow: [
             BoxShadow(
@@ -39,7 +43,7 @@ class ContainerDetailsWidget extends StatelessWidget {
             text:title??AppLanguageKeys.details,
             textSize: 12,
             fontWeightIndex: FontSelectionData.regularFontFamily,
-            textColor:AppColors.orangeColor,
+            textColor:textColor??AppColors.orangeColor,
           ),
         ),
       ),

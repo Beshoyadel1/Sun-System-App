@@ -11,7 +11,7 @@ class DataContainerPartAutomotiveServiceAndMaintenanceStatisticsAllCompanies ext
     return Padding(
       padding: const EdgeInsets.all(15.0),
       child: Column(
-        spacing: 30,
+        spacing: 20,
         children: [
           TitleContainerAutomotiveServiceAndMaintenanceStatisticsInAllCompanies(),
           DesignChartAutomotiveServiceAndMaintenanceStatisticsInAllCompanies(),

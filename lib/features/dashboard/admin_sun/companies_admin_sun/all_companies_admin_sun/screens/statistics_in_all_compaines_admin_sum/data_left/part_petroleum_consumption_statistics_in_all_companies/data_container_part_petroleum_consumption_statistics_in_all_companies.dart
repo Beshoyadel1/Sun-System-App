@@ -12,7 +12,7 @@ class DataContainerPartPetroleumConsumptionStatisticsInAllCompanies extends Stat
     return Padding(
       padding: const EdgeInsets.all(15.0),
       child: Column(
-        spacing: 30,
+        spacing: 20,
         children: [
           TitleContainerPartPetroleumConsumptionStatisticsInAllCompanies(),
           DesignChartFuelConsumptionAllCompanies(percentage: 67),

@@ -10,8 +10,8 @@ class DesignChartAutomotiveServiceAndMaintenanceStatisticsInAllCompanies extends
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 220,
-      height: 220,
+      width: 200,
+      height: 200,
       child: CustomPaint(
         painter: CircularSegmentPainter(),
         child: const Center(
@@ -21,13 +21,13 @@ class DesignChartAutomotiveServiceAndMaintenanceStatisticsInAllCompanies extends
             children: [
               TextInAppWidget(
                 text: '\$ 200.00',
-                textSize: 18,
+                textSize: 15,
                 fontWeightIndex: FontSelectionData.semiBoldFontFamily,
                 textColor:AppColors.orangeColor,
               ),
               TextInAppWidget(
                 text: 'إجمالي الفواتير',
-                textSize: 18,
+                textSize: 15,
                 fontWeightIndex: FontSelectionData.semiBoldFontFamily,
                 textColor:AppColors.blackColor,
               ),
@@ -43,7 +43,7 @@ class CircularSegmentPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final center = Offset(size.width / 2, size.height / 2);
-    final radius = size.width / 2 - 12;
+    final radius = size.width / 2 - 15;
 
     const strokeWidth = 18.0;
     const gap = 0.25;

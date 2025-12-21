@@ -8,13 +8,15 @@ class RowNumberCoinWidget extends StatelessWidget {
   final String numberText,imageSrc;
   final double sizeText;
   final MainAxisAlignment? mainAxisAlignment;
-
+  final Color? textColor,imageColor;
    RowNumberCoinWidget({
      super.key,
      required this.numberText,
      required this.sizeText,
      required this.imageSrc,
      this.mainAxisAlignment,
+     this.textColor,
+     this.imageColor
    });
 
   @override
@@ -27,9 +29,9 @@ class RowNumberCoinWidget extends StatelessWidget {
           text: numberText,
           textSize: sizeText,
           fontWeightIndex: FontSelectionData.mediumFontFamily,
-          textColor: AppColors.orangeColor,
+          textColor: textColor??AppColors.orangeColor,
         ),
-        Image.asset(imageSrc)
+        Image.asset(imageSrc,color: imageColor??AppColors.orangeColor,)
       ],
     );
   }

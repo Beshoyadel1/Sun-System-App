@@ -10,7 +10,7 @@ class SelectTimeProfitServiceWidget extends StatefulWidget {
   final List<String>? options;
   final bool isTime;
   final Color? backGroundColor, textColor,borderColor;
-  final double? height, width,borderRadius;
+  final double? height, width,borderRadius,textSize;
 
   const SelectTimeProfitServiceWidget({
     super.key,
@@ -23,6 +23,7 @@ class SelectTimeProfitServiceWidget extends StatefulWidget {
     this.height,
     this.borderColor,
     this.borderRadius,
+    this.textSize
   });
 
   @override
@@ -85,7 +86,7 @@ class _SelectTimeProfitServiceWidgetState extends State<SelectTimeProfitServiceW
                         text: textFormController.text.isEmpty
                             ? widget.hint
                             : textFormController.text,
-                        textSize: 13,
+                        textSize: widget.textSize??13,
                         fontWeightIndex:
                         FontSelectionData.regularFontFamily,
                         textColor:
@@ -94,7 +95,7 @@ class _SelectTimeProfitServiceWidgetState extends State<SelectTimeProfitServiceW
                     ),
                     Icon(Icons.calendar_today,
                         color: widget.textColor ?? AppColors.whiteColor,
-                        size: 16),
+                        size: widget.textSize??13),
                   ],
                 )
                     : DropdownButtonHideUnderline(
@@ -117,7 +118,7 @@ class _SelectTimeProfitServiceWidgetState extends State<SelectTimeProfitServiceW
                         value: option,
                         child: TextInAppWidget(
                           text: option,
-                          textSize: 13,
+                          textSize: widget.textSize??13,
                           fontWeightIndex:
                           FontSelectionData.regularFontFamily,
                           textColor: widget.textColor ??

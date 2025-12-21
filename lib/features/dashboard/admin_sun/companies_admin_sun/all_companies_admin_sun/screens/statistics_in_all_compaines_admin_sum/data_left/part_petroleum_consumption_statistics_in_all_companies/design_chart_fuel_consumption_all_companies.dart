@@ -20,8 +20,8 @@ class DesignChartFuelConsumptionAllCompanies extends StatelessWidget {
     final double gap = 100 - maxArc; // bottom opening
 
     return SizedBox(
-      width: 180,
-      height: 180,
+      width: 100,
+      height: 150,
       child: Stack(
         alignment: Alignment.bottomCenter,
         children: [
@@ -29,7 +29,7 @@ class DesignChartFuelConsumptionAllCompanies extends StatelessWidget {
             PieChartData(
               startDegreeOffset: 135,
               sectionsSpace: 0,
-              centerSpaceRadius: 70,
+              centerSpaceRadius: 60,
               sections: [
                 PieChartSectionData(
                   value: filled,
@@ -56,7 +56,7 @@ class DesignChartFuelConsumptionAllCompanies extends StatelessWidget {
           // Percentage text
           TextInAppWidget(
             text:'${percentage.toInt()}%',
-            textSize: 30,
+            textSize: 25,
             fontWeightIndex: FontSelectionData.semiBoldFontFamily,
             textColor:AppColors.greyColor,
           ),
