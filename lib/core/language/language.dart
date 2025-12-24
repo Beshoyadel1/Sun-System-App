@@ -38,7 +38,7 @@ class AppLocalizations {
       AppLanguageKeys.carSold: 'تم بيع السيارة',
 
       AppLanguageKeys.carsList:
-          'قائمة السيارات من السيارات الحالية والمباعة سابقاً',
+      'قائمة السيارات من السيارات الحالية والمباعة سابقاً',
       AppLanguageKeys.allCars: 'جميع السيارات',
       AppLanguageKeys.newCars: 'سيارات جديدة',
       AppLanguageKeys.usedCars: 'سيارات مستعملة',
@@ -50,10 +50,10 @@ class AppLocalizations {
       AppLanguageKeys.brandNew: 'جديد',
 
       AppLanguageKeys.yourPerfectPlatform:
-          'منصتك المثالية للوصول إلى العملاء وزيادة حجوزات مركزك بخدمات السيارات',
+      'منصتك المثالية للوصول إلى العملاء وزيادة حجوزات مركزك بخدمات السيارات',
       AppLanguageKeys.employeesLogin: 'تسجيل الدخول للموظفين',
       AppLanguageKeys.enterPhoneAndPassword:
-          'برجاء ادخال رقم الهاتف وكلمة المرور',
+      'برجاء ادخال رقم الهاتف وكلمة المرور',
 
       AppLanguageKeys.writeYourMessageHere: 'اكتب رسالتك هنا',
 
@@ -70,11 +70,11 @@ class AppLocalizations {
 
       AppLanguageKeys.commercialRecordCertificate: 'شهادة السجل التجاري',
       AppLanguageKeys.ownerIdOrResidenceCard:
-          'بطاقة الهوية أو إقامة صاحب الشركة',
+      'بطاقة الهوية أو إقامة صاحب الشركة',
       AppLanguageKeys.establishmentManagement: 'إدارة المنشأة',
       AppLanguageKeys.establishmentData: 'بيانات المنشأة',
       AppLanguageKeys.fillEstablishmentAccountData:
-          'قم بملئ بيانات حساب المنشأة',
+      'قم بملئ بيانات حساب المنشأة',
       AppLanguageKeys.identity: 'الهوية',
       AppLanguageKeys.branches: 'الفروع',
       AppLanguageKeys.workingHours: 'مواعيد العمل',
@@ -94,17 +94,17 @@ class AppLocalizations {
       AppLanguageKeys.allSoldProducts: 'جميع المنتجات المباعة',
       AppLanguageKeys.allDisplayedProducts: 'جميع المنتجات المعروضة',
       AppLanguageKeys.availableDisplayedList:
-          'قائمة المنتجات المعروضة المتاحة للبيع في المحطات',
+      'قائمة المنتجات المعروضة المتاحة للبيع في المحطات',
       AppLanguageKeys.addNewOil: 'إضافة زيت جديد',
       AppLanguageKeys.saleDate: 'تاريخ البيع',
       AppLanguageKeys.productPrice: 'سعر المنتج',
 
       AppLanguageKeys.allFillingOrders: 'جميع طلبات التعبئة',
       AppLanguageKeys.fillingOrdersSalesForAllBranches:
-          'مبيعات من طلبات التعبئة لجميع الفروع',
+      'مبيعات من طلبات التعبئة لجميع الفروع',
       AppLanguageKeys.fuelFillingSalesPerBranch: 'مبيعات تعبئة الوقود لكل فرع',
       AppLanguageKeys.addDifferentServices:
-          'اضافة خدمات مختلف مع اكثر من باقه مختلفة',
+      'اضافة خدمات مختلف مع اكثر من باقه مختلفة',
       AppLanguageKeys.specialPackage: 'باقة مميزة',
       AppLanguageKeys.packageName: 'اسم الباقة',
       AppLanguageKeys.packageDescription: 'وصف الخدمات داخل الباقة',
@@ -116,7 +116,7 @@ class AppLocalizations {
 
       AppLanguageKeys.addSparePart: 'إضافة قطع غيار',
       AppLanguageKeys.addSparePartDetails:
-          'اضافة قطع غيار من حيث نوع الفئة وتفاصيل المنتج',
+      'اضافة قطع غيار من حيث نوع الفئة وتفاصيل المنتج',
       AppLanguageKeys.allCategoriesIncluded: 'شامل لكل الفئات',
       AppLanguageKeys.specificCategory: 'خاص بفئة',
       AppLanguageKeys.partName: 'اسم القطعة',
@@ -124,8 +124,9 @@ class AppLocalizations {
       AppLanguageKeys.price: 'السعر',
       AppLanguageKeys.sparePartImage: 'صورة قطعه الغيار',
       AppLanguageKeys.writeText: 'كتابة نص',
+
       AppLanguageKeys.imageSizeNote:
-          'المقاس لا يقل عن (100px ارتفاع * 250px عرض) من نوع (jpg, jpeg, png, gif) ولا يتجاوز 5 ميجابيت لكل صوره بحد اقصي 10 صور',
+      'المقاس لا يقل عن (100px ارتفاع * 250px عرض) من نوع (jpg, jpeg, png, gif) ولا يتجاوز 5 ميجابيت لكل صوره بحد اقصي 10 صور',
       AppLanguageKeys.productDetails: 'تفاصيل المنتج',
       AppLanguageKeys.totalPartsInStock: 'اجمالي القطع في المخزون',
       AppLanguageKeys.numberOfSizesIfAvailable: 'عدد المقاسات ان وجدت',
@@ -134,9 +135,9 @@ class AppLocalizations {
       AppLanguageKeys.towTruckRequest: 'طلب سطحة',
       AppLanguageKeys.highwayService: 'خدمة الطرق السريعة',
       AppLanguageKeys.selectCarModelByServices:
-          'حدد موديل السيارات بناء علي الخدمات التي ستقدمها لعملائك',
+      'حدد موديل السيارات بناء علي الخدمات التي ستقدمها لعملائك',
       AppLanguageKeys.multipleCarSelectionNote:
-          'يمكنك تحديد سيارات مختلفة في أن واحد',
+      'يمكنك تحديد سيارات مختلفة في أن واحد',
       AppLanguageKeys.searchCarModel: 'يمكنك البحث لاختيار موديل السيارة',
       AppLanguageKeys.chooseCategory: 'أختر الفئة',
       AppLanguageKeys.selectModelYears: 'حدد سنوات الموديل',
@@ -146,13 +147,13 @@ class AppLocalizations {
       AppLanguageKeys.transferCarToAnotherUser: 'نقل السيارة لمستخدم أخر',
       AppLanguageKeys.yourPassword: 'كلمة المرور الخاص بك',
       AppLanguageKeys.newUserEmailOrPhone:
-          'الايميل أو رقم الهاتف للمستخدم الجديد',
+      'الايميل أو رقم الهاتف للمستخدم الجديد',
       AppLanguageKeys.reasonForTransfer: 'سبب لنقل الحساب',
       AppLanguageKeys.transferNotice:
-          'سيتم نقل جميع الصيانات والفواتير السابقة مع عدا الاوراق الشخصية او الرخصة الخاصة بك',
+      'سيتم نقل جميع الصيانات والفواتير السابقة مع عدا الاوراق الشخصية او الرخصة الخاصة بك',
       AppLanguageKeys.completeTransfer: 'اتمام النقل',
       AppLanguageKeys.waitingForNewUserApproval:
-          'في انتظار موافقة المستخدم الجديد لنقل السيارة',
+      'في انتظار موافقة المستخدم الجديد لنقل السيارة',
       AppLanguageKeys.carTransferredToNewOwner: 'تم نقل السيارة للمالك أخر',
       AppLanguageKeys.transferYourNewCar: 'نقل سيارتك الجديدة',
 
@@ -173,7 +174,7 @@ class AppLocalizations {
       AppLanguageKeys.allChanges: 'جميع الغيارات',
       AppLanguageKeys.allReviews: 'جميع التقييمات',
       AppLanguageKeys.reviewsListForAllServices:
-          'قائمة التقييمات لجميع الخدمات',
+      'قائمة التقييمات لجميع الخدمات',
       AppLanguageKeys.totalReviews: 'اجمالي التقييمات',
 
       AppLanguageKeys.providersTermsAndConditions: '''
@@ -214,9 +215,9 @@ class AppLocalizations {
 يتم إخطار المزودين بالتعديلات عبر المنصة أو البريد الإلكتروني.
 ''',
       AppLanguageKeys.providersPrivacyPolicy:
-          "سياسة الخصوصية لمراكز السيارات (المزودين الخدميين)\n\n1. جمع المعلومات\nنقوم بجمع البيانات الأساسية الخاصة بالمراكز المزودة للخدمة مثل:\n- معلومات المركز (الاسم التجاري – الموقع – نوع الخدمات).\n- بيانات التواصل (الهاتف – البريد الإلكتروني).\n- بيانات الحساب (اسم المستخدم – كلمة المرور).\n\n2. استخدام المعلومات\nتُستخدم المعلومات فقط من أجل:\n- إنشاء الحساب وتفعيله.\n- إدارة الطلبات والخدمات.\n- التواصل بين المركز والعميل.\n- تحسين جودة الخدمة وتجربة الاستخدام.\n\n3. مشاركة المعلومات\nلا تتم مشاركة بيانات المزودين مع أي طرف ثالث خارج نطاق المنصة، إلا إذا كان ذلك مطلوبًا قانونيًا.\nبعض المعلومات مثل اسم المركز والخدمات متاحة للعملاء لتمكينهم من اختيار الخدمة.\n\n4. حماية البيانات\nنلتزم بحماية بيانات المزودين من أي وصول غير مصرح به عبر أنظمة آمنة وتشفير المعلومات الحساسة.\n\n5. حقوق المزود\n- الاطلاع على بياناته المسجلة وتحديثها.\n- طلب حذف الحساب من المنصة.\n- تقديم ملاحظات أو شكاوى بخصوص إدارة البيانات.\n\n6. التعديلات على السياسة\nقد نقوم بتحديث سياسة الخصوصية من وقت لآخر، وسيتم إخطار المزودين عند وجود أي تغييرات جوهرية.",
+      "سياسة الخصوصية لمراكز السيارات (المزودين الخدميين)\n\n1. جمع المعلومات\nنقوم بجمع البيانات الأساسية الخاصة بالمراكز المزودة للخدمة مثل:\n- معلومات المركز (الاسم التجاري – الموقع – نوع الخدمات).\n- بيانات التواصل (الهاتف – البريد الإلكتروني).\n- بيانات الحساب (اسم المستخدم – كلمة المرور).\n\n2. استخدام المعلومات\nتُستخدم المعلومات فقط من أجل:\n- إنشاء الحساب وتفعيله.\n- إدارة الطلبات والخدمات.\n- التواصل بين المركز والعميل.\n- تحسين جودة الخدمة وتجربة الاستخدام.\n\n3. مشاركة المعلومات\nلا تتم مشاركة بيانات المزودين مع أي طرف ثالث خارج نطاق المنصة، إلا إذا كان ذلك مطلوبًا قانونيًا.\nبعض المعلومات مثل اسم المركز والخدمات متاحة للعملاء لتمكينهم من اختيار الخدمة.\n\n4. حماية البيانات\nنلتزم بحماية بيانات المزودين من أي وصول غير مصرح به عبر أنظمة آمنة وتشفير المعلومات الحساسة.\n\n5. حقوق المزود\n- الاطلاع على بياناته المسجلة وتحديثها.\n- طلب حذف الحساب من المنصة.\n- تقديم ملاحظات أو شكاوى بخصوص إدارة البيانات.\n\n6. التعديلات على السياسة\nقد نقوم بتحديث سياسة الخصوصية من وقت لآخر، وسيتم إخطار المزودين عند وجود أي تغييرات جوهرية.",
       AppLanguageKeys.aboutSunIntro:
-          "صن هو منصّة رقمية متخصصة في ربط أصحاب السيارات بمراكز الصيانة والخدمات المعتمدة. نهدف إلى تسهيل وصول العملاء إلى خدماتك وزيادة فرص مركزك في النمو، من خلال إدارة الطلبات بشكل منظم واحترافي عبر منصّة موثوقة وسهلة الاستخدام.\n\nمع صن، تحصل مراكز السيارات على:\n- قاعدة عملاء أوسع.\n- إدارة سهلة للطلبات والخدمات.\n- متابعة دقيقة للتقييمات والأداء.\n- فرص أكبر لزيادة الإيرادات وتوسيع النشاط.",
+      "صن هو منصّة رقمية متخصصة في ربط أصحاب السيارات بمراكز الصيانة والخدمات المعتمدة. نهدف إلى تسهيل وصول العملاء إلى خدماتك وزيادة فرص مركزك في النمو، من خلال إدارة الطلبات بشكل منظم واحترافي عبر منصّة موثوقة وسهلة الاستخدام.\n\nمع صن، تحصل مراكز السيارات على:\n- قاعدة عملاء أوسع.\n- إدارة سهلة للطلبات والخدمات.\n- متابعة دقيقة للتقييمات والأداء.\n- فرص أكبر لزيادة الإيرادات وتوسيع النشاط.",
 
       AppLanguageKeys.contactAndPoliciesPages: 'صفحات التواصل والسياسات',
       AppLanguageKeys.contactUs: 'تواصل معنا',
@@ -260,7 +261,7 @@ class AppLocalizations {
 
       AppLanguageKeys.addNewUser: 'أضافة مستخدم جديد',
       AppLanguageKeys.userPermissionsSettings:
-          'إعدادات صلاحيات المستخدمين داخل النظام',
+      'إعدادات صلاحيات المستخدمين داخل النظام',
       AppLanguageKeys.employeeName: 'أسم الموظف',
       AppLanguageKeys.jobTitle: 'اسم الوظيفة',
       AppLanguageKeys.accountStatus: 'حالة الحساب',
@@ -276,13 +277,13 @@ class AppLocalizations {
       AppLanguageKeys.permissionsManagement: 'ادارة الصلاحيات',
       AppLanguageKeys.organizationManagement: 'ادارة المنشأة',
       AppLanguageKeys.permissionsFromServices:
-          'صلاحيات من الخدمات التي يحصل عليها المستخدم',
+      'صلاحيات من الخدمات التي يحصل عليها المستخدم',
       AppLanguageKeys.maintenanceServices: 'خدمات الصيانة',
 
       AppLanguageKeys.nissanServiceSettings:
-          'اعدادات الخدمات الخاص بالسيارات نيسان',
+      'اعدادات الخدمات الخاص بالسيارات نيسان',
       AppLanguageKeys.serviceSettingsDetails:
-          'اعدادات الخدمات من حيث نوع الخدمة والاسعار والباقات المشتركة',
+      'اعدادات الخدمات من حيث نوع الخدمة والاسعار والباقات المشتركة',
       AppLanguageKeys.backToSettings: 'رجوع للصفحة الاعدادت',
       AppLanguageKeys.internalServices: ' خدمات داخلية',
       AppLanguageKeys.addServices: 'إضافة الخدمات',
@@ -323,7 +324,7 @@ class AppLocalizations {
       AppLanguageKeys.sendRequest: 'إرسال الطلب',
       AppLanguageKeys.requestAccepted: 'تم قبول الطلب',
       AppLanguageKeys.highwayServiceCompleted:
-          'تم الانتهاء من خدمة الطرق السريعة',
+      'تم الانتهاء من خدمة الطرق السريعة',
       AppLanguageKeys.searchYourAddress: 'بحث عنوانك',
       AppLanguageKeys.confirmCarLocation: 'تأكيد موقع سيارتك',
       AppLanguageKeys.pleaseSelectCarLocation: 'برجاء قم بتتحديد مكان سيارتك',
@@ -394,9 +395,9 @@ class AppLocalizations {
       AppLanguageKeys.openMap: 'فتح الخريطة',
       AppLanguageKeys.payBill: 'دفع فاتورة',
       AppLanguageKeys.brakeRepair:
-          'إصلاح نظام الفرامل (تغيير الفحمات - تيل الفرامل)',
+      'إصلاح نظام الفرامل (تغيير الفحمات - تيل الفرامل)',
       AppLanguageKeys.electricalRepair:
-          'إصلاح عطل كهربائي في الأنوار أو العدادات',
+      'إصلاح عطل كهربائي في الأنوار أو العدادات',
       AppLanguageKeys.totalServices: 'إجمالي الخدمات',
       AppLanguageKeys.mobileService: 'خدمة متنقلة',
       AppLanguageKeys.serviceRequest: 'طلب الخدمة',
@@ -438,7 +439,7 @@ class AppLocalizations {
       AppLanguageKeys.redeemPointsService: 'خصم نقاط لاستخدمها في خدمة',
       AppLanguageKeys.rechargeFromVisaPoints: 'شحن رصيد من رقم فيز 555',
       AppLanguageKeys.inviteFriendText:
-          'ارسل الكود لصديقك واحصل علي 50 ريال عند الاشتراك لأول مره',
+      'ارسل الكود لصديقك واحصل علي 50 ريال عند الاشتراك لأول مره',
       AppLanguageKeys.referralCode: 'الكود',
       AppLanguageKeys.copyCode: 'نسخ الكود',
       AppLanguageKeys.shareLink: 'مشاركة الرابط',
@@ -450,15 +451,15 @@ class AppLocalizations {
       ////Warranty////
       AppLanguageKeys.warrantyPeriod: 'لمدة 5 سنوات',
       AppLanguageKeys.warrantyServiceCenters:
-          'الاستفادة من ضمان الخدمات عبر مراكزنا المعتمدة',
+      'الاستفادة من ضمان الخدمات عبر مراكزنا المعتمدة',
       AppLanguageKeys.warrantyCarsMarket:
-          'ضمان السيارات من بيع وشراء في حراج السيارات',
+      'ضمان السيارات من بيع وشراء في حراج السيارات',
       AppLanguageKeys.warrantyFreeMaintenance:
-          'تقديم خدمات صيانة مجانية طوال فترة الضمان',
+      'تقديم خدمات صيانة مجانية طوال فترة الضمان',
       AppLanguageKeys.warrantySubscription: 'اشتراك في الضمان',
       AppLanguageKeys.balanceChargedSuccessfully: 'تم شحن الرصيد بنجاح',
       AppLanguageKeys.showServicesAtApprovedCenters:
-          'عرض الخدمات في المراكز المعتمدة',
+      'عرض الخدمات في المراكز المعتمدة',
 
       ////End////
       ////Profile////
@@ -554,12 +555,12 @@ class AppLocalizations {
       AppLanguageKeys.annualPayment: 'دفعة سنوية',
       AppLanguageKeys.cooperativeInsurance: 'التعاونية للتأمينات السيارات',
       AppLanguageKeys.enterPolicyData:
-          'أدخل بيانات الوثيقة لاظهار الدفعات المستحقة',
+      'أدخل بيانات الوثيقة لاظهار الدفعات المستحقة',
       AppLanguageKeys.policyNumber: 'رقم وثيقة التأمين',
       AppLanguageKeys.identityVerification: 'التحقق من الهوية',
       AppLanguageKeys.checkAbsherAccount: 'تحقق في حساب نفاذ الوطني',
       AppLanguageKeys.loginViaAbsher:
-          'الدخول الي حساب النفاذ عبر النفاذ الوطني الموحد',
+      'الدخول الي حساب النفاذ عبر النفاذ الوطني الموحد',
       AppLanguageKeys.nationalIdOrIqama: 'رقم الهوية الوطنية / رقم الإقامة',
       AppLanguageKeys.verifyAbsher: 'التحقق من النفاذ',
       AppLanguageKeys.yourInsuranceData: 'بيانات التأمين الخاصة بك',
@@ -601,16 +602,16 @@ class AppLocalizations {
       AppLanguageKeys.emergencyService: 'خدمة الطوارئ',
       AppLanguageKeys.buyingAndSellingCars: 'بيع وشراء سيارات',
       AppLanguageKeys.listYourCarInASafeAndReliableAuctionWithSan:
-          'اعرض سيارتك في مزاد آمن وموثوق مع صان ',
+      'اعرض سيارتك في مزاد آمن وموثوق مع صان ',
       AppLanguageKeys.highwayAssistance:
-          'المساعدة علي الطريق السريعة  على مدار الساعة اينما كنت ',
+      'المساعدة علي الطريق السريعة  على مدار الساعة اينما كنت ',
       AppLanguageKeys.weSendYouProfessional:
-          ' نرسل لك فنيين محترفين يشخصون المشكلة ويصلحونها.',
+      ' نرسل لك فنيين محترفين يشخصون المشكلة ويصلحونها.',
       AppLanguageKeys.integratedSolutions:
-          'حلول متكاملة من الضمان والتأمين لجميع الخدمات في مكان واحد',
+      'حلول متكاملة من الضمان والتأمين لجميع الخدمات في مكان واحد',
       AppLanguageKeys.login: 'تسجيل الدخول ',
       AppLanguageKeys.loginAsAnIndividualOrCompany:
-          'قم بتسجيل الدخول كأفراد او شركات',
+      'قم بتسجيل الدخول كأفراد او شركات',
       AppLanguageKeys.registerAsAnIndividual: 'تسجيل كأفراد',
       AppLanguageKeys.registerAsCompanies: 'تسجيل كشركات',
       AppLanguageKeys.orRegisterVia: 'أو تسجيل عبر',
@@ -619,7 +620,7 @@ class AppLocalizations {
       AppLanguageKeys.noAccount: 'ليس لديك حساب',
       AppLanguageKeys.registerHere: 'تسجيل هنا',
       AppLanguageKeys.pleaseEnterYourPhoneNumberAndPassword:
-          'برجاء ادخال رقم الهاتف وكلمة المرور',
+      'برجاء ادخال رقم الهاتف وكلمة المرور',
       AppLanguageKeys.phoneNumber: 'رقم الهاتف',
       AppLanguageKeys.password: 'كلمة المرور',
       AppLanguageKeys.forgotPassword: 'نسيت كلمة المرور',
@@ -630,24 +631,24 @@ class AppLocalizations {
       AppLanguageKeys.resetPassword: 'إعادة كلمة المرور',
       AppLanguageKeys.createAnAccount: 'إنشاء حساب',
       AppLanguageKeys.accountInformation:
-          'برجاء ادخال بيانات الحساب وكلمة المرور',
+      'برجاء ادخال بيانات الحساب وكلمة المرور',
       AppLanguageKeys.createAnAccountInTheNameOfACompany:
-          'انشاء حساب باسم شركة',
+      'انشاء حساب باسم شركة',
       AppLanguageKeys.confirmPin: 'تأكيد الرقم السري',
       AppLanguageKeys.pleaseEnterThePinSentToYourPhoneNumber:
-          'برجاء ادخال رقم السري التي تم ارسالها عل رقم الهاتف',
+      'برجاء ادخال رقم السري التي تم ارسالها عل رقم الهاتف',
       AppLanguageKeys.iDidNotReceiveAMessage: 'لم اتلقي رسالة',
       AppLanguageKeys.resend: 'إعادة ارسال',
       AppLanguageKeys.yourCarData: 'بيانات سيارتك',
       AppLanguageKeys.toViewYourCarsModelsServicesAndCenters:
-          'لاستعراض خدمات ومراكز الموديل سيارتك',
+      'لاستعراض خدمات ومراكز الموديل سيارتك',
       AppLanguageKeys.chooseTheCategory: 'أختر الفئة ',
       AppLanguageKeys.modelYear: 'سنة الموديل',
       AppLanguageKeys.yourCarName: 'أسم سيارتك',
       AppLanguageKeys.exampleModelName: '(مثال سيارتي الهوندا - سيارة زوجتي )',
       AppLanguageKeys.chooseYourCarModel: 'أختر موديل سيارتك',
       AppLanguageKeys.youCanSearchToSelectYourCarCategory:
-          'يمكنك البحث لاختيار فئة سيارتك',
+      'يمكنك البحث لاختيار فئة سيارتك',
       AppLanguageKeys.profile: 'الملف الشخصي',
       AppLanguageKeys.skipLater: 'تخطي لاحقا',
       AppLanguageKeys.next: 'التالي',
@@ -665,7 +666,7 @@ class AppLocalizations {
       AppLanguageKeys.transportService: 'خدمة النقل',
       AppLanguageKeys.favoriteServices: 'الخدمات المفضلة',
       AppLanguageKeys.selectFavoriteServices:
-          'يمكنك تحديد الخدمات المفضلة لدينا',
+      'يمكنك تحديد الخدمات المفضلة لدينا',
       AppLanguageKeys.chooseFavoriteServices: 'أختر الخدمات المفضلة',
       AppLanguageKeys.congratulations: 'مبروووووك, لقد حصلت علي',
       AppLanguageKeys.gift: 'هدية',
@@ -674,11 +675,11 @@ class AppLocalizations {
       AppLanguageKeys.showServicesNow: 'عرض الخدمات الأن',
       AppLanguageKeys.sunWarrantyFeatures: 'مميزات ضمان صن',
       AppLanguageKeys.warrantyCenters:
-          'الاستفادة من ضمان الخدمات عبر مراكزنا المتعمدة',
+      'الاستفادة من ضمان الخدمات عبر مراكزنا المتعمدة',
       AppLanguageKeys.carWarrantyAuction:
-          'ضمان السيارات من بيع وشراء في حراج السيارات',
+      'ضمان السيارات من بيع وشراء في حراج السيارات',
       AppLanguageKeys.freeMaintenance:
-          'تقديم خدمات صيانة مجانية طوال فترة الضمان',
+      'تقديم خدمات صيانة مجانية طوال فترة الضمان',
       AppLanguageKeys.home: 'الرئيسية',
       AppLanguageKeys.myOrders: 'طلباتي',
       AppLanguageKeys.map: 'الخريطة',
@@ -730,7 +731,7 @@ class AppLocalizations {
 
       AppLanguageKeys.filter: 'Filter',
       AppLanguageKeys.carsList:
-          'Cars list of current and previously sold vehicles',
+      'Cars list of current and previously sold vehicles',
       AppLanguageKeys.allCars: 'All Cars',
       AppLanguageKeys.newCars: 'New Cars',
       AppLanguageKeys.usedCars: 'Used Cars',
@@ -741,10 +742,10 @@ class AppLocalizations {
       AppLanguageKeys.brandNew: 'New',
 
       AppLanguageKeys.yourPerfectPlatform:
-          'Your perfect platform to reach customers and increase your car center bookings',
+      'Your perfect platform to reach customers and increase your car center bookings',
       AppLanguageKeys.employeesLogin: 'Employee Login',
       AppLanguageKeys.enterPhoneAndPassword:
-          'Please enter phone number and password',
+      'Please enter phone number and password',
 
       AppLanguageKeys.writeYourMessageHere: 'Write your message here',
 
@@ -760,12 +761,12 @@ class AppLocalizations {
       AppLanguageKeys.address: 'Address',
 
       AppLanguageKeys.commercialRecordCertificate:
-          'Commercial Registration Certificate',
+      'Commercial Registration Certificate',
       AppLanguageKeys.ownerIdOrResidenceCard: 'Owner ID or Residence Card',
       AppLanguageKeys.establishmentManagement: 'Establishment Management',
       AppLanguageKeys.establishmentData: 'Establishment Data',
       AppLanguageKeys.fillEstablishmentAccountData:
-          'Fill in the establishment account data',
+      'Fill in the establishment account data',
       AppLanguageKeys.identity: 'Identity',
       AppLanguageKeys.branches: 'Branches',
       AppLanguageKeys.workingHours: 'Working Hours',
@@ -784,21 +785,21 @@ class AppLocalizations {
       AppLanguageKeys.allSoldProducts: 'All Sold Products',
       AppLanguageKeys.allDisplayedProducts: 'All Displayed Products',
       AppLanguageKeys.availableDisplayedList:
-          'Displayed Products Available for Sale at Stations',
+      'Displayed Products Available for Sale at Stations',
       AppLanguageKeys.addNewOil: 'Add New Oil',
       AppLanguageKeys.saleDate: 'Sale Date',
       AppLanguageKeys.productPrice: 'Product Price',
       AppLanguageKeys.allFillingOrders: 'All Filling Orders',
       AppLanguageKeys.fillingOrdersSalesForAllBranches:
-          'Sales from Filling Orders for All Branches',
+      'Sales from Filling Orders for All Branches',
       AppLanguageKeys.fuelFillingSalesPerBranch:
-          'Fuel Filling Sales Per Branch',
+      'Fuel Filling Sales Per Branch',
       AppLanguageKeys.addDifferentServices:
-          'Add different services with multiple package types',
+      'Add different services with multiple package types',
       AppLanguageKeys.specialPackage: 'Special Package',
       AppLanguageKeys.packageName: 'Package Name',
       AppLanguageKeys.packageDescription:
-          'Description of services in the package',
+      'Description of services in the package',
       AppLanguageKeys.servicesIncluded: 'Services included in the package',
 
       AppLanguageKeys.delete: 'Delete',
@@ -807,7 +808,7 @@ class AppLocalizations {
 
       AppLanguageKeys.addSparePart: 'Add Spare Part',
       AppLanguageKeys.addSparePartDetails:
-          'Add spare parts by category type and product details',
+      'Add spare parts by category type and product details',
       AppLanguageKeys.allCategoriesIncluded: 'Included for all categories',
       AppLanguageKeys.specificCategory: 'Specific to category',
       AppLanguageKeys.partName: 'Part Name',
@@ -816,19 +817,19 @@ class AppLocalizations {
       AppLanguageKeys.sparePartImage: 'Spare Part Image',
       AppLanguageKeys.writeText: 'Write Text',
       AppLanguageKeys.imageSizeNote:
-          'Image size must not be less than (100px height * 250px width), formats (jpg, jpeg, png, gif), max 5MB per image, up to 10 images.',
+      'Image size must not be less than (100px height * 250px width), formats (jpg, jpeg, png, gif), max 5MB per image, up to 10 images.',
       AppLanguageKeys.productDetails: 'Product Details',
       AppLanguageKeys.totalPartsInStock: 'Total Parts in Stock',
       AppLanguageKeys.numberOfSizesIfAvailable:
-          'Number of Sizes (if available)',
+      'Number of Sizes (if available)',
 
       AppLanguageKeys.mobileServices: 'Mobile Services',
       AppLanguageKeys.towTruckRequest: 'Tow Truck Request',
       AppLanguageKeys.highwayService: 'Highway Service',
       AppLanguageKeys.selectCarModelByServices:
-          'Select car models based on the services you offer to your customers',
+      'Select car models based on the services you offer to your customers',
       AppLanguageKeys.multipleCarSelectionNote:
-          'You can select multiple cars at once',
+      'You can select multiple cars at once',
       AppLanguageKeys.searchCarModel: 'You can search to select your car model',
       AppLanguageKeys.chooseCategory: 'Choose Category',
       AppLanguageKeys.selectModelYears: 'Select Model Years',
@@ -840,12 +841,12 @@ class AppLocalizations {
       AppLanguageKeys.newUserEmailOrPhone: 'Email or Phone of New User',
       AppLanguageKeys.reasonForTransfer: 'Reason for Account Transfer',
       AppLanguageKeys.transferNotice:
-          'All previous maintenance and invoices will be transferred except your personal documents or license.',
+      'All previous maintenance and invoices will be transferred except your personal documents or license.',
       AppLanguageKeys.completeTransfer: 'Complete Transfer',
       AppLanguageKeys.waitingForNewUserApproval:
-          'Waiting for new user approval to transfer the car',
+      'Waiting for new user approval to transfer the car',
       AppLanguageKeys.carTransferredToNewOwner:
-          'Car has been transferred to a new owner',
+      'Car has been transferred to a new owner',
       AppLanguageKeys.transferYourNewCar: 'Transfer Your New Car',
 
       AppLanguageKeys.allNotifications: 'All Notifications',
@@ -865,7 +866,7 @@ class AppLocalizations {
       AppLanguageKeys.allChanges: 'All Changes',
       AppLanguageKeys.allReviews: 'All Reviews',
       AppLanguageKeys.reviewsListForAllServices:
-          'Reviews list for all services',
+      'Reviews list for all services',
       AppLanguageKeys.totalReviews: 'Total Reviews',
       AppLanguageKeys.providersTermsAndConditions: '''
 1. Registration and Approval  
@@ -905,9 +906,9 @@ Sun reserves the right to modify or update these terms and conditions at any tim
 Providers will be notified of any major changes via the platform or email.
 ''',
       AppLanguageKeys.providersPrivacyPolicy:
-          "Privacy Policy for Car Service Providers\n\n1. Information Collection\nWe collect essential data related to service provider centers such as:\n- Center information (trade name – location – type of services).\n- Contact details (phone – email).\n- Account information (username – password).\n\n2. Use of Information\nThe collected information is used only for:\n- Creating and activating accounts.\n- Managing orders and services.\n- Facilitating communication between the center and the customer.\n- Improving service quality and user experience.\n\n3. Information Sharing\nWe do not share provider data with any third party outside the platform unless legally required.\nSome information, such as the center name and offered services, is visible to customers to help them choose services.\n\n4. Data Protection\nWe are committed to protecting provider data from unauthorized access through secure systems and encryption of sensitive information.\n\n5. Provider Rights\n- Access and update their registered data.\n- Request account deletion from the platform.\n- Submit feedback or complaints regarding data management.\n\n6. Policy Updates\nWe may update the privacy policy from time to time, and providers will be notified of any significant changes.",
+      "Privacy Policy for Car Service Providers\n\n1. Information Collection\nWe collect essential data related to service provider centers such as:\n- Center information (trade name – location – type of services).\n- Contact details (phone – email).\n- Account information (username – password).\n\n2. Use of Information\nThe collected information is used only for:\n- Creating and activating accounts.\n- Managing orders and services.\n- Facilitating communication between the center and the customer.\n- Improving service quality and user experience.\n\n3. Information Sharing\nWe do not share provider data with any third party outside the platform unless legally required.\nSome information, such as the center name and offered services, is visible to customers to help them choose services.\n\n4. Data Protection\nWe are committed to protecting provider data from unauthorized access through secure systems and encryption of sensitive information.\n\n5. Provider Rights\n- Access and update their registered data.\n- Request account deletion from the platform.\n- Submit feedback or complaints regarding data management.\n\n6. Policy Updates\nWe may update the privacy policy from time to time, and providers will be notified of any significant changes.",
       AppLanguageKeys.aboutSunIntro:
-          "Sun is a digital platform that connects car owners with certified maintenance and service centers. We aim to make it easier for customers to reach your services and help your center grow by managing requests efficiently and professionally through a trusted, user-friendly platform.\n\nWith Sun, car centers get:\n- A wider customer base.\n- Easy management of orders and services.\n- Accurate tracking of reviews and performance.\n- Greater opportunities to increase revenue and expand operations.",
+      "Sun is a digital platform that connects car owners with certified maintenance and service centers. We aim to make it easier for customers to reach your services and help your center grow by managing requests efficiently and professionally through a trusted, user-friendly platform.\n\nWith Sun, car centers get:\n- A wider customer base.\n- Easy management of orders and services.\n- Accurate tracking of reviews and performance.\n- Greater opportunities to increase revenue and expand operations.",
       AppLanguageKeys.contactAndPoliciesPages: 'Contact & Policy Pages',
       AppLanguageKeys.contactUs: 'Contact Us',
       AppLanguageKeys.aboutSun: 'About Sun',
@@ -921,7 +922,7 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.advertisements: 'Advertisements',
       AppLanguageKeys.bannerImage: 'Banner Image',
       AppLanguageKeys.bannerSizeNote:
-          'Recommended image size is 1108×428 pixels',
+      'Recommended image size is 1108×428 pixels',
       AppLanguageKeys.uploadImage: 'Upload Image (jpg, jpeg, gif, png, webp)',
       AppLanguageKeys.link: 'Link',
       AppLanguageKeys.category: 'Category',
@@ -951,7 +952,7 @@ Providers will be notified of any major changes via the platform or email.
 
       AppLanguageKeys.addNewUser: 'Add New User',
       AppLanguageKeys.userPermissionsSettings:
-          'User permissions_user Settings in the System',
+      'User permissions_user Settings in the System',
       AppLanguageKeys.employeeName: 'Employee Name',
       AppLanguageKeys.jobTitle: 'Job Title',
       AppLanguageKeys.accountStatus: 'Account Status',
@@ -967,12 +968,12 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.permissionsManagement: 'permissions_user Management',
       AppLanguageKeys.organizationManagement: 'Organization Management',
       AppLanguageKeys.permissionsFromServices:
-          'permissions_user from Services available to the user',
+      'permissions_user from Services available to the user',
       AppLanguageKeys.maintenanceServices: 'Maintenance Services',
 
       AppLanguageKeys.nissanServiceSettings: 'Nissan Car Service Settings',
       AppLanguageKeys.serviceSettingsDetails:
-          'Service settings by type, prices, and shared packages',
+      'Service settings by type, prices, and shared packages',
       AppLanguageKeys.backToSettings: 'Back to Settings Page',
       AppLanguageKeys.internalServices: 'Internal Maintenance & Services',
       AppLanguageKeys.addServices: 'Add Services',
@@ -981,7 +982,7 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.sharedPackages: 'Shared Packages',
       AppLanguageKeys.serviceSettings: 'Service Settings',
       AppLanguageKeys.addInternalServices:
-          'Add Internal Maintenance & Services',
+      'Add Internal Maintenance & Services',
       AppLanguageKeys.allCategories: 'All Categories',
       AppLanguageKeys.unifiedPriceForAll: 'Unified Price for All Categories',
       AppLanguageKeys.pricePerCategory: 'Price per Category',
@@ -1011,14 +1012,14 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.fullCleaning: 'Full Cleaning Included',
       AppLanguageKeys.interiorPolishing: 'Interior Car Polishing',
       AppLanguageKeys.writeNotes:
-          'Write your notes or needs for service providers',
+      'Write your notes or needs for service providers',
       AppLanguageKeys.sendRequest: 'Send Request',
       AppLanguageKeys.requestAccepted: 'Request Accepted',
       AppLanguageKeys.highwayServiceCompleted: 'Highway Service Completed',
       AppLanguageKeys.searchYourAddress: 'Search Your Address',
       AppLanguageKeys.confirmCarLocation: 'Confirm Your Car Location',
       AppLanguageKeys.pleaseSelectCarLocation:
-          'Please select your car location',
+      'Please select your car location',
       ////End////
 
       ////Car Batteries////
@@ -1034,7 +1035,7 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.selectServices: 'Select the services you need',
       AppLanguageKeys.confirmService: 'Confirm Service',
       AppLanguageKeys.confirmBookingTime:
-          'Confirm the suitable time to book your services',
+      'Confirm the suitable time to book your services',
       AppLanguageKeys.selectDay: 'Select Day',
       AppLanguageKeys.selectHour: 'Select Hour',
       AppLanguageKeys.confirmServiceBooking: 'Confirm Service Booking',
@@ -1059,7 +1060,7 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.serviceDetails: 'Service Details Needed',
       AppLanguageKeys.desiredServicePrice: 'Desired Service Price',
       AppLanguageKeys.serviceCompletionTime:
-          'When do you want the service completed?',
+      'When do you want the service completed?',
       AppLanguageKeys.selectCurrentLocation: 'Select Your Current Location',
       AppLanguageKeys.createServiceRequest: 'Create Service Request',
       AppLanguageKeys.saturday: 'Saturday',
@@ -1087,9 +1088,9 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.openMap: 'Open Map',
       AppLanguageKeys.payBill: 'Pay Bill',
       AppLanguageKeys.brakeRepair:
-          'Brake System Repair (Brake Pads Replacement)',
+      'Brake System Repair (Brake Pads Replacement)',
       AppLanguageKeys.electricalRepair:
-          'Electrical Repair (Lights or Dashboard)',
+      'Electrical Repair (Lights or Dashboard)',
       AppLanguageKeys.totalServices: 'Total Services',
       AppLanguageKeys.mobileService: 'Mobile Service',
       AppLanguageKeys.serviceRequest: 'Service Request',
@@ -1131,7 +1132,7 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.redeemPointsService: 'Redeem Points for Service',
       AppLanguageKeys.rechargeFromVisaPoints: 'Recharge from Visa No. 555',
       AppLanguageKeys.inviteFriendText:
-          'Send the code to your friend and get 50 SAR on their first subscription',
+      'Send the code to your friend and get 50 SAR on their first subscription',
       AppLanguageKeys.referralCode: 'Code',
       AppLanguageKeys.copyCode: 'Copy Code',
       AppLanguageKeys.shareLink: 'Share Link',
@@ -1143,16 +1144,16 @@ Providers will be notified of any major changes via the platform or email.
       ////Warranty////
       AppLanguageKeys.warrantyPeriod: 'For 5 years',
       AppLanguageKeys.warrantyServiceCenters:
-          'Benefit from warranty services through our authorized centers',
+      'Benefit from warranty services through our authorized centers',
       AppLanguageKeys.warrantyCarsMarket:
-          'Car warranty for buying and selling in the car market',
+      'Car warranty for buying and selling in the car market',
       AppLanguageKeys.warrantyFreeMaintenance:
-          'Free maintenance services throughout the warranty period',
+      'Free maintenance services throughout the warranty period',
       AppLanguageKeys.warrantySubscription: 'Warranty Subscription',
       AppLanguageKeys.balanceChargedSuccessfully:
-          'Balance charged successfully',
+      'Balance charged successfully',
       AppLanguageKeys.showServicesAtApprovedCenters:
-          'Show services at approved centers',
+      'Show services at approved centers',
 
       ////End////
 
@@ -1235,7 +1236,7 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.semiAnnual: 'Semi-Annual',
       AppLanguageKeys.annual: 'Annual',
       AppLanguageKeys.insuranceAccountRegistration:
-          'Insurance Account Registration',
+      'Insurance Account Registration',
       AppLanguageKeys.firstPayment: 'First Payment',
 
       ////End////
@@ -1251,12 +1252,12 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.annualPayment: 'Annual Payment',
       AppLanguageKeys.cooperativeInsurance: 'Cooperative Car Insurance',
       AppLanguageKeys.enterPolicyData:
-          'Enter policy details to show due payments',
+      'Enter policy details to show due payments',
       AppLanguageKeys.policyNumber: 'Insurance Policy Number',
       AppLanguageKeys.identityVerification: 'Identity Verification',
       AppLanguageKeys.checkAbsherAccount: 'Check Absher Account',
       AppLanguageKeys.loginViaAbsher:
-          'Login via Absher Unified National Access',
+      'Login via Absher Unified National Access',
       AppLanguageKeys.nationalIdOrIqama: 'National ID / Iqama Number',
       AppLanguageKeys.verifyAbsher: 'Verify Absher',
       AppLanguageKeys.yourInsuranceData: 'Your Insurance Data',
@@ -1269,7 +1270,7 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.insuranceValue: 'Insurance Value',
       AppLanguageKeys.installmentValue: 'Installment Value',
       AppLanguageKeys.linkInsuranceWithSanad:
-          'Link Insurance Account with SANAD',
+      'Link Insurance Account with SANAD',
       AppLanguageKeys.pleaseWait: 'Please wait',
       AppLanguageKeys.policyData: 'Policy Data',
       AppLanguageKeys.annualPayments: 'Annual Payments',
@@ -1289,7 +1290,7 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.total: 'Total',
       AppLanguageKeys.paymentMethod: 'Payment Method',
       AppLanguageKeys.selectPaymentOptionFirst:
-          'Please select a payment option first',
+      'Please select a payment option first',
       AppLanguageKeys.thirdInstallmentDetails: 'Third Installment Details 20/3',
       AppLanguageKeys.paidBy: 'Paid by',
 
@@ -1297,20 +1298,20 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.startNow: 'Start now',
       AppLanguageKeys.yourCarIsSafeWithSan: 'Your car is safe with San',
       AppLanguageKeys.maintenanceAndRepairServices:
-          'Maintenance and repair services',
+      'Maintenance and repair services',
       AppLanguageKeys.emergencyService: 'Emergency service',
       AppLanguageKeys.buyingAndSellingCars: 'Buying and selling cars',
       AppLanguageKeys.listYourCarInASafeAndReliableAuctionWithSan:
-          'List your car in a safe and reliable auction with San',
+      'List your car in a safe and reliable auction with San',
       AppLanguageKeys.highwayAssistance:
-          '24/7 Highway Assistance Wherever You Are',
+      '24/7 Highway Assistance Wherever You Are',
       AppLanguageKeys.weSendYouProfessional:
-          'We send you professional technicians who diagnose and fix the problem.',
+      'We send you professional technicians who diagnose and fix the problem.',
       AppLanguageKeys.integratedSolutions:
-          'Integrated solutions for warranty and insurance for all services in one place',
+      'Integrated solutions for warranty and insurance for all services in one place',
       AppLanguageKeys.login: 'Login',
       AppLanguageKeys.loginAsAnIndividualOrCompany:
-          'Log in as an individual or company',
+      'Log in as an individual or company',
       AppLanguageKeys.registerAsAnIndividual: 'Register as an individual',
       AppLanguageKeys.registerAsCompanies: 'Register as companies',
       AppLanguageKeys.orRegisterVia: 'Or register via',
@@ -1319,7 +1320,7 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.noAccount: "You don't have an account",
       AppLanguageKeys.registerHere: 'Register here',
       AppLanguageKeys.pleaseEnterYourPhoneNumberAndPassword:
-          'Please enter your phone number and password',
+      'Please enter your phone number and password',
       AppLanguageKeys.phoneNumber: 'Phone number',
       AppLanguageKeys.password: 'Password',
       AppLanguageKeys.forgotPassword: 'Forgot password',
@@ -1330,24 +1331,24 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.resetPassword: 'Reset password',
       AppLanguageKeys.createAnAccount: 'Create an account',
       AppLanguageKeys.accountInformation:
-          'Please enter account information and password',
+      'Please enter account information and password',
       AppLanguageKeys.createAnAccountInTheNameOfACompany:
-          'Create an account in the name of a company',
+      'Create an account in the name of a company',
       AppLanguageKeys.confirmPin: 'Confirm pin',
       AppLanguageKeys.pleaseEnterThePinSentToYourPhoneNumber:
-          'Please enter the pin sent to your phone number',
+      'Please enter the pin sent to your phone number',
       AppLanguageKeys.iDidNotReceiveAMessage: 'I did not receive a message',
       AppLanguageKeys.resend: 'Resend',
       AppLanguageKeys.yourCarData: 'your car data',
       AppLanguageKeys.toViewYourCarsModelsServicesAndCenters:
-          "To view your car's model's services and centers",
+      "To view your car's model's services and centers",
       AppLanguageKeys.chooseTheCategory: "Choose the category",
       AppLanguageKeys.modelYear: "Model year",
       AppLanguageKeys.yourCarName: "Your car name",
       AppLanguageKeys.exampleModelName: "(Example: My Honda - My wife's car)",
       AppLanguageKeys.chooseYourCarModel: 'Choose your car model',
       AppLanguageKeys.youCanSearchToSelectYourCarCategory:
-          'You can search to select your car category',
+      'You can search to select your car category',
       AppLanguageKeys.profile: 'Profile',
       AppLanguageKeys.skipLater: 'Skip later',
       AppLanguageKeys.next: 'Next',
@@ -1365,7 +1366,7 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.transportService: 'Transport service',
       AppLanguageKeys.favoriteServices: 'Favorite services',
       AppLanguageKeys.selectFavoriteServices:
-          'You can select your favorite services',
+      'You can select your favorite services',
       AppLanguageKeys.chooseFavoriteServices: 'Choose favorite services',
       AppLanguageKeys.congratulations: 'Congratulations, you got',
       AppLanguageKeys.gift: 'Gift',
@@ -1374,18 +1375,18 @@ Providers will be notified of any major changes via the platform or email.
       AppLanguageKeys.showServicesNow: 'Show services now',
       AppLanguageKeys.sunWarrantyFeatures: 'Sun warranty features',
       AppLanguageKeys.warrantyCenters:
-          'Benefit from warranty at our authorized centers',
+      'Benefit from warranty at our authorized centers',
       AppLanguageKeys.carWarrantyAuction:
-          'Car warranty for buy/sell in car auction',
+      'Car warranty for buy/sell in car auction',
       AppLanguageKeys.freeMaintenance:
-          'Free maintenance during warranty period',
+      'Free maintenance during warranty period',
       AppLanguageKeys.home: 'Home',
       AppLanguageKeys.myOrders: 'My orders',
       AppLanguageKeys.map: 'Map',
       AppLanguageKeys.requestService: 'Request a service',
       AppLanguageKeys.services: 'Services',
       AppLanguageKeys.searchPlaceholder:
-          'Search for any service, center name, or anything',
+      'Search for any service, center name, or anything',
       AppLanguageKeys.tireSpareParts: "Tire spare parts",
       AppLanguageKeys.discount50: "50% discount",
       AppLanguageKeys.discount: "discount",

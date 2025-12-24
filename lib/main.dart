@@ -2,6 +2,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import '../../../features/dashboard/admin_sun/statistics_admin_sum/first_screen_statistics_admin_sum/first_screen_statistics_admin_sum.dart';
+import '../../../features/dashboard/admin_sun/users_admin_sum/user_management_admin_sun/user_management_admin_sun.dart';
 import '../../../features/dashboard/admin_sun/service_providers_sun/all_service_providers_sun/all_service_providers_sun.dart';
 import '../../../features/dashboard/admin_sun/companies_admin_sun/all_companies_admin_sun/all_companies_admin_sun.dart';
 import '../../../features/dashboard/admin_sun/car_auction_admin_sun/car_details_admin_sun/car_details_admin_sun.dart';
@@ -109,7 +111,7 @@ class SunApp extends StatelessWidget {
             useMaterial3: true,
           ),
           debugShowCheckedModeBanner: false,
-          home: const AllServiceProvidersSun(),
+          home: const FirstScreenStatisticsAdminSum(),
           );
         },
       ),

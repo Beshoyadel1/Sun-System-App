@@ -1,6 +1,7 @@
 class AppImageKeys{
 
   ////dashboard////
+  static const String  test963='assets/images/test963.png';
 
   static const String  icon_arrow='assets/images/icon_arrow.png';
 
