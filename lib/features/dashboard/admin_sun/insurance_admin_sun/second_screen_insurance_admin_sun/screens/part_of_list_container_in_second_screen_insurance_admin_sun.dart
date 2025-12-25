@@ -25,11 +25,13 @@ class PartOfListContainerInSecondScreenInsuranceAdminSun extends StatelessWidget
             DesignContainerImageWithTwoTextWidget(
               title: 'أجمالي دفعات التأمين ',
               subTitle: '50000 ريال',
+              isFlex:true,
             ),
             DesignContainerImageWithTwoTextWidget(
               imagePath: AppImageKeys.account_sun2,
               title: 'الرصيد القابل التحويل',
               subTitle: ' 50000 نقطة ',
+              isFlex:true,
             ),
           ],
         ),
@@ -41,6 +43,7 @@ class PartOfListContainerInSecondScreenInsuranceAdminSun extends StatelessWidget
               imagePath: AppImageKeys.account_sun3,
               title: 'الدفعات المتأخرة',
               subTitle: '10000 ريال',
+              isFlex:true,
             ),
             DesignContainerTextWithImageOrIcon(
               imagePath: AppImageKeys.icon_arrow,

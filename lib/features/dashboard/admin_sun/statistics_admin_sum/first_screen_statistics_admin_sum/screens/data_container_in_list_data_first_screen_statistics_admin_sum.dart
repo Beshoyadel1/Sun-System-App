@@ -18,7 +18,6 @@ class DataContainerInListDataFirstScreenStatisticsAdminSum extends StatelessWidg
           ViewFirstListDataInFirstScreenStatisticsAdminSum(),
           ContainerCommissionDigramDesignStatisticsAdminSum(),
           ContainerNewApplicationsDesignStatisticsAdminSum(),
-
         ],
       ),
     );

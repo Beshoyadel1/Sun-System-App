@@ -8,7 +8,7 @@ class PartOfListContainerInStatisticsDataRightAdminSun extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    bool isMobile = size.width <= 1440;
+    bool isMobile = size.width <= 1200;
     return isMobile
         ? Column(
           spacing: 10,
@@ -20,6 +20,7 @@ class PartOfListContainerInStatisticsDataRightAdminSun extends StatelessWidget {
                 DesignContainerImageWithTwoTextWidget(
                   textSizeTitle: 12,
                   textSizeSubTitle: 12,
+                  isFlex: true,
                 ),
                 DesignContainerImageWithTwoTextWidget(
                   imagePath: AppImageKeys.account_sun2,
@@ -27,6 +28,7 @@ class PartOfListContainerInStatisticsDataRightAdminSun extends StatelessWidget {
                   subTitle: ' 5000 نقطة ',
                   textSizeTitle: 12,
                   textSizeSubTitle: 12,
+                  isFlex: true,
                 ),
               ],
             ),
@@ -38,6 +40,7 @@ class PartOfListContainerInStatisticsDataRightAdminSun extends StatelessWidget {
                   subTitle: '30000 ريال ',
                   textSizeTitle: 12,
                   textSizeSubTitle: 12,
+                  isFlex: true,
                 ),
               ],
             ),
@@ -49,6 +52,7 @@ class PartOfListContainerInStatisticsDataRightAdminSun extends StatelessWidget {
             DesignContainerImageWithTwoTextWidget(
               textSizeTitle: 12,
               textSizeSubTitle: 12,
+              isFlex: true,
             ),
             DesignContainerImageWithTwoTextWidget(
               imagePath: AppImageKeys.account_sun2,
@@ -56,6 +60,7 @@ class PartOfListContainerInStatisticsDataRightAdminSun extends StatelessWidget {
               subTitle: ' 5000 نقطة ',
               textSizeTitle: 12,
               textSizeSubTitle: 12,
+              isFlex: true,
             ),
             DesignContainerImageWithTwoTextWidget(
               imagePath: AppImageKeys.account_sun3,
@@ -63,6 +68,7 @@ class PartOfListContainerInStatisticsDataRightAdminSun extends StatelessWidget {
               subTitle: '30000 ريال ',
               textSizeTitle: 12,
               textSizeSubTitle: 12,
+              isFlex: true,
             ),
           ],
         );

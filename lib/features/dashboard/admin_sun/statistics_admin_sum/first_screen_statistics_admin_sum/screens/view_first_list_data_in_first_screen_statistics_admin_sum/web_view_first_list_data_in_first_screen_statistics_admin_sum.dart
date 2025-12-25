@@ -12,6 +12,7 @@ class WebViewFirstListDataInFirstScreenStatisticsAdminSum extends StatelessWidge
       spacing: 10,
       children: [
         Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           spacing: 10,
           children: [
             DesignContainerImageWithTwoTextWidget(
@@ -20,12 +21,14 @@ class WebViewFirstListDataInFirstScreenStatisticsAdminSum extends StatelessWidge
               title: 'عدد الطلبات',
               subTitle: '500 طلب',
               imageContainerWidth: 50,
+              isFlex: true,
             ),DesignContainerImageWithTwoTextWidget(
               imageContainerColor: AppColors.orangeColor,
               imagePath: AppImageKeys.test963,
               title: 'عدد العملاء',
               subTitle: '1000 عميل',
               imageContainerWidth: 50,
+              isFlex: true,
             ),
             DesignContainerImageWithTwoTextWidget(
               imageContainerColor: AppColors.orangeColor,
@@ -33,24 +36,30 @@ class WebViewFirstListDataInFirstScreenStatisticsAdminSum extends StatelessWidge
               title: 'عدد الشركات',
               subTitle: '50 عميل',
               imageContainerWidth: 50,
+              isFlex: true,
             ),
           ],
         ),
         Row(
           spacing: 10,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            DesignContainerImageWithTwoTextWidget(
-              imageContainerColor: AppColors.orangeColor,
-              imagePath: AppImageKeys.test963,
-              title: 'مزودي الخدمة',
-              subTitle: '500 طلب',
-              imageContainerWidth: 50,
+            Flexible(
+              child: DesignContainerImageWithTwoTextWidget(
+                imageContainerColor: AppColors.orangeColor,
+                imagePath: AppImageKeys.test963,
+                title: 'مزودي الخدمة',
+                subTitle: '500 طلب',
+                imageContainerWidth: 50,
+                isFlex: true,
+              ),
             ),DesignContainerImageWithTwoTextWidget(
               imageContainerColor: AppColors.orangeColor,
               imagePath: AppImageKeys.test963,
               title: 'مبيعات الطلبات',
               subTitle: '1000 عميل',
               imageContainerWidth: 50,
+              isFlex: true,
             ),
             DesignContainerImageWithTwoTextWidget(
               imageContainerColor: AppColors.orangeColor,
@@ -58,6 +67,7 @@ class WebViewFirstListDataInFirstScreenStatisticsAdminSum extends StatelessWidge
               title: 'تأمينات السيارات',
               subTitle: '50 عميل',
               imageContainerWidth: 50,
+              isFlex: true,
             ),
           ],
         )

@@ -1,10 +1,9 @@
 import 'package:flutter/cupertino.dart';
-import '../../../../../../../features/dashboard/admin_sun/rates_admin_sun/custom_widget/number_rate_star.dart';
-import '../../../../../../../features/dashboard/admin_sun/rates_admin_sun/custom_widget/image_with_one_text.dart';
+import '../../../../../../../core/language/language_constant.dart';
+import '../../../../../../../features/change_car/custom_widget/image_with_two_text.dart';
 import '../../../../../../../features/dashboard/employee/login_emp/login_emp/screens/data_login/title_with_sub_title.dart';
 import '../../../../../../../features/dashboard/Admin/internal_orders/custom_widget/container_details_widget.dart';
 import '../../../../../../../core/theming/colors.dart';
-import '../../../../../../../features/dashboard/Admin/Petroleum_Service/custom_widget/number_of_text_widget.dart';
 import '../../../../../../../core/theming/assets.dart';
 
 class MobileDataContainerDataAllPermissionsList extends StatelessWidget {
@@ -29,13 +28,20 @@ class MobileDataContainerDataAllPermissionsList extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            NumberOfTextWidget(
-              numberText:numberText1,
+            ImageWithTwoText(
+              imageSrc: AppImageKeys.person22,
+              title: AppLanguageKeys.jobName,
+              subTitle: 'أحمد محمود محمد',
+              titleColor: AppColors.greyColor,
+              subTitleColor: AppColors.blackColor,
             ),
-            ImageWithOneText(
-              imageSrc:imageSrc2?? AppImageKeys.best1,
-              title:title2?? 'أسم المركز',
-              titleColor: AppColors.blackColor,
+            TitleWithSubTitle(
+              title:title3?? 'تاريخ الانضمام',
+              titleColor:AppColors.greyColor,
+              subTitle:subTitle3??'1/1/2025',
+              subTitleColor:AppColors.blackColor,
+              textSizeTitle: 13,
+              textSizeSubTitle: 13,
             ),
 
           ],
@@ -44,17 +50,26 @@ class MobileDataContainerDataAllPermissionsList extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             TitleWithSubTitle(
-              title:title3?? 'عدد التقييمات',
+              title:title3?? 'حالة الحساب',
               titleColor:AppColors.greyColor,
-              subTitle:subTitle3??'100 تقييم',
+              subTitle:subTitle3??'مفعل',
               subTitleColor:AppColors.blackColor,
+              textSizeTitle: 13,
+              textSizeSubTitle: 13,
             ),
-            NumberRateStar(title:title4?? '200'),
+            TitleWithSubTitle(
+              title:title3?? 'الايميل',
+              titleColor:AppColors.greyColor,
+              subTitle:subTitle3??'amr@google.com',
+              subTitleColor:AppColors.blackColor,
+              textSizeTitle: 13,
+              textSizeSubTitle: 13,
+            ),
 
           ],
         ),
         ContainerDetailsWidget(
-          title:'عرض التقييمات',
+          title:AppLanguageKeys.details,
           onTap:onTap??(){
           },
         )

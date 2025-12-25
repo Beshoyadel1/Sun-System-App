@@ -20,12 +20,14 @@ class MobileViewFirstListDataInFirstScreenStatisticsAdminSum extends StatelessWi
               title: 'عدد الطلبات',
               subTitle: '500 طلب',
               imageContainerWidth: 50,
+              isFlex: true,
             ),DesignContainerImageWithTwoTextWidget(
               imageContainerColor: AppColors.orangeColor,
               imagePath: AppImageKeys.test963,
               title: 'عدد العملاء',
               subTitle: '1000 عميل',
               imageContainerWidth: 50,
+              isFlex: true,
             ),
 
           ],
@@ -39,6 +41,7 @@ class MobileViewFirstListDataInFirstScreenStatisticsAdminSum extends StatelessWi
               title: 'عدد الشركات',
               subTitle: '50 عميل',
               imageContainerWidth: 50,
+              isFlex: true,
             ),
             DesignContainerImageWithTwoTextWidget(
               imageContainerColor: AppColors.orangeColor,
@@ -46,6 +49,7 @@ class MobileViewFirstListDataInFirstScreenStatisticsAdminSum extends StatelessWi
               title: 'عدد الطلبات',
               subTitle: '500 طلب',
               imageContainerWidth: 50,
+              isFlex: true,
             ),
           ],
         ),
@@ -58,6 +62,7 @@ class MobileViewFirstListDataInFirstScreenStatisticsAdminSum extends StatelessWi
             title: 'عدد العملاء',
             subTitle: '1000 عميل',
             imageContainerWidth: 50,
+            isFlex: true,
           ),
             DesignContainerImageWithTwoTextWidget(
               imageContainerColor: AppColors.orangeColor,
@@ -65,6 +70,7 @@ class MobileViewFirstListDataInFirstScreenStatisticsAdminSum extends StatelessWi
               title: 'عدد الشركات',
               subTitle: '50 عميل',
               imageContainerWidth: 50,
+              isFlex: true,
             ),
 
           ],
@@ -78,12 +84,14 @@ class MobileViewFirstListDataInFirstScreenStatisticsAdminSum extends StatelessWi
               title: 'مزودي الخدمة',
               subTitle: '500 طلب',
               imageContainerWidth: 50,
+              isFlex: true,
             ),DesignContainerImageWithTwoTextWidget(
               imageContainerColor: AppColors.orangeColor,
               imagePath: AppImageKeys.test963,
               title: 'مبيعات الطلبات',
               subTitle: '1000 عميل',
               imageContainerWidth: 50,
+              isFlex: true,
             ),
 
           ],
@@ -97,6 +105,7 @@ class MobileViewFirstListDataInFirstScreenStatisticsAdminSum extends StatelessWi
               title: 'تأمينات السيارات',
               subTitle: '50 عميل',
               imageContainerWidth: 50,
+              isFlex: true,
             ),
             DesignContainerImageWithTwoTextWidget(
               imageContainerColor: AppColors.orangeColor,
@@ -104,6 +113,7 @@ class MobileViewFirstListDataInFirstScreenStatisticsAdminSum extends StatelessWi
               title: 'مزودي الخدمة',
               subTitle: '500 طلب',
               imageContainerWidth: 50,
+              isFlex: true,
             ),
           ],
         ),
@@ -116,6 +126,7 @@ class MobileViewFirstListDataInFirstScreenStatisticsAdminSum extends StatelessWi
               title: 'مبيعات الطلبات',
               subTitle: '1000 عميل',
               imageContainerWidth: 50,
+              isFlex: true,
             ),
             DesignContainerImageWithTwoTextWidget(
               imageContainerColor: AppColors.orangeColor,
@@ -123,6 +134,7 @@ class MobileViewFirstListDataInFirstScreenStatisticsAdminSum extends StatelessWi
               title: 'تأمينات السيارات',
               subTitle: '50 عميل',
               imageContainerWidth: 50,
+              isFlex: true,
             ),
           ],
         ),
